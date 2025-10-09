@@ -6,23 +6,48 @@
 <link rel="stylesheet" href="/styles.css">
 <meta property="og:title" content="DraftVerify — The Global Standard for NA Draft">
 <meta property="og:description" content="Line Tags • Tower Stickers • Training">
-<meta property="og:url" content="https://draftverify.com">
-<meta property="og:type" content="website"><meta property="og:site_name" content="DraftVerify">
+<meta property="og:url" content="https://draftverify.com"><meta property="og:type" content="website">
 <link rel="icon" href="/logo.svg">
 </head><body><div class="wrap">
+
   <header>
-    <a class="brand" href="/"><img src="/logo.svg" alt="DraftVerify logo" class="logo"><span>DraftVerify</span></a>
-    <nav><ul>
-      <li><a href="/" aria-current="page">Home</a></li>
-      <li><a href="/line-tags.html">Line Tags</a></li>
-      <li><a href="/tower-stickers.html">Tower Stickers</a></li>
-      <li><a href="/training.html">Training</a></li>
-      <li><a href="/pricing.html">Pricing</a></li>
-      <li><a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener">Standard (PDF)</a></li>
-      <li><a href="/contact.html">Adopt</a></li>
-    </ul></nav>
-    <div class="top-cta"><a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener"><span class="mono">v1.0</span> • Open PDF</a></div>
+    <a class="brand" href="/" aria-label="DraftVerify home">
+      <img src="/logo.svg" alt="DraftVerify logo" class="logo"><span>DraftVerify</span>
+    </a>
+
+    <div class="nav-wrap">
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/" aria-current="page">Home</a></li>
+          <li><a href="/line-tags.html">Line Tags</a></li>
+          <li><a href="/tower-stickers.html">Tower Stickers</a></li>
+          <li><a href="/training.html">Training</a></li>
+          <li><a href="/pricing.html">Pricing</a></li>
+          <li><a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener">Standard (PDF)</a></li>
+          <li><a href="/contact.html">Adopt</a></li>
+        </ul>
+      </nav>
+      <div class="top-cta"><a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener"><span class="mono">v1.0</span> • Open PDF</a></div>
+    </div>
+
+    <button class="hamburger" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
   </header>
+
+  <div class="nav-panel" id="mobileMenu">
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="/line-tags.html">Line Tags</a></li>
+        <li><a href="/tower-stickers.html">Tower Stickers</a></li>
+        <li><a href="/training.html">Training</a></li>
+        <li><a href="/pricing.html">Pricing</a></li>
+        <li><a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener">Standard (PDF)</a></li>
+        <li><a href="/contact.html">Adopt</a></li>
+      </ul>
+    </nav>
+  </div>
 
   <section class="hero">
     <div class="card">
@@ -47,4 +72,19 @@
     <div>DraftVerify™ — The global standard for non-alcoholic draft systems.</div>
     <div class="small">© 2025 DraftVerify. All Rights Reserved. <span class="sep">•</span> <a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener">Standard v1.0 (PDF)</a></div>
   </footer>
-</div></body></html>
+</div>
+
+<script>
+(function(){
+  const btn = document.getElementById('navToggle');
+  const panel = document.getElementById('mobileMenu');
+  if(!btn || !panel) return;
+  function closeMenu(){ btn.setAttribute('aria-expanded','false'); panel.classList.remove('open'); }
+  function toggleMenu(){ const open = btn.getAttribute('aria-expanded')==='true'; btn.setAttribute('aria-expanded', String(!open)); panel.classList.toggle('open', !open); }
+  btn.addEventListener('click', toggleMenu);
+  panel.addEventListener('click', e=>{ if(e.target.closest('a')) closeMenu(); });
+  let lastW = innerWidth; addEventListener('resize', ()=>{ if(innerWidth>=901 && lastW<901) closeMenu(); lastW=innerWidth; });
+  addEventListener('keydown', e=>{ if(e.key==='Escape') closeMenu(); });
+})();
+</script>
+</body></html>
