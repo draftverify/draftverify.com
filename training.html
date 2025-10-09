@@ -4,15 +4,41 @@
 <meta name="description" content="DraftVerify Training: short, role-based modules for staff and technicians covering daily checks, changeovers, and escalation.">
 <link rel="stylesheet" href="/styles.css"><link rel="icon" href="/logo.svg">
 </head><body><div class="wrap">
+
   <header>
     <a class="brand" href="/"><img src="/logo.svg" class="logo" alt=""><span>DraftVerify</span></a>
-    <nav><ul>
-      <li><a href="/">Home</a></li><li><a href="/line-tags.html">Line Tags</a></li>
-      <li><a href="/tower-stickers.html">Tower Stickers</a></li><li><a href="/training.html" aria-current="page">Training</a></li>
-      <li><a href="/pricing.html">Pricing</a></li><li><a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener">Standard (PDF)</a></li><li><a href="/contact.html">Adopt</a></li>
-    </ul></nav>
-    <div class="top-cta"><a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener">Open PDF</a></div>
+    <div class="nav-wrap">
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/line-tags.html">Line Tags</a></li>
+          <li><a href="/tower-stickers.html">Tower Stickers</a></li>
+          <li><a href="/training.html" aria-current="page">Training</a></li>
+          <li><a href="/pricing.html">Pricing</a></li>
+          <li><a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener">Standard (PDF)</a></li>
+          <li><a href="/contact.html">Adopt</a></li>
+        </ul>
+      </nav>
+      <div class="top-cta"><a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener">Open PDF</a></div>
+    </div>
+    <button class="hamburger" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
   </header>
+
+  <div class="nav-panel" id="mobileMenu">
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/line-tags.html">Line Tags</a></li>
+        <li><a href="/tower-stickers.html">Tower Stickers</a></li>
+        <li><a href="/training.html" aria-current="page">Training</a></li>
+        <li><a href="/pricing.html">Pricing</a></li>
+        <li><a href="/DraftVerify-Standard-v1.pdf" target="_blank" rel="noopener">Standard (PDF)</a></li>
+        <li><a href="/contact.html">Adopt</a></li>
+      </ul>
+    </nav>
+  </div>
 
   <section class="hero"><div class="card">
     <span class="chip"><span class="dot"></span> Pillar: Training</span>
@@ -27,4 +53,9 @@
   </section>
 
   <footer><div>© 2025 DraftVerify</div></footer>
-</div></body></html>
+</div>
+
+<script>
+(function(){const b=document.getElementById('navToggle'),p=document.getElementById('mobileMenu');if(!b||!p)return;function c(){b.setAttribute('aria-expanded','false');p.classList.remove('open')}function t(){const o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));p.classList.toggle('open',!o)}b.addEventListener('click',t);p.addEventListener('click',e=>{if(e.target.closest('a'))c()});let w=innerWidth;addEventListener('resize',()=>{if(innerWidth>=901&&w<901)c();w=innerWidth});addEventListener('keydown',e=>{if(e.key==='Escape')c()});})();
+</script>
+</body></html>
