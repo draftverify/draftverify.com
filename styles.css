@@ -1,5 +1,5 @@
 /* =========================================================
-   DRAFTVERIFY — FLAT GOLD + DEEP BLUE THEME (LOGO-ONLY HEADER)
+   DRAFTVERIFY — FLAT GOLD + DEEP BLUE THEME (FINAL)
    ========================================================= */
 
 :root{
@@ -43,9 +43,11 @@ header{
 .brand{
   display:flex; align-items:center;
 }
-.brand span{display:none !important;} /* hide text everywhere */
+.brand span{
+  display:none !important; /* hides 'DraftVerify' text everywhere */
+}
 .logo{
-  width:63px;  /* 50% bigger (was 42px) */
+  width:63px;   /* 50% larger on desktop (was 42px) */
   height:63px;
 }
 
@@ -101,8 +103,8 @@ nav a[aria-current="page"]{
 @media(max-width:900px){
   header .nav-wrap{display:none !important}
   .hamburger{display:inline-block !important}
-  .brand span{display:none !important;} /* hide on mobile too */
-  .logo{width:72px; height:72px;} /* keep big on mobile */
+  .brand span{display:none !important;} /* ensures word hidden on mobile too */
+  .logo{width:72px; height:72px;} /* keeps logo large and visible on mobile */
 }
 
 /* ===== Hero ===== */
