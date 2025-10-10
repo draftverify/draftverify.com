@@ -1,5 +1,5 @@
 /* =========================================================
-   DRAFTVERIFY — FLAT GOLD + DEEP BLUE THEME (FINAL)
+   DRAFTVERIFY — FLAT GOLD + DEEP BLUE THEME (LOGO-ONLY HEADER)
    ========================================================= */
 
 :root{
@@ -40,8 +40,10 @@ header{
   padding-bottom:8px;
   display:flex; align-items:center; justify-content:space-between; gap:16px;
 }
-.brand{display:flex; align-items:center; gap:10px}
-.brand span{font-weight:800; letter-spacing:.3px}
+.brand{
+  display:flex; align-items:center;
+}
+.brand span{display:none;} /* Hides the “DraftVerify” wordmark */
 .logo{width:42px; height:42px}
 
 /* Nav */
