@@ -1,5 +1,5 @@
 /* =========================================================
-   DRAFTVERIFY — FLAT GOLD + DEEP BLUE THEME (FINAL)
+   DRAFTVERIFY — FLAT GOLD + DEEP BLUE THEME (UPDATED)
    ========================================================= */
 
 :root{
@@ -36,20 +36,13 @@ header{
   background:rgba(255,255,255,0.92);
   -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px);
   border-bottom:1px solid var(--line);
-  padding-top:max(8px, env(safe-area-inset-top, 0px));
-  padding-bottom:8px;
   display:flex; align-items:center; justify-content:space-between; gap:16px;
+  min-height:130px;               /* taller to fit 100px logo */
+  padding:10px 20px;
 }
-.brand{
-  display:flex; align-items:center;
-}
-.brand span{
-  display:none !important; /* hides 'DraftVerify' text everywhere */
-}
-.logo{
-  width:63px;   /* 50% larger on desktop (was 42px) */
-  height:63px;
-}
+.brand{ display:flex; align-items:center; }
+.brand span{ display:none !important; } /* hides 'DraftVerify' text everywhere */
+.logo{ width:100px; height:100px; }      /* 100x100 desktop */
 
 /* Nav */
 header .nav-wrap{display:flex; align-items:center; gap:14px}
@@ -79,32 +72,56 @@ nav a[aria-current="page"]{
 }
 .top-cta a:hover{border-color:var(--gold); box-shadow:0 10px 24px rgba(199,170,74,.25)}
 
-/* Mobile nav */
+/* ===== Mobile hamburger (floating so it works anywhere) ===== */
 .hamburger{
-  display:none; background:#fff; border:1px solid var(--line); border-radius:10px;
-  padding:10px 12px; line-height:0; box-shadow:var(--shadow);
+  display:none; background:#fff; border:1px solid var(--line); border-radius:14px;
+  padding:14px; line-height:0; box-shadow:0 10px 26px rgba(0,0,0,.15);
+  position:fixed; right:16px; bottom:16px; z-index:1200;  /* <-- visible anywhere */
 }
 .hamburger .bar{
-  width:22px; height:2px; background:var(--fg); display:block; margin:4px 0;
-  transition:transform .2s ease, opacity .2s ease;
+  width:26px; height:2px; background:var(--fg); display:block; margin:5px 0;
+  transition:transform .25s ease, opacity .25s ease;
 }
-.hamburger[aria-expanded="true"] .bar:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.hamburger[aria-expanded="true"] .bar:nth-child(1){transform:translateY(7px) rotate(45deg)}
 .hamburger[aria-expanded="true"] .bar:nth-child(2){opacity:0}
-.hamburger[aria-expanded="true"] .bar:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.hamburger[aria-expanded="true"] .bar:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
 
+/* ===== Slide-down mobile panel (overlay from top) ===== */
 .nav-panel{
-  display:none; position:relative; z-index:5; margin-top:12px;
-  border:1px solid var(--line); border-radius:12px; box-shadow:var(--shadow); background:#fff;
+  position:fixed; top:0; left:0; right:0;
+  z-index:1199;
+  background:#fff;
+  border-radius:0 0 16px 16px;
+  box-shadow:0 18px 40px rgba(0,0,0,.16);
+  max-height:0; overflow:hidden;
+  transition:max-height .3s ease;
 }
-.nav-panel.open{display:block}
-.nav-panel ul{list-style:none; margin:0; padding:8px; display:flex; flex-direction:column; gap:6px}
-.nav-panel a{display:block; padding:10px 12px; border-radius:8px; border:1px solid transparent}
-.nav-panel a:hover{color:var(--accent); border-color:var(--line)}
+.nav-panel.open{ max-height:70vh; }
+.nav-panel ul{
+  list-style:none; margin:8px; padding:8px 8px 16px;
+  display:flex; flex-direction:column; gap:6px;
+}
+.nav-panel a{ display:block; padding:12px; border-radius:10px; }
+.nav-panel a:hover{ background:#f8f9fb; border-color:#e9edf3; }
+
+/* Backdrop behind panel */
+.nav-backdrop{
+  position:fixed; inset:0; z-index:1198;
+  background:rgba(0,0,0,.35);
+  opacity:0; pointer-events:none;
+  transition:opacity .25s ease;
+}
+.nav-backdrop.show{ opacity:1; pointer-events:auto; }
+
+/* Prevent scroll when menu open */
+body.menu-open{ overflow:hidden; }
+
+/* ===== Mobile rules ===== */
 @media(max-width:900px){
-  header .nav-wrap{display:none !important}
-  .hamburger{display:inline-block !important}
-  .brand span{display:none !important;} /* ensures word hidden on mobile too */
-  .logo{width:72px; height:72px;} /* keeps logo large and visible on mobile */
+  header .nav-wrap{ display:none !important; }
+  .hamburger{ display:inline-grid !important; place-items:center; }
+  .brand span{ display:none !important; }
+  .logo{ width:100px; height:100px; }   /* 100x100 mobile */
 }
 
 /* ===== Hero ===== */
@@ -193,21 +210,12 @@ footer a:hover{color:var(--gold); text-decoration:underline; text-underline-offs
 @keyframes fadeRise{from{opacity:0; transform:translateY(16px)} to{opacity:1; transform:translateY(0)}}
 .hero,.card,footer{animation:fadeRise .6s ease both}
 
-/* ===== CLICKABILITY PATCH ===== */
+/* ===== CLICKABILITY SAFEGUARDS ===== */
 .hero .card::before,
 .card::after,
 body::before,
-body::after {
-  pointer-events: none !important;
-}
-.hero .card,
-.card {
-  position: relative;
-}
-.hero .card > *,
-.card > * {
-  position: relative;
-  z-index: 1;
-}
-.nav-panel:not(.open) {pointer-events:none;}
-.nav-panel.open {pointer-events:auto;}
+body::after { pointer-events: none !important; }
+.hero .card, .card { position: relative; }
+.hero .card > *, .card > * { position: relative; z-index: 1; }
+.nav-panel:not(.open) { pointer-events:none; }
+.nav-panel.open { pointer-events:auto; }
