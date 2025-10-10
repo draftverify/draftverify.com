@@ -202,3 +202,72 @@ body::after {
 }
 .nav-panel:not(.open) {pointer-events:none;}
 .nav-panel.open {pointer-events:auto;}
+
+/* ===== Mobile-specific refinements ===== */
+@media (max-width: 480px){
+  /* 1) Logo + brand sizing (≈50% bigger) */
+  .logo{ width:64px; height:64px; }         /* was 42x42 */
+  .brand span{ font-size:1.05rem; }         
+
+  /* 2) Header spacing so bigger logo breathes */
+  header{ padding-top: max(10px, env(safe-area-inset-top, 0px)); padding-bottom: 10px; }
+
+  /* 3) Hero spacing so content doesn’t feel cramped under sticky header */
+  .hero{ padding-top: 68px; } /* was 56px */
+
+  /* 4) Make tap targets a hair larger on small screens */
+  nav a, .top-cta a, .btn{ padding: 14px 14px; }
+}
+
+/* ===== Sticky-header + anchor safety ===== */
+/* If you have in-page anchors, this keeps content from hiding under the sticky header */
+:target{ scroll-margin-top: 88px; } /* approx header height */
+
+/* ===== Mobile nav: make the panel feel intentional on small screens ===== */
+@media (max-width: 900px){
+  .nav-panel{
+    position: absolute;
+    left: 20px; right: 20px; top: calc(100% + 8px);
+    max-height: min(60vh, 520px);
+    overflow:auto;
+  }
+}
+
+/* ===== Motion + contrast niceties ===== */
+@media (prefers-reduced-motion: reduce){
+  *{ animation: none !important; transition: none !important; }
+}
+
+/* Improve focus visibility for keyboard users */
+:focus-visible{
+  outline: 3px solid var(--gold-light);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* Slightly stronger link hover underline for readability */
+a:hover{
+  color: var(--gold);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* ===== Optional dark-mode (keeps branding, subtle invert) ===== */
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0c0f14; --fg:#e9edf5; --line:#242a33; --card:#111622;
+    --accent:#76a6d6; --accent-2:#a9b8d6;
+  }
+  body{
+    background:
+      radial-gradient(1200px 600px at 10% -10%, rgba(118,166,214,.10), transparent 60%),
+      radial-gradient(1000px 500px at 110% 10%, rgba(199,170,74,.14), transparent 55%),
+      linear-gradient(#0b0f14,#0d1118);
+  }
+  header{ background: rgba(16,19,23,0.82); border-bottom:1px solid var(--line); }
+  .card, .hero .card{ background: linear-gradient(180deg,#121726 0%, #0f141f 100%); }
+  nav a:hover{ background:#0f141f; }
+  .btn{ background:#0f141f; border-color:var(--line); }
+  footer{ background:#0b0f14; color:#cfd7e4; }
+}
