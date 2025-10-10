@@ -1,231 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
   <!-- ===== DRAFTVERIFY METADATA (SEO + AI Friendly) ===== -->
   <title>DraftVerify | The Global Standard for Non-Alcoholic Draft System Safety and Verification</title>
-  <meta name="description" content="DraftVerify — the global standard for non-alcoholic draft system safety.">
-  <meta name="keywords" content="DraftVerify, non-alcoholic draft standard, DIN 6650-6, draft beer hygiene, verification framework, beverage system separation, draft system safety, non-alcoholic compliance">
-  <meta name="author" content="DraftVerify Standards Initiative">
-  <meta name="robots" content="index, follow">
+  <meta name="description" content="DraftVerify — the global standard for non-alcoholic draft system safety." />
+  <meta name="keywords" content="DraftVerify, non-alcoholic draft standard, DIN 6650-6, draft beer hygiene, verification framework, beverage system separation, draft system safety, non-alcoholic compliance" />
+  <meta name="author" content="DraftVerify Standards Initiative" />
+  <meta name="robots" content="index, follow" />
 
   <!-- Canonical + Language Alts (helps Google discover PDFs) -->
-  <link rel="canonical" href="https://draftverify.com/">
-  <link rel="alternate" href="https://draftverify.com/standard-en.pdf" hreflang="en">
-  <link rel="alternate" href="https://draftverify.com/standard-de.pdf" hreflang="de">
-  <link rel="alternate" href="https://draftverify.com/standard-en.pdf" hreflang="x-default">
+  <link rel="canonical" href="https://draftverify.com/" />
+  <link rel="alternate" href="https://draftverify.com/standard-en.pdf" hreflang="en" />
+  <link rel="alternate" href="https://draftverify.com/standard-de.pdf" hreflang="de" />
+  <link rel="alternate" href="https://draftverify.com/standard-en.pdf" hreflang="x-default" />
 
-  <!-- ===== DRAFTVERIFY: Social + iOS Polished Meta ===== -->
-  <!-- Open Graph (FB, iMessage, Slack, LinkedIn) -->
-  <meta property="og:title" content="DraftVerify | The Global Standard for Non-Alcoholic Draft System Safety and Verification">
-  <meta property="og:description" content="DraftVerify — the global standard for non-alcoholic draft system safety.">
-  <meta property="og:image" content="https://draftverify.com/logo-social.png">
-  <meta property="og:image:alt" content="DraftVerify — the global standard for non-alcoholic draft system safety.">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:url" content="https://draftverify.com">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="DraftVerify">
-  <meta property="og:locale" content="en_US">
+  <!-- ===== Social ===== -->
+  <meta property="og:title" content="DraftVerify | The Global Standard for Non-Alcoholic Draft System Safety and Verification" />
+  <meta property="og:description" content="DraftVerify — the global standard for non-alcoholic draft system safety." />
+  <meta property="og:image" content="https://draftverify.com/logo-social.png" />
+  <meta property="og:image:alt" content="DraftVerify — the global standard for non-alcoholic draft system safety." />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://draftverify.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="DraftVerify" />
+  <meta property="og:locale" content="en_US" />
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="DraftVerify | The Global Standard for Non-Alcoholic Draft System Safety and Verification">
-  <meta name="twitter:description" content="DraftVerify — the global standard for non-alcoholic draft system safety.">
-  <meta name="twitter:image" content="https://draftverify.com/logo-social.png">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DraftVerify | The Global Standard for Non-Alcoholic Draft System Safety and Verification" />
+  <meta name="twitter:description" content="DraftVerify — the global standard for non-alcoholic draft system safety." />
+  <meta name="twitter:image" content="https://draftverify.com/logo-social.png" />
 
-  <!-- iOS / Apple enhancements -->
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
-  <meta name="apple-mobile-web-app-title" content="DraftVerify">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="format-detection" content="telephone=no">
+  <!-- iOS / Apple -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+  <meta name="apple-mobile-web-app-title" content="DraftVerify" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
 
-  <!-- Safari pinned tab (macOS) -->
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0f1216">
-
-  <!-- Favicons / PWA niceties -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
-  <meta name="theme-color" content="#ffffff">
+  <!-- Favicons / PWA -->
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0f1216" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
+  <meta name="theme-color" content="#ffffff" />
 
   <!-- Styles -->
-  <link rel="stylesheet" href="/styles.css?v=3">
-
-  <style>
-    :root {
-      --bg:#ffffff; --fg:#0f1216; --line:#e8eaee; --gold:#BFA14A; --gold-2:#E6CF88;
-      --shadow:0 8px 25px rgba(15,18,22,.06);
-    }
-    *{box-sizing:border-box;}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg);}
-    a{text-decoration:none;color:inherit;}
-    .wrap{max-width:1100px;margin:0 auto;padding:20px;}
-    h1{font-size:clamp(32px,6vw,52px);margin:.3em 0;}
-    h2{margin-top:1.5em;}
-    .accent{background:linear-gradient(45deg,var(--gold),var(--gold-2));-webkit-background-clip:text;color:transparent;}
-    ul{padding-left:1.2em;}
-
-    header {
-      position: sticky;
-      top: 0;
-      background: rgba(255,255,255,0.92);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      z-index: 1000;
-      padding-top: max(8px, env(safe-area-inset-top, 0px));
-      padding-bottom: 8px;
-      border-bottom: 1px solid var(--line);
-      display:flex;align-items:center;justify-content:space-between;gap:14px;
-    }
-    .brand{display:flex;align-items:center;gap:10px;font-weight:700;}
-    .logo{width:48px;height:48px;transition:all .2s ease;}
-    nav ul{display:flex;gap:16px;list-style:none;padding:0;margin:0;}
-    nav a{padding:8px 10px;border-radius:8px;}
-    nav a:hover,nav a[aria-current="page"]{background:#f5f6f7;}
-    .top-cta a{display:inline-block;padding:8px 10px;background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:var(--shadow);}
-    .hamburger{display:none;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow);}
-    .hamburger .bar{width:22px;height:2px;background:var(--fg);display:block;margin:4px 0;transition:transform .2s,opacity .2s;}
-    .hamburger[aria-expanded="true"] .bar:nth-child(1){transform:translateY(6px) rotate(45deg);}
-    .hamburger[aria-expanded="true"] .bar:nth-child(2){opacity:0;}
-    .hamburger[aria-expanded="true"] .bar:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
-    .nav-panel{display:none;position:relative;margin-top:8px;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);background:#fff;}
-    .nav-panel.open{display:block;}
-    .nav-panel ul{list-style:none;margin:0;padding:8px;display:flex;flex-direction:column;gap:6px;}
-    .nav-panel a{display:block;padding:10px 12px;border-radius:8px;}
-    .nav-panel a:hover{background:#f8f9fa;}
-
-    @media (max-width:900px){
-      header .nav-wrap{display:none !important;}
-      .hamburger{display:inline-block !important;}
-      .wrap{padding-top:12px;}
-      .logo{width:72px;height:72px;} /* 50% bigger logo on mobile */
-    }
-
-    .card{border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:28px;margin-top:20px;}
-    .lead{font-size:1.1rem;color:#333;}
-    .btn{display:inline-block;margin:8px 8px 0 0;padding:10px 14px;border-radius:8px;border:1px solid var(--line);background:#fff;box-shadow:var(--shadow);}
-    .btn.primary{background:linear-gradient(180deg,#fff,#f5f5f5);}
-    .chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;font-size:.8rem;border:1px solid var(--line);border-radius:999px;margin-bottom:10px;}
-    .dot{width:6px;height:6px;background:linear-gradient(45deg,var(--gold),var(--gold-2));border-radius:50%;}
-
-    footer{margin-top:40px;padding:20px 0;border-top:1px solid var(--line);font-size:.9rem;color:#666;text-align:center;}
-    .disclaimer {font-size: 0.85rem;color: #777;margin-top: 1.2em;line-height: 1.5;}
-  </style>
+  <link rel="stylesheet" href="/styles.css?v=4" />
 </head>
 
 <body>
   <div class="wrap">
+    <!-- ===== Header / Global Navigation ===== -->
     <header>
+      <!-- Brand -->
       <a class="brand" href="/" aria-label="DraftVerify home">
-        <img src="/logo.svg" alt="DraftVerify logo" class="logo" width="72" height="72">
+        <!-- Make sure /logo.svg exists -->
+        <img src="/logo.svg" alt="DraftVerify logo" class="logo" width="72" height="72" />
         <span>DraftVerify</span>
+        <span class="version-chip" aria-label="Standard version">v1.0</span>
       </a>
 
+      <!-- Primary Nav + Utility (desktop) -->
       <div class="nav-wrap">
-        <nav>
-          <ul>
-            <li><a href="/" aria-current="page">Home</a></li>
-            <li><a href="/line-tags.html">Line Tags</a></li>
-            <li><a href="/tower-stickers.html">Tower Stickers</a></li>
+        <nav aria-label="Primary">
+          <ul class="menu">
+            <li><a href="/#overview">Overview</a></li>
+            <li><a href="/#how-it-works">How It Works</a></li>
+            <li><a href="/verification.html">Verification Tools</a></li>
             <li><a href="/training.html">Training</a></li>
+            <li><a href="/adopt.html">Adopt the Standard</a></li>
             <li><a href="/pricing.html">Pricing</a></li>
-            <!-- Direct PDF links (EN + DE) -->
-            <li><a href="/standard-en.pdf" type="application/pdf" target="_blank" rel="noopener">Standard (EN, PDF)</a></li>
-            <li><a href="/standard-de.pdf" type="application/pdf" target="_blank" rel="noopener">Standard (DE, PDF)</a></li>
-            <li><a href="/contact.html">Adopt</a></li>
+
+            <!-- Resources dropdown -->
+            <li class="has-dd">
+              <button class="dd-btn" aria-haspopup="true" aria-expanded="false" aria-controls="dd-resources">
+                Resources
+              </button>
+              <div id="dd-resources" class="dd" role="menu" aria-label="Resources">
+                <a role="menuitem" href="/standard-en.pdf" target="_blank" rel="noopener">The Standard (EN, PDF)</a>
+                <a role="menuitem" href="/standard-de.pdf" target="_blank" rel="noopener">Deutsche Ausgabe (DE, PDF)</a>
+                <a role="menuitem" href="/resources/implementation-guide.html">Implementation Guide</a>
+                <a role="menuitem" href="/resources/tag-sticker-specs.html">Tag &amp; Sticker Specs</a>
+                <a role="menuitem" href="/resources/training.html">Training Modules</a>
+                <a role="menuitem" href="/resources/faq.html">Knowledge Base / FAQs</a>
+                <a role="menuitem" href="/resources/bulletins.html">Technical Bulletins</a>
+                <a role="menuitem" href="/resources/press.html">Press &amp; Publications</a>
+              </div>
+            </li>
+
+            <li><a href="/contact.html">Contact</a></li>
           </ul>
         </nav>
-        <div class="top-cta">
-          <a href="/standard-en.pdf" type="application/pdf" target="_blank" rel="noopener"><span class="mono">v1.0</span> • Open Standard (EN)</a>
+
+        <!-- Utility cluster -->
+        <div class="util">
+          <div class="lang" role="group" aria-label="Language">
+            <a aria-current="page" href="/?lang=en">EN</a>
+            <span aria-hidden="true">/</span>
+            <a href="/?lang=de">DE</a>
+          </div>
+          <a class="btn cta" href="/standard-en.pdf" type="application/pdf" target="_blank" rel="noopener">
+            Open the Standard
+          </a>
         </div>
       </div>
 
+      <!-- Mobile toggle -->
       <button class="hamburger" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Menu">
         <span class="bar"></span><span class="bar"></span><span class="bar"></span>
       </button>
     </header>
 
+    <!-- ===== Mobile Panel ===== -->
     <div class="nav-panel" id="mobileMenu">
       <ul>
-        <li><a href="/" aria-current="page">Home</a></li>
-        <li><a href="/line-tags.html">Line Tags</a></li>
-        <li><a href="/tower-stickers.html">Tower Stickers</a></li>
+        <li><a href="/#overview">Overview</a></li>
+        <li><a href="/#how-it-works">How It Works</a></li>
+        <li><a href="/verification.html">Verification Tools</a></li>
         <li><a href="/training.html">Training</a></li>
+        <li><a href="/adopt.html">Adopt the Standard</a></li>
         <li><a href="/pricing.html">Pricing</a></li>
-        <li><a href="/standard-en.pdf" target="_blank" rel="noopener">Standard (EN, PDF)</a></li>
-        <li><a href="/standard-de.pdf" target="_blank" rel="noopener">Standard (DE, PDF)</a></li>
-        <li><a href="/contact.html">Adopt</a></li>
+
+        <li><strong class="dd-label">Resources</strong></li>
+        <li><a href="/standard-en.pdf" target="_blank" rel="noopener">The Standard (EN, PDF)</a></li>
+        <li><a href="/standard-de.pdf" target="_blank" rel="noopener">Deutsche Ausgabe (DE, PDF)</a></li>
+        <li><a href="/resources/implementation-guide.html">Implementation Guide</a></li>
+        <li><a href="/resources/tag-sticker-specs.html">Tag &amp; Sticker Specs</a></li>
+        <li><a href="/resources/training.html">Training Modules</a></li>
+        <li><a href="/resources/faq.html">Knowledge Base / FAQs</a></li>
+        <li><a href="/resources/bulletins.html">Technical Bulletins</a></li>
+        <li><a href="/resources/press.html">Press &amp; Publications</a></li>
+
+        <li><a href="/contact.html">Contact</a></li>
       </ul>
     </div>
 
-    <section class="card">
-      <span class="chip"><span class="dot"></span> The Global Standard</span>
-      <h1>Setting the Worldwide Standard for Non-Alcoholic Draft Systems</h1>
-      <p class="lead">
-        DraftVerify defines the benchmark for safety, consistency, and integrity in non-alcoholic draft service.
-        Our framework verifies separation, documentation, and operational alignment — promoting transparency and confidence throughout the supply chain.
-      </p>
-      <a class="btn primary" href="/standard-en.pdf" target="_blank" rel="noopener">Open the Standard (EN, PDF)</a>
-      <a class="btn" href="/standard-de.pdf" target="_blank" rel="noopener">Öffnen: Standard (DE, PDF)</a>
-      <a class="btn" href="/pricing.html">Adoption & Pricing</a>
-      <a class="btn" href="/contact.html">Join the Standard</a>
+    <!-- ===== Hero / Content ===== -->
+    <section class="hero" id="overview">
+      <div class="card">
+        <span class="chip"><span class="dot"></span> The Global Standard</span>
+        <h1>Setting the Worldwide Standard for Non-Alcoholic Draft Systems</h1>
+        <p class="lead">
+          DraftVerify defines the benchmark for safety, consistency, and integrity in non-alcoholic draft service.
+          Our framework verifies separation, documentation, and operational alignment — promoting transparency
+          and confidence throughout the supply chain.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="/standard-en.pdf" target="_blank" rel="noopener">Open the Standard (EN, PDF)</a>
+          <a class="btn" href="/standard-de.pdf" target="_blank" rel="noopener">Öffnen: Standard (DE, PDF)</a>
+          <a class="btn" href="/pricing.html">Adoption & Pricing</a>
+          <a class="btn" href="/contact.html">Join the Standard</a>
+        </div>
+      </div>
     </section>
 
-    <section class="card">
-      <h2>The Three Pillars of Verification</h2>
-      <ul style="line-height:1.6;">
-        <li><strong>Line Tags:</strong> Permanent identification on every dedicated non-alcoholic draft line, creating traceable separation from alcoholic products.</li>
-        <li><strong>Tower Stickers:</strong> Visual confirmation for staff and inspectors that the tap meets DraftVerify guidelines for clean, compliant service.</li>
-        <li><strong>Training:</strong> A concise educational module that helps teams understand correct line management, cleaning, and verification practices.</li>
+    <section class="card" id="how-it-works">
+      <h2>How Verification Works</h2>
+      <ul>
+        <li><strong>Line Tags:</strong> Permanent identification for every dedicated NA line, creating traceable separation.</li>
+        <li><strong>Tower Stickers:</strong> Visual confirmation for staff and inspectors that taps meet DraftVerify guidelines.</li>
+        <li><strong>Training:</strong> Concise modules that align teams on correct line management, cleaning, and documentation.</li>
       </ul>
-    </section>
-
-    <section class="card">
-      <h2>Why the Framework Exists</h2>
-      <p>
-        As non-alcoholic beer and cocktails enter mainstream draft systems, consistency and safety demand oversight.
-        DraftVerify addresses cross-contamination and labeling concerns through a single, auditable framework recognized across breweries, venues, and jurisdictions.
-      </p>
-      <p>
-        Our system bridges the gap between engineering precision and hospitality practicality—built for the brewer, supported by the operator, and trusted by the consumer.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>Alignment & Recognition</h2>
-      <p>
-        DraftVerify aligns with the hygiene objectives of DIN 6650-6 while extending those principles to non-alcoholic system separation and transparency.
-        It provides a common language for responsible draft management worldwide.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>Adoption & Support</h2>
-      <p>
-        We make adoption simple. Choose the package that fits your venue size and jurisdiction, receive your verification materials, and access ongoing updates.
-      </p>
-      <ul style="line-height:1.6;">
-        <li><strong>Starter:</strong> For single-site venues establishing baseline separation.</li>
-        <li><strong>Standard:</strong> For multi-tap environments and regional operators.</li>
-        <li><strong>Enterprise:</strong> For national and international brands requiring structured rollout and reporting.</li>
-      </ul>
-      <a class="btn primary" href="/pricing.html">View Packages</a>
-    </section>
-
-    <section class="card">
-      <h2>Transparency & Process Verification</h2>
-      <p>
-        Each verified system carries a unique registration ID, accessible through our online registry.
-        Operators, auditors, and customers can confirm verification details instantly—building a transparent foundation for the future of non-alcoholic draft.
-      </p>
     </section>
 
     <footer>
-      DraftVerify™ — The global framework for non-alcoholic draft systems.<br>
+      DraftVerify™ — The global framework for non-alcoholic draft systems.<br />
       © 2025 DraftVerify. All Rights Reserved. Contact: <a href="mailto:standards@draftverify.com">standards@draftverify.com</a>
       <p style="margin-top:10px;">
         <a href="/standard-en.pdf" target="_blank" rel="noopener">Download Standard (EN, PDF)</a> •
@@ -233,30 +176,56 @@
       </p>
       <p class="disclaimer">
         DraftVerify is an independent verification framework. It provides voluntary process and documentation standards related to non-alcoholic draft system practices.
-        DraftVerify does not guarantee product purity, safety, or compliance with regulatory or legal requirements.
-        Users are responsible for maintaining their own operational and hygiene standards.
+        DraftVerify does not guarantee product purity, safety, or compliance with regulatory or legal requirements. Users are responsible for maintaining their own operational and hygiene standards.
       </p>
     </footer>
   </div>
 
+  <!-- ===== Mobile + Dropdown JS ===== -->
   <script>
-  (function(){
-    const btn=document.getElementById('navToggle');
-    const panel=document.getElementById('mobileMenu');
-    if(!btn||!panel)return;
-    function closeMenu(){btn.setAttribute('aria-expanded','false');panel.classList.remove('open');}
-    function toggleMenu(){
-      const isOpen=btn.getAttribute('aria-expanded')==='true';
-      btn.setAttribute('aria-expanded',String(!isOpen));
-      panel.classList.toggle('open',!isOpen);
-    }
-    btn.addEventListener('click',toggleMenu);
-    panel.addEventListener('click',e=>{if(e.target.closest('a'))closeMenu();});
-    window.addEventListener('resize',()=>{if(window.innerWidth>=901)closeMenu();});
-    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu();});
-  })();
+    (function(){
+      const btn = document.getElementById('navToggle');
+      const panel = document.getElementById('mobileMenu');
+      const ddParent = document.querySelector('.has-dd');
+      const ddBtn = ddParent ? ddParent.querySelector('.dd-btn') : null;
+
+      function closeMenu(){
+        if(!btn || !panel) return;
+        btn.setAttribute('aria-expanded','false');
+        panel.classList.remove('open');
+      }
+      function toggleMenu(){
+        if(!btn || !panel) return;
+        const isOpen = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!isOpen));
+        panel.classList.toggle('open', !isOpen);
+      }
+      if(btn){
+        btn.addEventListener('click', toggleMenu);
+        window.addEventListener('resize', ()=>{ if(window.innerWidth >= 901) closeMenu(); });
+        document.addEventListener('keydown', e=>{ if(e.key === 'Escape') closeMenu(); });
+        if(panel) panel.addEventListener('click', e=>{ if(e.target.closest('a')) closeMenu(); });
+      }
+
+      // Resources dropdown: click toggle for keyboard/mobile support
+      if(ddBtn && ddParent){
+        ddBtn.addEventListener('click', (e)=>{
+          const open = ddBtn.getAttribute('aria-expanded') === 'true';
+          ddBtn.setAttribute('aria-expanded', String(!open));
+          ddParent.toggleAttribute('data-open');
+        });
+        ddParent.addEventListener('keydown', (e)=>{
+          if(e.key === 'Escape'){
+            ddBtn.setAttribute('aria-expanded','false');
+            ddParent.removeAttribute('data-open');
+            ddBtn.focus();
+          }
+        });
+      }
+    })();
   </script>
 
+  <!-- ===== Organization Schema ===== -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -271,53 +240,15 @@
   }
   </script>
 
+  <!-- ===== Optional FAQ Schema (keep if you have a FAQ section) ===== -->
+  <!--
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is DraftVerify?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "DraftVerify is an independent framework for verifying non-alcoholic draft beverage systems. It provides a standardized method for documenting and demonstrating system separation and hygiene practices."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is DraftVerify a certification body?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. DraftVerify does not provide legal or product certification. It establishes voluntary verification guidelines aligned with recognized draft system standards such as DIN 6650-6."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What does DraftVerify evaluate?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "DraftVerify focuses on process transparency, system separation, and adherence to best practices for non-alcoholic draft system maintenance. It does not assess product contents or guarantee outcomes."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How is DraftVerify used by breweries or venues?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Breweries, distributors, and venues can adopt the DraftVerify framework to demonstrate responsible draft practices and alignment with recognized hygiene standards."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Does DraftVerify guarantee safety or product purity?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. DraftVerify provides verification protocols and process transparency, not product guarantees or certifications of safety."
-        }
-      }
-    ]
+    "mainEntity": [ /* ... your items ... */ ]
   }
   </script>
+  -->
 </body>
 </html>
