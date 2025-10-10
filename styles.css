@@ -43,8 +43,11 @@ header{
 .brand{
   display:flex; align-items:center;
 }
-.brand span{display:none;} /* Hides the “DraftVerify” wordmark */
-.logo{width:42px; height:42px}
+.brand span{display:none !important;} /* hide text everywhere */
+.logo{
+  width:63px;  /* 50% bigger (was 42px) */
+  height:63px;
+}
 
 /* Nav */
 header .nav-wrap{display:flex; align-items:center; gap:14px}
@@ -98,6 +101,8 @@ nav a[aria-current="page"]{
 @media(max-width:900px){
   header .nav-wrap{display:none !important}
   .hamburger{display:inline-block !important}
+  .brand span{display:none !important;} /* hide on mobile too */
+  .logo{width:72px; height:72px;} /* keep big on mobile */
 }
 
 /* ===== Hero ===== */
