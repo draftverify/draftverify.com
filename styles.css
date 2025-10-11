@@ -199,3 +199,38 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
   .drawer-link,.btn{min-height:44px}
   .section{padding:64px 0}
 }
+<header class="header">
+  <div class="header-inner container">
+
+    <!-- Brand / Logo -->
+    <a href="{{ '/' | relative_url }}" class="brand">
+      <img src="/assets/logo.svg" alt="DraftVerify Logo" class="logo">
+      <div class="brand-text">
+        <span class="brand-name">DraftVerify</span>
+        <span class="brand-tagline">Global Non-Alcoholic Draft Standard</span>
+      </div>
+    </a>
+
+    <!-- Desktop Navigation -->
+    <nav class="nav-desktop">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/standards/' | relative_url }}">Standards</a>
+      <a href="{{ '/line-tags/' | relative_url }}">Line Tags</a>
+      <a href="{{ '/tower-stickers/' | relative_url }}">Tower Stickers</a>
+      <a href="{{ '/training/' | relative_url }}">Training</a>
+      <a href="{{ '/pricing/' | relative_url }}">Pricing</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn gold" style="margin-left:10px;">Contact</a>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <button id="nav-toggle" class="nav-toggle" type="button"
+      aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
+      <svg class="hamb" width="28" height="28" viewBox="0 0 24 24" aria-hidden="true">
+        <line class="top" x1="4" y1="7" x2="20" y2="7"></line>
+        <line class="mid" x1="4" y1="12" x2="20" y2="12"></line>
+        <line class="bot" x1="4" y1="17" x2="20" y2="17"></line>
+      </svg>
+    </button>
+
+  </div>
+</header>
