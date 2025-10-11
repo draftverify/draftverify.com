@@ -51,24 +51,38 @@ body.nav-open{overflow:hidden}
   background:linear-gradient(90deg,var(--gold),var(--blue));
 }
 
-/* --- Mobile toggle (SVG hamburger, iOS-safe) --- */
+/* --- Mobile toggle (SVG hamburger, iOS-safe & high-contrast) --- */
 .nav-toggle{
   appearance:none;border:0;background:transparent;
   width:44px;height:44px;padding:8px;border-radius:12px;
   display:none;align-items:center;justify-content:center;
-  position:relative;z-index:1003; /* above header/backdrop */
+  position:relative;z-index:1003;
   -webkit-tap-highlight-color: transparent;
+  color: var(--blue);                /* ensures currentColor is blue */
 }
+
+.nav-toggle .hamb{ display:block; overflow:visible; }
 .nav-toggle .hamb line{
-  stroke: var(--blue);
-  stroke-width: 2.5;
+  /* Inline SVG already sets stroke=currentColor & width=3;
+     keep here as a hard backup for Safari specificity. */
+  stroke: currentColor !important;
+  stroke-width: 3 !important;
   stroke-linecap: round;
-  transition: transform .22s ease, opacity .18s ease, stroke .2s ease;
+  shape-rendering: geometricPrecision;
+  transition: transform .22s ease, opacity .18s ease;
 }
+
 /* “X” animation when open */
 .nav-toggle.is-open .hamb .top { transform: translateY(5px) rotate(45deg); }
 .nav-toggle.is-open .hamb .mid  { opacity: 0; }
 .nav-toggle.is-open .hamb .bot  { transform: translateY(-5px) rotate(-45deg); }
+
+/* show on mobile */
+@media (max-width:960px){
+  .nav-desktop{ display:none; }
+  .nav-toggle{ display:flex; }
+}
+
 
 /* Drawer (mobile) */
 .drawer{
