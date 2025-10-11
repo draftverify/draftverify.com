@@ -10,16 +10,38 @@ layout: nil
   <title>{% if page.title %}{{ page.title }} · {% endif %}DraftVerify</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}DraftVerify — the global standard for non-alcoholic draft system safety and verification.{% endif %}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-  <link rel="icon" href="/favicon.png" type="image/png" />
+  <link rel="icon" href="{{ '/favicon.png' | relative_url }}" type="image/png" />
 
   <!-- Social -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}DraftVerify">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}DraftVerify — the global standard for non-alcoholic draft system safety and verification.{% endif %}">
-  <meta property="og:image" content="/logo-social.png">
+  <meta property="og:image" content="{{ '/logo-social.png' | relative_url }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="stylesheet" href="/assets/styles.css?v=6" />
+  <!-- CRITICAL CSS (tiny fallback so the page never looks bare) -->
+  <style>
+    :root{--blue:#0d3b66;--gold:#c7aa4a;--fg:#111;--bg:#fff;--muted:#f6f7f9;--radius:12px;--shadow:0 8px 24px rgba(0,0,0,.08)}
+    *{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif;color:var(--fg);background:#fff}
+    a{color:inherit;text-decoration:none}
+    .header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px;background:#fff;box-shadow:var(--shadow)}
+    .brand{display:flex;align-items:center;gap:10px}.logo{width:56px;height:auto}
+    .header nav a{margin-left:16px;font-weight:600;opacity:.9}.header nav a:hover{opacity:1;color:var(--blue)}
+    main{max-width:1200px;margin:0 auto;padding:32px 20px}
+    .hero{background:linear-gradient(135deg,var(--blue),#143b57);color:#fff;border-radius:16px;padding:64px 24px;margin:16px 0 32px;text-align:center}
+    .hero h1{margin:.25rem 0 .75rem}
+    .section{padding:48px 0}.section.center{text-align:center}
+    .grid{display:grid;gap:20px}.grid.cols-3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .card{background:var(--muted);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}
+    .site-footer{background:var(--blue);color:#fff;margin-top:48px}
+    .site-footer .footer-inner{max-width:1200px;margin:0 auto;padding:24px 20px;text-align:center}
+    .btn{display:inline-block;padding:.7rem 1.1rem;border-radius:var(--radius);font-weight:700}
+    .btn.primary{background:var(--blue);color:#fff}.btn.gold{background:var(--gold);color:#1b1b1b}
+    @media (max-width:480px){.logo{width:72px}}
+  </style>
+
+  <!-- MAIN STYLESHEET (correct Jekyll-safe path) -->
+  <link rel="stylesheet" href="{{ '/styles.css?v=7' | relative_url }}" />
   {% seo %}
 </head>
 <body>
@@ -31,6 +53,6 @@ layout: nil
   </main>
 
   {% include footer.html %}
-  <script src="/assets/site.js" defer></script>
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
 </body>
 </html>
