@@ -3,9 +3,11 @@ description: DraftVerify — the global standard for non-alcoholic draft system 
 url: https://draftverify.com
 theme: null
 permalink: pretty
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+
 exclude:
   - README.md
   - node_modules
