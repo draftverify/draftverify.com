@@ -1,4 +1,4 @@
-/* ===== DraftVerify UI v13 ===== */
+/* ===== DraftVerify UI v13 (SVG hamburger) ===== */
 :root{
   --blue:#0d3b66; --blue-2:#0a2c4b; --gold:#c7aa4a;
   --bg:#ffffff; --fg:#0f1216; --muted:#f5f7fb; --line:#e6edf5;
@@ -51,15 +51,24 @@ body.nav-open{overflow:hidden}
   background:linear-gradient(90deg,var(--gold),var(--blue));
 }
 
-/* Mobile toggle (hamburger) */
+/* --- Mobile toggle (SVG hamburger, iOS-safe) --- */
 .nav-toggle{
-  appearance:none;border:0;background:transparent;padding:10px;border-radius:12px;
-  display:none;position:relative;z-index:1003;
+  appearance:none;border:0;background:transparent;
+  width:44px;height:44px;padding:8px;border-radius:12px;
+  display:none;align-items:center;justify-content:center;
+  position:relative;z-index:1003; /* above header/backdrop */
+  -webkit-tap-highlight-color: transparent;
 }
-.nav-toggle .bar{display:block;width:26px;height:2px;background:#1a2a3a;margin:5px 0;transition:transform .2s ease,opacity .2s ease}
-body.nav-open .nav-toggle .bar:nth-child(1){transform:translateY(7px) rotate(45deg)}
-body.nav-open .nav-toggle .bar:nth-child(2){opacity:0}
-body.nav-open .nav-toggle .bar:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.nav-toggle .hamb line{
+  stroke: var(--blue);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  transition: transform .22s ease, opacity .18s ease, stroke .2s ease;
+}
+/* “X” animation when open */
+.nav-toggle.is-open .hamb .top { transform: translateY(5px) rotate(45deg); }
+.nav-toggle.is-open .hamb .mid  { opacity: 0; }
+.nav-toggle.is-open .hamb .bot  { transform: translateY(-5px) rotate(-45deg); }
 
 /* Drawer (mobile) */
 .drawer{
@@ -84,7 +93,7 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
 /* Responsive header */
 @media (max-width:960px){
   .nav-desktop{display:none}
-  .nav-toggle{display:inline-flex;align-items:center;justify-content:center}
+  .nav-toggle{display:flex} /* show the SVG toggle */
   .logo{width:60px}
 }
 
