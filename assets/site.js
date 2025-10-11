@@ -19,21 +19,46 @@
   const toggle = document.getElementById('nav-toggle');
   const drawer = document.getElementById('drawer');
   const backdrop = document.getElementById('backdrop');
-  if(!toggle || !drawer || !header) return;
+  if (!toggle || !drawer || !header) return;
 
-  function setTop(){ root.style.setProperty('--nav-top', `${header.getBoundingClientRect().height || 64}px`); }
-  function open(){ setTop(); body.classList.add('nav-open'); toggle.setAttribute('aria-expanded','true'); drawer.setAttribute('aria-hidden','false'); backdrop && (backdrop.hidden=false); }
-  function close(){ body.classList.remove('nav-open'); toggle.setAttribute('aria-expanded','false'); drawer.setAttribute('aria-hidden','true'); backdrop && (backdrop.hidden=true); }
-  function toggleNav(){ body.classList.contains('nav-open') ? close() : open(); }
+  function setTop(){
+    const h = header.getBoundingClientRect().height || 64;
+    root.style.setProperty('--nav-top', `${h}px`);
+  }
+  function open(){
+    setTop();
+    body.classList.add('nav-open');
+    toggle.classList.add('is-open');                       // NEW: animate to X
+    toggle.setAttribute('aria-expanded','true');
+    drawer.setAttribute('aria-hidden','false');
+    if (backdrop) backdrop.hidden = false;
+  }
+  function close(){
+    body.classList.remove('nav-open');
+    toggle.classList.remove('is-open');                    // NEW: reset icon
+    toggle.setAttribute('aria-expanded','false');
+    drawer.setAttribute('aria-hidden','true');
+    if (backdrop) backdrop.hidden = true;
+  }
+  function toggleNav(){
+    if (body.classList.contains('nav-open')) close();
+    else open();
+  }
 
   toggle.addEventListener('click', toggleNav);
   backdrop && backdrop.addEventListener('click', close);
-  document.addEventListener('keydown', e => { if(e.key === 'Escape') close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
   drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', close));
-  ['resize','orientationchange'].forEach(ev => window.addEventListener(ev, setTop, {passive:true}));
-  window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.scrollY > 6); if(body.classList.contains('nav-open')) setTop(); }, {passive:true});
+
+  ['resize','orientationchange'].forEach(ev => window.addEventListener(ev, setTop, { passive:true }));
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 6);
+    if (body.classList.contains('nav-open')) setTop();
+  }, { passive:true });
+
   setTop();
 })();
+
 
 // Scroll-reveal (respects reduced motion)
 (function(){
