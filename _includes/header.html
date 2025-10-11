@@ -1,31 +1,34 @@
-<header class="header">
+<header class="header" role="banner">
   <div class="header-inner container">
 
-    <!-- Brand / Logo -->
-    <a href="{{ '/' | relative_url }}" class="brand">
-      <img src="/assets/logo.svg" alt="DraftVerify Logo" class="logo">
+    <!-- left spacer keeps brand truly centered -->
+    <div class="header-left" aria-hidden="true"></div>
+
+    <!-- Brand (centered) -->
+    <a href="{{ '/' | relative_url }}" class="brand" aria-label="DraftVerify home">
+      <img src="{{ '/assets/logo.svg' | relative_url }}" alt="DraftVerify logo" class="logo" />
       <div class="brand-text">
         <span class="brand-name">DraftVerify</span>
         <span class="brand-tagline">Global Non-Alcoholic Draft Standard</span>
       </div>
     </a>
 
-    <!-- Desktop Navigation -->
-    <nav class="nav-desktop">
+    <!-- Desktop nav (right) -->
+    <nav class="nav-desktop" aria-label="Primary">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/standards/' | relative_url }}">Standards</a>
       <a href="{{ '/line-tags/' | relative_url }}">Line Tags</a>
       <a href="{{ '/tower-stickers/' | relative_url }}">Tower Stickers</a>
       <a href="{{ '/training/' | relative_url }}">Training</a>
       <a href="{{ '/pricing/' | relative_url }}">Pricing</a>
-      <a href="{{ '/contact/' | relative_url }}" class="btn gold" style="margin-left:10px;">Contact</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn gold" style="margin-left:10px">Contact</a>
     </nav>
 
-    <!-- Mobile Menu Toggle -->
+    <!-- Mobile toggle (right on mobile) -->
     <button id="nav-toggle" class="nav-toggle" type="button"
       aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
       <svg class="hamb" width="28" height="28" viewBox="0 0 24 24" aria-hidden="true">
-        <line class="top" x1="4" y1="7" x2="20" y2="7"></line>
+        <line class="top" x1="4" y1="7"  x2="20" y2="7"></line>
         <line class="mid" x1="4" y1="12" x2="20" y2="12"></line>
         <line class="bot" x1="4" y1="17" x2="20" y2="17"></line>
       </svg>
