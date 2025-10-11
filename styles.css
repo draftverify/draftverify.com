@@ -1,4 +1,4 @@
-/* ===== DraftVerify UI v13 (SVG hamburger) ===== */
+/* ===== DraftVerify UI v13 (SVG hamburger + updated footer) ===== */
 :root{
   --blue:#0d3b66; --blue-2:#0a2c4b; --gold:#c7aa4a;
   --bg:#ffffff; --fg:#0f1216; --muted:#f5f7fb; --line:#e6edf5;
@@ -58,31 +58,27 @@ body.nav-open{overflow:hidden}
   display:none;align-items:center;justify-content:center;
   position:relative;z-index:1003;
   -webkit-tap-highlight-color: transparent;
-  color: var(--blue);                /* ensures currentColor is blue */
+  color: var(--blue); /* ensures currentColor is blue */
 }
-
-.nav-toggle .hamb{ display:block; overflow:visible; }
+.nav-toggle .hamb{display:block;overflow:visible;}
 .nav-toggle .hamb line{
-  /* Inline SVG already sets stroke=currentColor & width=3;
-     keep here as a hard backup for Safari specificity. */
-  stroke: currentColor !important;
-  stroke-width: 3 !important;
-  stroke-linecap: round;
-  shape-rendering: geometricPrecision;
-  transition: transform .22s ease, opacity .18s ease;
+  stroke:currentColor !important;
+  stroke-width:3 !important;
+  stroke-linecap:round;
+  shape-rendering:geometricPrecision;
+  transition:transform .22s ease,opacity .18s ease;
 }
-
 /* “X” animation when open */
-.nav-toggle.is-open .hamb .top { transform: translateY(5px) rotate(45deg); }
-.nav-toggle.is-open .hamb .mid  { opacity: 0; }
-.nav-toggle.is-open .hamb .bot  { transform: translateY(-5px) rotate(-45deg); }
+.nav-toggle.is-open .hamb .top{transform:translateY(5px) rotate(45deg);}
+.nav-toggle.is-open .hamb .mid{opacity:0;}
+.nav-toggle.is-open .hamb .bot{transform:translateY(-5px) rotate(-45deg);}
 
 /* show on mobile */
 @media (max-width:960px){
-  .nav-desktop{ display:none; }
-  .nav-toggle{ display:flex; }
+  .nav-desktop{display:none;}
+  .nav-toggle{display:flex;}
+  .logo{width:60px;}
 }
-
 
 /* Drawer (mobile) */
 .drawer{
@@ -104,13 +100,6 @@ body.nav-open{overflow:hidden}
 body.nav-open .drawer{transform:none;opacity:1;visibility:visible;pointer-events:auto;transition:transform .22s ease,opacity .22s ease,visibility 0s step-start}
 body.nav-open .backdrop{opacity:1;pointer-events:auto}
 
-/* Responsive header */
-@media (max-width:960px){
-  .nav-desktop{display:none}
-  .nav-toggle{display:flex} /* show the SVG toggle */
-  .logo{width:60px}
-}
-
 /* =================== BUTTONS =================== */
 .btn{
   display:inline-block;padding:.8rem 1.15rem;border-radius:999px;
@@ -129,9 +118,9 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
     linear-gradient(180deg, #ffffff 0%, #f4f8ff 60%, #ffffff 100%);
 }
 .hero-card{
-  background:#0b2540 !important; /* solid dark */
-  color:#fff !important; border-radius:26px; padding:64px 28px; text-align:center;
-  box-shadow:0 18px 48px rgba(11,37,64,.28); position:relative; isolation:isolate;
+  background:#0b2540 !important;color:#fff !important;border-radius:26px;
+  padding:64px 28px;text-align:center;
+  box-shadow:0 18px 48px rgba(11,37,64,.28);position:relative;isolation:isolate;
 }
 .hero-card::before{
   content:"";position:absolute;inset:0;border-radius:inherit;z-index:0;
@@ -141,12 +130,12 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
 }
 .hero-card > *{position:relative;z-index:1}
 .hero-card h1{
-  font-size:clamp(1.9rem,4.8vw,2.8rem); line-height:1.2; margin:.25rem 0 .9rem;
-  color:#fff !important; text-shadow:0 2px 4px rgba(0,0,0,.45); font-weight:900;
+  font-size:clamp(1.9rem,4.8vw,2.8rem);line-height:1.2;margin:.25rem 0 .9rem;
+  color:#fff !important;text-shadow:0 2px 4px rgba(0,0,0,.45);font-weight:900;
 }
 .hero-card p{
-  color:#fff !important; max-width:760px; margin:0 auto 1.2rem;
-  font-size:clamp(1.05rem,3vw,1.18rem); text-shadow:0 1px 3px rgba(0,0,0,.38);
+  color:#fff !important;max-width:760px;margin:0 auto 1.2rem;
+  font-size:clamp(1.05rem,3vw,1.18rem);text-shadow:0 1px 3px rgba(0,0,0,.38);
 }
 
 /* =================== GRID / CARDS =================== */
@@ -177,12 +166,27 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
   box-shadow:var(--shadow)
 }
 
-/* Footer */
-.site-footer{background:var(--blue);color:#fff;margin-top:80px}
-.site-footer .footer-inner{max-width:1140px;margin:0 auto;padding:30px 20px;text-align:center}
-.site-footer a{color:var(--gold);text-decoration:underline}
+/* =================== FOOTER (Updated) =================== */
+.site-footer {
+  background: var(--blue);
+  color: #fff;
+  margin-top: 80px;
+  font-size: 0.95rem;
+}
+.site-footer .footer-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+.site-footer a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: opacity .2s ease;
+}
+.site-footer a:hover { opacity: 0.7; }
 
-/* Reveal */
+/* =================== ANIMATIONS =================== */
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
 
