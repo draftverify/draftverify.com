@@ -1,16 +1,32 @@
-<header class="header">
-  <a class="brand" href="/">
-    <img src="/logo-social.png" alt="DraftVerify logo" class="logo">
-    <span>DraftVerify</span>
-  </a>
-  <nav>
-    <a href="/#framework" data-nav="framework">Framework</a>
-    <a href="/#categories" data-nav="categories">Categories</a>
-    <a href="/standards/" data-nav="standards">Standards</a>
-    <a href="/line-tags/" data-nav="line-tags">Line Tags</a>
-    <a href="/tower-stickers/" data-nav="tower-stickers">Tower Stickers</a>
-    <a href="/pricing/" data-nav="pricing">Pricing</a>
-    <a href="/training/" data-nav="training">Training</a>
-    <a href="/contact/" class="btn gold" data-nav="contact">Contact</a>
-  </nav>
+<header class="header" role="banner">
+  <div class="inner">
+    <a class="brand" href="/" aria-label="DraftVerify home">
+      <img src="/logo-social.png" alt="DraftVerify logo" class="logo">
+      <span>DraftVerify</span>
+    </a>
+
+    <!-- Mobile toggle -->
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <!-- simple hamburger icon -->
+      <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="visually-hidden">Menu</span>
+    </button>
+
+    <!-- Nav panel -->
+    <nav id="site-nav" class="nav" role="navigation">
+      <a href="/#framework" data-nav="framework">Framework</a>
+      <a href="/#categories" data-nav="categories">Categories</a>
+      <a href="/standards/" data-nav="standards">Standards</a>
+      <a href="/line-tags/" data-nav="line-tags">Line Tags</a>
+      <a href="/tower-stickers/" data-nav="tower-stickers">Tower Stickers</a>
+      <a href="/pricing/" data-nav="pricing">Pricing</a>
+      <a href="/training/" data-nav="training">Training</a>
+      <a href="/contact/" class="btn gold" data-nav="contact">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Backdrop for mobile menu -->
+  <div class="nav-backdrop" id="nav-backdrop" hidden></div>
 </header>
