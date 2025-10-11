@@ -1,4 +1,4 @@
-/* ===== DraftVerify UI v13 (SVG hamburger + updated footer) ===== */
+/* ===== DraftVerify UI v14 ===== */
 :root{
   --blue:#0d3b66; --blue-2:#0a2c4b; --gold:#c7aa4a;
   --bg:#ffffff; --fg:#0f1216; --muted:#f5f7fb; --line:#e6edf5;
@@ -18,7 +18,9 @@ body{
 }
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
-a:focus-visible,.btn:focus-visible,.nav-toggle:focus-visible{outline:3px solid #93c6ff; outline-offset:2px}
+a:focus-visible,.btn:focus-visible,.nav-toggle:focus-visible{
+  outline:3px solid #93c6ff; outline-offset:2px;
+}
 p{margin:.6rem 0 1rem;font-size:1.02rem}
 
 /* Containers */
@@ -26,7 +28,6 @@ p{margin:.6rem 0 1rem;font-size:1.02rem}
 .section{padding:72px 0}
 .section-sm{padding:44px 0}
 .section.center{text-align:center}
-.divider{height:1px;background:var(--line);margin:28px 0}
 
 /* =================== HEADER =================== */
 body.nav-open{overflow:hidden}
@@ -38,16 +39,19 @@ body.nav-open{overflow:hidden}
   transition:box-shadow .2s ease;
 }
 .header.scrolled{box-shadow:0 8px 22px rgba(15,18,22,.08)}
-.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;padding:10px 20px}
+.header-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:16px;min-height:64px;padding:10px 20px;position:relative;
+}
 
-/* Brand (logo + two-line text) */
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+/* Brand text (black name + gold second line) */
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex:1 1 auto;min-width:0}
 .logo{width:52px;height:auto}
 .brand-text{display:flex;flex-direction:column;line-height:1.1}
-.brand-name{font-weight:900;font-size:1.25rem;color:#000;letter-spacing:-0.2px} /* black */
+.brand-name{font-weight:900;font-size:1.25rem;color:#000;letter-spacing:-0.2px}
 .brand-tagline{font-size:.78rem;font-weight:600;color:var(--gold);text-transform:uppercase;letter-spacing:.06em}
 
-/* Desktop Nav */
+/* Desktop nav */
 .nav-desktop{display:flex;align-items:center;gap:20px}
 .nav-desktop a{font-weight:650;opacity:.92;white-space:nowrap}
 .nav-desktop a:hover{opacity:1}
@@ -57,55 +61,44 @@ body.nav-open{overflow:hidden}
   background:linear-gradient(90deg,var(--gold),var(--blue));
 }
 
-/* --- Mobile toggle (SVG hamburger, iOS-safe & high-contrast) --- */
+/* Hamburger must sit above everything; clickable */
 .nav-toggle{
   appearance:none;border:0;background:transparent;
   width:44px;height:44px;padding:8px;border-radius:12px;
   display:none;align-items:center;justify-content:center;
-  position:relative;z-index:2002; /* ABOVE drawer/backdrop so it's always tappable */
-  -webkit-tap-highlight-color: transparent;
-  color: var(--blue); /* ensures currentColor is blue */
-  cursor:pointer;
+  position:relative;z-index:4000;cursor:pointer;touch-action:manipulation;
+  -webkit-tap-highlight-color:transparent;color:var(--blue);
 }
-.nav-toggle .hamb{display:block;overflow:visible;}
 .nav-toggle .hamb line{
-  stroke:currentColor !important;
-  stroke-width:3 !important;
-  stroke-linecap:round;
-  shape-rendering:geometricPrecision;
-  transition:transform .22s ease,opacity .18s ease;
+  stroke:currentColor !important; stroke-width:3 !important; stroke-linecap:round;
+  transition:transform .22s ease, opacity .18s ease;
 }
-/* “X” animation when open */
-.nav-toggle.is-open .hamb .top{transform:translateY(5px) rotate(45deg);}
-.nav-toggle.is-open .hamb .mid{opacity:0;}
-.nav-toggle.is-open .hamb .bot{transform:translateY(-5px) rotate(-45deg);}
+.nav-toggle.is-open .hamb .top{transform:translateY(5px) rotate(45deg)}
+.nav-toggle.is-open .hamb .mid{opacity:0}
+.nav-toggle.is-open .hamb .bot{transform:translateY(-5px) rotate(-45deg)}
 
-/* Drawer (mobile) */
-.drawer{
-  position:fixed;left:0;right:0;top:var(--nav-top,64px);
+.drawer{position:fixed;left:0;right:0;top:var(--nav-top,64px);
   background:#fff;border-top:1px solid var(--line);
   transform:translateY(-12px);opacity:0;visibility:hidden;pointer-events:none;
   padding:18px 20px 28px;box-shadow:0 20px 40px rgba(15,18,22,.18);
   transition:transform .22s ease,opacity .22s ease,visibility .22s step-end;
-  z-index:2001; /* below toggle, above backdrop */
+  z-index:3000;
 }
 .drawer-nav{display:flex;flex-direction:column;gap:12px}
 .drawer-link{padding:11px 4px;font-weight:650}
-.drawer-cta{margin-top:6px}
+body.nav-open .drawer{transform:none;opacity:1;visibility:visible;pointer-events:auto}
 
-/* Backdrop under drawer */
 .backdrop{
   position:fixed;inset:0;background:rgba(0,0,0,.35);backdrop-filter:blur(2px);
-  opacity:0;pointer-events:none;transition:opacity .22s ease;z-index:2000; /* below drawer */
+  opacity:0;pointer-events:none;transition:opacity .22s ease;z-index:2500;
 }
-body.nav-open .drawer{transform:none;opacity:1;visibility:visible;pointer-events:auto;transition:transform .22s ease,opacity .22s ease,visibility 0s step-start}
 body.nav-open .backdrop{opacity:1;pointer-events:auto}
 
-/* show hamburger on mobile */
+/* Small tweak: keep brand text compact on mobile */
 @media (max-width:960px){
-  .nav-desktop{display:none;}
-  .nav-toggle{display:flex;}
-  .logo{width:60px;}
+  .nav-desktop{display:none}
+  .nav-toggle{display:flex}
+  .logo{width:60px}
   .brand-name{font-size:1.08rem}
   .brand-tagline{font-size:.68rem;letter-spacing:.05em}
 }
@@ -120,7 +113,8 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
 .btn.ghost{background:#ffffff;border:1px solid var(--line)}
 .btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
 
-/* =================== HERO (high-contrast, bulletproof) =================== */
+/* =================== HERO =================== */
+.section-sm{padding:44px 0}
 .hero{
   padding:80px 0;
   background:
@@ -159,15 +153,6 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
 .card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#d6e2f0}
 .card h3{color:var(--blue);margin-top:0;font-weight:800}
 
-/* Chips & headings */
-.chip{
-  display:inline-flex;align-items:center;gap:8px;
-  background:#eef4ff;color:#143a5d;border:1px solid #d6e4ff;
-  padding:4px 10px;border-radius:999px;font-weight:800;font-size:.86rem
-}
-.kicker{color:#5e7591;text-transform:uppercase;letter-spacing:.12em;font-weight:900;font-size:.84rem}
-.h2{color:var(--blue);font-weight:900;margin:.35rem 0 1rem;font-size:1.55rem}
-
 /* CTA band */
 .cta-band{
   background:linear-gradient(90deg,var(--blue),#1a4675);
@@ -176,36 +161,12 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
   box-shadow:var(--shadow)
 }
 
-/* =================== FOOTER (Updated) =================== */
-.site-footer {
-  background: var(--blue);
-  color: #fff;
-  margin-top: 80px;
-  font-size: 0.95rem;
-}
-.site-footer .footer-inner {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  text-align: center;
-}
-.site-footer a {
-  color: var(--gold);
-  text-decoration: none;
-  transition: opacity .2s ease;
-}
-.site-footer a:hover { opacity: 0.7; }
+/* =================== FOOTER =================== */
+.site-footer{background:var(--blue);color:#fff;margin-top:80px;font-size:.95rem}
+.site-footer .footer-inner{max-width:1140px;margin:0 auto;padding:40px 20px;text-align:center}
+.site-footer a{color:var(--gold);text-decoration:none;transition:opacity .2s ease}
+.site-footer a:hover{opacity:.7}
 
 /* =================== ANIMATIONS =================== */
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
-
-/* Accessibility helpers */
-.skiplink{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
-.skiplink:focus{position:static;width:auto;height:auto;background:#000;color:#fff;padding:8px}
-
-/* Mobile touch sizing */
-@media (max-width:960px){
-  .drawer-link,.btn{min-height:44px}
-  .section{padding:64px 0}
-}
