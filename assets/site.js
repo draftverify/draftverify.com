@@ -15,9 +15,10 @@
   }
 })();
 
-// 2) Mobile menu: robust toggle + correct top offset
+// 2) Mobile menu: robust toggle with CSS var top + scroll lock
 (function(){
   const body = document.body;
+  const root = document.documentElement;
   const header = document.querySelector('.header');
   const toggle = document.getElementById('nav-toggle');
   const nav = document.getElementById('site-nav');
@@ -26,8 +27,8 @@
   if(!toggle || !nav || !header) return;
 
   function setPanelTop(){
-    const h = header.getBoundingClientRect().height;
-    nav.style.top = `${h}px`;
+    const h = header.getBoundingClientRect().height || 60;
+    root.style.setProperty('--nav-top', `${h}px`);
   }
 
   function openNav(){
@@ -45,28 +46,25 @@
     body.classList.contains('nav-open') ? closeNav() : openNav();
   }
 
-  // Events
-  toggle.addEventListener('click', toggleNav);
-  backdrop && backdrop.addEventListener('click', closeNav);
+  toggle.addEventListener('click', toggleNav, { passive: true });
+  backdrop && backdrop.addEventListener('click', closeNav, { passive: true });
   document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeNav(); });
 
   // Close after clicking a link (mobile)
   nav.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNav));
 
-  // Keep panel aligned on resize/scroll (header height may change)
-  window.addEventListener('resize', setPanelTop, { passive: true });
-  window.addEventListener('orientationchange', setPanelTop);
+  // Keep panel aligned on resize/scroll/orientation
+  ['resize','orientationchange'].forEach(ev => window.addEventListener(ev, setPanelTop, { passive:true }));
   window.addEventListener('scroll', () => {
-    // add shadow on scroll
     header.classList.toggle('scrolled', window.scrollY > 6);
     if (body.classList.contains('nav-open')) setPanelTop();
-  }, { passive: true });
+  }, { passive:true });
 
   // Initial
   setPanelTop();
 })();
 
-// 3) Scroll-reveal for .reveal elements (respects reduced motion)
+// 3) Scroll-reveal (respects reduced motion)
 (function(){
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const els = document.querySelectorAll('.reveal');
