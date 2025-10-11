@@ -1,14 +1,24 @@
 ---
 layout: default
 title: Standards & Downloads
-description: Download the official DraftVerify Standard (v1.0) in English and German.
+description: Download the official DraftVerify Standard in English and German (PDF).
 ---
 
 <section class="section center">
-  <h2>Download the Official DraftVerify Standard</h2>
-  <p class="lead">Issued October 2025 — English & German</p>
-  <p>
-    <a class="btn gold" href="/DraftVerify Standard 1.0 – Global Standard.pdf">English PDF</a>
-    <a class="btn gold" href="/DraftVerify Standard 1.0 – Globale Norm für alkoholfreie Zapfsysteme.pdf">German PDF</a>
-  </p>
+  <div class="container">
+    <div class="kicker">Downloads</div>
+    <h2 class="h2">Official DraftVerify Standard</h2>
+    <p class="lead">Available in English and German.</p>
+
+    <p style="margin-top:18px">
+      <a class="btn gold" href="{{ '/standard-en.pdf' | relative_url }}">English PDF</a>
+      <a class="btn gold" href="{{ '/standard-de.pdf' | relative_url }}" style="margin-left:10px">German PDF</a>
+    </p>
+
+    <div class="divider"></div>
+    <p>Having trouble? Try right-click → “Save link as…”, or open:
+      <a href="{{ '/standard-en.pdf' | relative_url }}">/standard-en.pdf</a> ·
+      <a href="{{ '/standard-de.pdf' | relative_url }}">/standard-de.pdf</a>
+    </p>
+  </div>
 </section>
