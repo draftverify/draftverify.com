@@ -355,3 +355,71 @@ header{ box-shadow: none; }
   transform: translateY(2px);
 }
 .dd-btn:hover::after{ border-top-color: var(--accent); }
+
+/* ===== NAV HOTFIX: keep single-line, better spacing ===== */
+@media (min-width: 901px){
+  .menu{ gap:16px; }
+  .menu a, .dd-btn{ white-space:nowrap; } /* no wrapping */
+}
+
+/* ===== Resources dropdown: two columns, roomy, readable ===== */
+@media (min-width: 901px){
+  .dd{
+    min-width: 560px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* two tidy columns */
+    gap: 6px 16px;
+  }
+  .dd a{ white-space:nowrap; }
+  .dd-group{
+    grid-column: 1 / -1;
+    margin: 4px 2px 2px;
+    font-size: .8rem;
+    font-weight: 800;
+    color: var(--muted);
+    letter-spacing: .02em;
+    text-transform: uppercase;
+  }
+}
+
+/* ===== Utility cluster: align + separate visually ===== */
+.util{
+  gap: 14px;
+  padding-left: 14px;
+  border-left: 1px solid var(--line);
+}
+.btn.cta{ padding: 10px 16px; line-height: 1; border-radius: 12px; }
+
+/* ===== Caret on Resources for affordance ===== */
+.dd-btn::after{
+  content:"";
+  position: relative;
+  left: 6px; top: -1px;
+  border: 5px solid transparent;
+  border-top-color: currentColor;
+  transform: translateY(2px);
+}
+.dd-btn:hover::after{ border-top-color: var(--accent); }
+
+/* ===== Layering so dropdown floats over hero ===== */
+.has-dd:hover .dd, .has-dd:focus-within .dd{
+  z-index: 1001;
+  box-shadow: 0 12px 28px rgba(15,18,22,.10);
+}
+
+/* ===== Logo sizes (kept big) ===== */
+.logo{ width: 56px; height: 56px; }
+@media (max-width: 480px){
+  .logo{ width: 72px; height: 72px; }
+}
+
+/* ===== Mobile: dropdown collapses to list (click toggled) ===== */
+@media (max-width: 900px){
+  .has-dd .dd{ position: static; display: none; border: none; box-shadow: none; padding: 0; }
+  .has-dd[data-open] .dd{ display: block; }
+}
+
+/* Optional: tighten header container so nav centers nicely */
+.wrap{ max-width: 1120px; }
+
