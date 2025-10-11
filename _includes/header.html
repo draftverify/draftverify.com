@@ -1,13 +1,11 @@
 <header class="header" role="banner">
   <div class="container header-inner">
+    <!-- Brand: icon only (desktop & mobile) -->
     <a class="brand" href="/" aria-label="DraftVerify home">
-      <picture>
-        <source media="(max-width: 768px)" srcset="{{ '/apple-touch-icon.png' | relative_url }}">
-        <img src="{{ '/apple-touch-icon.png' | relative_url }}" alt="DraftVerify logo" class="logo">
-      </picture>
+      <img src="{{ '/apple-touch-icon.png' | relative_url }}" alt="DraftVerify logo" class="logo">
     </a>
 
-    <!-- Desktop nav -->
+    <!-- Desktop navigation -->
     <nav class="nav-desktop" role="navigation" aria-label="Primary">
       <a href="/#framework" data-nav="framework">Framework</a>
       <a href="/#categories" data-nav="categories">Categories</a>
@@ -19,13 +17,14 @@
       <a href="/contact/" class="btn gold" data-nav="contact">Contact</a>
     </nav>
 
-    <!-- Mobile toggle -->
-    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
+    <!-- Mobile toggle (hamburger) -->
+    <button id="nav-toggle" class="nav-toggle" type="button"
+            aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
   </div>
 
-  <!-- Drawer (mobile) -->
+  <!-- Mobile drawer -->
   <aside id="drawer" class="drawer" aria-hidden="true">
     <nav class="drawer-nav" role="navigation" aria-label="Mobile">
       <a href="/#framework" data-nav="framework" class="drawer-link">Framework</a>
@@ -40,5 +39,5 @@
   </aside>
 
   <!-- Backdrop -->
-  <div class="backdrop" id="backdrop" hidden></div>
+  <div id="backdrop" class="backdrop" hidden></div>
 </header>
