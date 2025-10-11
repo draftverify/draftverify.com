@@ -11,13 +11,13 @@
   <meta name="author" content="DraftVerify Standards Initiative" />
   <meta name="robots" content="index, follow" />
 
-  <!-- Canonical + Language Alts (helps Google discover PDFs) -->
+  <!-- Canonical + Language Alts -->
   <link rel="canonical" href="https://draftverify.com/" />
   <link rel="alternate" href="https://draftverify.com/standard-en.pdf" hreflang="en" />
   <link rel="alternate" href="https://draftverify.com/standard-de.pdf" hreflang="de" />
   <link rel="alternate" href="https://draftverify.com/standard-en.pdf" hreflang="x-default" />
 
-  <!-- ===== Social ===== -->
+  <!-- Social -->
   <meta property="og:title" content="DraftVerify | The Global Standard for Non-Alcoholic Draft System Safety and Verification" />
   <meta property="og:description" content="DraftVerify — the global standard for non-alcoholic draft system safety." />
   <meta property="og:image" content="https://draftverify.com/logo-social.png" />
@@ -35,198 +35,66 @@
   <meta name="twitter:description" content="DraftVerify — the global standard for non-alcoholic draft system safety." />
   <meta name="twitter:image" content="https://draftverify.com/logo-social.png" />
 
-  <!-- iOS / Apple -->
+  <!-- Icons -->
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
   <meta name="apple-mobile-web-app-title" content="DraftVerify" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="format-detection" content="telephone=no" />
 
-  <!-- Favicons / PWA -->
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0f1216" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
   <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
   <meta name="theme-color" content="#ffffff" />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="/styles.css?v=4" />
+  <!-- Styles (your single, unified stylesheet) -->
+  <link rel="stylesheet" href="/styles.css?v=7" />
 </head>
 
 <body>
   <div class="wrap">
-  <header>
-  <!-- Brand -->
-  <a class="brand" href="/" aria-label="DraftVerify home">
-    <img src="/logo.svg" alt="DraftVerify logo" class="logo" width="72" height="72" />
-    <span>DraftVerify</span>
-    <span class="version-chip" aria-label="Standard version">v1.0</span>
-  </a>
-
-  <!-- Primary Nav + Utility (desktop) -->
-  <div class="nav-wrap">
-    <nav aria-label="Primary">
-      <ul class="menu">
-        <li><a href="/#overview">Overview</a></li>
-        <li><a href="/#how-it-works">How it works</a></li>
-        <li><a href="/verification.html">Verification</a></li>
-        <li><a href="/training.html">Training</a></li>
-        <li><a href="/adopt.html">Adoption</a></li>
-        <li><a href="/pricing.html">Pricing</a></li>
-
-        <!-- Resources dropdown -->
-        <li class="has-dd">
-          <button class="dd-btn" aria-haspopup="true" aria-expanded="false" aria-controls="dd-resources">
-            Resources
-          </button>
-          <div id="dd-resources" class="dd" role="menu" aria-label="Resources">
-            <span class="dd-group">Docs</span>
-            <a role="menuitem" href="/standard-en.pdf" target="_blank" rel="noopener">The Standard (EN, PDF)</a>
-            <a role="menuitem" href="/standard-de.pdf" target="_blank" rel="noopener">Deutsche Ausgabe (DE, PDF)</a>
-
-            <span class="dd-group">Guides</span>
-            <a role="menuitem" href="/resources/implementation-guide.html">Implementation Guide</a>
-            <a role="menuitem" href="/resources/tag-sticker-specs.html">Tag &amp; Sticker Specs</a>
-            <a role="menuitem" href="/resources/training.html">Training Modules</a>
-            <a role="menuitem" href="/resources/faq.html">Knowledge Base / FAQs</a>
-            <a role="menuitem" href="/resources/bulletins.html">Technical Bulletins</a>
-            <a role="menuitem" href="/resources/press.html">Press &amp; Publications</a>
-          </div>
-        </li>
-
-        <li><a href="/contact.html">Contact</a></li>
-      </ul>
-    </nav>
-
-    <!-- Utility cluster -->
-    <div class="util">
-      <div class="lang" role="group" aria-label="Language">
-        <a aria-current="page" href="/?lang=en">EN</a>
-        <span aria-hidden="true">/</span>
-        <a href="/?lang=de">DE</a>
-      </div>
-      <a class="btn cta" href="/standard-en.pdf" type="application/pdf" target="_blank" rel="noopener">
-        Open the Standard
-      </a>
-    </div>
-  </div>
-
-  <!-- Mobile toggle -->
-  <button class="hamburger" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Menu">
-    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-  </button>
-</header>
-
-    <!-- ===== Mobile Panel ===== -->
-    <div class="nav-panel" id="mobileMenu">
-      <ul>
-        <li><a href="/#overview">Overview</a></li>
-        <li><a href="/#how-it-works">How It Works</a></li>
-        <li><a href="/verification.html">Verification Tools</a></li>
-        <li><a href="/training.html">Training</a></li>
-        <li><a href="/adopt.html">Adopt the Standard</a></li>
-        <li><a href="/pricing.html">Pricing</a></li>
-
-        <li><strong class="dd-label">Resources</strong></li>
-        <li><a href="/standard-en.pdf" target="_blank" rel="noopener">The Standard (EN, PDF)</a></li>
-        <li><a href="/standard-de.pdf" target="_blank" rel="noopener">Deutsche Ausgabe (DE, PDF)</a></li>
-        <li><a href="/resources/implementation-guide.html">Implementation Guide</a></li>
-        <li><a href="/resources/tag-sticker-specs.html">Tag &amp; Sticker Specs</a></li>
-        <li><a href="/resources/training.html">Training Modules</a></li>
-        <li><a href="/resources/faq.html">Knowledge Base / FAQs</a></li>
-        <li><a href="/resources/bulletins.html">Technical Bulletins</a></li>
-        <li><a href="/resources/press.html">Press &amp; Publications</a></li>
-
-        <li><a href="/contact.html">Contact</a></li>
-      </ul>
-    </div>
+    <!-- Shared header (auto-included) -->
+    <div data-include="/partials/header.html"></div>
 
     <!-- ===== Hero / Content ===== -->
-    <section class="hero" id="overview">
-      <div class="card">
-        <span class="chip"><span class="dot"></span> The Global Standard</span>
-        <h1>Setting the Worldwide Standard for Non-Alcoholic Draft Systems</h1>
-        <p class="lead">
-          DraftVerify defines the benchmark for safety, consistency, and integrity in non-alcoholic draft service.
-          Our framework verifies separation, documentation, and operational alignment — promoting transparency
-          and confidence throughout the supply chain.
-        </p>
-        <div class="cta-row">
-          <a class="btn primary" href="/standard-en.pdf" target="_blank" rel="noopener">Open the Standard (EN, PDF)</a>
-          <a class="btn" href="/standard-de.pdf" target="_blank" rel="noopener">Öffnen: Standard (DE, PDF)</a>
-          <a class="btn" href="/pricing.html">Adoption & Pricing</a>
-          <a class="btn" href="/contact.html">Join the Standard</a>
+    <main>
+      <section class="hero" id="overview">
+        <div class="card">
+          <span class="chip"><span class="dot"></span> The Global Standard</span>
+          <h1>Setting the Worldwide Standard for Non-Alcoholic Draft Systems</h1>
+          <p class="lead">
+            DraftVerify defines the benchmark for safety, consistency, and integrity in non-alcoholic draft service.
+            Our framework verifies separation, documentation, and operational alignment — promoting transparency
+            and confidence throughout the supply chain.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="/standard-en.pdf" target="_blank" rel="noopener">Open the Standard (EN, PDF)</a>
+            <a class="btn" href="/standard-de.pdf" target="_blank" rel="noopener">Öffnen: Standard (DE, PDF)</a>
+            <a class="btn" href="/pricing.html">Adoption &amp; Pricing</a>
+            <a class="btn" href="/contact.html">Join the Standard</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="card" id="how-it-works">
-      <h2>How Verification Works</h2>
-      <ul>
-        <li><strong>Line Tags:</strong> Permanent identification for every dedicated NA line, creating traceable separation.</li>
-        <li><strong>Tower Stickers:</strong> Visual confirmation for staff and inspectors that taps meet DraftVerify guidelines.</li>
-        <li><strong>Training:</strong> Concise modules that align teams on correct line management, cleaning, and documentation.</li>
-      </ul>
-    </section>
+      <section class="card" id="how-it-works">
+        <h2>How Verification Works</h2>
+        <ul>
+          <li><strong>Line Tags:</strong> Permanent identification for every dedicated NA line, creating traceable separation.</li>
+          <li><strong>Tower Stickers:</strong> Visual confirmation for staff and inspectors that taps meet DraftVerify guidelines.</li>
+          <li><strong>Training:</strong> Concise modules that align teams on correct line management, cleaning, and documentation.</li>
+        </ul>
+      </section>
+    </main>
 
-    <footer>
-      DraftVerify™ — The global framework for non-alcoholic draft systems.<br />
-      © 2025 DraftVerify. All Rights Reserved. Contact: <a href="mailto:standards@draftverify.com">standards@draftverify.com</a>
-      <p style="margin-top:10px;">
-        <a href="/standard-en.pdf" target="_blank" rel="noopener">Download Standard (EN, PDF)</a> •
-        <a href="/standard-de.pdf" target="_blank" rel="noopener">Download Standard (DE, PDF)</a>
-      </p>
-      <p class="disclaimer">
-        DraftVerify is an independent verification framework. It provides voluntary process and documentation standards related to non-alcoholic draft system practices.
-        DraftVerify does not guarantee product purity, safety, or compliance with regulatory or legal requirements. Users are responsible for maintaining their own operational and hygiene standards.
-      </p>
-    </footer>
+    <!-- Shared footer (auto-included) -->
+    <div data-include="/partials/footer.html"></div>
   </div>
 
-  <!-- ===== Mobile + Dropdown JS ===== -->
-  <script>
-    (function(){
-      const btn = document.getElementById('navToggle');
-      const panel = document.getElementById('mobileMenu');
-      const ddParent = document.querySelector('.has-dd');
-      const ddBtn = ddParent ? ddParent.querySelector('.dd-btn') : null;
+  <!-- Includes + behavior -->
+  <script src="/assets/js/includes.js"></script>
+  <script src="/assets/js/app.js"></script>
 
-      function closeMenu(){
-        if(!btn || !panel) return;
-        btn.setAttribute('aria-expanded','false');
-        panel.classList.remove('open');
-      }
-      function toggleMenu(){
-        if(!btn || !panel) return;
-        const isOpen = btn.getAttribute('aria-expanded') === 'true';
-        btn.setAttribute('aria-expanded', String(!isOpen));
-        panel.classList.toggle('open', !isOpen);
-      }
-      if(btn){
-        btn.addEventListener('click', toggleMenu);
-        window.addEventListener('resize', ()=>{ if(window.innerWidth >= 901) closeMenu(); });
-        document.addEventListener('keydown', e=>{ if(e.key === 'Escape') closeMenu(); });
-        if(panel) panel.addEventListener('click', e=>{ if(e.target.closest('a')) closeMenu(); });
-      }
-
-      // Resources dropdown: click toggle for keyboard/mobile support
-      if(ddBtn && ddParent){
-        ddBtn.addEventListener('click', (e)=>{
-          const open = ddBtn.getAttribute('aria-expanded') === 'true';
-          ddBtn.setAttribute('aria-expanded', String(!open));
-          ddParent.toggleAttribute('data-open');
-        });
-        ddParent.addEventListener('keydown', (e)=>{
-          if(e.key === 'Escape'){
-            ddBtn.setAttribute('aria-expanded','false');
-            ddParent.removeAttribute('data-open');
-            ddBtn.focus();
-          }
-        });
-      }
-    })();
-  </script>
-
-  <!-- ===== Organization Schema ===== -->
+  <!-- Organization Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -240,16 +108,5 @@
     ]
   }
   </script>
-
-  <!-- ===== Optional FAQ Schema (keep if you have a FAQ section) ===== -->
-  <!--
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [ /* ... your items ... */ ]
-  }
-  </script>
-  -->
 </body>
 </html>
