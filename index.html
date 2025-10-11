@@ -54,66 +54,67 @@
 
 <body>
   <div class="wrap">
-    <!-- ===== Header / Global Navigation ===== -->
-    <header>
-      <!-- Brand -->
-      <a class="brand" href="/" aria-label="DraftVerify home">
-        <!-- Make sure /logo.svg exists -->
-        <img src="/logo.svg" alt="DraftVerify logo" class="logo" width="72" height="72" />
-        <span>DraftVerify</span>
-        <span class="version-chip" aria-label="Standard version">v1.0</span>
-      </a>
+  <header>
+  <!-- Brand -->
+  <a class="brand" href="/" aria-label="DraftVerify home">
+    <img src="/logo.svg" alt="DraftVerify logo" class="logo" width="72" height="72" />
+    <span>DraftVerify</span>
+    <span class="version-chip" aria-label="Standard version">v1.0</span>
+  </a>
 
-      <!-- Primary Nav + Utility (desktop) -->
-      <div class="nav-wrap">
-        <nav aria-label="Primary">
-          <ul class="menu">
-            <li><a href="/#overview">Overview</a></li>
-            <li><a href="/#how-it-works">How It Works</a></li>
-            <li><a href="/verification.html">Verification Tools</a></li>
-            <li><a href="/training.html">Training</a></li>
-            <li><a href="/adopt.html">Adopt the Standard</a></li>
-            <li><a href="/pricing.html">Pricing</a></li>
+  <!-- Primary Nav + Utility (desktop) -->
+  <div class="nav-wrap">
+    <nav aria-label="Primary">
+      <ul class="menu">
+        <li><a href="/#overview">Overview</a></li>
+        <li><a href="/#how-it-works">How it works</a></li>
+        <li><a href="/verification.html">Verification</a></li>
+        <li><a href="/training.html">Training</a></li>
+        <li><a href="/adopt.html">Adoption</a></li>
+        <li><a href="/pricing.html">Pricing</a></li>
 
-            <!-- Resources dropdown -->
-            <li class="has-dd">
-              <button class="dd-btn" aria-haspopup="true" aria-expanded="false" aria-controls="dd-resources">
-                Resources
-              </button>
-              <div id="dd-resources" class="dd" role="menu" aria-label="Resources">
-                <a role="menuitem" href="/standard-en.pdf" target="_blank" rel="noopener">The Standard (EN, PDF)</a>
-                <a role="menuitem" href="/standard-de.pdf" target="_blank" rel="noopener">Deutsche Ausgabe (DE, PDF)</a>
-                <a role="menuitem" href="/resources/implementation-guide.html">Implementation Guide</a>
-                <a role="menuitem" href="/resources/tag-sticker-specs.html">Tag &amp; Sticker Specs</a>
-                <a role="menuitem" href="/resources/training.html">Training Modules</a>
-                <a role="menuitem" href="/resources/faq.html">Knowledge Base / FAQs</a>
-                <a role="menuitem" href="/resources/bulletins.html">Technical Bulletins</a>
-                <a role="menuitem" href="/resources/press.html">Press &amp; Publications</a>
-              </div>
-            </li>
+        <!-- Resources dropdown -->
+        <li class="has-dd">
+          <button class="dd-btn" aria-haspopup="true" aria-expanded="false" aria-controls="dd-resources">
+            Resources
+          </button>
+          <div id="dd-resources" class="dd" role="menu" aria-label="Resources">
+            <span class="dd-group">Docs</span>
+            <a role="menuitem" href="/standard-en.pdf" target="_blank" rel="noopener">The Standard (EN, PDF)</a>
+            <a role="menuitem" href="/standard-de.pdf" target="_blank" rel="noopener">Deutsche Ausgabe (DE, PDF)</a>
 
-            <li><a href="/contact.html">Contact</a></li>
-          </ul>
-        </nav>
-
-        <!-- Utility cluster -->
-        <div class="util">
-          <div class="lang" role="group" aria-label="Language">
-            <a aria-current="page" href="/?lang=en">EN</a>
-            <span aria-hidden="true">/</span>
-            <a href="/?lang=de">DE</a>
+            <span class="dd-group">Guides</span>
+            <a role="menuitem" href="/resources/implementation-guide.html">Implementation Guide</a>
+            <a role="menuitem" href="/resources/tag-sticker-specs.html">Tag &amp; Sticker Specs</a>
+            <a role="menuitem" href="/resources/training.html">Training Modules</a>
+            <a role="menuitem" href="/resources/faq.html">Knowledge Base / FAQs</a>
+            <a role="menuitem" href="/resources/bulletins.html">Technical Bulletins</a>
+            <a role="menuitem" href="/resources/press.html">Press &amp; Publications</a>
           </div>
-          <a class="btn cta" href="/standard-en.pdf" type="application/pdf" target="_blank" rel="noopener">
-            Open the Standard
-          </a>
-        </div>
-      </div>
+        </li>
 
-      <!-- Mobile toggle -->
-      <button class="hamburger" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Menu">
-        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-      </button>
-    </header>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Utility cluster -->
+    <div class="util">
+      <div class="lang" role="group" aria-label="Language">
+        <a aria-current="page" href="/?lang=en">EN</a>
+        <span aria-hidden="true">/</span>
+        <a href="/?lang=de">DE</a>
+      </div>
+      <a class="btn cta" href="/standard-en.pdf" type="application/pdf" target="_blank" rel="noopener">
+        Open the Standard
+      </a>
+    </div>
+  </div>
+
+  <!-- Mobile toggle -->
+  <button class="hamburger" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Menu">
+    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+  </button>
+</header>
 
     <!-- ===== Mobile Panel ===== -->
     <div class="nav-panel" id="mobileMenu">
