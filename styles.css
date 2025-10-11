@@ -39,8 +39,12 @@ body.nav-open{overflow:hidden}
 }
 .header.scrolled{box-shadow:0 8px 22px rgba(15,18,22,.08)}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;padding:10px 20px}
-.brand{display:flex;align-items:center}
+
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
 .logo{width:52px;height:auto}
+.brand-text{display:flex;flex-direction:column;line-height:1.1}
+.brand-name{font-weight:900;font-size:1.25rem;color:var(--blue);letter-spacing:-0.2px}
+.brand-tagline{font-size:.78rem;font-weight:600;color:var(--gold);text-transform:uppercase;letter-spacing:.06em}
 
 .nav-desktop{display:flex;align-items:center;gap:20px}
 .nav-desktop a{font-weight:650;opacity:.92;white-space:nowrap}
@@ -78,6 +82,8 @@ body.nav-open{overflow:hidden}
   .nav-desktop{display:none;}
   .nav-toggle{display:flex;}
   .logo{width:60px;}
+  .brand-name{font-size:1.08rem}
+  .brand-tagline{font-size:.68rem;letter-spacing:.05em}
 }
 
 /* Drawer (mobile) */
@@ -199,38 +205,3 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
   .drawer-link,.btn{min-height:44px}
   .section{padding:64px 0}
 }
-<header class="header">
-  <div class="header-inner container">
-
-    <!-- Brand / Logo -->
-    <a href="{{ '/' | relative_url }}" class="brand">
-      <img src="/assets/logo.svg" alt="DraftVerify Logo" class="logo">
-      <div class="brand-text">
-        <span class="brand-name">DraftVerify</span>
-        <span class="brand-tagline">Global Non-Alcoholic Draft Standard</span>
-      </div>
-    </a>
-
-    <!-- Desktop Navigation -->
-    <nav class="nav-desktop">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/standards/' | relative_url }}">Standards</a>
-      <a href="{{ '/line-tags/' | relative_url }}">Line Tags</a>
-      <a href="{{ '/tower-stickers/' | relative_url }}">Tower Stickers</a>
-      <a href="{{ '/training/' | relative_url }}">Training</a>
-      <a href="{{ '/pricing/' | relative_url }}">Pricing</a>
-      <a href="{{ '/contact/' | relative_url }}" class="btn gold" style="margin-left:10px;">Contact</a>
-    </nav>
-
-    <!-- Mobile Menu Toggle -->
-    <button id="nav-toggle" class="nav-toggle" type="button"
-      aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
-      <svg class="hamb" width="28" height="28" viewBox="0 0 24 24" aria-hidden="true">
-        <line class="top" x1="4" y1="7" x2="20" y2="7"></line>
-        <line class="mid" x1="4" y1="12" x2="20" y2="12"></line>
-        <line class="bot" x1="4" y1="17" x2="20" y2="17"></line>
-      </svg>
-    </button>
-
-  </div>
-</header>
