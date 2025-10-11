@@ -302,3 +302,56 @@ a:hover{
   .btn{ background:#0f141f; border-color:var(--line); }
   footer{ background:#0b0f14; color:#cfd7e4; }
 }
+/* 1) Keep top-nav labels on one line (desktop) */
+@media (min-width: 901px){
+  .menu a,
+  .dd-btn{ white-space: nowrap; }
+  .menu{ gap: 14px; }                /* a little more breathing room */
+}
+
+/* 2) Resources dropdown: bigger, cleaner, no wrapping */
+@media (min-width: 901px){
+  .dd{
+    min-width: 520px;                 /* stop item wrapping */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;   /* two tidy columns */
+    gap: 6px 12px;
+  }
+  .dd a{ white-space: nowrap; }
+}
+
+/* 3) Utility cluster alignment + subtle divider */
+.util{
+  gap: 14px;
+  padding-left: 12px;
+  border-left: 1px solid var(--line);
+}
+.lang{ font-weight: 700; }
+
+/* 4) CTA sizing to match nav height */
+.btn.cta{
+  padding: 10px 16px;
+  line-height: 1;
+  border-radius: 12px;
+}
+
+/* 5) Clear layering when dropdown is open */
+header{ box-shadow: none; }
+.has-dd:hover .dd,
+.has-dd:focus-within .dd{
+  z-index: 1001;
+  box-shadow: 0 12px 28px rgba(15,18,22,.10);
+}
+
+/* 6) Optional: add a tiny caret to “Resources” for affordance */
+.dd-btn::after{
+  content:"";
+  position: relative;
+  left: 6px;
+  top: -1px;
+  border: 5px solid transparent;
+  border-top-color: currentColor;
+  transform: translateY(2px);
+}
+.dd-btn:hover::after{ border-top-color: var(--accent); }
