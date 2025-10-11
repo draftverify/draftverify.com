@@ -1,20 +1,15 @@
 <header class="header" role="banner">
   <div class="header-inner container">
+    <!-- Brand -->
+    <a href="{{ '/' | relative_url }}" class="brand" aria-label="DraftVerify home">
+      <img src="{{ '/assets/logo.svg' | relative_url }}" alt="DraftVerify logo" class="logo">
+      <div class="brand-text">
+        <span class="brand-name">DraftVerify</span>
+        <span class="brand-tagline">Global Non-Alcoholic Draft Standard</span>
+      </div>
+    </a>
 
-    <!-- left spacer keeps brand truly centered -->
-    <div class="header-left" aria-hidden="true"></div>
-
-    <!-- Brand (centered) -->
-<a href="{{ '/' | relative_url }}" class="brand">
-  <img src="/apple-touch-icon.png" alt="DraftVerify Logo" class="logo">
-  <div class="brand-text">
-    <span class="brand-name">DraftVerify</span>
-    <span class="brand-tagline">Draft Standard</span>
-  </div>
-</a>
-
-
-    <!-- Desktop nav (right) -->
+    <!-- Desktop nav -->
     <nav class="nav-desktop" aria-label="Primary">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/standards/' | relative_url }}">Standards</a>
@@ -22,18 +17,31 @@
       <a href="{{ '/tower-stickers/' | relative_url }}">Tower Stickers</a>
       <a href="{{ '/training/' | relative_url }}">Training</a>
       <a href="{{ '/pricing/' | relative_url }}">Pricing</a>
-      <a href="{{ '/contact/' | relative_url }}" class="btn gold" style="margin-left:10px">Contact</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn gold">Contact</a>
     </nav>
 
-    <!-- Mobile toggle (right on mobile) -->
+    <!-- Mobile toggle -->
     <button id="nav-toggle" class="nav-toggle" type="button"
-      aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
+            aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
       <svg class="hamb" width="28" height="28" viewBox="0 0 24 24" aria-hidden="true">
         <line class="top" x1="4" y1="7"  x2="20" y2="7"></line>
         <line class="mid" x1="4" y1="12" x2="20" y2="12"></line>
         <line class="bot" x1="4" y1="17" x2="20" y2="17"></line>
       </svg>
     </button>
-
   </div>
+
+  <!-- Mobile drawer + backdrop (keep these present) -->
+  <nav id="drawer" class="drawer" aria-hidden="true" aria-label="Mobile">
+    <div class="drawer-nav">
+      <a class="drawer-link" href="{{ '/' | relative_url }}">Home</a>
+      <a class="drawer-link" href="{{ '/standards/' | relative_url }}">Standards</a>
+      <a class="drawer-link" href="{{ '/line-tags/' | relative_url }}">Line Tags</a>
+      <a class="drawer-link" href="{{ '/tower-stickers/' | relative_url }}">Tower Stickers</a>
+      <a class="drawer-link" href="{{ '/training/' | relative_url }}">Training</a>
+      <a class="drawer-link" href="{{ '/pricing/' | relative_url }}">Pricing</a>
+      <a class="drawer-link btn gold" href="{{ '/contact/' | relative_url }}">Contact</a>
+    </div>
+  </nav>
+  <div id="backdrop" class="backdrop" hidden></div>
 </header>
