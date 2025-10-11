@@ -6,7 +6,7 @@ description: DraftVerify sets the global standard for non-alcoholic draft system
 <section class="hero">
   <div class="container">
     <div class="hero-card reveal">
-      <h1>The Global Standard for Non-Alcoholic Draft Systems</h1>
+      <h1>DraftVerify- The Global Standard for Non-Alcoholic Draft Systems</h1>
       <p>DraftVerify gives venues a clear, auditable way to separate lines, verify components, and train teams—so guests can trust every pour.</p>
       <a class="btn gold" href="{{ '/standards/' | relative_url }}">Read the Standard</a>
     </div>
