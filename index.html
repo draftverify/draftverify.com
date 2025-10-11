@@ -3,83 +3,122 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>DraftVerify | Global Standard for Non-Alcoholic Draft Systems</title>
-
-  <meta name="description" content="DraftVerify sets the global benchmark for safety, consistency, and transparency in non-alcoholic draft service." />
+  <title>DraftVerify | Global Standard for Non‑Alcoholic Draft Systems</title>
+  <meta name="description" content="DraftVerify sets the global benchmark for safety, separation and verification of non‑alcoholic draft systems." />
   <meta name="robots" content="index, follow" />
 
+  <!-- Canonical link and preconnects for fonts -->
   <link rel="canonical" href="https://draftverify.com/" />
-  <link rel="stylesheet" href="/assets/css/layout.css?v=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link rel="icon" href="/favicon.png" type="image/png" />
-  <meta name="theme-color" content="#0D1B2A" />
+  <!-- Import a modern sans-serif font for clean typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet (version bump fixes 404 and caching) -->
+  <link rel="stylesheet" href="/styles.css?v=2" />
 </head>
 <body>
+  <!-- Sticky header with logo, nav, CTA and hamburger for mobile -->
   <header class="site-header">
     <div class="container nav">
+      <!-- Brand logo with alt text for accessibility -->
       <a href="/" class="brand">
         <img src="/logo.svg" alt="DraftVerify logo" class="logo" />
         <span>DraftVerify</span>
       </a>
+
+      <!-- Primary navigation (desktop) -->
       <nav>
-        <a href="/#about">About</a>
-        <a href="/#pillars">Framework</a>
-        <a href="/standard-en.pdf" target="_blank" rel="noopener">Standard (PDF)</a>
-        <a href="/contact.html" class="btn gold">Contact</a>
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#pillars">Framework</a></li>
+          <li><a href="/standard-en.pdf" target="_blank" rel="noopener">Standard (PDF)</a></li>
+          <li><a href="/pricing.html">Adoption</a></li>
+          <li><a href="/training.html">Training</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
       </nav>
+
+      <!-- Primary call-to-action button in header -->
+      <a href="/standard-en.pdf" class="btn cta" target="_blank" rel="noopener" aria-label="Open the standard PDF">
+        Open the Standard
+      </a>
+
+      <!-- Hamburger icon for mobile nav -->
+      <button class="hamburger" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile slide-down panel; hidden on desktop -->
+    <div class="nav-panel" id="mobileMenu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pillars">Framework</a></li>
+        <li><a href="/standard-en.pdf" target="_blank" rel="noopener">Standard (PDF)</a></li>
+        <li><a href="/pricing.html">Adoption</a></li>
+        <li><a href="/training.html">Training</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
     </div>
   </header>
 
   <main>
-    <!-- Hero -->
-    <section class="hero">
+    <!-- Hero section: headline, supportive copy and two CTAs -->
+    <section class="hero" id="overview">
       <div class="container">
-        <h1>Setting the Global Standard<br>for Non-Alcoholic Draft Systems</h1>
+        <h1>Setting the Global Standard for Non‑Alcoholic Draft Systems</h1>
         <p class="lead">
-          DraftVerify establishes the first unified benchmark for safety, separation, and verification of non-alcoholic draft systems — ensuring integrity across breweries, venues, and distributors worldwide.
+          DraftVerify establishes the first unified benchmark for safety, separation and verification of non‑alcoholic draft systems — ensuring integrity across breweries, venues and distributors worldwide.
         </p>
         <div class="cta-row">
-          <a href="/standard-en.pdf" class="btn gold" target="_blank">View the Standard</a>
-          <a href="/pricing.html" class="btn outline">Adopt the Framework</a>
+          <a href="/standard-en.pdf" class="btn primary" target="_blank" rel="noopener">View the Standard</a>
+          <a href="/pricing.html" class="btn secondary">Adopt the Framework</a>
         </div>
       </div>
     </section>
 
-    <!-- Why It Exists -->
+    <!-- Why section: explains the purpose of the framework -->
     <section id="about" class="about">
       <div class="container">
         <h2>Why DraftVerify Exists</h2>
         <p>
-          As non-alcoholic beer and cocktails grow on draft, shared infrastructure introduces risk — from cross-contact to misidentification.  
-          DraftVerify provides a unified verification framework, ensuring separation, documentation, and consumer trust in every pour.
+          As non‑alcoholic beer and cocktails grow on draft, shared infrastructure introduces risk — from cross‑contact to misidentification. DraftVerify provides a unified verification framework, ensuring separation, documentation and consumer trust in every pour.
         </p>
       </div>
     </section>
 
-    <!-- The Pillars -->
+    <!-- Pillars section: cards describe the three pillars of verification -->
     <section id="pillars" class="pillars">
       <div class="container grid">
-        <div class="pillar">
+        <article class="pillar">
           <h3>Line Tags</h3>
           <p>Permanent identification on every NA draft line, establishing clear traceability and system separation.</p>
-        </div>
-        <div class="pillar">
+        </article>
+        <article class="pillar">
           <h3>Tower Stickers</h3>
-          <p>Visual verification that taps meet DraftVerify guidelines for hygiene, labeling, and compliance.</p>
-        </div>
-        <div class="pillar">
+          <p>Visual verification that taps meet DraftVerify guidelines for hygiene, labelling and compliance.</p>
+        </article>
+        <article class="pillar">
           <h3>Training</h3>
-          <p>Concise modules aligning operators, breweries, and regulators on responsible NA draft management.</p>
-        </div>
+          <p>Concise modules aligning operators, breweries and regulators on responsible NA draft management.</p>
+        </article>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2025 DraftVerify — Global Framework for Non-Alcoholic Draft Systems</p>
+      <p>© 2025 DraftVerify — Global Framework for Non‑Alcoholic Draft Systems</p>
       <p><a href="mailto:standards@draftverify.com">standards@draftverify.com</a></p>
     </div>
   </footer>
+
+  <!-- JS files handle mobile menu toggles and other interactivity -->
+  <script src="/assets/js/includes.js"></script>
+  <script src="/assets/js/app.js"></script>
 </body>
 </html>
