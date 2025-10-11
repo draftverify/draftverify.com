@@ -1,60 +1,67 @@
 ---
 title: Home
-description: DraftVerify sets the global compliance benchmark for non-alcoholic draft beer systems — defining how lines are identified, verified, and maintained by certified installers and inspectors.
+description: DraftVerify is the global mark for non-alcoholic draft service — a simple, consistent way to identify NA lines from keg to faucet so guests can trust every pour.
 ---
 
 <!-- HERO -->
 <section class="hero">
   <div class="container">
     <div class="hero-card reveal">
-      <h1>DraftVerify — The Global Standard for Non-Alcoholic Draft Systems</h1>
+      <h1>DraftVerify — The Global Mark for Non-Alcoholic Draft</h1>
       <p>
-        DraftVerify defines how non-alcoholic draft systems are installed, verified, and maintained.  
-        It brings structure, traceability, and integrity to an evolving category — ensuring every verified pour is
-        legally compliant, technically sound, and safe for the consumer.
+        DraftVerify exists so non-alcoholic service is clear, consistent, and trusted.  
+        With recognizable identification at the keg, along the beer line, and on the tower, teams can trace the right line in seconds — and guests can order with confidence.
       </p>
-      <a class="btn gold" href="{{ '/standards/' | relative_url }}">Read the Standard</a>
+      <a class="btn gold" href="{{ '/standards/' | relative_url }}">Read the DraftVerify Standard</a>
     </div>
   </div>
 </section>
 
-<!-- FRAMEWORK -->
+<!-- WHAT & WHY -->
+<section class="section center" id="why">
+  <div class="container">
+    <div class="kicker">What & Why</div>
+    <h2 class="h2">Clarity for Teams. Confidence for Guests.</h2>
+    <p style="max-width:820px;margin:0 auto">
+      DraftVerify is a straightforward system for marking non-alcoholic draft: the same look on the keg, the beer line, and the tap tower.  
+      It removes guesswork during busy service and gives guests a clear signal that the pour they’re choosing is non-alcoholic.
+    </p>
+  </div>
+</section>
+
+<!-- FRAMEWORK (simple, venue-led) -->
 <section class="section center" id="framework">
   <div class="container">
-    <div class="kicker">Framework</div>
+    <div class="kicker">How It Works</div>
     <h2 class="h2">Identification → Verification → Training</h2>
-    <p>
-      Three pillars developed by inspectors, installers, and operators to safeguard non-alcoholic draft service at every level.
-    </p>
+    <p>Three straightforward pieces that work together in any venue size.</p>
 
     <div class="grid cols-3" style="margin-top:22px">
       <div class="card reveal">
         <div class="chip">1. Identification</div>
-        <h3>Standardized Line & System Marking</h3>
+        <h3>Make It Obvious</h3>
         <p>
-          Each line, coupler, and faucet is marked with color-coded, tamper-evident DraftVerify identifiers.  
-          These visual controls eliminate confusion with alcoholic systems and establish clear compliance boundaries.
+          DraftVerify line tags on the <strong>keg</strong>, markers on the <strong>beer line</strong>, and the holographic <strong>tower sticker</strong> at the faucet.  
+          One look — no doubt.
         </p>
-        <p><a href="{{ '/line-tags/' | relative_url }}">Line Tag Reference</a> · <a href="{{ '/tower-stickers/' | relative_url }}">Tower Stickers</a></p>
+        <p><a href="{{ '/line-tags/' | relative_url }}">Line Tags</a> · <a href="{{ '/tower-stickers/' | relative_url }}">Holographic Sticker</a></p>
       </div>
 
       <div class="card reveal">
         <div class="chip">2. Verification</div>
-        <h3>Component & Process Integrity</h3>
+        <h3>The Venue Promise</h3>
         <p>
-          Installations are audited against DraftVerify specifications covering <strong>gas routing, line materials,
-          regulator pressures,</strong> and <strong>cleaning cadence</strong>.  
-          Verification logs are recorded digitally for each certified venue.
+          A simple venue-led check: confirm the tagged keg connects to the tagged line and the marked faucet.  
+          Quick records help teams keep things consistent across shifts.
         </p>
-        <p><a href="{{ '/standards/' | relative_url }}">Explore Standards</a></p>
+        <p><a href="{{ '/standards/' | relative_url }}">See the Simple Checklist</a></p>
       </div>
 
       <div class="card reveal">
         <div class="chip">3. Training</div>
-        <h3>Certification for Teams & Installers</h3>
+        <h3>Fast to Learn</h3>
         <p>
-          Training modules are designed for both front-of-house staff and technical installers.  
-          Certification covers safe setup, cleaning documentation, and verification renewal every 12 months.
+          Short, practical refreshers for bar teams: how to follow the tags, what to check before service, and how to explain NA taps to guests.
         </p>
         <p><a href="{{ '/training/' | relative_url }}">Training Overview</a></p>
       </div>
@@ -62,156 +69,73 @@ description: DraftVerify sets the global compliance benchmark for non-alcoholic 
   </div>
 </section>
 
-<!-- VERIFICATION SCOPE -->
-<section class="section" id="scope">
-  <div class="container" style="max-width:1000px;">
-    <div class="kicker">Verification Scope</div>
-    <h2 class="h2" style="margin-bottom:16px;">What DraftVerify Inspects and Certifies</h2>
-    <p style="font-size:1.1rem;color:#556072;max-width:760px;line-height:1.8;">
-      Each verified system is assessed for mechanical, chemical, and procedural integrity.  
-      Our inspectors document every connection point and verify that the system meets non-alcoholic compliance standards under live service conditions.
-    </p>
-
-    <div class="grid cols-2" style="gap:28px;margin-top:24px;">
-      <div class="card reveal" style="padding:28px;">
-        <h3>Mechanical & Gas Systems</h3>
-        <ul style="margin:0;padding-left:18px;line-height:1.8;color:#4a5b6b;">
-          <li>CO₂ and N₂ regulator calibration and purity validation</li>
-          <li>Dedicated gas trunks and lockable splitters</li>
-          <li>Backflow prevention and check-valve configuration</li>
-          <li>Line routing and trunk separation verification</li>
-        </ul>
+<!-- WHAT YOU GET -->
+<section class="section" id="deliverables" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker center">What You Get</div>
+    <h2 class="h2 center">A Clear Path from Keg to Glass</h2>
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card reveal">
+        <h3>Keg Tag</h3>
+        <p>Mark the NA keg in the cooler so the right product is obvious before it’s connected.</p>
       </div>
-      <div class="card reveal" style="padding:28px;">
-        <h3>Sanitation & Hygiene</h3>
-        <ul style="margin:0;padding-left:18px;line-height:1.8;color:#4a5b6b;">
-          <li>Cleaning cycle documentation (alkaline and acid phases)</li>
-          <li>Rinse validation and sanitizer dwell-time records</li>
-          <li>Inspection of couplers, faucets, and washers for material degradation</li>
-          <li>Microbial risk assessment based on product type</li>
-        </ul>
+      <div class="card reveal">
+        <h3>Beer Line Marker</h3>
+        <p>Follow the tagged line to the tower — quick checks that keep service moving.</p>
       </div>
-      <div class="card reveal" style="padding:28px;">
-        <h3>Identification & Labeling</h3>
-        <ul style="margin:0;padding-left:18px;line-height:1.8;color:#4a5b6b;">
-          <li>Visual tag placement and tower sticker validation</li>
-          <li>Compliance with DraftVerify color system (Gold / Blue)</li>
-          <li>Serialized identification linked to verification database</li>
-          <li>Inspection photo log of each serving point</li>
-        </ul>
-      </div>
-      <div class="card reveal" style="padding:28px;">
-        <h3>Documentation & Traceability</h3>
-        <ul style="margin:0;padding-left:18px;line-height:1.8;color:#4a5b6b;">
-          <li>Audit trail of inspection and corrective actions</li>
-          <li>Digital certificate issuance and renewal tracking</li>
-          <li>Data synchronization with partner breweries and distributors</li>
-          <li>Annual performance review summary for each venue</li>
-        </ul>
+      <div class="card reveal">
+        <h3>Holographic Tower Sticker</h3>
+        <p>The global DraftVerify mark at the faucet — a clear signal for guests and a reminder for staff.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- WHERE IT APPLIES -->
-<section class="section" id="categories" style="background:#f7f9fc;">
+<!-- WHERE IT APPLIES (NA beer first; others secondary, non-technical) -->
+<section class="section" id="categories">
   <div class="container">
     <div class="kicker center">Where It Applies</div>
-    <h2 class="h2 center" style="margin-bottom:16px;">System Integrity Across Non-Alcoholic Draft</h2>
-    <p style="text-align:center;max-width:780px;margin:0 auto 48px;color:#556072;">
-      DraftVerify certification applies to all non-alcoholic draft systems, with its foundation in NA beer verification and
-      extended guidance for related beverage categories such as kombucha and nitro coffee.  
-      Every verified installation follows the same principles — isolation, traceability, and documented inspection.
-    </p>
+    <h2 class="h2 center">Built for Non-Alcoholic Draft</h2>
 
-    <div class="grid cols-3" style="margin-top:22px;">
+    <div class="grid cols-3" style="margin-top:22px">
       <div class="card reveal">
         <h3>Non-Alcoholic Beer</h3>
-        <p>
-          The core focus of DraftVerify.  
-          Inspections confirm <strong>complete line separation</strong>, <strong>dedicated couplers and gas circuits</strong>, and
-          <strong>regulated cleaning schedules</strong> that eliminate alcohol cross-contact.  
-          Each verified system is logged and serialized for compliance traceability.
-        </p>
+        <p>The core use case for DraftVerify. Clear tags and the holographic tower mark keep NA and alcoholic lines distinct.</p>
       </div>
       <div class="card reveal">
-        <h3>Kombucha Systems</h3>
-        <p>
-          Verified for <strong>acidic product stability</strong> and <strong>material compatibility</strong>.  
-          Inspections ensure appropriate cleaning intervals, pH balance checks, and food-grade tubing resistant to fermentation-related wear.
-        </p>
+        <h3>Kombucha</h3>
+        <p>Use the same look and flow: tag the keg, mark the line, show the sticker at the faucet.</p>
       </div>
       <div class="card reveal">
-        <h3>Nitro Coffee & Cold Brew</h3>
-        <p>
-          Audited for <strong>nitrogen purity</strong>, <strong>pressure safety</strong>, and <strong>sanitation integrity</strong>.  
-          Verification confirms compliant regulators, fittings, and tank labeling per DraftVerify safety protocol.
-        </p>
-      </div>
-    </div>
-
-    <div class="grid cols-2" style="margin-top:36px;">
-      <div class="card reveal">
-        <h3>Shared Draft Systems</h3>
-        <p>
-          Many venues operate mixed manifolds serving both alcoholic and NA products.  
-          DraftVerify defines mechanical separation standards — <strong>gas-lock fittings, color-coded couplers, and dedicated trunks</strong> —
-          to guarantee physical and regulatory compliance.
-        </p>
-      </div>
-      <div class="card reveal">
-        <h3>Installers & Inspectors</h3>
-        <p>
-          Certified DraftVerify partners follow the <strong>Installation Integrity Protocol</strong>, documenting every connection point, line route,
-          and verification tag.  
-          Field audits generate digital compliance certificates with photographic records stored in the DraftVerify registry.
-        </p>
+        <h3>Nitro Coffee</h3>
+        <p>Consistent identification helps teams handle nitrogen taps with the same clarity guests expect.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- INDUSTRY APPLICATIONS -->
-<section class="section-sm" style="padding-top:80px;padding-bottom:80px;">
-  <div class="container" style="max-width:1000px;">
-    <div class="kicker">Industry Applications</div>
-    <h2 class="h2" style="margin-bottom:16px;">Trusted Across the Supply Chain</h2>
-    <p style="max-width:760px;color:#556072;line-height:1.8;">
-      DraftVerify certification supports the entire non-alcoholic beverage ecosystem — from breweries and distributors to hospitality groups and equipment manufacturers.
-    </p>
-    <div class="grid cols-3" style="margin-top:36px;">
-      <div class="card reveal"><h3>Breweries</h3><p>Ensure downstream handling of NA products meets purity and traceability standards.</p></div>
-      <div class="card reveal"><h3>Distributors</h3><p>Deploy verified tap systems and track compliance across partner accounts.</p></div>
-      <div class="card reveal"><h3>Installers</h3><p>Follow standardized installation protocols and document every verified connection point.</p></div>
-      <div class="card reveal"><h3>Inspectors</h3><p>Conduct structured audits using DraftVerify’s inspection matrix and reporting tools.</p></div>
-      <div class="card reveal"><h3>Hospitality Operators</h3><p>Provide transparency to guests while maintaining brand and regulatory compliance.</p></div>
-      <div class="card reveal"><h3>Equipment Manufacturers</h3><p>Design fittings and draft components compatible with verified non-alcoholic systems.</p></div>
+<!-- WHO IT'S FOR -->
+<section class="section" id="audiences" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker center">Who It’s For</div>
+    <h2 class="h2 center">From Independent Bars to Multi-Site Groups</h2>
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card reveal"><h3>Bars & Restaurants</h3><p>Make NA taps easy to spot, easy to explain, and easy to serve.</p></div>
+      <div class="card reveal"><h3>Breweries & Taprooms</h3><p>Present NA offerings with the same pride and clarity as any other pour.</p></div>
+      <div class="card reveal"><h3>Distributors & Groups</h3><p>Roll out a recognizable system guests will trust across locations.</p></div>
     </div>
   </div>
 </section>
 
-<!-- COMPLIANCE ALIGNMENT -->
-<section class="section-sm" style="background:#f7f9fc;padding:60px 0;">
-  <div class="container" style="max-width:900px;text-align:center;">
-    <h3 style="margin:0 0 14px 0;">Alignment with International Standards</h3>
-    <p style="margin:0 auto;max-width:720px;color:#566678;line-height:1.8;">
-      DraftVerify operates in alignment with established beverage safety frameworks including  
-      <strong>DIN 6650-6 (Dispense Hygiene)</strong>, <strong>NSF/ANSI 18</strong>, and <strong>HACCP-based food safety protocols</strong>.  
-      While not a replacement for regulatory codes, DraftVerify defines the non-alcoholic draft category’s first  
-      unified reference standard for system installation, verification, and training.
+<!-- LIGHTWEIGHT PRINCIPLES -->
+<section class="section" id="principles">
+  <div class="container">
+    <div class="kicker center">Principles</div>
+    <h2 class="h2 center">Simple. Recognizable. Consistent.</h2>
+    <p style="max-width:820px;margin:0 auto">
+      DraftVerify avoids complexity. The same look appears in the cooler, along the line, and on the tower.  
+      Teams learn it fast. Guests recognize it instantly. That’s the value.
     </p>
-  </div>
-</section>
-
-<!-- REGISTRY ACCESS -->
-<section class="section-sm" style="background:#0d3b66;color:#fff;padding:70px 0;">
-  <div class="container" style="max-width:900px;text-align:center;">
-    <h3 style="margin:0 0 10px 0;">The DraftVerify Registry</h3>
-    <p style="margin:0 auto 24px auto;max-width:700px;line-height:1.8;">
-      Verified venues, breweries, and service partners are listed in the DraftVerify Registry —  
-      a searchable database confirming certification validity, inspection dates, and scope of compliance.
-    </p>
-    <a class="btn gold" href="{{ '/contact/' | relative_url }}">Request Access</a>
   </div>
 </section>
 
@@ -220,18 +144,18 @@ description: DraftVerify sets the global compliance benchmark for non-alcoholic 
   <div class="container">
     <div class="cta-band reveal">
       <div>
-        <div class="kicker">Get Verified</div>
-        <h3 style="margin:.3rem 0 0;">Bring DraftVerify to your venue, brewery, or distribution network.</h3>
+        <div class="kicker">Get Started</div>
+        <h3 style="margin:.3rem 0 0;">Bring DraftVerify to your venue or group.</h3>
       </div>
       <div>
-        <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request Verification</a>
+        <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
         <a class="btn ghost" href="{{ '/pricing/' | relative_url }}" style="margin-left:10px;">View Pricing</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- FAQ SCHEMA -->
+<!-- FAQ SCHEMA (non-technical, venue-led) -->
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -242,23 +166,23 @@ description: DraftVerify sets the global compliance benchmark for non-alcoholic 
       "name":"What is DraftVerify?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"DraftVerify is the recognized global standard for non-alcoholic draft system safety, developed to prevent cross-contact and maintain compliance across venues, breweries, and distributors."
+        "text":"DraftVerify is a simple, recognizable system for identifying non-alcoholic draft — the same look on the keg, along the beer line, and on the tower so teams and guests can trust every pour."
       }
     },
     {
       "@type":"Question",
-      "name":"Who oversees DraftVerify inspections?",
+      "name":"How does DraftVerify help my team?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"Certified DraftVerify inspectors and installers follow the Installation Integrity Protocol, performing field inspections and audits that document system safety, gas purity, and separation compliance."
+        "text":"It removes guesswork. Staff follow the DraftVerify tag on the keg, the marker on the line, and the holographic sticker on the faucet. Checks are quick and consistent across shifts."
       }
     },
     {
       "@type":"Question",
-      "name":"How do venues become verified?",
+      "name":"Do I need special equipment or audits?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"Venues complete self-assessment, install verified components, and undergo inspection or audit. Once approved, they receive a Certificate of Verified Non-Alcoholic Service valid for 12 months."
+        "text":"No. DraftVerify is venue-led and designed to work with standard draft setups. The focus is clear identification and simple practices your team can maintain."
       }
     }
   ]
