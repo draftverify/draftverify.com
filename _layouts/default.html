@@ -1,0 +1,36 @@
+---
+layout: nil
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+  <title>{% if page.title %}{{ page.title }} · {% endif %}DraftVerify</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}DraftVerify — the global standard for non-alcoholic draft system safety and verification.{% endif %}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+
+  <!-- Social -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}DraftVerify">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}DraftVerify — the global standard for non-alcoholic draft system safety and verification.{% endif %}">
+  <meta property="og:image" content="/logo-social.png">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="/assets/styles.css?v=6" />
+  {% seo %}
+</head>
+<body>
+  <a class="skiplink" href="#content">Skip to content</a>
+  {% include header.html %}
+
+  <main id="content">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+  <script src="/assets/site.js" defer></script>
+</body>
+</html>
