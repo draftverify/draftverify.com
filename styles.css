@@ -40,12 +40,14 @@ body.nav-open{overflow:hidden}
 .header.scrolled{box-shadow:0 8px 22px rgba(15,18,22,.08)}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;padding:10px 20px}
 
+/* Brand (logo + two-line text) */
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
 .logo{width:52px;height:auto}
 .brand-text{display:flex;flex-direction:column;line-height:1.1}
-.brand-name{font-weight:900;font-size:1.25rem;color:var(--blue);letter-spacing:-0.2px}
+.brand-name{font-weight:900;font-size:1.25rem;color:#000;letter-spacing:-0.2px} /* black */
 .brand-tagline{font-size:.78rem;font-weight:600;color:var(--gold);text-transform:uppercase;letter-spacing:.06em}
 
+/* Desktop Nav */
 .nav-desktop{display:flex;align-items:center;gap:20px}
 .nav-desktop a{font-weight:650;opacity:.92;white-space:nowrap}
 .nav-desktop a:hover{opacity:1}
@@ -60,9 +62,10 @@ body.nav-open{overflow:hidden}
   appearance:none;border:0;background:transparent;
   width:44px;height:44px;padding:8px;border-radius:12px;
   display:none;align-items:center;justify-content:center;
-  position:relative;z-index:1003;
+  position:relative;z-index:2002; /* ABOVE drawer/backdrop so it's always tappable */
   -webkit-tap-highlight-color: transparent;
   color: var(--blue); /* ensures currentColor is blue */
+  cursor:pointer;
 }
 .nav-toggle .hamb{display:block;overflow:visible;}
 .nav-toggle .hamb line{
@@ -77,15 +80,6 @@ body.nav-open{overflow:hidden}
 .nav-toggle.is-open .hamb .mid{opacity:0;}
 .nav-toggle.is-open .hamb .bot{transform:translateY(-5px) rotate(-45deg);}
 
-/* show on mobile */
-@media (max-width:960px){
-  .nav-desktop{display:none;}
-  .nav-toggle{display:flex;}
-  .logo{width:60px;}
-  .brand-name{font-size:1.08rem}
-  .brand-tagline{font-size:.68rem;letter-spacing:.05em}
-}
-
 /* Drawer (mobile) */
 .drawer{
   position:fixed;left:0;right:0;top:var(--nav-top,64px);
@@ -93,18 +87,28 @@ body.nav-open{overflow:hidden}
   transform:translateY(-12px);opacity:0;visibility:hidden;pointer-events:none;
   padding:18px 20px 28px;box-shadow:0 20px 40px rgba(15,18,22,.18);
   transition:transform .22s ease,opacity .22s ease,visibility .22s step-end;
-  z-index:1001;
+  z-index:2001; /* below toggle, above backdrop */
 }
 .drawer-nav{display:flex;flex-direction:column;gap:12px}
 .drawer-link{padding:11px 4px;font-weight:650}
 .drawer-cta{margin-top:6px}
 
+/* Backdrop under drawer */
 .backdrop{
   position:fixed;inset:0;background:rgba(0,0,0,.35);backdrop-filter:blur(2px);
-  opacity:0;pointer-events:none;transition:opacity .22s ease;z-index:1000;
+  opacity:0;pointer-events:none;transition:opacity .22s ease;z-index:2000; /* below drawer */
 }
 body.nav-open .drawer{transform:none;opacity:1;visibility:visible;pointer-events:auto;transition:transform .22s ease,opacity .22s ease,visibility 0s step-start}
 body.nav-open .backdrop{opacity:1;pointer-events:auto}
+
+/* show hamburger on mobile */
+@media (max-width:960px){
+  .nav-desktop{display:none;}
+  .nav-toggle{display:flex;}
+  .logo{width:60px;}
+  .brand-name{font-size:1.08rem}
+  .brand-tagline{font-size:.68rem;letter-spacing:.05em}
+}
 
 /* =================== BUTTONS =================== */
 .btn{
