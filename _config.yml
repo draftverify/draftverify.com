@@ -1,15 +1,26 @@
 title: DraftVerify
-description: DraftVerify — the global standard for non-alcoholic draft system safety and verification.
-url: https://draftverify.com
-theme: null
-permalink: pretty
+description: The global standard for non-alcoholic draft system safety and verification.
+url: https://www.draftverify.com
+timezone: America/Toronto
+
+markdown: kramdown
+highlighter: none
 
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sitemap
 
+# Keep the build lean
 exclude:
-  - README.md
   - node_modules
+  - Gemfile
+  - Gemfile.lock
   - package.json
   - package-lock.json
+  - README.md
+
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: default
+      image: /logo-social.png
