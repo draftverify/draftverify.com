@@ -1,125 +1,210 @@
 /* =======================================================
-   DRAFTVERIFY — Global Layout (Clean Foundation)
+   DraftVerify — Global Styles (v2)
+   This file standardises layout, colours, typography,
+   navigation behaviour, hero alignment and responsiveness.
    ======================================================= */
 
-/* ---- Core ---- */
+/* Brand and layout variables */
 :root {
-  --navy: #0D1B2A;
-  --gold: #C7AA4A;
-  --light: #F7F9FC;
-  --text: #101317;
-  --maxw: 1080px;
+  --navy: #0d3b66;            /* primary brand colour */
+  --gold: #c7aa4a;            /* CTA / highlight colour */
+  --gold-light: #e9d68b;      /* lighter gold for hover states */
+  --light-bg: #f7f9fc;        /* pale background for sections */
+  --dark-text: #101317;       /* main text colour */
+  --muted: #5c636d;           /* secondary text colour */
+  --maxw: 1120px;             /* max container width */
+  --radius: 12px;             /* base corner radius */
+  --shadow: 0 8px 24px rgba(15, 18, 22, 0.06); /* base shadow */
 }
 
+/* Base reset */
 * { box-sizing: border-box; }
+html, body { height: 100%; }
 body {
   margin: 0;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  color: var(--text);
-  background: var(--light);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  color: var(--dark-text);
+  background-color: var(--light-bg);
   line-height: 1.6;
 }
+a {
+  color: var(--navy);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1, h2, h3 {
+  margin: 0 0 0.6em;
+  font-weight: 800;
+}
 
-/* ---- Header ---- */
+/* Container utility for consistent padding */
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Header and navigation */
 .site-header {
   background: #fff;
   border-bottom: 1px solid #e6e8ec;
   position: sticky;
   top: 0;
   z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03); /* subtle shadow for elevation */
 }
-
-.nav {
+.site-header .nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  max-width: var(--maxw);
-  margin: 0 auto;
-  padding: 1rem 1.25rem;
+  justify-content: space-between;
+  padding: 1rem 0;
 }
-
 .brand {
   display: flex;
   align-items: center;
   gap: 0.6rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--navy);
-  text-decoration: none;
-  font-size: 1.2rem;
 }
-
 .brand .logo {
-  height: 52px;
-  width: 52px;
+  height: 56px;
+  width: 56px;
 }
 
-nav {
+/* Desktop nav menu */
+.menu {
   display: flex;
   align-items: center;
-  gap: 1.4rem;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
-nav a {
-  color: var(--navy);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-nav a:hover { color: var(--gold); }
-
-.btn {
-  border: 1px solid transparent;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
+.menu li { margin: 0; }
+.menu a {
   font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.25s ease;
+  padding: 0.5rem 0;
+  position: relative;
+  border-bottom: 2px solid transparent; /* underline indicator */
+}
+.menu a:hover,
+.menu a[aria-current='page'] {
+  border-color: var(--gold); /* highlight current or hovered link */
 }
 
-.btn.gold {
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.4rem;
+  border-radius: var(--radius);
+  font-weight: 700;
+  transition: background 0.25s, color 0.25s;
+}
+.btn.cta { /* header CTA */
   background: var(--gold);
   color: var(--navy);
+  margin-left: 1rem;
 }
-
-.btn.gold:hover {
-  background: #e9d68b;
+.btn.cta:hover {
+  background: var(--gold-light);
+}
+.btn.primary { /* solid button */
+  background: var(--gold);
   color: var(--navy);
+  border: none;
 }
-
-.btn.outline {
-  border-color: var(--navy);
+.btn.primary:hover {
+  background: var(--gold-light);
+}
+.btn.secondary { /* outlined button */
+  border: 2px solid var(--navy);
   color: var(--navy);
   background: transparent;
 }
-
-.btn.outline:hover {
+.btn.secondary:hover {
   background: var(--navy);
   color: #fff;
 }
 
-/* ---- Sections ---- */
+/* Hamburger icon for mobile */
+.hamburger {
+  display: none; /* hidden on desktop */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 1rem;
+}
+.hamburger .bar {
+  height: 2px;
+  width: 100%;
+  background-color: var(--navy);
+  border-radius: 1px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+/* Hamburger animation when open */
+.hamburger[aria-expanded='true'] .bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger[aria-expanded='true'] .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger[aria-expanded='true'] .bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Mobile navigation panel */
+.nav-panel {
+  display: none;
+  background: #fff;
+  border-top: 1px solid #e6e8ec;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+}
+.nav-panel.open {
+  display: block;
+}
+.nav-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+.nav-panel li {
+  margin-bottom: 0.5rem;
+}
+.nav-panel a {
+  display: block;
+  padding: 0.5rem 0;
+  color: var(--navy);
+  font-weight: 600;
+}
+
+/* Hero section */
 .hero {
-  background: linear-gradient(180deg, #fff, #f3f4f7);
-  padding: 100px 20px;
+  padding: 4rem 0;
+  background: linear-gradient(180deg, #ffffff 0%, #f3f5f9 100%);
   text-align: center;
 }
-
 .hero h1 {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2.2rem, 6vw, 3.2rem);
+  line-height: 1.15;
   color: var(--navy);
-  margin-bottom: 0.5em;
-  line-height: 1.2;
+  margin-bottom: 1rem;
 }
-
 .lead {
-  font-size: 1.1rem;
+  font-size: clamp(1rem, 2.1vw, 1.25rem);
   max-width: 720px;
-  margin: 0 auto 1.5rem;
-  color: #2e3440;
+  margin: 0 auto 2rem;
+  color: var(--muted);
 }
-
 .cta-row {
   display: flex;
   justify-content: center;
@@ -127,68 +212,91 @@ nav a:hover { color: var(--gold); }
   flex-wrap: wrap;
 }
 
+/* About section */
 .about {
-  padding: 80px 20px;
-  text-align: center;
+  padding: 3rem 0;
   background: #fff;
+  text-align: center;
 }
-
 .about h2 {
+  font-size: 2rem;
   color: var(--navy);
-  margin-bottom: 0.6em;
+  margin-bottom: 0.8rem;
 }
-
 .about p {
   max-width: 720px;
   margin: 0 auto;
+  color: var(--muted);
 }
 
+/* Pillars (three cards) */
 .pillars {
-  padding: 80px 20px;
-  background: var(--light);
+  padding: 3rem 0;
+  background: var(--light-bg);
 }
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
   max-width: var(--maxw);
   margin: 0 auto;
+  padding: 0 1.25rem;
 }
-
 .pillar {
   background: #fff;
   border: 1px solid #e6e8ec;
   border-radius: 14px;
   padding: 2rem;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+  box-shadow: var(--shadow);
   text-align: left;
 }
-
 .pillar h3 {
   color: var(--navy);
-  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.pillar p {
+  color: var(--muted);
+  margin: 0;
 }
 
-.pillar p { margin-bottom: 0; }
-
-/* ---- Footer ---- */
+/* Footer */
 .site-footer {
   background: var(--navy);
   color: #dfe3ea;
   text-align: center;
-  padding: 40px 20px;
+  padding: 2rem 0;
 }
-
 .site-footer a {
+  color: var(--gold-light);
+}
+.site-footer a:hover {
   color: var(--gold);
-  text-decoration: none;
 }
 
-.site-footer a:hover { text-decoration: underline; }
+/* Responsive rules */
+@media (max-width: 900px) {
+  /* Hide desktop nav and CTA; show hamburger */
+  .menu, .btn.cta {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .nav-panel {
+    position: absolute;
+    width: 100%;
+  }
+  .nav-panel.open {
+    display: block;
+  }
+}
 
-/* ---- Mobile ---- */
 @media (max-width: 600px) {
-  .brand .logo { height: 48px; width: 48px; }
-  nav a { font-size: 0.95rem; }
+  .brand .logo {
+    width: 48px;
+    height: 48px;
+  }
+  .brand span {
+    font-size: 1rem;
+  }
 }
