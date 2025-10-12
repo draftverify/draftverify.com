@@ -1,51 +1,28 @@
 ---
 layout: nil
 ---
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>{% if page.title %}{{ page.title }} · {% endif %}DraftVerify</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}DraftVerify — the global standard for non-alcoholic draft system safety and verification.{% endif %}">
-  <link rel="icon" href="{{ '/favicon.png' | relative_url }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}DraftVerify — the global standard for non-alcoholic draft systems.{% endif %}">
+  <link rel="icon" href="{{ '/favicon.png' | relative_url }}" type="image/png" />
   <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
 
-  <!-- Styles (version bust for freshness) -->
-  <link rel="stylesheet" href="{{ '/styles.css?v=13' | relative_url }}"/>
+  <!-- Open Graph -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}DraftVerify">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}DraftVerify — the global standard for non-alcoholic draft systems.{% endif %}">
+  <meta property="og:image" content="{{ '/logo-social.png' | relative_url }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <!-- SEO meta (jekyll-seo-tag) -->
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/styles.css?v=15' | relative_url }}" />
   {% seo %}
-
-  <!-- Organization & WebSite schema (AI & search friendly) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "DraftVerify",
-    "url": "{{ site.url }}",
-    "logo": "{{ '/apple-touch-icon.png' | relative_url }}",
-    "sameAs": []
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"WebSite",
-    "url":"{{ site.url }}",
-    "name":"DraftVerify",
-    "potentialAction":{
-      "@type":"SearchAction",
-      "target":"{{ site.url }}/?q={search_term_string}",
-      "query-input":"required name=search_term_string"
-    }
-  }
-  </script>
 </head>
 <body>
-  <a class="skiplink" href="#content">Skip to content</a>
-
   {% include header.html %}
 
   <main id="content">
@@ -54,7 +31,6 @@ layout: nil
 
   {% include footer.html %}
 
-  <!-- Single global script (versioned) -->
-  <script src="{{ '/assets/site.js?v=13' | relative_url }}" defer></script>
+  <script src="{{ '/assets/site.js?v=15' | relative_url }}" defer></script>
 </body>
 </html>
