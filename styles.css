@@ -105,6 +105,73 @@ body.nav-open .drawer{transform:none;opacity:1;visibility:visible;pointer-events
 }
 body.nav-open .backdrop{opacity:1;pointer-events:auto}
 
+/* ===== DRAFTVERIFY BRAND TEXT ===== */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.logo {
+  width: 52px;
+  height: auto;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.brand-name {
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: #000; /* Black name */
+  letter-spacing: -0.2px;
+}
+
+.brand-tagline {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--gold); /* Gold tagline */
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Keep everything centered and responsive */
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 64px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+/* Adjust on mobile: stack text + maintain burger clickability */
+@media (max-width: 960px) {
+  .brand-name {
+    font-size: 1.05rem;
+  }
+  .brand-tagline {
+    font-size: 0.68rem;
+    letter-spacing: 0.05em;
+  }
+  .logo {
+    width: 48px;
+  }
+  .nav-toggle {
+    z-index: 4000;
+    cursor: pointer;
+    color: var(--blue);
+  }
+}
+
+
 /* =================== HERO (high-contrast) =================== */
 .hero{
   padding:80px 0;
