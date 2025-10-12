@@ -45,8 +45,8 @@ description: DraftVerify is the global mark for non-alcoholic draft service — 
           One look — no doubt.
         </p>
         <div style="margin-top:8px">
-          <a class="btn primary" href="{{ '/line-tags/' | relative_url }}" aria-label="View Line Tags">Line Tags</a>
-          <a class="btn gold" href="{{ '/tower-stickers/' | relative_url }}" style="margin-left:10px" aria-label="View Holographic Sticker">Holographic Sticker</a>
+          <a class="btn ghost" href="{{ '/line-tags/' | relative_url }}" aria-label="View Line Tags">Line Tags</a>
+          <a class="btn ghost" href="{{ '/tower-stickers/' | relative_url }}" style="margin-left:10px" aria-label="View Holographic Sticker">Holographic Sticker</a>
         </div>
       </div>
 
@@ -69,7 +69,7 @@ description: DraftVerify is the global mark for non-alcoholic draft service — 
           Short, practical refreshers for bar teams: how to follow the tags, what to check before service, and how to explain NA taps to guests.
         </p>
         <div style="margin-top:8px">
-          <a class="btn primary" href="{{ '/training/' | relative_url }}" aria-label="View Training Overview">Training Overview</a>
+          <a class="btn ghost" href="{{ '/training/' | relative_url }}" aria-label="View Training Overview">Training Overview</a>
         </div>
       </div>
     </div>
