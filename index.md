@@ -44,7 +44,10 @@ description: DraftVerify is the global mark for non-alcoholic draft service — 
           DraftVerify line tags on the <strong>keg</strong>, markers on the <strong>beer line</strong>, and the holographic <strong>tower sticker</strong> at the faucet.  
           One look — no doubt.
         </p>
-        <p><a href="{{ '/line-tags/' | relative_url }}">Line Tags</a> · <a href="{{ '/tower-stickers/' | relative_url }}">Holographic Sticker</a></p>
+        <div style="margin-top:8px">
+          <a class="btn primary" href="{{ '/line-tags/' | relative_url }}" aria-label="View Line Tags">Line Tags</a>
+          <a class="btn gold" href="{{ '/tower-stickers/' | relative_url }}" style="margin-left:10px" aria-label="View Holographic Sticker">Holographic Sticker</a>
+        </div>
       </div>
 
       <div class="card reveal">
@@ -54,7 +57,9 @@ description: DraftVerify is the global mark for non-alcoholic draft service — 
           A simple venue-led check: confirm the tagged keg connects to the tagged line and the marked faucet.  
           Quick records help teams keep things consistent across shifts.
         </p>
-        <p><a href="{{ '/standards/' | relative_url }}">See the Simple Checklist</a></p>
+        <div style="margin-top:8px">
+          <a class="btn ghost" href="{{ '/standards/' | relative_url }}" aria-label="See the Simple Checklist">See the Simple Checklist</a>
+        </div>
       </div>
 
       <div class="card reveal">
@@ -63,7 +68,9 @@ description: DraftVerify is the global mark for non-alcoholic draft service — 
         <p>
           Short, practical refreshers for bar teams: how to follow the tags, what to check before service, and how to explain NA taps to guests.
         </p>
-        <p><a href="{{ '/training/' | relative_url }}">Training Overview</a></p>
+        <div style="margin-top:8px">
+          <a class="btn primary" href="{{ '/training/' | relative_url }}" aria-label="View Training Overview">Training Overview</a>
+        </div>
       </div>
     </div>
   </div>
