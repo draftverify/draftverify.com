@@ -10,8 +10,7 @@ description: "DraftVerify is the contamination-prevention and identification sta
     <div class="hero-card reveal">
       <h1>DraftVerify — The Global Standard for Non-Alcoholic Draft</h1>
       <p>
-        DraftVerify is the contamination-prevention and identification standard that guarantees non-alcoholic beer is poured safely, correctly, and exactly as the brewery intended.  
-        With one consistent look at the keg, along the beer line, and on the tower, teams can trace the right line in seconds — and guests can order with confidence.
+        DraftVerify is the contamination-prevention and identification standard that helps ensure non-alcoholic beer is poured clearly, correctly, and with full confidence in the setup.
       </p>
       <a class="btn gold" href="{{ '/standards/' | relative_url }}">Read the DraftVerify Standard</a>
     </div>
