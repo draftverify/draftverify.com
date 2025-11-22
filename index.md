@@ -25,7 +25,15 @@ layout: default
     <h2 class="h2">A Clear, Universal Identification System</h2>
     <p style="max-width:780px;margin:0 auto;">
       DraftVerify aligns the keg tag, beer line marker, and faucet mark into a single visual language for NA draft.
-      It eliminates guesswork, prevents wrong-line pulls, and gives guests total clarity at the point of pour.
+      It eliminates guesswork, reduces wrong-line pulls, and gives guests total clarity at the point of pour.
+    </p>
+
+    <!-- Verified Line image -->
+    <p style="margin-top:26px;text-align:center;">
+      <img 
+        src="{{ '/assets/draftverify-verified-line.jpg' | relative_url }}" 
+        alt="DraftVerify NA keg tag, line marker, and faucet mark aligned from keg to tower" 
+        style="max-width:900px;width:100%;border-radius:16px;box-shadow:0 18px 45px rgba(15,35,52,0.22);" />
     </p>
   </div>
 </section>
@@ -85,14 +93,16 @@ layout: default
 
     <p style="max-width:780px;margin:0 auto;text-align:center;">
       DraftVerify’s digital layer brings trackability and traceability to the NA draft world.
-      Each line can be paired with a unique digital ID, allowing optional logging, audit history,
+      Each line can be paired with a unique digital ID, enabling optional logging, verification history,
       and multi-venue oversight for groups and brewery partners.
     </p>
 
+    <!-- Multi-venue dashboard image -->
     <p style="margin-top:26px;text-align:center;">
-      <img src="{{ '/assets/draftverify-dashboard.png' | relative_url }}" 
-      alt="DraftVerify dashboard"
-      style="max-width:900px;width:100%;border-radius:16px;box-shadow:0 18px 45px rgba(15,35,52,0.22);" />
+      <img 
+        src="{{ '/assets/draftverify-dashboard.png' | relative_url }}" 
+        alt="DraftVerify multi-venue dashboard showing venue selector, line status and verification logs"
+        style="max-width:900px;width:100%;border-radius:16px;box-shadow:0 18px 45px rgba(15,35,52,0.22);" />
     </p>
 
     <div class="grid cols-3" style="margin-top:22px">
@@ -109,6 +119,41 @@ layout: default
       <div class="card reveal">
         <h3>Multi-Venue Oversight</h3>
         <p>Groups and breweries can see how NA draft is configured across locations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINING / ACADEMY -->
+<section class="section">
+  <div class="container">
+    <div class="kicker center">Training</div>
+    <h2 class="h2 center">DraftVerify Academy</h2>
+    <p style="max-width:780px;margin:0 auto;text-align:center;">
+      Short, focused modules help teams understand NA draft, follow the tags, and keep lines set up correctly —
+      from keg handling and line cleaning to cross-contamination risks and guest communication.
+    </p>
+
+    <!-- Training portal preview image -->
+    <p style="margin-top:26px;text-align:center;">
+      <img 
+        src="{{ '/assets/draftverify-training-portal.png' | relative_url }}" 
+        alt="DraftVerify Academy training portal with modules for line cleaning, keg handling, cross-contamination risks, quizzes and certificates"
+        style="max-width:780px;width:100%;border-radius:16px;box-shadow:0 18px 45px rgba(15,35,52,0.22);" />
+    </p>
+
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card reveal">
+        <h3>Line Cleaning</h3>
+        <p>Clear, practical guidance on keeping NA lines service-ready.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Keg Handling</h3>
+        <p>Best practices for storing, tapping, and swapping NA kegs.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Cross-Contamination</h3>
+        <p>Simple rules that help prevent NA and alcoholic lines from getting mixed.</p>
       </div>
     </div>
   </div>
