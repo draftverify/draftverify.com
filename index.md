@@ -10,8 +10,8 @@ layout: default
     <div class="hero-card reveal">
       <h1>DraftVerify — The Global Standard for Non-Alcoholic Draft</h1>
       <p>
-        DraftVerify combines a simple, physical identification system with a digital verification layer for non-alcoholic draft.  
-        The NA keg, the NA line, and the NA faucet are clearly marked on the front end — while checks, changes, and line status can be tracked and reviewed on the back end.
+        DraftVerify unifies a simple, physical identification system with a digital verification layer for non-alcoholic draft.  
+        On the front end, the NA keg, the NA line, and the NA faucet are clearly marked. On the back end, checks, changes, and line status can be tracked, reviewed, and standardized across venues.
       </p>
       <a class="btn gold" href="{{ '/standards/' | relative_url }}">Read the DraftVerify Standard</a>
     </div>
@@ -24,67 +24,103 @@ layout: default
     <div class="kicker">What &amp; Why</div>
     <h2 class="h2">Clarity at the Tap. Traceability Behind It.</h2>
     <p style="max-width:820px;margin:0 auto">
-      Non-alcoholic draft needs more than a label on a faucet. Teams must know exactly which line is NA — and breweries increasingly need proof of how those lines are set up and maintained.  
+      Non-alcoholic draft needs more than a sticker on a faucet. Teams must know exactly which line is NA in the moment, and breweries increasingly need visibility into how those lines are installed and maintained.  
       DraftVerify solves both: a unified visual mark from keg to faucet, and a digital trail that can track verification checks, line changes, and NA draft setups over time.
     </p>
   </div>
 </section>
 
-<!-- THE TECHNOLOGY -->
+<!-- WHY TRACKABILITY MATTERS -->
+<section class="section" id="why-trackability">
+  <div class="container">
+    <div class="kicker center">Why Trackability Matters</div>
+    <h2 class="h2 center">From “We Think” to “We Know”.</h2>
+    <p style="max-width:820px;margin:0 auto">
+      In real service, lines get swapped, new staff learn the keg room on the fly, and multi-site groups try to keep standards aligned. Without a shared system, NA draft service is built on memory and verbal hand-offs.
+    </p>
+    <ul style="max-width:820px;margin:16px auto 0;line-height:1.7">
+      <li>Line swaps during rushes can quietly break NA draft intentions.</li>
+      <li>New team members rarely know the keg room layout on day one.</li>
+      <li>Multi-site groups struggle to keep “how we handle NA draft” consistent.</li>
+      <li>Breweries want to know how and where their NA beer is actually poured.</li>
+      <li>NA guests are trusting the system, not just the tap handle.</li>
+    </ul>
+    <p style="max-width:820px;margin:18px auto 0;">
+      DraftVerify turns these unknowns into something you can see, track, and improve.
+    </p>
+  </div>
+</section>
+
+<!-- DIGITAL LAYER -->
+<section class="section" id="digital-layer" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker center">The Digital Layer</div>
+    <h2 class="h2 center">Trackability &amp; Traceability Built In.</h2>
+    <p style="max-width:820px;margin:0 auto">
+      DraftVerify is more than a physical standard. Each NA draft line can be associated with a unique identifier, so verification checks, keg changes, and line status can be logged through a simple web or mobile flow — building a traceable history for every NA line, venue by venue.
+    </p>
+
+    <!-- Dashboard mockup: upload your image as assets/draftverify-dashboard.png -->
+    <p class="dashboard-mockup" style="margin-top:28px;text-align:center;">
+      <img src="{{ '/assets/draftverify-dashboard.png' | relative_url }}" alt="DraftVerify NA draft line dashboard mockup showing line IDs, verification history, and venue status" style="max-width:960px;width:100%;border-radius:16px;box-shadow:0 18px 45px rgba(15,35,52,0.22);" />
+    </p>
+
+    <div class="grid cols-3" style="margin-top:32px">
+      <div class="card reveal">
+        <h3>Unique Line IDs</h3>
+        <p>
+          Every DraftVerify marker — from the keg tag to the tower sticker — can be tied to a line ID.  
+          This links the physical hardware in the cooler and on the tower to a digital record in the system.
+        </p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Verification &amp; Event Logs</h3>
+        <p>
+          When a line is checked, a keg is changed, or a setup is verified, those events can be logged in seconds.  
+          Over time, this builds a history of actions on each NA line, creating real traceability.
+        </p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Venue &amp; Group Visibility</h3>
+        <p>
+          Operators and brewery partners gain a clear view of where NA draft is installed, how lines are configured, and when they were last confirmed — across one venue or a whole network.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNOLOGY -->
 <section class="section" id="technology">
   <div class="container">
     <div class="kicker center">The Technology</div>
     <h2 class="h2 center">Identification in the Cooler. Data in the Cloud.</h2>
     <p style="max-width:820px;margin:0 auto">
-      DraftVerify is more than a sticker kit. It is a visual standard backed by a digital verification layer that can log, track, and surface what’s happening on NA lines — from the first install to the latest keg change.
+      DraftVerify blends physical clarity with digital insight. The NA keg, the NA line, and the NA faucet share a single look on the floor — while in the background, those same identifiers can power dashboards, reports, and standardized workflows.
     </p>
 
     <div class="grid cols-3" style="margin-top:32px">
       <div class="card reveal">
-        <h3>Tagged Lines with IDs</h3>
+        <h3>A Unified System</h3>
         <p>
-          Every DraftVerify marker — from the keg tag to the tower sticker — can be associated with a unique ID.  
-          This allows venues and breweries to tie real-world hardware to digital records for each NA line.
+          DraftVerify synchronizes three markers — the keg tag, the line marker, and the tower sticker.  
+          Together, they create an unmistakable path from keg → line → faucet that staff can follow instantly.
         </p>
       </div>
 
       <div class="card reveal">
-        <h3>Verification & Event Logging</h3>
+        <h3>Engineered for Service</h3>
         <p>
-          When a line is checked, a keg is changed, or a setup is verified, those events can be logged through a simple web or mobile flow.  
-          Over time, this builds a history of actions on each NA line, venue by venue.
+          The system borrows principles from industrial safety, food service, and beverage operations, then distills them into a simple visual language that fits into existing draft setups — no specialized hardware required.
         </p>
       </div>
 
       <div class="card reveal">
-        <h3>Trackable Line History</h3>
+        <h3>Ready for Dashboards &amp; APIs</h3>
         <p>
-          The result is a traceable record: which keg was on which line, when it was connected, and when it was last confirmed.  
-          Breweries and groups gain visibility beyond the tap wall for their NA programs.
-        </p>
-      </div>
-    </div>
-
-    <div class="grid cols-3" style="margin-top:22px">
-      <div class="card reveal">
-        <h3>Built for Dashboards & Reporting</h3>
-        <p>
-          Because the system is ID-based and digital-ready, it can feed venue and group dashboards — showing how many lines are active, when they were last verified, and where NA draft is being poured.
-        </p>
-      </div>
-
-      <div class="card reveal">
-        <h3>Simple for Staff, Powerful for Ops</h3>
-        <p>
-          Front of house teams only see clear tags and a short checklist.  
-          Behind the scenes, operators and breweries can review logs, spot gaps, and standardize how NA draft is managed across locations.
-        </p>
-      </div>
-
-      <div class="card reveal">
-        <h3>Scales with Your Network</h3>
-        <p>
-          As more venues adopt DraftVerify, the same IDs, checks, and workflows apply everywhere — creating a consistent, scalable framework for NA draft trackability and traceability.
+          Because the system is ID-based and digital-ready, it can feed venue and group dashboards, support reporting, and eventually integrate with other operational tools as NA draft programs scale.
         </p>
       </div>
     </div>
@@ -96,7 +132,7 @@ layout: default
   <div class="container">
     <div class="kicker">How It Works</div>
     <h2 class="h2">Identification → Verification → Training</h2>
-    <p>Three straightforward pieces that connect what guests see to what operators can track.</p>
+    <p>A simple framework that connects what guests see at the faucet to what operators can track in the background.</p>
 
     <div class="grid cols-3" style="margin-top:22px">
       <div class="card reveal">
@@ -117,7 +153,7 @@ layout: default
         <h3>The Venue Check — With a Record</h3>
         <p>
           A quick venue-led check confirms the tagged keg connects to the tagged line and marked faucet.  
-          Those checks can be logged digitally, creating a lightweight record of when lines were last confirmed.
+          When paired with the digital layer, those checks can be logged, creating a lightweight record of when lines were last confirmed.
         </p>
         <div style="margin-top:8px">
           <a class="btn ghost" href="{{ '/standards/' | relative_url }}">See the Simple Checklist</a>
@@ -128,7 +164,7 @@ layout: default
         <div class="chip">3. Training</div>
         <h3>Fast to Learn, Easy to Repeat</h3>
         <p>
-          Short, practical modules show teams how to follow tags, run checks, and record verification — so the process becomes part of daily service, not a one-time event.
+          Short, practical modules show teams how to follow tags, run checks, and record verification — so NA draft standards become part of everyday service, not a one-time rollout.
         </p>
         <div style="margin-top:8px">
           <a class="btn ghost" href="{{ '/training/' | relative_url }}">Training Overview</a>
@@ -139,10 +175,10 @@ layout: default
 </section>
 
 <!-- WHAT YOU GET -->
-<section class="section" id="deliverables" style="background:#f7f9fc">
+<section class="section" id="deliverables">
   <div class="container">
     <div class="kicker center">What You Get</div>
-    <h2 class="h2 center">From Physical Markers to Digital Insight</h2>
+    <h2 class="h2 center">From Physical Markers to Digital Insight.</h2>
     <div class="grid cols-3" style="margin-top:22px">
       <div class="card reveal">
         <h3>Keg Tag</h3>
@@ -161,25 +197,25 @@ layout: default
     <div class="grid cols-3" style="margin-top:22px">
       <div class="card reveal">
         <h3>Digital Line Records</h3>
-        <p>Optional digital logging gives operators and breweries a traceable history of checks and changes on each NA line.</p>
+        <p>Optional logging gives operators and breweries a traceable history of checks and changes on each NA line.</p>
       </div>
       <div class="card reveal">
-        <h3>Venue & Group Visibility</h3>
-        <p>As adoption grows, venues and groups gain a clearer picture of where NA draft is installed and how it’s being maintained.</p>
+        <h3>Venue &amp; Group Visibility</h3>
+        <p>See where NA draft is installed, how lines are configured, and when they were last verified — across one venue or a whole network.</p>
       </div>
       <div class="card reveal">
         <h3>Standardized Workflows</h3>
-        <p>Shared practices and IDs mean everyone — from bar staff to brewery reps — speaks the same language about NA draft setups.</p>
+        <p>Shared IDs and practices mean everyone — from bar staff to brewery reps — speaks the same language about NA draft setups.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- WHERE IT APPLIES -->
-<section class="section" id="categories">
+<section class="section" id="categories" style="background:#f7f9fc">
   <div class="container">
     <div class="kicker center">Where It Applies</div>
-    <h2 class="h2 center">Built for Non-Alcoholic Draft</h2>
+    <h2 class="h2 center">Built for Non-Alcoholic Draft.</h2>
 
     <div class="grid cols-3" style="margin-top:22px">
       <div class="card reveal">
@@ -199,10 +235,10 @@ layout: default
 </section>
 
 <!-- WHO IT’S FOR -->
-<section class="section" id="audiences" style="background:#f7f9fc">
+<section class="section" id="audiences">
   <div class="container">
     <div class="kicker center">Who It’s For</div>
-    <h2 class="h2 center">From Single Venues to Distributed Networks</h2>
+    <h2 class="h2 center">From Single Venues to Distributed Networks.</h2>
     <div class="grid cols-3" style="margin-top:22px">
       <div class="card reveal">
         <h3>Bars &amp; Restaurants</h3>
@@ -221,12 +257,12 @@ layout: default
 </section>
 
 <!-- PRINCIPLES -->
-<section class="section" id="principles">
+<section class="section" id="principles" style="background:#f7f9fc">
   <div class="container">
     <div class="kicker center">Principles</div>
     <h2 class="h2 center">Simple on the Floor. Smart in the Background.</h2>
     <p style="max-width:820px;margin:0 auto">
-      DraftVerify avoids complexity at the bar. The same look appears in the cooler, along the line, and on the tower.  
+      DraftVerify keeps the bar-side experience straightforward. The same look appears in the cooler, along the line, and on the tower.  
       Behind the scenes, those markers can tie into digital checks and records — giving teams a simple workflow and operators a clearer view of NA draft.
     </p>
   </div>
@@ -238,7 +274,7 @@ layout: default
     <div class="cta-band reveal">
       <div>
         <div class="kicker">Get Started</div>
-        <h3 style="margin:.3rem 0 0;">Bring DraftVerify to your venue or group.</h3>
+        <h3 style="margin:.3rem 0 0;">Bring DraftVerify to your venue, brewery, or group.</h3>
       </div>
       <div>
         <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
@@ -267,7 +303,7 @@ layout: default
       "name":"How does DraftVerify help my team?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"DraftVerify removes guesswork for staff with clear tags on the keg, the line, and the faucet. When paired with digital checks, it also creates a simple record of when lines were last confirmed."
+        "text":"DraftVerify removes guesswork for staff with clear tags on the NA keg, the NA line, and the NA faucet. When paired with digital checks, it also creates a simple record of when lines were last confirmed."
       }
     },
     {
