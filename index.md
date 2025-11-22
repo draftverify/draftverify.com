@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "DraftVerify — The Global Standard for Non-Alcoholic Draft"
-description: "DraftVerify is the global standard for non-alcoholic draft identification and contamination-prevention — ensuring NA beer is poured safely, correctly, and exactly as the brewery intended."
+description: "DraftVerify is the contamination-prevention and identification standard that helps ensure non-alcoholic beer is poured clearly, correctly, and with full confidence in the setup."
 ---
 
 <!-- HERO -->
