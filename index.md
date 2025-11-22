@@ -1,6 +1,6 @@
 ---
 title: "DraftVerify — The Global Standard for Non-Alcoholic Draft"
-description: "A unified physical standard with a digital verification layer for NA draft."
+description: "A unified physical identification system with an optional digital verification layer that brings traceability and clarity to NA draft."
 layout: default
 ---
 
@@ -10,7 +10,8 @@ layout: default
     <div class="hero-card reveal">
       <h1>The Global Standard for Non-Alcoholic Draft</h1>
       <p>
-        DraftVerify gives venues and breweries a clear, consistent way to identify NA draft from keg → line → faucet — backed by optional digital tracking for verification and line records.
+        DraftVerify creates a single, consistent way to identify non-alcoholic draft from keg → line → faucet,
+        paired with an optional digital visibility layer for venues, distributors, and breweries.
       </p>
       <a class="btn gold" href="{{ '/standards/' | relative_url }}">View the Standard</a>
     </div>
@@ -21,10 +22,23 @@ layout: default
 <section class="section center">
   <div class="container">
     <div class="kicker">What It Is</div>
-    <h2 class="h2">A Simple, Recognizable System</h2>
-    <p style="max-width:720px;margin:0 auto;">
-      NA keg tag. NA line marker. NA faucet mark.  
-      One visual language that removes guesswork and makes the correct line obvious in seconds — even during rushes.
+    <h2 class="h2">A Clear, Universal Identification System</h2>
+    <p style="max-width:780px;margin:0 auto;">
+      DraftVerify aligns the keg tag, beer line marker, and faucet mark into a single visual language for NA draft.
+      It eliminates guesswork, prevents wrong-line pulls, and gives guests total clarity at the point of pour.
+    </p>
+  </div>
+</section>
+
+<!-- WHY IT EXISTS -->
+<section class="section">
+  <div class="container">
+    <div class="kicker center">Why It Matters</div>
+    <h2 class="h2 center">NA Draft Needs Standardization</h2>
+    <p style="max-width:780px;margin:0 auto;text-align:center;">
+      Without a recognizable system, NA products are vulnerable to line mix-ups, product confusion, and inconsistent service.
+      DraftVerify gives breweries and venues a unified mark that works everywhere — large groups, independents, festivals,
+      stadiums, airports, and anywhere NA is poured on draft.
     </p>
   </div>
 </section>
@@ -38,17 +52,26 @@ layout: default
     <div class="grid cols-3" style="margin-top:22px">
       <div class="card reveal">
         <h3>1. Identification</h3>
-        <p>Keg, line, and faucet each carry the same NA marker.</p>
+        <p>
+          The keg tag, line marker, and faucet mark carry the same visual signal — the DraftVerify mark.
+          One look. No confusion.
+        </p>
       </div>
 
       <div class="card reveal">
         <h3>2. Verification</h3>
-        <p>The venue confirms the tagged keg connects to the tagged line and faucet.</p>
+        <p>
+          Before service, the venue confirms the marked keg connects to the marked line and faucet.
+          A lightweight, fast, venue-led process.
+        </p>
       </div>
 
       <div class="card reveal">
         <h3>3. Confidence</h3>
-        <p>Staff know the correct line. Guests trust the pour.</p>
+        <p>
+          Staff immediately know which line is non-alcoholic.  
+          Guests can trust the pour they’re ordering.
+        </p>
       </div>
     </div>
   </div>
@@ -58,9 +81,12 @@ layout: default
 <section class="section" style="background:#f7f9fc">
   <div class="container">
     <div class="kicker center">Technology</div>
-    <h2 class="h2 center">Physical System. Digital Backbone.</h2>
-    <p style="max-width:720px;margin:0 auto;">
-      Each DraftVerify line can be associated with a digital ID — enabling optional event logs, verification history, and multi-venue visibility.
+    <h2 class="h2 center">A Physical Standard With a Digital Backbone</h2>
+
+    <p style="max-width:780px;margin:0 auto;text-align:center;">
+      DraftVerify’s digital layer brings trackability and traceability to the NA draft world.
+      Each line can be paired with a unique digital ID, allowing optional logging, audit history,
+      and multi-venue oversight for groups and brewery partners.
     </p>
 
     <p style="margin-top:26px;text-align:center;">
@@ -71,16 +97,18 @@ layout: default
 
     <div class="grid cols-3" style="margin-top:22px">
       <div class="card reveal">
-        <h3>Line IDs</h3>
-        <p>Every NA line can have a unique digital identifier.</p>
+        <h3>Line-Level IDs</h3>
+        <p>Each NA line can be associated with a unique digital identifier for visibility and mapping.</p>
       </div>
+
       <div class="card reveal">
-        <h3>Event Logging</h3>
-        <p>Record keg changes and verification checks.</p>
+        <h3>Verification History</h3>
+        <p>Optional logs for keg changes, line confirmations, and team checks across shifts.</p>
       </div>
+
       <div class="card reveal">
-        <h3>Venue Visibility</h3>
-        <p>See how NA draft is configured across locations.</p>
+        <h3>Multi-Venue Oversight</h3>
+        <p>Groups and breweries can see how NA draft is configured across locations.</p>
       </div>
     </div>
   </div>
@@ -90,11 +118,36 @@ layout: default
 <section class="section">
   <div class="container">
     <div class="kicker center">Where It Applies</div>
-    <h2 class="h2 center">Built for NA Draft</h2>
+    <h2 class="h2 center">Built for Every Non-Alcoholic Draft Product</h2>
+
     <div class="grid cols-3" style="margin-top:22px">
-      <div class="card reveal"><h3>NA Beer</h3><p>The primary use case for DraftVerify.</p></div>
-      <div class="card reveal"><h3>Kombucha</h3><p>Same system. Same clarity.</p></div>
-      <div class="card reveal"><h3>Nitro Coffee</h3><p>Clear labeling for nitrogen taps.</p></div>
+      <div class="card reveal">
+        <h3>Non-Alcoholic Beer</h3>
+        <p>The core use case — the clearest value and the strongest need.</p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Kombucha</h3>
+        <p>A unified signal helps teams avoid mix-ups across tap styles.</p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Nitro Coffee</h3>
+        <p>Consistent marking for nitrogen lines and multi-product towers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO IT'S FOR -->
+<section class="section" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker center">Who It’s For</div>
+    <h2 class="h2 center">Designed for the Entire Draft Ecosystem</h2>
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card reveal"><h3>Bars & Restaurants</h3><p>Simple, visual clarity for staff and guests.</p></div>
+      <div class="card reveal"><h3>Breweries & Taprooms</h3><p>Protect NA products with a consistent standard.</p></div>
+      <div class="card reveal"><h3>Distributors & Groups</h3><p>Roll out a unified system across multiple venues.</p></div>
     </div>
   </div>
 </section>
