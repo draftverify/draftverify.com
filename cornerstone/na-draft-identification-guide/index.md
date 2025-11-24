@@ -1,115 +1,125 @@
 ---
 layout: default
-title: "Ultimate Guide to NA Draft Identification"
-description: "A complete guide to the non-alcoholic draft identification system: keg tags, line markers, and faucet confirmation. Learn how DraftVerify creates a universal end-to-end visual pathway."
+title: "NA Draft Identification Guide — DraftVerify"
+description: "The definitive guide to identifying non-alcoholic draft systems using the DraftVerify keg, line, and faucet pathway."
 ---
 
-<section class="hero hero-simple">
-  <div class="container">
-    <div class="hero-card reveal">
-      <h1>Ultimate Guide to NA Draft Identification</h1>
-      <p>
-        A complete explanation of how DraftVerify creates a clear, universal identification 
-        pathway for non-alcoholic draft systems — from keg, to line, to faucet.
-      </p>
-    </div>
-  </div>
-</section>
+# NA Draft Identification Guide
+A complete guide to identifying every non-alcoholic draft system using the DraftVerify pathway:  
+**Keg Tag → Line Marker → Faucet Sticker**
 
-<section class="section center">
-  <div class="container">
-    <div class="kicker">Overview</div>
-    <h2 class="h2">The Visual Language Protecting Every NA Pour</h2>
-    <p style="max-width:820px;margin:0 auto">
-      Misidentification is the number-one operational risk in NA draft service.  
-      DraftVerify eliminates this by creating a consistent visual system that links the keg, the line, 
-      and the faucet using serialized tagging, visual markers, and digital traceability.
-    </p>
-  </div>
-</section>
+This universal visual system enables staff to trace the NA route in seconds — even during peak service.
 
-<section class="section">
-  <div class="container">
-    <div class="kicker">Identification Flow</div>
-    <h2 class="h2">The Keg → Line → Faucet Pathway</h2>
+---
 
-1. **Keg Tag** — The source identification  
-2. **Line Marker** — The routing identifier  
-3. **Faucet Sticker** — The final confirmation  
+## 1. Why Identification Matters
+Non-alcoholic draft products are the **only** beverages that can be misidentified during service.  
+Shared towers, equipment swaps, and changeovers create genuine risks.
 
-The three components form a continuous chain that prevents staff error.
-  </div>
-</section>
+Proper identification ensures:
+- Guests get exactly what they expect  
+- Staff never pull the wrong line  
+- Breweries protect brand integrity  
+- Venues reduce operational mistakes  
 
-<section class="section" id="keg-tag">
-  <div class="container">
-    <div class="kicker">Keg Identification</div>
-    <h2 class="h2">Keg Tags: The First Point of Truth</h2>
+---
 
-### Requirements
-- Serialized DraftVerify ID  
-- Durable, tamper-resistant  
-- Registered in the DraftVerify Registry  
-- Activated by staff at install  
+## 2. The DraftVerify Identification Pathway
 
-<div class="image-placeholder">[Insert diagram: Example keg tag placement]</div>
+### **1. Keg Tag**
+A serialized ID tag placed at the coupler connection point.
 
-  </div>
-</section>
+**Purpose:**  
+- Marks the beverage as NA  
+- Links to the digital registry  
+- Identifies the product currently on tap  
 
-<section class="section" id="line-marker" style="background:#f7f9fc">
-  <div class="container">
-    <div class="kicker">Line Marker</div>
-    <h2 class="h2">Line Markers: Visualizing the Draft Pathway</h2>
+**Best Practices:**  
+- Place tag at eye level  
+- Keep tag visible when keg is rotated  
+- Scan during keg changeover  
 
-### Purpose
-- Prevent line tracing mistakes  
-- Maintain staff clarity during high-volume service  
-- Ensure alignment with the correct faucet  
+---
 
-<div class="image-placeholder">[Insert diagram: Line routing example]</div>
+### **2. Beer Line Marker**
+A visible marker attached along the beer line's length.
 
-  </div>
-</section>
+**Purpose:**  
+- Allows staff to visually follow the NA line  
+- Prevents confusion during tower service or reconnects  
+- Maintains compliance when towers are shared  
 
-<section class="section" id="faucet-sticker">
-  <div class="container">
-    <div class="kicker">Faucet Confirmation</div>
-    <h2 class="h2">Faucet Sticker: The Final Safety Signal</h2>
+**Best Practices:**  
+- Place markers every 12–18 inches  
+- Ensure markers face outward  
+- Replace markers after line cleaning if removed  
 
-### Requirements
-- Holographic identifier  
-- Matches the keg + line ID  
-- Visible to staff and guests  
-- Digital linkage validated  
+---
 
-<div class="image-placeholder">[Insert image: Faucet sticker on tap tower]</div>
+### **3. Faucet Sticker**
+A holographic NA identifier at the faucet.
 
-  </div>
-</section>
+**Purpose:**  
+- Final confirmation at the point of pour  
+- Ensures guests see that the tap is NA  
+- Prevents accidental alcoholic pours  
 
-<section class="section">
-  <div class="container">
-    <div class="kicker">Digital Layer</div>
-    <h2 class="h2">The Traceability System Behind Every Tag</h2>
+**Best Practices:**  
+- Place above or directly on the tap  
+- Use clean, dry surfaces  
+- Replace if peeled or worn  
 
-The DraftVerify platform ensures every identification step is:
+---
 
-- Logged  
-- Time-stamped  
-- Assigned to staff  
-- Synced across venues  
+## 3. Identification Examples
 
-This turns the physical system into a fully verifiable safety standard.
-  </div>
-</section>
+### **Mixed Tower Setup**
+- One alcoholic line  
+- One NA line  
+- Both routes must remain clearly distinct  
 
-<section class="section center">
-  <div class="container">
-    <p>
-      • <a href="/standards/">DraftVerify Standard v1.0</a>  
-      • <a href="/cornerstone/na-draft-contamination-prevention/">Contamination-Prevention Guide</a>  
-      • <a href="/faq/">FAQ & Glossary</a>
-    </p>
-  </div>
-</section>
+### **Multi-Line Tower**
+- Several NA and alcoholic lines  
+- Each NA line must carry the full pathway  
+
+### **Mobile Draft / Jockey Box**
+- NA hose must be dedicated or re-verified  
+- Tags remain visible on external couplers  
+
+---
+
+## 4. Digital Traceability
+Identifying the system is only half the process — operators also log:
+
+- Keg tag scans  
+- Line verification checks  
+- Service events  
+- Changeovers  
+- Training completion  
+
+This creates a permanent, auditable record.
+
+---
+
+## 5. Troubleshooting Identification
+
+### **Tag missing?**
+Re-issue immediately. Do not serve NA until resolved.
+
+### **Line marker damaged?**
+Replace and verify routing.
+
+### **Faucet sticker missing?**
+Stop service until restored.
+
+### **Unsure which keg is NA?**
+Stop service → reverify → scan tag.
+
+---
+
+## 6. Responsibilities
+- **Operators:** Maintain visible identification  
+- **Staff:** Verify before serving  
+- **Breweries:** Provide product-level clarity  
+- **Groups:** Standardize across locations  
+
