@@ -18,76 +18,73 @@ description: "Frequently asked questions and a complete glossary of terms for th
   </div>
 </section>
 
-
-<!-- FAQ SECTION -->
 <section class="section" id="faq">
   <div class="container">
     <div class="kicker center">FAQ</div>
     <h2 class="h2 center">Frequently Asked Questions</h2>
 
-    <div class="faq-list" style="max-width:820px;margin:30px auto 0;">
+    <div style="max-width:820px;margin:30px auto 0;line-height:1.7">
 
-      <details class="faq">
-        <summary><strong>What is DraftVerify?</strong></summary>
-        <p>
-          DraftVerify is the global identification and contamination-prevention standard for 
-          non-alcoholic draft systems. It links <strong>keg → line → faucet</strong> with a unified 
-          visual system and a complete digital traceability layer.
-        </p>
-      </details>
+      <h3>What is DraftVerify?</h3>
+      <p>
+        DraftVerify is the global identification and contamination-prevention standard for 
+        non-alcoholic draft systems. It links <strong>keg → line → faucet</strong> with a unified 
+        visual system and a complete digital traceability layer.
+      </p>
 
-      <details class="faq">
-        <summary><strong>Is DraftVerify more than visual tagging?</strong></summary>
-        <p>
-          Yes. DraftVerify includes a full backend platform that tracks tag IDs, verification events, 
-          line changes, cleaning checks, and staff training completion across locations.
-        </p>
-      </details>
+      <div class="divider"></div>
 
-      <details class="faq">
-        <summary><strong>Why do venues need this?</strong></summary>
-        <p>
-          Non-alcoholic draft is the only category at risk of misidentification during service. 
-          DraftVerify removes guesswork and provides clarity for teams and confidence for guests.
-        </p>
-      </details>
+      <h3>Is DraftVerify more than visual tagging?</h3>
+      <p>
+        Yes. DraftVerify includes a backend platform that tracks tag IDs, verification events, 
+        system changes, cleaning logs, and staff training completion across locations.
+      </p>
 
-      <details class="faq">
-        <summary><strong>Is DraftVerify required by law?</strong></summary>
-        <p>
-          No — it is a voluntary industry standard. Operators adopt it to ensure consistency, safety, 
-          and brand protection.
-        </p>
-      </details>
+      <div class="divider"></div>
 
-      <details class="faq">
-        <summary><strong>Does DraftVerify work for alcoholic lines?</strong></summary>
-        <p>
-          Yes, companion standards can be applied to alcoholic systems. DraftVerify’s NA framework 
-          stays dedicated to clarity and cannot be confused with alcoholic tagging.
-        </p>
-      </details>
+      <h3>Why do venues need this?</h3>
+      <p>
+        Non-alcoholic draft is the only category at real risk of misidentification during service. 
+        DraftVerify removes guesswork and provides clarity for teams and confidence for guests.
+      </p>
 
-      <details class="faq">
-        <summary><strong>Is DraftVerify scalable for multi-site groups?</strong></summary>
-        <p>
-          Yes. The system includes multi-venue dashboards, distributor views, and automated 
-          verification history for groups and breweries with multiple locations.
-        </p>
-      </details>
+      <div class="divider"></div>
 
-      <details class="faq">
-        <summary><strong>Is training included?</strong></summary>
-        <p>
-          Yes. The DraftVerify Academy provides modules on keg handling, line cleaning, contamination 
-          prevention, verification workflows, and compliance tracking.
-        </p>
-      </details>
+      <h3>Is DraftVerify required by law?</h3>
+      <p>
+        No — it is an industry standard, not a regulation. Operators adopt it for consistency, 
+        safety, and brand protection.
+      </p>
+
+      <div class="divider"></div>
+
+      <h3>Does DraftVerify work for alcoholic lines?</h3>
+      <p>
+        Yes. Breweries can apply a companion system to alcoholic lines.  
+        DraftVerify’s NA standard remains distinct so the categories are never confused.
+      </p>
+
+      <div class="divider"></div>
+
+      <h3>Is DraftVerify scalable for multi-site groups?</h3>
+      <p>
+        Absolutely. Built-in support includes multi-venue dashboards, distributor modes, and 
+        full verification history across locations.
+      </p>
+
+      <div class="divider"></div>
+
+      <h3>Is training included?</h3>
+      <p>
+        Yes. DraftVerify Academy includes modules on keg handling, line cleaning, contamination 
+        prevention, verification workflows, and compliance tracking.
+      </p>
+
+      <div class="divider"></div>
 
     </div>
   </div>
 </section>
-
 
 <!-- GLOSSARY -->
 <section class="section" id="glossary" style="background:#f7f9fc;">
