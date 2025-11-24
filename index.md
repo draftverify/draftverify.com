@@ -28,13 +28,6 @@ description: "DraftVerify is the global standard for identifying and protecting 
       DraftVerify aligns the keg tag, beer line marker, and faucet mark into a single visual language for NA draft.  
       It removes guesswork, reduces wrong-line pulls, and gives guests total clarity at the point of pour.
     </p>
-
-    <div class="image-frame">
-      <img 
-        src="{{ '/assets/draftverify-verified-line.png' | relative_url }}" 
-        alt="DraftVerify NA keg tag, line marker, and faucet mark aligned from keg to tower"
-      >
-    </div>
   </div>
 </section>
 
