@@ -1,195 +1,233 @@
 ---
 layout: default
-title: "Standards & Downloads"
-description: "Download and reference the official DraftVerify Standard v1.0 — available in English and German. Full HTML version included for accessibility and SEO."
+title: "DraftVerify Standard v1.0 — Non-Alcoholic Draft Systems"
+description: "The official DraftVerify Standard v1.0 — a combined physical and digital framework for identifying, separating, and verifying non-alcoholic draft systems from keg to faucet."
 ---
 
-# Official DraftVerify Standard  
-### Version 1.0 — October 2025  
+<!-- HERO -->
+<section class="hero hero-simple">
+  <div class="container">
+    <div class="hero-card reveal">
+      <h1>DraftVerify Standard v1.0</h1>
+      <p>
+        DraftVerify is the global standard for non-alcoholic draft integrity — a combined 
+        <strong>physical identification system</strong> and <strong>digital traceability layer</strong> that keeps 
+        NA draft lines clearly marked, separated, and verifiable from <strong>keg → line → faucet</strong>.
+      </p>
+      <a class="btn gold" href="#standard-overview">See How the Standard Works</a>
+    </div>
+  </div>
+</section>
 
-Download the published PDF versions in English and German, or read the full HTML reference below.
+<!-- DOWNLOADS -->
+<section class="section center" id="downloads">
+  <div class="container">
+    <div class="kicker">Downloads</div>
+    <h2 class="h2">Official DraftVerify Standard v1.0</h2>
+    <p style="max-width:760px;margin:0 auto">
+      The PDFs below are the formal published versions of the DraftVerify Standard v1.0 
+      for non-alcoholic draft systems.
+    </p>
 
-<p style="margin-top:18px">
-  <a class="btn gold" href="{{ '/standard-en.pdf' | relative_url }}">English PDF</a>
-  <a class="btn gold" href="{{ '/standard-de.pdf' | relative_url }}" style="margin-left:10px">German PDF</a>
-</p>
+    <p style="margin-top:18px">
+      <a class="btn gold" href="{{ '/standard-en.pdf' | relative_url }}">English PDF</a>
+      <a class="btn gold" href="{{ '/standard-de.pdf' | relative_url }}" style="margin-left:10px">German PDF</a>
+    </p>
 
-<div class="divider"></div>
+    <p style="margin-top:14px;font-size:0.9rem;color:#666;">
+      Having trouble? Right-click → “Save link as…”, or open directly:<br>
+      <a href="{{ '/standard-en.pdf' | relative_url }}">/standard-en.pdf</a> · 
+      <a href="{{ '/standard-de.pdf' | relative_url }}">/standard-de.pdf</a>
+    </p>
+  </div>
+</section>
 
-<p>Having trouble downloading? Try right-click → “Save link as…”, or open directly:<br>
-  <a href="{{ '/standard-en.pdf' | relative_url }}">/standard-en.pdf</a> ·
-  <a href="{{ '/standard-de.pdf' | relative_url }}">/standard-de.pdf</a>
-</p>
+<!-- WHAT IT IS -->
+<section class="section center" id="standard-overview">
+  <div class="container">
+    <div class="kicker">What It Is</div>
+    <h2 class="h2">A Unified Physical + Digital Standard</h2>
+    <p style="max-width:820px;margin:0 auto">
+      The DraftVerify Standard defines how non-alcoholic draft must be identified, separated, and verified 
+      in mixed or dedicated draft systems. It combines a clear visual language on the hardware with a required 
+      digital registry that records which keg, line, and faucet are part of the NA draft path.
+    </p>
+    <p style="max-width:820px;margin:16px auto 0">
+      A system is only considered <strong>DraftVerify compliant</strong> when both layers are in place:
+      visible NA identification at the point of pour, and active digital records backing every serialized tag.
+    </p>
+  </div>
+</section>
 
----
+<!-- HOW IT WORKS -->
+<section class="section center" id="how-it-works">
+  <div class="container">
+    <div class="kicker">How It Works</div>
+    <h2 class="h2">Identification → Activation → Verification</h2>
+    <p>Three pieces that work together in any venue or group.</p>
 
-# DraftVerify Standard v1.0  
-### *Public Reference (HTML Edition)*  
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card reveal">
+        <div class="chip">1. Physical Identification</div>
+        <h3>Make NA Lines Obvious</h3>
+        <p>
+          Kegs, lines, and faucets used for non-alcoholic products are clearly marked so teams can follow the 
+          NA path from the cooler to the tap in seconds.
+        </p>
+      </div>
 
-The DraftVerify Standard provides the industry’s first unified framework for identification, segregation, verification, and safe handling of **non-alcoholic draft systems**.
+      <div class="card reveal">
+        <div class="chip">2. Digital Activation</div>
+        <h3>Link Tags to the Registry</h3>
+        <p>
+          Each NA connection point receives a serialized DraftVerify tag and is digitally activated in the 
+          DraftVerify Registry — creating a traceable record for that keg → line → faucet.
+        </p>
+      </div>
 
-This HTML version is provided for accessibility, search indexing, and reference.  
-PDF copies remain the official published format.
+      <div class="card reveal">
+        <div class="chip">3. Ongoing Verification</div>
+        <h3>Keep It Compliant</h3>
+        <p>
+          Venues perform simple checks and maintain logs so NA lines stay correctly identified, separated from 
+          alcoholic lines, and aligned with the digital record over time.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
----
+<!-- TECHNOLOGY (REQUIRED DIGITAL LAYER) -->
+<section class="section" id="technology" style="background:#f7f9fc">
+  <div class="container center">
+    <div class="kicker">Digital Enforcement Layer</div>
+    <h2 class="h2">Required Traceability Behind Every Tag</h2>
+    <p style="max-width:820px;margin:0 auto">
+      DraftVerify is not just stickers on hardware. The digital platform is a required part of the standard — 
+      providing traceability, accountability, and proof that NA draft systems are being managed correctly over time.
+    </p>
 
-# Table of Contents
-1. [Foreword: About DraftVerify](#foreword)
-2. [Purpose](#purpose)
-3. [Scope](#scope)
-4. [Definitions](#definitions)
-5. [Core Principles](#core-principles)
-6. [System Identification Requirements](#system-identification-requirements)
-7. [Physical Separation & Cross-Contact Prevention](#physical-separation--cross-contact-prevention)
-8. [Handling & Storage (Cold Chain)](#handling--storage-cold-chain)
-9. [Verification Protocol](#verification-protocol)
-10. [Field Testing (Optional)](#field-testing)
-11. [Documentation & Recordkeeping](#documentation--recordkeeping)
-12. [Tag Serialization & Registry](#tag-serialization--registry)
-13. [Roles & Responsibilities](#roles--responsibilities)
-14. [Conformance Assessment](#conformance-assessment)
-15. [Use of Mark](#use-of-mark)
-16. [Incident Response & Corrective Action](#incident-response--corrective-action)
-17. [Change Management](#change-management)
-18. [Events & Mobile Service](#events--mobile-service)
-19. [Revision Policy](#revision-policy)
-20. [Legal Notice](#legal-notice)
+    <ul class="feature-list" style="max-width:720px;margin:30px auto 0;text-align:left">
+      <li><strong>Serialized DraftVerify tags</strong> assigned to NA kegs, lines, and faucets.</li>
+      <li><strong>Mandatory digital activation</strong> of each tag in the DraftVerify Registry.</li>
+      <li><strong>Verification logs</strong> capturing who checked what, where, and when.</li>
+      <li><strong>Change and cleaning records</strong> for system modifications and maintenance.</li>
+      <li><strong>Multi-venue visibility</strong> for breweries, groups, and distributors.</li>
+    </ul>
 
----
+    <p style="max-width:820px;margin:24px auto 0">
+      <strong>A DraftVerify tag is only considered valid when digitally activated in the DraftVerify Registry 
+      and linked to the verified connection point.</strong>  
+      Physical tags without an active record are not compliant with the standard.
+    </p>
+  </div>
+</section>
 
-## <a name="foreword"></a>Foreword: About DraftVerify  
-DraftVerify was founded to bring scientific integrity and operational consistency to non-alcoholic draft service. As NA offerings expand, so do the risks of misidentification, cross-contact, and guest confusion.
+<!-- CORE REQUIREMENTS SUMMARY -->
+<section class="section" id="core-requirements">
+  <div class="container">
+    <div class="kicker center">Core Requirements</div>
+    <h2 class="h2 center">What the DraftVerify Standard Covers</h2>
 
-The DraftVerify Standard establishes the first unified operational benchmark for NA draft system integrity.
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card reveal">
+        <h3>Separation</h3>
+        <p>
+          NA draft pathways are kept isolated from alcoholic lines. Equipment reuse and tower sharing are 
+          controlled and documented to prevent cross-contact.
+        </p>
+      </div>
+      <div class="card reveal">
+        <h3>Identification</h3>
+        <p>
+          NA components are visibly distinguished at the keg, along the beer line, and on the faucet. Staff can 
+          follow the NA path visually without guesswork.
+        </p>
+      </div>
+      <div class="card reveal">
+        <h3>Verification & Records</h3>
+        <p>
+          Operators maintain verification records, cleaning logs, change logs, and tag data in the DraftVerify 
+          Registry, supporting audits and incident response.
+        </p>
+      </div>
+    </div>
 
----
+    <div style="max-width:860px;margin:30px auto 0;font-size:0.98rem;line-height:1.6">
+      <h3 class="h3">High-Level Structure of the Standard</h3>
+      <ul>
+        <li><strong>Definitions & Scope</strong> — What counts as non-alcoholic, where the standard applies, and what is out of scope.</li>
+        <li><strong>System Identification</strong> — Requirements for visible, durable NA labeling and serialized tags.</li>
+        <li><strong>Physical Separation & Cross-Contact Prevention</strong> — Rules for shared towers, gas management, and line reuse.</li>
+        <li><strong>Handling & Storage</strong> — Cold chain and handling guidance for NA kegs.</li>
+        <li><strong>Verification Protocol</strong> — Initial verification, annual renewal, and post-modification review.</li>
+        <li><strong>Documentation & Recordkeeping</strong> — Verification records, change logs, cleaning logs, and identification plans.</li>
+        <li><strong>Use of Mark & Incident Response</strong> — When the “DraftVerify Certified” mark may be used, and how to respond to issues.</li>
+        <li><strong>Registry & Tag Serialization</strong> — How DV-SITE-YYYY-##### style tags are issued, tracked, and referenced.</li>
+        <li><strong>Revision Policy</strong> — How and when the standard is reviewed and updated.</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-## <a name="purpose"></a>1. Purpose  
-The DraftVerify Standard defines identification, handling, and verification requirements ensuring beverages represented as non-alcoholic are dispensed via systems free of contamination or misrepresentation.
+<!-- WHERE IT APPLIES -->
+<section class="section" id="applications">
+  <div class="container">
+    <div class="kicker center">Where It Applies</div>
+    <h2 class="h2 center">Built for Non-Alcoholic Draft Across Categories</h2>
 
----
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card reveal">
+        <h3>Non-Alcoholic Beer</h3>
+        <p>The core use case — keeping NA and alcoholic beer lines clearly separated and correctly identified.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Kombucha</h3>
+        <p>Applies the same identification and traceability principles to live and fermented beverages on draft.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Nitro Coffee</h3>
+        <p>Brings clarity and consistency to nitrogen-driven NA systems in cafés, taprooms, and hybrid venues.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-## <a name="scope"></a>2. Scope  
-- Applies to storage, handling, identification, and dispensing of NA beverages through draft systems.  
-- Relevant to venues, distributors, and installers operating mixed or dedicated systems.  
-- Excludes brewing or production processes.
+<!-- WHO IT'S FOR -->
+<section class="section center" id="audiences" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker center">Who It’s For</div>
+    <h2 class="h2 center">From Single Venues to National Groups</h2>
 
----
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card reveal">
+        <h3>Bars & Restaurants</h3>
+        <p>Make NA taps easy to locate, explain, and trust — even with frequent staff turnover.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Breweries & Taprooms</h3>
+        <p>Protect NA brands with a clear, repeatable standard for how they’re poured on site and in partner venues.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Distributors & Groups</h3>
+        <p>Roll out a recognizable, traceable system for NA draft across multiple sites and operators.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-## <a name="definitions"></a>3. Definitions  
-- **Non-Alcoholic (NA):** ≤ 0.5% ABV or local equivalent threshold.  
-- **Cross-Contact:** Introduction of ethanol-bearing liquid or vapor into NA pathways.  
-- **Verification:** Assessment of conformance.  
-- **Serialized Tag:** Unique identifier for traceability (e.g., DV-SITE-YYYY-#####).
-
----
-
-## <a name="core-principles"></a>4. Core Principles  
-1. **Separation** — NA pathways must be isolated from alcoholic pathways.  
-2. **Identification** — NA components must be visibly and permanently distinguished.  
-3. **Verification** — Conformance must be provable through documented records.  
-4. **Education** — Personnel must maintain NA handling integrity.
-
----
-
-## <a name="system-identification-requirements"></a>5. System Identification Requirements  
-- Operators must visibly identify NA components using durable markers.  
-- A serialized DraftVerify tag must be affixed at the NA coupler or connection point.  
-- Operators maintain written procedures preventing NA/alcohol crossover.
-
----
-
-## <a name="physical-separation--cross-contact-prevention"></a>6. Physical Separation & Cross-Contact Prevention  
-- NA lines must not be reused for alcoholic products without re-verification.  
-- Gas supply must prevent backflow or migration.  
-- Cleaning must avoid NA/alcohol fluid crossover.  
-- Shared towers require documented controls.
-
----
-
-## <a name="handling--storage-cold-chain"></a>7. Handling & Storage  
-- Store NA kegs ≤ 4 °C where feasible.  
-- Consume tapped kegs within 1–2 weeks.  
-- Prevent ethanol exposure during transport or cleaning.
-
----
-
-## <a name="verification-protocol"></a>8. Verification Protocol  
-**Three intervals:**  
-- **Initial Verification**  
-- **Annual Renewal**  
-- **Post-Modification Review**
-
----
-
-## <a name="field-testing"></a>9. Field Testing (Optional)  
-- Rinse-through ethanol screening recommended.  
-- Approved enzymatic or spectrometric methods.  
-- ATP testing may supplement hygiene assessment.
-
----
-
-## <a name="documentation--recordkeeping"></a>10. Documentation & Recordkeeping  
-- Verification records  
-- Identification plan  
-- Change log  
-- Cleaning log
-
----
-
-## <a name="tag-serialization--registry"></a>11. Tag Serialization & Registry  
-- Serialized tag: DV-SITE-YYYY-#####  
-- Registry entry required  
-- Public verification via QR/URL encouraged
-
----
-
-## <a name="roles--responsibilities"></a>12. Roles & Responsibilities  
-- **Operator:** Implements controls  
-- **Distributor/Installer:** Supports compliance  
-- **Verifier:** Confirms conformance
-
----
-
-## <a name="conformance-assessment"></a>13. Conformance Assessment  
-- **Major NC:** Active risk  
-- **Minor NC:** Documentation/labeling issues  
-- Certification requires zero Major NCs.
-
----
-
-## <a name="use-of-mark"></a>14. Use of Mark  
-- Only verified systems may display the “DraftVerify Certified” mark.  
-- Misuse may result in revocation.
-
----
-
-## <a name="incident-response--corrective-action"></a>15. Incident Response  
-- Isolate affected lines  
-- Document cause and corrective actions  
-- Re-verify before returning to service
-
----
-
-## <a name="change-management"></a>16. Change Management  
-- Planned changes require segregation review  
-- Unplanned changes must be logged within 24 hours
-
----
-
-## <a name="events--mobile-service"></a>17. Events & Mobile Service  
-- Temporary setups must meet permanent standards  
-- Portable systems must be dedicated or re-verified
-
----
-
-## <a name="revision-policy"></a>18. Revision Policy  
-Reviewed annually. Updates supersede prior versions.
-
----
-
-## <a name="legal-notice"></a>19. Legal Notice  
-© 2025 DraftVerify. All rights reserved.  
-Implementation is voluntary and does not guarantee regulatory compliance.  
-DraftVerify assumes no liability for loss or misuse of this standard.
-
+<!-- CTA -->
+<section class="section-sm">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <div class="kicker">Get Started</div>
+        <h3 style="margin:.3rem 0 0;">Bring the DraftVerify Standard to your venues.</h3>
+      </div>
+      <div>
+        <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
+        <a class="btn ghost" href="{{ '/pricing/' | relative_url }}" style="margin-left:10px;">View Pricing</a>
+      </div>
+    </div>
+  </div>
+</section>
