@@ -1,108 +1,155 @@
 ---
 layout: default
-title: "Non-Alcoholic Draft Contamination-Prevention Manual"
-description: "The complete contamination-prevention guide for non-alcoholic draft systems, including separation standards, cleaning practices, verification requirements, and digital traceability fundamentals."
+title: "NA Draft Contamination Prevention — DraftVerify"
+description: "Comprehensive guidance on preventing cross-contact and contamination in non-alcoholic draft systems."
 ---
 
-<section class="hero hero-simple">
-  <div class="container">
-    <div class="hero-card reveal">
-      <h1>NA Draft Contamination-Prevention Manual</h1>
-      <p>
-        The definitive guide to preventing ethanol cross-contact in non-alcoholic draft systems — 
-        supported by DraftVerify’s physical identification and digital compliance platform.
-      </p>
-    </div>
-  </div>
-</section>
+# NA Draft Contamination Prevention
+A comprehensive guide to preventing alcoholic cross-contact in non-alcoholic (NA) draft systems.
 
-<section class="section center">
-  <div class="container">
-    <div class="kicker">Overview</div>
-    <h2 class="h2">Protecting NA Draft From Contamination</h2>
-    <p style="max-width:820px;margin:0 auto">
-      Non-alcoholic draft lines are uniquely vulnerable to cross-contact from shared systems, 
-      cleaning fluids, multiproduct towers, and equipment changes.  
-      This manual outlines the contamination-prevention practices required for safe NA service.
-    </p>
-  </div>
-</section>
+This guide outlines how contamination happens, how to prevent it, and how DraftVerify provides operational safeguards through identification, separation, and digital tracking.
 
-<section class="section">
-  <div class="container">
-    <div class="kicker">Sources of Risk</div>
-    <h2 class="h2">Common Contamination Points</h2>
+---
 
-### 1. Equipment Reuse  
-Switching an alcoholic keg onto an NA line without full re-verification.
+## 1. What Is Cross-Contact?
+Cross-contact occurs when alcoholic liquid or vapor enters the NA system due to:
 
-### 2. Tower Sharing  
-Mixed-product towers allowing vapor migration.
+- Shared or reused lines  
+- Incorrect coupler changes  
+- Cleaning fluid crossover  
+- Splash contamination  
+- Incorrect gas routing  
+- Tower misconfiguration  
 
-### 3. Cleaning Fluid Residue  
-Cross-fluid contamination during cleaning cycles.
+Even **trace** ethanol can compromise NA product integrity.
 
-### 4. Backflow  
-Gas system backpressure pushing alcohol-bearing liquid into NA pathways.
+---
 
-<div class="image-placeholder">[Insert diagram: Contamination pathways]</div>
+## 2. High-Risk Scenarios
 
-  </div>
-</section>
+### **Shared Towers**
+When NA and alcoholic faucets share the same tower, misrouting or reconnecting can cause cross-contact.
 
-<section class="section" id="cleaning" style="background:#f7f9fc">
-  <div class="container">
-    <div class="kicker">Cleaning</div>
-    <h2 class="h2">Proper Cleaning for NA Lines</h2>
+### **Line Reuse**
+Reusing an alcoholic line for NA without re-verification is prohibited.
 
-### Requirements
-- Dedicated cleaning lines if possible  
-- Documented pre- and post-clean checks  
-- “First Pour” discard policy for NA products  
-- Digital log entry for every cleaning cycle  
+### **Service Work**
+Third-party technicians may disconnect lines incorrectly without clear identification.
 
-<div class="image-placeholder">[Insert diagram: Proper cleaning workflow]</div>
+### **Changeovers During Busy Shifts**
+Staff may accidentally connect the wrong keg.
 
-  </div>
-</section>
+### **Cleaning Cycles**
+Alcoholic lines may drain into NA lines if fittings are shared.
 
-<section class="section" id="verification">
-  <div class="container">
-    <div class="kicker">Verification</div>
-    <h2 class="h2">Verification as a Contamination-Prevention Tool</h2>
+---
 
-Verification ensures that:
+## 3. Prevention Framework
+DraftVerify provides three layers of protection.
 
-- The correct keg is installed  
-- The line is not contaminated  
-- The faucet alignment is correct  
-- Staff can document compliance quickly  
+---
 
-DraftVerify provides the digital logbook.
-  </div>
-</section>
+### **Layer 1 — Physical Identification**
+Clear identification is the first defense:
 
-<section class="section" id="digital-layer">
-  <div class="container">
-    <div class="kicker">Digital Layer</div>
-    <h2 class="h2">How Digital Traceability Eliminates Unknowns</h2>
+**Keg Tag → Line Marker → Faucet Sticker**
 
-- Every change is logged  
-- Every verification event is recorded  
-- Staff training certification is tracked  
-- Multi-venue operators gain full oversight  
+This pathway makes it impossible to accidentally pull the wrong line when used correctly.
 
-<div class="image-placeholder">[Insert diagram: Traceability data flow]</div>
+---
 
-  </div>
-</section>
+### **Layer 2 — Separation Controls**
+Operators must implement:
 
-<section class="section center">
-  <div class="container">
-    <p>
-      • <a href="/cornerstone/na-draft-safety-standard/">Safety Standard</a><br>
-      • <a href="/cornerstone/na-draft-identification-guide/">Identification Guide</a><br>
-      • <a href="/faq/">FAQ & Glossary</a>
-    </p>
-  </div>
-</section>
+- Dedicated NA hoses  
+- Isolation valves where required  
+- Gas backflow protection  
+- NA-only jumper lines  
+- Clean, ethanol-free rinse procedures  
+
+---
+
+### **Layer 3 — Digital Verification**
+The DraftVerify platform logs:
+
+- Line connections  
+- Service work  
+- Changeovers  
+- Cleaning cycles  
+- Verification events  
+- Staff training completion  
+
+This ensures accountability across shifts.
+
+---
+
+## 4. Cleaning & Maintenance Controls
+
+### **A. Daily**
+- Confirm identification pathway  
+- Log verification  
+- Inspect faucet sticker  
+
+### **B. Weekly**
+- Inspect line markers  
+- Confirm cold storage hygiene  
+- Log changeovers  
+
+### **C. Monthly**
+- Full line cleaning  
+- Confirm no alcoholic fluid crossover  
+- Update digital cleaning logs  
+
+---
+
+## 5. Cross-Contact Detection Methods
+
+### **1. Rinse-Through Ethanol Screening**
+Quick check for alcohol presence.
+
+### **2. Enzymatic Testing**
+Detects trace ethanol contamination.
+
+### **3. Spectrometric Detection (Advanced)**
+Used by breweries or large groups.
+
+### **4. ATP Surface Testing**
+Confirms sanitation of keg couplers and fittings.
+
+---
+
+## 6. Incident Response
+
+If contamination is suspected:
+
+1. Stop service immediately  
+2. Remove tagged keg  
+3. Flush and clean line  
+4. Perform ethanol screen  
+5. Reapply identification pathway  
+6. Reverify + log event  
+7. Issue updated tag if needed  
+
+Certification remains paused until fully resolved.
+
+---
+
+## 7. Operator Responsibilities
+- Maintain clear NA identification  
+- Confirm correct routing  
+- Train staff regularly  
+- Log verifications  
+- Document service events  
+
+---
+
+## 8. Why Prevention Matters
+Cross-contact compromises:
+
+- Consumer trust  
+- Brewery brand integrity  
+- Venue liability  
+- Product safety  
+
+DraftVerify establishes consistent controls so NA draft can be served with confidence at any scale.
+
