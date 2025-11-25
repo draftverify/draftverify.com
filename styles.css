@@ -271,34 +271,35 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
   color: var(--blue-2, #0a2c4b);
 }
 
-/* Simple hero background using kegs1920.png */
+/* HERO BACKGROUND IMAGE — kegs1920.png */
 .page-hero {
   position: relative;
   width: 100%;
-  min-height: 300px; /* Increase if you want a taller hero: 380–450px looks great */
+  min-height: 380px; /* adjust taller if you want */
   background-image: url('{{ "/assets/kegs1920.png" | relative_url }}');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  padding: 50px 20px;
+  padding: 60px 20px;
 }
 
+/* Dark overlay */
 .page-hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.35); /* dark overlay so text is readable */
+  background: rgba(0,0,0,0.35);
   z-index: 1;
 }
 
+/* Text inside hero */
 .page-hero-inner {
   max-width: 900px;
   margin: 0 auto;
   color: #fff;
   position: relative;
   z-index: 2;
-  text-align: center; /* Change to left if you want */
+  text-align: center;
 }
-
