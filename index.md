@@ -4,18 +4,16 @@ title: "DraftVerify — The Global Standard for Non-Alcoholic Draft"
 description: "DraftVerify is the global standard for identifying and protecting non-alcoholic draft — ensuring clarity, traceability, and trust from keg to faucet."
 ---
 
-<!-- HERO (TEXT ONLY) -->
-<section class="hero hero-simple">
-  <div class="container">
-    <div class="hero-card reveal">
-      <h1>The Global Standard for Non-Alcoholic Draft</h1>
-      <p>
-        DraftVerify creates a single, consistent way to identify non-alcoholic draft from 
-        <strong>keg → line → faucet</strong>, paired with a digital traceability layer that brings 
-        visibility and confidence to breweries, venues, and distributors.
-      </p>
-      <a class="btn gold" href="{{ '/standards/' | relative_url }}">View the Standard</a>
-    </div>
+<!-- HERO WITH BACKGROUND IMAGE -->
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <h1>The Global Standard for Non-Alcoholic Draft</h1>
+    <p>
+      DraftVerify creates a single, consistent way to identify non-alcoholic draft from 
+      <strong>keg → line → faucet</strong>, paired with a digital traceability layer that brings 
+      visibility and confidence to breweries, venues, and distributors.
+    </p>
+    <a class="btn gold" href="{{ '/standards/' | relative_url }}">View the Standard</a>
   </div>
 </section>
 
