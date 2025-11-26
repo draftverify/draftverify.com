@@ -12,7 +12,24 @@ description: Get in touch with DraftVerify to start verification, request traini
     <div class="card" style="max-width:720px;margin:22px auto">
       <h3>Email</h3>
       <p><a class="btn primary" href="mailto:standards@draftverify.com">standards@draftverify.com</a></p>
-      <p>Include your venue name, city, number of taps, and any photos of your current draft setup (optional).</p>
+      <p>Include your venue name, city, number of taps, and any details about your current draft setup.</p>
+    </div>
+
+    <div class="card" style="max-width:720px;margin:32px auto;padding:32px;">
+      <h3>Contact & Onboarding Form</h3>
+
+      <!-- Google Form embed -->
+      <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfVF7N_gxMhzWrDjQAIFI1TbNe0_scUZXS8Ucq-exjNi2eASQ/viewform?embedded=true" 
+        width="100%" 
+        height="2767" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0" 
+        style="border:none;border-radius:10px;">
+        Loading…
+      </iframe>
+
     </div>
   </div>
 </section>
