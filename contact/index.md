@@ -18,7 +18,8 @@ description: Get in touch with DraftVerify to start verification, request traini
     <div class="card" style="max-width:720px;margin:32px auto;padding:32px;">
       <h3>Contact & Onboarding Form</h3>
 
-      <form action="https://formsubmit.co/info@draftverify.com" method="POST" class="dv-contact-form">
+      <!-- Updated form action with BOTH inboxes -->
+      <form action="https://formsubmit.co/info@draftverify.com,draftverify@outlook.com" method="POST" class="dv-contact-form">
 
         <!-- Honeypot for spam protection -->
         <input type="text" name="_honey" style="display:none">
