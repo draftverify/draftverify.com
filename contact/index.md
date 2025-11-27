@@ -18,18 +18,135 @@ description: Get in touch with DraftVerify to start verification, request traini
     <div class="card" style="max-width:720px;margin:32px auto;padding:32px;">
       <h3>Contact & Onboarding Form</h3>
 
-      <!-- Google Form embed -->
-      <iframe 
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfVF7N_gxMhzWrDjQAIFI1TbNe0_scUZXS8Ucq-exjNi2eASQ/viewform?embedded=true" 
-        width="100%" 
-        height="2767" 
-        frameborder="0" 
-        marginheight="0" 
-        marginwidth="0" 
-        style="border:none;border-radius:10px;">
-        Loading…
-      </iframe>
+      <form action="https://formsubmit.co/info@draftverify.com" method="POST" class="dv-contact-form">
+
+        <!-- Honeypot for spam protection -->
+        <input type="text" name="_honey" style="display:none">
+
+        <!-- Disable CAPTCHA -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Redirect to a thank-you page after submitting -->
+        <input type="hidden" name="_next" value="https://draftverify.com/thank-you">
+
+        <label>
+          Name<br>
+          <input type="text" name="name" required>
+        </label>
+
+        <label>
+          Email<br>
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          Phone (with country code)<br>
+          <input type="text" name="phone" placeholder="+1 647 555 1234">
+        </label>
+
+        <label>
+          Venue / Company<br>
+          <input type="text" name="company" required>
+        </label>
+
+        <label>
+          Country<br>
+          <input type="text" name="country" required>
+        </label>
+
+        <label>
+          City / Region<br>
+          <input type="text" name="city" required>
+        </label>
+
+        <label>
+          Number of taps (total)<br>
+          <input type="text" name="taps" required>
+        </label>
+
+        <label>
+          Do you currently serve non-alcoholic draft?<br>
+          <select name="na_draft" required>
+            <option value="" disabled selected>Select one</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Planning to start">Planning to start</option>
+          </select>
+        </label>
+
+        <label>
+          What prompted your interest in DraftVerify?<br>
+          <select name="reason" required>
+            <option value="" disabled selected>Select one</option>
+            <option value="Prevent contamination">Prevent contamination</option>
+            <option value="Launch NA draft">Launch NA draft</option>
+            <option value="Brewery/distributor recommendation">Brewery/distributor recommendation</option>
+            <option value="Customer demand">Customer demand</option>
+            <option value="Staff training">Staff training</option>
+            <option value="Certification">Certification</option>
+            <option value="Other">Other</option>
+          </select>
+        </label>
+
+        <label>
+          Anything else you want to share?<br>
+          <textarea name="message" rows="4" placeholder="Tell us about your system, brands, or timelines..."></textarea>
+        </label>
+
+        <button type="submit" class="btn gold">Submit</button>
+      </form>
 
     </div>
   </div>
 </section>
+
+<style>
+  .dv-contact-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .dv-contact-form label {
+    font-weight: 600;
+    color: #0d3b66;
+    font-size: 15px;
+  }
+
+  .dv-contact-form input,
+  .dv-contact-form select,
+  .dv-contact-form textarea {
+    width: 100%;
+    margin-top: 6px;
+    padding: 11px 13px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    box-sizing: border-box;
+  }
+
+  .dv-contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  .dv-contact-form .btn.gold {
+    margin-top: 8px;
+    background: #BFA14A;
+    color: #fff;
+    padding: 13px 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.05s ease;
+  }
+
+  .dv-contact-form .btn.gold:hover {
+    background: #a98f40;
+    transform: translateY(-1px);
+  }
+</style>
