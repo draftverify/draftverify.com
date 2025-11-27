@@ -18,14 +18,16 @@ description: Get in touch with DraftVerify to start verification, request traini
     <div class="card" style="max-width:720px;margin:32px auto;padding:32px;">
       <h3>Contact & Onboarding Form</h3>
 
-      <!-- Updated form action with BOTH inboxes -->
-      <form action="https://formsubmit.co/info@draftverify.com,draftverify@outlook.com" method="POST" class="dv-contact-form">
+      <form action="https://formsubmit.co/info@draftverify.com" method="POST" class="dv-contact-form">
 
         <!-- Honeypot for spam protection -->
         <input type="text" name="_honey" style="display:none">
 
         <!-- Disable CAPTCHA -->
         <input type="hidden" name="_captcha" value="false">
+
+        <!-- CC to automation inbox -->
+        <input type="hidden" name="_cc" value="draftverify@outlook.com">
 
         <!-- Redirect to a thank-you page after submitting -->
         <input type="hidden" name="_next" value="https://draftverify.com/thank-you">
