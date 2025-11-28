@@ -26,11 +26,14 @@ description: Get in touch with DraftVerify to start verification, request traini
         <!-- Disable CAPTCHA -->
         <input type="hidden" name="_captcha" value="false">
 
-        <!-- CC to automation inbox -->
+        <!-- CC to automation inbox (optional – OK to leave even if not used) -->
         <input type="hidden" name="_cc" value="draftverify@outlook.com">
 
         <!-- Redirect to a thank-you page after submitting -->
         <input type="hidden" name="_next" value="https://draftverify.com/thank-you">
+
+        <!-- Set a clear subject line for automation rules / Power Automate -->
+        <input type="hidden" name="_subject" value="DraftVerify Contact – New submission">
 
         <label>
           Name<br>
