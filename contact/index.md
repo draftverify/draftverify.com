@@ -18,89 +18,86 @@ description: Get in touch with DraftVerify to start verification, request traini
     <div class="card" style="max-width:720px;margin:32px auto;padding:32px;">
       <h3>Contact & Onboarding Form</h3>
 
-      <form action="https://formsubmit.co/info@draftverify.com" method="POST" class="dv-contact-form">
+     <form action="https://formsubmit.co/info@draftverify.com" method="POST" class="dv-contact-form">
 
-        <!-- Honeypot for spam protection -->
-        <input type="text" name="_honey" style="display:none">
+  <!-- Honeypot for spam protection -->
+  <input type="text" name="_honey" style="display:none">
 
-        <!-- Disable CAPTCHA -->
-        <input type="hidden" name="_captcha" value="false">
+  <!-- Disable CAPTCHA -->
+  <input type="hidden" name="_captcha" value="false">
 
-        <!-- CC to automation inbox (optional – OK to leave even if not used) -->
-        <input type="hidden" name="_cc" value="draftverify@outlook.com">
+  <!-- Redirect to a thank-you page after submitting -->
+  <input type="hidden" name="_next" value="https://draftverify.com/thank-you">
 
-        <!-- Redirect to a thank-you page after submitting -->
-        <input type="hidden" name="_next" value="https://draftverify.com/thank-you">
+  <!-- Set a clear subject line for rules/automation -->
+  <input type="hidden" name="_subject" value="DraftVerify Contact – New submission">
 
-        <!-- Set a clear subject line for automation rules / Power Automate -->
-        <input type="hidden" name="_subject" value="DraftVerify Contact – New submission">
+  <label>
+    Name<br>
+    <input type="text" name="name" required>
+  </label>
 
-        <label>
-          Name<br>
-          <input type="text" name="name" required>
-        </label>
+  <label>
+    Email<br>
+    <input type="email" name="email" required>
+  </label>
 
-        <label>
-          Email<br>
-          <input type="email" name="email" required>
-        </label>
+  <label>
+    Phone (with country code)<br>
+    <input type="text" name="phone" placeholder="+1 647 555 1234">
+  </label>
 
-        <label>
-          Phone (with country code)<br>
-          <input type="text" name="phone" placeholder="+1 647 555 1234">
-        </label>
+  <label>
+    Venue / Company<br>
+    <input type="text" name="company" required>
+  </label>
 
-        <label>
-          Venue / Company<br>
-          <input type="text" name="company" required>
-        </label>
+  <label>
+    Country<br>
+    <input type="text" name="country" required>
+  </label>
 
-        <label>
-          Country<br>
-          <input type="text" name="country" required>
-        </label>
+  <label>
+    City / Region<br>
+    <input type="text" name="city" required>
+  </label>
 
-        <label>
-          City / Region<br>
-          <input type="text" name="city" required>
-        </label>
+  <label>
+    Number of taps (total)<br>
+    <input type="text" name="taps" required>
+  </label>
 
-        <label>
-          Number of taps (total)<br>
-          <input type="text" name="taps" required>
-        </label>
+  <label>
+    Do you currently serve non-alcoholic draft?<br>
+    <select name="na_draft" required>
+      <option value="" disabled selected>Select one</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+      <option value="Planning to start">Planning to start</option>
+    </select>
+  </label>
 
-        <label>
-          Do you currently serve non-alcoholic draft?<br>
-          <select name="na_draft" required>
-            <option value="" disabled selected>Select one</option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-            <option value="Planning to start">Planning to start</option>
-          </select>
-        </label>
+  <label>
+    What prompted your interest in DraftVerify?<br>
+    <select name="reason" required>
+      <option value="" disabled selected>Select one</option>
+      <option value="Prevent contamination">Prevent contamination</option>
+      <option value="Launch NA draft">Launch NA draft</option>
+      <option value="Brewery/distributor recommendation">Brewery/distributor recommendation</option>
+      <option value="Customer demand">Customer demand</option>
+      <option value="Staff training">Staff training</option>
+      <option value="Certification">Certification</option>
+      <option value="Other">Other</option>
+    </select>
+  </label>
 
-        <label>
-          What prompted your interest in DraftVerify?<br>
-          <select name="reason" required>
-            <option value="" disabled selected>Select one</option>
-            <option value="Prevent contamination">Prevent contamination</option>
-            <option value="Launch NA draft">Launch NA draft</option>
-            <option value="Brewery/distributor recommendation">Brewery/distributor recommendation</option>
-            <option value="Customer demand">Customer demand</option>
-            <option value="Staff training">Staff training</option>
-            <option value="Certification">Certification</option>
-            <option value="Other">Other</option>
-          </select>
-        </label>
+  <label>
+    Anything else you want to share?<br>
+    <textarea name="message" rows="4" placeholder="Tell us about your system, brands, or timelines..."></textarea>
+  </label>
 
-        <label>
-          Anything else you want to share?<br>
-          <textarea name="message" rows="4" placeholder="Tell us about your system, brands, or timelines..."></textarea>
-        </label>
-
-        <button type="submit" class="btn gold">Submit</button>
-      </form>
+  <button type="submit" class="btn gold">Submit</button>
+</form>
 
     </div>
   </div>
