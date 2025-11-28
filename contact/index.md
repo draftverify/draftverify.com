@@ -11,7 +11,7 @@ description: Get in touch with DraftVerify to start verification, request traini
 
     <div class="card" style="max-width:720px;margin:22px auto">
       <h3>Email</h3>
-      <p><a class="btn primary" href="mailto:standards@draftverify.com">standards@draftverify.com</a></p>
+      <p><a class="btn primary" href="mailto:info@draftverify.com">info@draftverify.com</a></p>
       <p>Include your venue name, city, number of taps, and any details about your current draft setup.</p>
     </div>
 
