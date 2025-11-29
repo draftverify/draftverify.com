@@ -20,6 +20,11 @@ description: "DraftVerify establishes the global identification, verification, a
         <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
         <a class="btn gold" href="{{ '/cornerstone/how-to-serve-na-beer-on-tap/' | relative_url }}">View NA Draft Standard</a>
       </div>
+
+      <!-- HERO IMAGE: wide lifestyle / scan shot (1.png) -->
+      <img src="/assets/img/1.png" 
+           alt="Staff scanning a DraftVerify Coupler Tag on an NA keg" 
+           style="width:100%;max-width:1200px;margin:28px auto 0;display:block;border-radius:18px;">
     </div>
   </div>
 </section>
@@ -40,6 +45,11 @@ description: "DraftVerify establishes the global identification, verification, a
       DraftVerify replaces that patchwork with a <strong>single, global standard</strong> for how 
       non-alcoholic draft is identified, connected, and verified—no matter the venue or system layout.
     </p>
+
+    <!-- OVERVIEW IMAGE: messy cooler / problem state (2.png) -->
+    <img src="/assets/img/2.png" 
+         alt="Crowded draft cooler with multiple unlabelled kegs and lines" 
+         style="width:100%;max-width:1200px;margin:30px auto 0;display:block;border-radius:16px;">
   </div>
 </section>
 
@@ -56,6 +66,11 @@ description: "DraftVerify establishes the global identification, verification, a
 
     <div class="grid cols-3" style="margin-top:22px;">
       <div class="card reveal">
+        <!-- Pillar 1 image: Keg Tag close-up (3.png) -->
+        <img src="/assets/img/3.png" 
+             alt="DraftVerify Keg Tag applied to an NA keg" 
+             style="width:100%;max-width:140px;margin:0 auto 15px;display:block;">
+
         <h3>Pillar 1: Keg Tag</h3>
         <p>
           Applied at the brewery, the Keg Tag sets the official non-alcoholic identity before the keg 
@@ -65,6 +80,11 @@ description: "DraftVerify establishes the global identification, verification, a
       </div>
 
       <div class="card reveal">
+        <!-- Pillar 2 image: Coupler Tag close-up (4.png) -->
+        <img src="/assets/img/4.png" 
+             alt="DraftVerify NFC-enabled Coupler Tag attached to a coupler" 
+             style="width:100%;max-width:140px;margin:0 auto 15px;display:block;">
+
         <h3>Pillar 2: Coupler Tag (NFC)</h3>
         <p>
           The Coupler Tag is the moment-of-truth checkpoint. Its secure NFC signature confirms the 
@@ -74,6 +94,11 @@ description: "DraftVerify establishes the global identification, verification, a
       </div>
 
       <div class="card reveal">
+        <!-- Pillar 3 image: Registry UI (5.png) -->
+        <img src="/assets/img/5.png" 
+             alt="DraftVerify Digital Registry dashboard on a laptop screen" 
+             style="width:100%;max-width:140px;margin:0 auto 15px;display:block;">
+
         <h3>Pillar 3: Digital Registry</h3>
         <p>
           Every verification scan is recorded in the DraftVerify Registry, creating an auditable trail 
@@ -111,6 +136,11 @@ description: "DraftVerify establishes the global identification, verification, a
       carrying that identity all the way to the faucet.
     </p>
 
+    <!-- PROBLEM IMAGE: side-by-side wrong vs right (6.png) -->
+    <img src="/assets/img/6.png" 
+         alt="Before and after comparison of unlabelled vs DraftVerify-tagged kegs" 
+         style="width:100%;max-width:1200px;margin:30px auto 0;display:block;border-radius:16px;">
+
     <div style="margin-top:20px;">
       <a class="btn primary" href="{{ '/cornerstone/how-to-serve-na-beer-on-tap/' | relative_url }}">Read the NA Operations Standard</a>
     </div>
@@ -129,23 +159,48 @@ description: "DraftVerify establishes the global identification, verification, a
       readable all the way to the glass.
     </p>
 
+    <!-- PATHWAY DIAGRAM (7.png) -->
+    <img src="/assets/img/7.png" 
+         alt="Diagram showing the DraftVerify pathway from keg to coupler to line to faucet" 
+         style="width:100%;max-width:1200px;margin:26px auto;display:block;border-radius:16px;">
+
     <div class="grid cols-4" style="margin-top:22px;">
       <div class="card reveal">
+        <!-- Optional small icon (8.png) -->
+        <img src="/assets/img/8.png" 
+             alt="Icon representing a tagged NA keg" 
+             style="width:100%;max-width:80px;margin:0 auto 12px;display:block;">
+
         <h3>Keg Tag</h3>
         <p>Shows that the keg is NA before anything gets connected.</p>
       </div>
 
       <div class="card reveal">
+        <!-- Optional small icon (9.png) -->
+        <img src="/assets/img/9.png" 
+             alt="Icon representing an NFC coupler tag" 
+             style="width:100%;max-width:80px;margin:0 auto 12px;display:block;">
+
         <h3>Coupler Tag (NFC)</h3>
         <p>Confirms the right keg is on the right coupler at the moment of connection.</p>
       </div>
 
       <div class="card reveal">
+        <!-- Optional small icon (10.png) -->
+        <img src="/assets/img/10.png" 
+             alt="Icon representing a tagged beer line" 
+             style="width:100%;max-width:80px;margin:0 auto 12px;display:block;">
+
         <h3>Line Marker</h3>
         <p>Follows the chosen route so staff can trace the NA line through a busy cooler.</p>
       </div>
 
       <div class="card reveal">
+        <!-- Optional small icon (11.png) -->
+        <img src="/assets/img/11.png" 
+             alt="Icon representing a marked faucet" 
+             style="width:100%;max-width:80px;margin:0 auto 12px;display:block;">
+
         <h3>Faucet Sticker</h3>
         <p>Makes the NA tap obvious at the point of pour for staff and guests.</p>
       </div>
@@ -173,7 +228,12 @@ description: "DraftVerify establishes the global identification, verification, a
       is quick, repeatable, and easy to teach:
     </p>
 
-    <ol style="margin-top:20px;">
+    <!-- SERVICE IMAGE: staff using DV in cooler or at tower (12.png) -->
+    <img src="/assets/img/12.png" 
+         alt="Bartender tracing a DraftVerify line marker to the faucet" 
+         style="width:100%;max-width:1200px;margin:24px auto 10px;display:block;border-radius:16px;">
+
+    <ol style="margin-top:10px;">
       <li>Scan the NFC Coupler Tag before connecting.</li>
       <li>Trace the Line Marker from keg to faucet.</li>
       <li>Confirm the Faucet Sticker matches the NA product.</li>
@@ -211,6 +271,11 @@ description: "DraftVerify establishes the global identification, verification, a
       is taken out of NA service until it does. The goal is simple everywhere: <strong>zero doubt, zero risk.</strong>
     </p>
 
+    <!-- RULE IMAGE: simple badge or icon about safety (13.png) -->
+    <img src="/assets/img/13.png" 
+         alt="DraftVerify safety and assurance badge" 
+         style="width:100%;max-width:600px;margin:26px auto 0;display:block;border-radius:16px;">
+
     <div style="margin-top:20px;">
       <a class="btn gold" href="{{ '/contact/' | relative_url }}">Contact the Standards Team</a>
     </div>
@@ -234,6 +299,11 @@ description: "DraftVerify establishes the global identification, verification, a
       this complete pathway from brewery to faucet.
     </p>
 
+    <!-- CONFORMANCE IMAGE: certificate / checklist (14.png) -->
+    <img src="/assets/img/14.png" 
+         alt="DraftVerify conformance certificate or standard icon" 
+         style="width:100%;max-width:700px;margin:26px auto 0;display:block;border-radius:16px;">
+
     <div style="margin-top:24px;">
       <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
     </div>
@@ -251,6 +321,11 @@ description: "DraftVerify establishes the global identification, verification, a
       verification pattern across all draft lines for clarity and control. The underlying system is 
       compatible with alcoholic beverages, even as the global standard remains focused on NA safety.
     </p>
+
+    <!-- FULL-TOWER IMAGE: tower shot with multiple taps (15.png) -->
+    <img src="/assets/img/15.png" 
+         alt="Draft tower with clearly identified NA and alcoholic taps" 
+         style="width:100%;max-width:1200px;margin:26px auto 0;display:block;border-radius:16px;">
 
     <div style="margin-top:20px;">
       <a class="btn gold" href="{{ '/contact/' | relative_url }}">Ask About Full-Tower Adoption</a>
