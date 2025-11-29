@@ -10,108 +10,109 @@ description: "DraftVerify establishes the global identification, verification, a
     <div class="hero-card reveal">
       <h1>The Global Standard for Non-Alcoholic Draft</h1>
       <p>
-        DraftVerify defines the world’s first complete identity, verification, and traceability system 
-        for non-alcoholic draft. Through <strong>Keg Tags</strong>, <strong>NFC-enabled Coupler Tags</strong>, 
-        and the <strong>DraftVerify Digital Registry</strong>, venues gain a standardized, reliable, and 
-        globally consistent way to identify, connect, and confidently serve NA beverages on tap.
+        DraftVerify gives venues a clear, reliable way to run non-alcoholic draft. 
+        Using <strong>Keg Tags</strong>, <strong>NFC-enabled Coupler Tags</strong>, and the 
+        <strong>DraftVerify Digital Registry</strong>, every NA keg can be identified, connected, 
+        and served with confidence—no guesswork, no mix-ups.
       </p>
 
       <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;">
         <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
         <a class="btn gold" href="{{ '/cornerstone/how-to-serve-na-beer-on-tap/' | relative_url }}">View NA Draft Standard</a>
-        <a class="btn ghost" href="{{ '/pricing/' | relative_url }}">View Pricing</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- OVERVIEW -->
+<!-- OVERVIEW: WHY THIS EXISTS -->
 <section class="section center">
   <div class="container">
-    <div class="kicker">Overview</div>
-    <h2 class="h2">Non-Alcoholic Draft Needs a Global Standard</h2>
+    <div class="kicker">Why This Exists</div>
+    <h2 class="h2">NA Draft Has Grown Up. The Systems Behind It Haven’t.</h2>
 
     <p style="max-width:820px;margin:0 auto;">
-      NA beverages are now present in bars, restaurants, breweries, hotels, stadiums, and entertainment 
-      venues worldwide. However, draft systems were never designed to distinguish NA lines from alcoholic 
-      ones, and most operators still rely on tape, memory, or improvised labels.
+      NA beers and beverages now sit on towers everywhere, but most draft setups still rely on tape, 
+      handwriting, and memory to keep lines straight. In shared coolers, NA and alcoholic kegs look 
+      the same. Lines cross. Couplers sit side by side. Staff are busy and visibility is limited.
     </p>
 
     <p style="max-width:820px;margin:20px auto 0;">
-      DraftVerify eliminates guesswork by replacing inconsistent venue-level practices with a unified 
-      global standard—clear, verifiable, and recognized across any draft system or region.
+      DraftVerify replaces that patchwork with a <strong>single, global standard</strong> for how 
+      non-alcoholic draft is identified, connected, and verified—no matter the venue or system layout.
     </p>
-
-    <div style="margin-top:24px;">
-      <a class="btn ghost" href="#three-pillars">See the Three Pillars</a>
-    </div>
   </div>
 </section>
 
 <!-- SECTION 1: THREE PILLARS -->
 <section class="section" id="three-pillars">
   <div class="container">
-    <div class="kicker">1. The Three Pillars of the Global Standard</div>
-    <h2 class="h2">Physical Identity → Connection Verification → Digital Traceability</h2>
+    <div class="kicker">1. What DraftVerify Is</div>
+    <h2 class="h2">Three Pillars: Identity, Verification, Traceability</h2>
 
     <p>
-      DraftVerify creates identity certainty across the entire draft pathway—from the brewery to the faucet. 
-      Each pillar plays a distinct role, and together they deliver complete NA identity control.
+      DraftVerify isn’t a sticker pack. It’s a complete identity system for NA draft, built on 
+      three connected components that work together from brewery to faucet.
     </p>
 
     <div class="grid cols-3" style="margin-top:22px;">
       <div class="card reveal">
         <h3>Pillar 1: Keg Tag</h3>
         <p>
-          Applied at the brewery, the Keg Tag assigns the verified NA identity before distribution. It ensures 
-          staff can instantly see that the keg is non-alcoholic the moment it enters the cooler.
+          Applied at the brewery, the Keg Tag sets the official non-alcoholic identity before the keg 
+          ever enters a cooler. It’s the first, simple signal that this keg is NA.
         </p>
-        <a class="btn ghost" href="{{ '/keg-tags/' | relative_url }}" style="margin-top:10px;display:inline-block;">Learn More</a>
+        <a class="btn primary" href="{{ '/keg-tags/' | relative_url }}" style="margin-top:10px;display:inline-block;">Keg Tag Details</a>
       </div>
 
       <div class="card reveal">
         <h3>Pillar 2: Coupler Tag (NFC)</h3>
         <p>
-          The Coupler Tag is the critical verification checkpoint. Its secure NFC signature confirms the exact 
-          keg and product at the moment of connection—the point where NA mix-ups most often occur.
+          The Coupler Tag is the moment-of-truth checkpoint. Its secure NFC signature confirms the 
+          exact keg and product when staff connect the coupler—the point where most mix-ups happen.
         </p>
-        <a class="btn ghost" href="{{ '/coupler-tags/' | relative_url }}" style="margin-top:10px;display:inline-block;">Learn More</a>
+        <a class="btn primary" href="{{ '/coupler-tags/' | relative_url }}" style="margin-top:10px;display:inline-block;">Coupler Tag Details</a>
       </div>
 
       <div class="card reveal">
         <h3>Pillar 3: Digital Registry</h3>
         <p>
-          Every verification scan syncs to the DraftVerify Registry, creating an auditable identity trail across 
-          staff, shifts, venues, and multi-site groups. NA identity becomes globally visible and traceable.
+          Every verification scan is recorded in the DraftVerify Registry, creating an auditable trail 
+          across shifts, venues, and groups. NA identity becomes visible and traceable instead of assumed.
         </p>
-        <a class="btn ghost" href="{{ '/registry/' | relative_url }}" style="margin-top:10px;display:inline-block;">See Registry Details</a>
+        <a class="btn primary" href="{{ '/registry/' | relative_url }}" style="margin-top:10px;display:inline-block;">Explore the Registry</a>
       </div>
     </div>
 
     <div style="margin-top:26px;">
-      <a class="btn primary" href="{{ '/contact/' | relative_url }}">Talk to DraftVerify</a>
+      <a class="btn gold" href="{{ '/contact/' | relative_url }}">Talk to DraftVerify</a>
     </div>
   </div>
 </section>
 
-<!-- SECTION 2: PROBLEM -->
+<!-- SECTION 2: THE PROBLEM -->
 <section class="section" style="background:#f7f9fc;">
   <div class="container">
     <div class="kicker">2. The Problem</div>
-    <h2 class="h2">Where NA Mix-Ups Occur—And Why They Persist</h2>
+    <h2 class="h2">Where NA Mix-Ups Actually Happen</h2>
 
     <p>
-      In shared coolers, NA and alcoholic kegs look identical. Lines cross. Couplers sit side by side. 
-      Staff work quickly in tight environments without consistent labeling or verification tools. 
-      Under these conditions, NA identity is often lost at the connection point.
+      In real venues, mistakes don’t come from the label on the handle. They come from the moments 
+      nobody sees: a rushed keg change, a line re-routed in a tight cooler, a new staff member 
+      connecting “the line that used to be NA.”
     </p>
 
     <p>
-      DraftVerify corrects this by establishing the Coupler Tag as the mandatory global checkpoint for NA identity.
+      Without a standard, every venue invents its own system. Some work most of the time. None are 
+      consistent, auditable, or built for NA-specific risk.
+    </p>
+
+    <p>
+      DraftVerify fixes the weak point by putting a verified step at the connection itself, then 
+      carrying that identity all the way to the faucet.
     </p>
 
     <div style="margin-top:20px;">
-      <a class="btn ghost" href="{{ '/cornerstone/how-to-serve-na-beer-on-tap/' | relative_url }}">Read the NA Draft Operations Standard</a>
+      <a class="btn primary" href="{{ '/cornerstone/how-to-serve-na-beer-on-tap/' | relative_url }}">Read the NA Operations Standard</a>
     </div>
   </div>
 </section>
@@ -119,79 +120,86 @@ description: "DraftVerify establishes the global identification, verification, a
 <!-- SECTION 3: IDENTIFICATION PATHWAY -->
 <section class="section">
   <div class="container">
-    <div class="kicker">3. Unified Identification Pathway</div>
-    <h2 class="h2">One Global Language from Keg to Faucet</h2>
+    <div class="kicker">3. The Identification Pathway</div>
+    <h2 class="h2">One Clear Path from Keg to Faucet</h2>
 
     <p>
-      Once a keg is verified, its identity must remain visible from the cooler to the faucet. The DraftVerify 
-      Identification Pathway creates a standardized visual language recognized worldwide.
+      Once a keg is verified, its identity needs to stay obvious for everyone who touches the system—
+      cellar staff, bartenders, and managers. The DraftVerify Identification Pathway keeps NA identity 
+      readable all the way to the glass.
     </p>
 
     <div class="grid cols-4" style="margin-top:22px;">
       <div class="card reveal">
         <h3>Keg Tag</h3>
-        <p>Assigns official NA identity at the brewery.</p>
+        <p>Shows that the keg is NA before anything gets connected.</p>
       </div>
 
       <div class="card reveal">
         <h3>Coupler Tag (NFC)</h3>
-        <p>The mandatory verification checkpoint at connection.</p>
+        <p>Confirms the right keg is on the right coupler at the moment of connection.</p>
       </div>
 
       <div class="card reveal">
         <h3>Line Marker</h3>
-        <p>Keeps routing clear in shared coolers and busy walk-ins.</p>
+        <p>Follows the chosen route so staff can trace the NA line through a busy cooler.</p>
       </div>
 
       <div class="card reveal">
         <h3>Faucet Sticker</h3>
-        <p>Gives point-of-pour clarity to staff and guests.</p>
+        <p>Makes the NA tap obvious at the point of pour for staff and guests.</p>
       </div>
     </div>
 
     <p style="margin-top:20px;">
-      This complete pathway ensures NA identity is never lost along the route to the glass.
+      The result: NA lines stop blending into everything else. Anyone can follow the same story—
+      from keg, to connection, to faucet.
     </p>
 
     <div style="margin-top:24px;">
-      <a class="btn gold" href="{{ '/line-tags/' | relative_url }}">View Line & Faucet Tagging</a>
+      <a class="btn gold" href="{{ '/line-tags/' | relative_url }}">See Line & Faucet Tagging</a>
     </div>
   </div>
 </section>
 
-<!-- SECTION 4: REAL-WORLD VERIFICATION -->
+<!-- SECTION 4: HOW IT WORKS IN SERVICE -->
 <section class="section" style="background:#f7f9fc;">
   <div class="container">
-    <div class="kicker">4. Verification Built for Real Service</div>
-    <h2 class="h2">Fast, Consistent, and Shift-Proof</h2>
+    <div class="kicker">4. In Daily Service</div>
+    <h2 class="h2">A Simple Routine That Works on Busy Nights</h2>
 
     <p>
-      DraftVerify integrates seamlessly into existing keg-change routines. It adds certainty without slowing 
-      service and ensures NA identity remains intact across shift changes and staff turnover.
+      DraftVerify is built to fit into the way bars and breweries already work. The verification routine 
+      is quick, repeatable, and easy to teach:
     </p>
 
     <ol style="margin-top:20px;">
       <li>Scan the NFC Coupler Tag before connecting.</li>
-      <li>Trace the Line Marker to the faucet.</li>
-      <li>Confirm the Faucet Sticker identity.</li>
-      <li>Test pour if appropriate.</li>
-      <li>Begin verified service.</li>
+      <li>Trace the Line Marker from keg to faucet.</li>
+      <li>Confirm the Faucet Sticker matches the NA product.</li>
+      <li>Do a quick test pour if appropriate.</li>
+      <li>Start service knowing the tap is verified NA.</li>
     </ol>
 
+    <p style="margin-top:20px;">
+      New staff can be trained in minutes. Shifts change, standards don’t.
+    </p>
+
     <div style="margin-top:24px;">
-      <a class="btn ghost" href="{{ '/training/' | relative_url }}">View Staff Training Modules</a>
+      <a class="btn primary" href="{{ '/training/' | relative_url }}">View Staff Training</a>
     </div>
   </div>
 </section>
 
-<!-- SECTION 5: UNCERTAINTY -->
+<!-- SECTION 5: WHEN SOMETHING IS UNCLEAR -->
 <section class="section">
   <div class="container">
-    <div class="kicker">5. When Identity Is Unclear</div>
-    <h2 class="h2">The Global Rule</h2>
+    <div class="kicker">5. When Something Doesn’t Look Right</div>
+    <h2 class="h2">One Global Rule</h2>
 
     <p>
-      If identity is ever uncertain—a missing marker, a disconnected line, or an unverified coupler—the global rule is:
+      Even with a strong system, questions come up—a missing marker, a coupler that hasn’t been scanned, 
+      a line nobody is sure about.
     </p>
 
     <p style="margin:20px 0;font-weight:bold;font-size:1.1rem;">
@@ -199,12 +207,12 @@ description: "DraftVerify establishes the global identification, verification, a
     </p>
 
     <p>
-      A quick NFC scan resolves identity instantly. If a mismatch appears, service pauses until corrected. 
-      The objective is universal: <strong>zero doubt, zero risk.</strong>
+      A quick NFC scan against the DraftVerify Registry settles it. If something doesn’t match, the tap 
+      is taken out of NA service until it does. The goal is simple everywhere: <strong>zero doubt, zero risk.</strong>
     </p>
 
     <div style="margin-top:20px;">
-      <a class="btn primary" href="{{ '/contact/' | relative_url }}">Contact the Standards Team</a>
+      <a class="btn gold" href="{{ '/contact/' | relative_url }}">Contact the Standards Team</a>
     </div>
   </div>
 </section>
@@ -213,20 +221,21 @@ description: "DraftVerify establishes the global identification, verification, a
 <section class="section center" style="background:#f7f9fc;">
   <div class="container">
     <div class="kicker">6. Conformance</div>
-    <h2 class="h2">Meeting the Global DraftVerify Standard</h2>
+    <h2 class="h2">What It Means to Meet the DraftVerify Standard</h2>
 
     <p style="max-width:820px;margin:0 auto;">
-      Conformance requires all three pillars—Keg Tags, NFC Coupler Tags, and the Digital Registry. 
-      Together they form the world’s only complete, verifiable, globally aligned NA draft identity system.
+      Conforming venues and partners use all three pillars—Keg Tags, NFC Coupler Tags, and the Digital 
+      Registry—to manage NA draft. Together they create the only end-to-end system designed specifically 
+      for verified non-alcoholic service.
     </p>
 
     <p style="max-width:820px;margin:10px auto 0;">
-      At the time of publication, <strong>DraftVerify</strong> remains the only system capable of delivering 
-      this full pathway from brewery to faucet.
+      At the time of publication, <strong>DraftVerify</strong> is the only system capable of delivering 
+      this complete pathway from brewery to faucet.
     </p>
 
     <div style="margin-top:24px;">
-      <a class="btn gold" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
+      <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
     </div>
   </div>
 </section>
@@ -235,16 +244,16 @@ description: "DraftVerify establishes the global identification, verification, a
 <section class="section">
   <div class="container">
     <div class="kicker">Beyond NA</div>
-    <h2 class="h2">Full-Tower Adoption</h2>
+    <h2 class="h2">Using the Same Backbone Across the Tower</h2>
 
     <p>
-      While the DraftVerify Standard exists to protect non-alcoholic draft, many operators extend the same 
-      identity and verification practices across their full tower for consistency and operational clarity. 
-      The system is compatible with alcoholic beverages, though its global mandate remains centered on NA safety.
+      DraftVerify exists to protect non-alcoholic draft, but many operators extend the same tagging and 
+      verification pattern across all draft lines for clarity and control. The underlying system is 
+      compatible with alcoholic beverages, even as the global standard remains focused on NA safety.
     </p>
 
     <div style="margin-top:20px;">
-      <a class="btn ghost" href="{{ '/contact/' | relative_url }}">Ask About Full-Tower Solutions</a>
+      <a class="btn gold" href="{{ '/contact/' | relative_url }}">Ask About Full-Tower Adoption</a>
     </div>
   </div>
 </section>
