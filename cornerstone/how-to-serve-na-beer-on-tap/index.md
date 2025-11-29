@@ -1,148 +1,183 @@
 ---
-title: How to Safely Serve Non-Alcoholic Beer on Tap
-description: A practical, brewery- and venue-ready guide for launching non-alcoholic draft safely — from keg handling to line setup, staff checks, and verification.
-permalink: /cornerstone/how-to-serve-na-beer-on-tap/
 layout: default
+title: "How to Safely Serve Non-Alcoholic Beer on Tap — DraftVerify"
+description: "A structured, operations-focused guide for breweries and venues to safely launch non-alcoholic draft using identification, separation, and verification practices."
+permalink: /cornerstone/how-to-serve-na-beer-on-tap/
 ---
 
-# How to Safely Serve Non-Alcoholic Beer on Tap
+<!-- HERO -->
+<section class="hero hero-simple">
+  <div class="container">
+    <div class="hero-card reveal">
+      <h1>How to Safely Serve Non-Alcoholic Beer on Tap</h1>
+      <p>
+        A practical, operations-focused guide for breweries and venues introducing NA beer on draft — 
+        covering setup, labeling, verification routines, contamination prevention, and staff workflow.
+      </p>
+    </div>
+  </div>
+</section>
 
-A step-by-step guide for breweries and venues that want to introduce non-alcoholic (NA) beer on draft without creating confusion, cross-contact, or liability.
+<!-- OVERVIEW -->
+<section class="section center">
+  <div class="container">
+    <div class="kicker">Overview</div>
+    <h2 class="h2">NA Draft Requires Its Own Safety Approach</h2>
+    <p style="max-width:820px;margin:0 auto">
+      Non-alcoholic draft presents distinct operational risks: misidentification, accidental cross-contact, 
+      and routing errors during busy service. This guide provides a structured framework to help any brewery 
+      or venue introduce NA draft safely and consistently.
+    </p>
+  </div>
+</section>
 
-Non-alcoholic draft is growing fast — but it isn’t just “another tap.”  
-It introduces unique risks:
+<!-- SECTION 1 -->
+<section class="section" id="risks">
+  <div class="container">
+    <div class="kicker">1. Understanding the Risks</div>
+    <h2 class="h2">Why NA Draft Can Fail Without a System</h2>
 
-- Guests choosing NA for health, recovery, religious, or personal reasons  
-- Mixed systems where alcoholic and NA lines share towers or coolers  
-- Staff working at speed during busy service  
+    <p>
+      Before installation, operators should evaluate the most common failure points:
+    </p>
 
-This guide walks through how to design and run NA draft so that every pour is safe, correct, and verifiable.
+    <ul>
+      <li>Incorrect keg connected to an NA faucet</li>
+      <li>Staff confusion during busy service</li>
+      <li>Mixed-product pathways in coolers or manifolds</li>
+      <li>Reused alcoholic lines without proper re-verification</li>
+      <li>Inconsistent staff knowledge across shifts</li>
+    </ul>
 
----
+    <p>
+      These risks reinforce the need for a clear identification and verification workflow such as the 
+      <strong>DraftVerify identification pathway</strong>.
+    </p>
+  </div>
+</section>
 
-## 1. Start With the Question: “What Could Go Wrong?”
+<!-- SECTION 2 -->
+<section class="section" id="design" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker">2. System Design</div>
+    <h2 class="h2">Setting Up Lines and Hardware for NA Draft</h2>
 
-Before installing the first NA keg, operators should answer:
+    <h3>Dedicated Pathways</h3>
+    <ul>
+      <li>Use one or more lines <strong>exclusively</strong> for NA products.</li>
+      <li>Store NA kegs in clearly marked, low-confusion areas of the cooler.</li>
+      <li>Avoid sharing NA lines with alcoholic products unless fully re-cleaned and re-verified.</li>
+    </ul>
 
-- How will staff **know** which keg is NA?  
-- How will they **trace** the line from keg → tower → faucet?  
-- What prevents an alcoholic keg from being connected to an NA faucet?  
-- How will incidents be handled if something goes wrong?
+    <h3>Hardware Separation</h3>
+    <ul>
+      <li>Create designated NA coupler positions or NA-only couplers.</li>
+      <li>Use simple cooler diagrams showing NA line routing to towers.</li>
+      <li>Configure gas systems to prevent unwanted migration into NA lines.</li>
+    </ul>
+  </div>
+</section>
 
-If those answers aren’t clear, the system is not ready for NA draft.
+<!-- SECTION 3 -->
+<section class="section" id="identification">
+  <div class="container">
+    <div class="kicker">3. Identification</div>
+    <h2 class="h2">Label Kegs, Lines, and Faucets Clearly</h2>
 
-For a full framework, see the **NA Draft Safety Standard** and **NA Draft Contamination Prevention** guides.
+    <p>
+      NA draft safety depends on clear identification at every connection point. At minimum:
+    </p>
 
----
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card reveal">
+        <h3>Keg Tag</h3>
+        <p>Marked as NON-ALCOHOLIC with product + batch identity.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Line Marker</h3>
+        <p>A visible route identifier from keg → tower.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Faucet Sticker</h3>
+        <p>A durable point-of-pour indicator confirming NA status.</p>
+      </div>
+    </div>
 
-## 2. Design the Physical Setup
+    <p style="margin-top:18px">
+      This creates the DraftVerify Identification Pathway:  
+      <strong>Keg Tag → Line Marker → Faucet Sticker</strong>.
+    </p>
+  </div>
+</section>
 
-### 2.1 Choose the Right Line
+<!-- SECTION 4 -->
+<section class="section" id="checklists" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker">4. Daily Verification</div>
+    <h2 class="h2">The 60-Second NA Draft Safety Check</h2>
 
-Wherever possible:
+    <ol>
+      <li><strong>Keg:</strong> Confirm the keg tag matches the intended NA product.</li>
+      <li><strong>Line:</strong> Ensure the marked line routes to the correct tower faucet.</li>
+      <li><strong>Faucet:</strong> Verify that the faucet marker shows NA identity.</li>
+      <li><strong>Menu:</strong> Check that the tap is presented as NA to guests.</li>
+      <li><strong>Record:</strong> Log verification (paper or digital).</li>
+    </ol>
 
-- Dedicate **one or more lines exclusively to NA products**  
-- Avoid reusing lines that previously carried alcoholic beer unless they are fully cleaned, documented, and re-verified  
-- Keep NA kegs in an area of the cooler that is easy to see and organize
+    <p style="margin-top:18px">
+      If any step is uncertain, the tap should be treated as alcoholic until fully re-verified.
+    </p>
+  </div>
+</section>
 
-### 2.2 Separate Hardware Where You Can
+<!-- SECTION 5 -->
+<section class="section" id="training">
+  <div class="container">
+    <div class="kicker">5. Training</div>
+    <h2 class="h2">Preparing Staff for NA Draft Service</h2>
 
-Good practices include:
+    <h3>Core Training Points</h3>
+    <ul>
+      <li>Staff should never guess about a tap’s identity.</li>
+      <li>Any confusion must pause service immediately.</li>
+      <li>Only verified connections should be served.</li>
+      <li>Incident reporting must be immediate and documented.</li>
+    </ul>
 
-- A clearly designated NA coupler position or NA-only couplers  
-- Simple diagrams in the cooler that show which taps are NA  
-- Gas configurations that prevent backflow or line migration into NA pathways  
+    <blockquote style="margin-top:18px">
+      “If you are not 100% certain the tap is non-alcoholic, treat it as alcoholic until verified.”
+    </blockquote>
+  </div>
+</section>
 
----
+<!-- SECTION 6 -->
+<section class="section" id="when">
+  <div class="container">
+    <div class="kicker">6. When to Launch NA Draft</div>
+    <h2 class="h2">Assessing Brewery Readiness</h2>
 
-## 3. Label and Identify Everything
+    <ul>
+      <li>You have a steady NA product available in package.</li>
+      <li>Your team can implement a repeatable identification and verification workflow.</li>
+      <li>Your draft system layout supports separation and clear routing.</li>
+      <li>You can maintain documentation and training.</li>
+    </ul>
 
-Non-alcoholic draft safety lives or dies on **identification**.
+    <p>
+      Launching NA draft is not simply a sales decision — it’s a process decision.  
+      With the right structure, it becomes safe, repeatable, and consistent.
+    </p>
+  </div>
+</section>
 
-At minimum, operators should:
-
-- Use a **keg collar** or tag that clearly states **NON-ALCOHOLIC** and the product name  
-- Mark the **beer line** so staff can follow it from keg to tower  
-- Mark the **faucet** so guests and staff see that the tap is NA
-
-The DraftVerify identification pathway formalizes this as:
-
-**Keg Tag → Line Marker → Faucet Sticker**
-
-Each of those points should agree on:
-
-- Product name  
-- NA status  
-- Unique tag or line ID (where used)
-
----
-
-## 4. Build a Simple NA Draft Checklist
-
-Before service, staff should be able to confirm NA draft integrity in under 60 seconds.
-
-Example daily checklist:
-
-1. **Keg:** The keg tag or collar matches the intended NA product.  
-2. **Line:** Line markers match the keg ID and route to the correct tower.  
-3. **Faucet:** The faucet sticker/marker matches the same ID.  
-4. **Menu:** The printed or digital menu clearly indicates that the tap is non-alcoholic.  
-5. **Log:** A quick verification entry is recorded (in a logbook or digital system).
-
-If any step fails, the tap is treated as “not verified” until corrected.
-
----
-
-## 5. Train Staff on “What to Do If You’re Unsure”
-
-Mistakes happen when staff feel pressure to guess.
-
-Training should emphasize:
-
-- It is always acceptable to **pause service** from an NA tap until it’s confirmed  
-- Staff should **never reconnect** lines or kegs without following the identification pathway  
-- Any suspected mix-up should be reported and treated as a formal incident, not a minor issue
-
-In high-volume venues, add a simple rule:
-
-> “If you’re not 100% sure this tap is NA, treat it as alcoholic and stop service until it’s verified.”
-
----
-
-## 6. Use Verification, Not Just Labels
-
-Labels are the visual layer. Verification is the **process** layer.
-
-A basic NA draft verification routine includes:
-
-- **Initial verification** when the NA line is first installed or converted  
-- **Shift checks** confirming the DraftVerify pathway (keg → line → faucet) is intact  
-- **Incident documentation** if something goes wrong  
-- **Annual review** of the system layout, identification, and cleaning practices
-
-DraftVerify provides a standardized way to combine physical identification with digital records, so operators can show that NA draft is handled with intention — not guesswork.
-
----
-
-## 7. When Breweries Should Introduce NA Draft
-
-Breweries are good candidates for NA draft when they:
-
-- Already have a consistent NA product in package  
-- Work with venues that ask for an NA option on tap  
-- Operate taprooms with strong process discipline  
-- Are willing to adopt a verification standard rather than ad-hoc practices
-
-Launching NA draft is not just a sales decision — it is a **responsibility** decision.  
-A clear framework makes it safe to move ahead.
-
----
-
-## 8. Next Steps
-
-If you are considering putting your NA beer on tap:
-
-- Review the **NA Draft Safety Standard** for baseline requirements.  
-- Map your draft system and identify which line(s) could be dedicated to NA service.  
-- Decide how you will identify and verify keg → line → faucet connections.  
-- Consider adopting the **DraftVerify identification and verification framework** so your team, venues, and guests can trust every pour.
+<!-- SECTION 7 -->
+<section class="section center" id="next">
+  <div class="container">
+    <div class="kicker">Next Steps</div>
+    <h2 class="h2">Build NA Draft on a Strong Foundation</h2>
+    <p style="max-width:820px;margin:0 auto">
+      Review the connected cornerstone guides to complete your operational readiness:
+      the Identification Guide, Contamination Prevention Manual, and full DraftVerify Standard.
+    </p>
+  </div>
+</section>
