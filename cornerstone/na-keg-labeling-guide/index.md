@@ -1,160 +1,166 @@
 ---
-title: NA Keg Labeling & Identification Guide for Breweries
-description: A practical SOP for breweries to label, tag, and track non-alcoholic kegs so venues can serve NA draft safely and without mix-ups.
-permalink: /cornerstone/na-keg-labeling-guide/
 layout: default
+title: "NA Keg Labeling & Identification Guide — DraftVerify"
+description: "A structured SOP for breweries labeling, tagging, and tracking non-alcoholic kegs so downstream venues can pour NA draft safely and consistently."
+permalink: /cornerstone/na-keg-labeling-guide/
 ---
 
-# NA Keg Labeling & Identification Guide for Breweries
+<!-- HERO -->
+<section class="hero hero-simple">
+  <div class="container">
+    <div class="hero-card reveal">
+      <h1>NA Keg Labeling & Identification Guide</h1>
+      <p>
+        A complete brewery-side SOP for labeling, tagging, and tracking non-alcoholic kegs — 
+        ensuring safe routing, correct connection, and consistent NA draft service downstream.
+      </p>
+    </div>
+  </div>
+</section>
 
-Non-alcoholic kegs move through shared spaces: coolers, trucks, warehouses, and busy bars.  
-Without a clear labeling and identification standard, it’s easy for NA kegs to be:
+<!-- OVERVIEW -->
+<section class="section center">
+  <div class="container">
+    <div class="kicker">Overview</div>
+    <h2 class="h2">Why NA Kegs Need a Different Labeling Standard</h2>
+    <p style="max-width:820px;margin:0 auto">
+      NA kegs circulate through coolers, trucks, and busy venues alongside alcoholic products. 
+      A clear labeling and identification workflow prevents routing errors, mix-ups, and incorrect 
+      pours — and sets the foundation for system-wide NA draft safety.
+    </p>
+  </div>
+</section>
 
-- Misrouted
-- Misconnected to alcoholic taps
-- Misrepresented on menus
+<!-- SECTION 1 -->
+<section class="section" id="principles">
+  <div class="container">
+    <div class="kicker">1. Core Principles</div>
+    <h2 class="h2">The Four Requirements of NA Keg Labeling</h2>
 
-This guide focuses on the **brewery side** — how to label and identify NA kegs so that every downstream venue has what they need to pour safely.
+    <div class="grid cols-4" style="margin-top:22px">
+      <div class="card reveal"><h3>Unambiguous</h3><p>NA status must be obvious at a glance.</p></div>
+      <div class="card reveal"><h3>Durable</h3><p>Labels survive condensation and handling.</p></div>
+      <div class="card reveal"><h3>Traceable</h3><p>Each keg links to batch and product records.</p></div>
+      <div class="card reveal"><h3>Consistent</h3><p>Use the same NA pattern across all kegs.</p></div>
+    </div>
+  </div>
+</section>
 
----
+<!-- SECTION 2 -->
+<section class="section" id="requirements" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker">2. Label Requirements</div>
+    <h2 class="h2">What Every NA Keg Label Must Include</h2>
 
-## 1. Core Principles of NA Keg Labeling
+    <ol>
+      <li><strong>Clear NA Status:</strong> “NON-ALCOHOLIC” + ABV declaration.</li>
+      <li><strong>Product Identity:</strong> Brewery, beer name, style.</li>
+      <li><strong>Batch Information:</strong> Lot code, fill date, freshness date.</li>
+      <li><strong>Keg ID:</strong> Serialized ID; optional barcode, QR, or NFC tag.</li>
+    </ol>
+  </div>
+</section>
 
-A good NA keg labeling system is:
+<!-- SECTION 3 -->
+<section class="section" id="placement">
+  <div class="container">
+    <div class="kicker">3. Label Placement</div>
+    <h2 class="h2">Where and How Labels Should Be Applied</h2>
 
-- **Unambiguous** – Anyone can tell it’s non-alcoholic at a glance.  
-- **Durable** – Survives condensation, handling, and cooler conditions.  
-- **Traceable** – Every keg can be associated with a batch, product, and destination.  
-- **Compatible** – Works alongside existing beer labeling practices.
+    <h3>Keg Collar or Top Label</h3>
+    <p>Primary surface for NA identity — visible from above in coolers and warehouses.</p>
 
-Think of the NA label as both a **safety signal** and a **routing instruction**.
+    <h3>Sidewall Label</h3>
+    <p>A secondary label ensures visibility when kegs are stacked or racked.</p>
 
----
+    <h3>Coupler Area / Keg Tag</h3>
+    <p>
+      If using DraftVerify keg tags, attach them near the coupler so NA status and product identity 
+      are clear at the connection point.
+    </p>
+  </div>
+</section>
 
-## 2. What Every NA Keg Label Should Include
+<!-- SECTION 4 -->
+<section class="section" id="visuals" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker">4. Visual Conventions</div>
+    <h2 class="h2">Color, Icons, and Consistency</h2>
 
-At a minimum, each NA keg should display:
+    <ul>
+      <li>A consistent NA color band across all NA products.</li>
+      <li>A recognizable NA icon (e.g., “0.0” or NA symbol).</li>
+      <li>A dedicated NA strip along one edge of the label.</li>
+    </ul>
 
-1. **Clear NA Status**  
-   - “NON-ALCOHOLIC” in large, high-contrast text  
-   - ABV statement (e.g., “≤ 0.5% ABV” or local equivalent)
+    <p>These conventions help warehouses, drivers, and venues identify NA kegs instantly.</p>
+  </div>
+</section>
 
-2. **Product Identity**  
-   - Brewery name  
-   - Brand / beer name  
-   - Style (e.g., Pale Ale, Lager, IPA)
+<!-- SECTION 5 -->
+<section class="section" id="digital">
+  <div class="container">
+    <div class="kicker">5. Digital Identification</div>
+    <h2 class="h2">Link Physical Kegs to Digital Records</h2>
 
-3. **Batch & Fill Information**  
-   - Batch or lot code  
-   - Fill date  
-   - Best-before or recommended freshness date
+    <p>
+      For breweries implementing DraftVerify or similar systems, the physical label should connect 
+      to a digital record containing:
+    </p>
 
-4. **Keg / Container ID**  
-   - Serialized keg ID (e.g., BRW-NA-2025-00123)  
-   - Optional barcode or QR/NFC tag linked to a digital record
+    <ul>
+      <li>Keg ID or tag ID</li>
+      <li>Product identity + style</li>
+      <li>NA status</li>
+      <li>Batch information</li>
+      <li>Destination (distributor or venue)</li>
+      <li>Optional: verification state once installed</li>
+    </ul>
+  </div>
+</section>
 
----
+<!-- SECTION 6 -->
+<section class="section" id="reuse" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker">6. Keg Reuse Workflow</div>
+    <h2 class="h2">What Happens When NA Kegs Return</h2>
 
-## 3. Physical Label Placement
+    <ol>
+      <li><strong>Inspect labels:</strong> Replace worn or unreadable components.</li>
+      <li><strong>Confirm cleaning:</strong> Ensure the keg is cleaned for NA use.</li>
+      <li><strong>Reset digital records:</strong> Clear or update the keg's assignment.</li>
+    </ol>
 
-### 3.1 Keg Collar or Top Label
+    <p>Proper resets maintain long-term traceability and consistency.</p>
+  </div>
+</section>
 
-- Use a **distinctive NA collar** or top label so that from above, the keg is clearly marked as NA.  
-- Avoid labels that look identical to alcoholic SKUs except for a small line of text.
+<!-- SECTION 7 -->
+<section class="section" id="communication">
+  <div class="container">
+    <div class="kicker">7. Communicating With Venues</div>
+    <h2 class="h2">Ensure Downstream Operators Know the System</h2>
 
-### 3.2 Sidewall Label
+    <p>
+      Every NA keg shipment should include:
+    </p>
+    <ul>
+      <li>A one-page explainer of your NA labeling conventions.</li>
+      <li>A reminder that NA kegs require NA-identified lines.</li>
+      <li>A link to the DraftVerify cornerstone guides where applicable.</li>
+    </ul>
+  </div>
+</section>
 
-- Place a second label on the **sidewall** so that NA status is visible when kegs are stacked or racked.  
-- Align this with your existing keg branding but use consistent NA visuals (color, wording, or iconography).
-
-### 3.3 Coupler Area / Keg Tag
-
-If using the DraftVerify system:
-
-- Attach a **keg tag** at or near the coupler connection point.  
-- Ensure the tag ID is registered in your internal system (and in the DraftVerify registry where used).  
-- Match the tag’s product and NA status to the printed labels.
-
----
-
-## 4. Color and Design Conventions
-
-You don’t need to overhaul your brand — you need a **repeatable visual pattern**.
-
-Options include:
-
-- A single **NA color band** used on all NA collars and side labels.  
-- A consistent **NA icon** (e.g., crossed martini glass, “0.0” icon) placed near the product name.  
-- A dedicated **“NA” strip** on the label edge that’s visible even if other details are obscured.
-
-The goal is that warehouse staff, drivers, and bar teams can pick out NA kegs instantly, even in low light or busy coolers.
-
----
-
-## 5. Digital Identification and Registry
-
-For breweries using DraftVerify or similar systems, physical labeling should connect to a **digital record**.
-
-A basic record includes:
-
-- Tag or keg ID  
-- Product name and style  
-- NA status and ABV  
-- Batch / lot  
-- Fill date  
-- Destination (venue or distributor)  
-- Optional: verification status once installed at the venue
-
-When NA kegs arrive at a venue, this record can be:
-
-- Scanned via NFC/QR (where used)  
-- Logged into a shared system  
-- Referenced during verification checks
-
----
-
-## 6. Handling Keg Returns and Reuse
-
-When NA kegs return to the brewery:
-
-1. **Inspect labels and tags**  
-   - Replace damaged or unreadable labels before the keg is reused.  
-   - Retire or reprogram tags that are no longer reliable.
-
-2. **Confirm cleaning status**  
-   - Follow your normal keg-cleaning SOP.  
-   - Ensure internal records reflect that the keg is ready for reuse.
-
-3. **Reset digital state**  
-   - Clear or update assignments in your registry so the keg isn’t still “assigned” to the last venue.
-
-This closes the loop and keeps your NA keg fleet both safe and traceable.
-
----
-
-## 7. Communicating Expectations to Venues
-
-A good NA keg labeling system only works if venues know how to use it.
-
-Include with each NA keg shipment:
-
-- A **short, one-page explainer** of your NA labeling and identification conventions.  
-- A reminder that NA kegs should be connected only to lines that are:
-  - Correctly identified as NA  
-  - Cleaned and verified according to NA draft best practices
-
-For venues participating in the DraftVerify standard, refer them directly to the **NA Draft Safety Standard**, **Identification Guide**, and **Contamination Prevention** resources.
-
----
-
-## 8. Summary
-
-For breweries, NA keg labeling is not just a packaging decision — it is the first control point in a larger NA draft safety system.
-
-Clear, durable, and traceable labeling:
-
-- Reduces the risk of alcohol/NA mix-ups  
-- Makes it easier for venues to adopt your NA beer on draft  
-- Signals to guests that your NA offering is handled with intention
-
-Combined with the DraftVerify identification and verification framework, it gives everyone in the chain — from cellar to faucet — a shared, reliable language for non-alcoholic draft.
+<!-- SECTION 8 -->
+<section class="section center" id="summary">
+  <div class="container">
+    <div class="kicker">Summary</div>
+    <h2 class="h2">NA Keg Labeling Is the Foundation of NA Draft Safety</h2>
+    <p style="max-width:820px;margin:0 auto">
+      Clear, durable, and consistent NA keg labeling reduces risk, improves routing, prevents 
+      mispours, and empowers venues to provide safe, trustworthy NA draft service. Combined with 
+      the DraftVerify identification pathway, it becomes part of a complete end-to-end system.
+    </p>
+  </div>
+</section>
