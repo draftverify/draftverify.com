@@ -14,7 +14,7 @@ description: "The world’s first complete identity, verification, and traceabil
   border-radius: 18px;
 }
 
-/* Mobile full-width override */
+/* On mobile, let images go truly edge-to-edge */
 @media (max-width: 768px) {
   .fullwidth-img {
     width: 100vw;
@@ -52,26 +52,20 @@ description: "The world’s first complete identity, verification, and traceabil
         Request a Starter Kit
       </a>
 
-      <a href="{{ '/cornerstone/how-to-serve-na-beer-on-tap/' | relative_url }}" 
+      <a href="https://www.draftverify.com/standards/" 
          class="btn gold"
          style="width:100%;max-width:280px;text-align:center;">
         View NA Draft Standard
-      </a>
-
-      <a href="{{ '/pricing/' | relative_url }}" 
-         class="btn ghost"
-         style="width:100%;max-width:280px;text-align:center;">
-        View Pricing
       </a>
 
     </div>
 
   </div>
 
-  <!-- HERO IMAGE -->
+  <!-- HERO IMAGE (1.png) -->
   <img 
     src="{{ '/assets/1.png' | relative_url }}" 
-    alt="DraftVerify Coupler Tag scan"
+    alt="DraftVerify app verifying a non-alcoholic keg connection"
     class="fullwidth-img">
 </section>
 
@@ -90,15 +84,15 @@ description: "The world’s first complete identity, verification, and traceabil
       designed to keep NA identity clear. Mix-ups happen at the connection point, not at the faucet.
     </p>
 
-    <!-- IMAGE 2 -->
+    <!-- IMAGE 2: crowded cooler / keg stack (2.png) -->
     <img 
       src="{{ '/assets/2.png' | relative_url }}" 
-      alt="Crowded draft cooler showing NA identity problems"
+      alt="Draft cooler full of stainless kegs showing why clear NA identity matters"
       class="fullwidth-img">
 
     <p style="max-width:820px;margin:30px auto 0;">
-      DraftVerify solves this with a unified identity and verification system that ensures clarity 
-      from <strong>keg → coupler → line → faucet</strong>.
+      DraftVerify replaces ad-hoc tape and handwriting with a unified identification and verification 
+      system that keeps NA lines obvious and auditable from <strong>keg → coupler → line → faucet</strong>.
     </p>
   </div>
 </section>
@@ -119,27 +113,36 @@ description: "The world’s first complete identity, verification, and traceabil
         <h3>Keg Tags</h3>
         <img 
           src="{{ '/assets/3.png' | relative_url }}" 
-          alt="DraftVerify Keg Tag"
+          alt="DraftVerify Keg Tag on a stainless keg"
           style="width:100%;max-width:140px;margin:12px auto 18px;display:block;">
-        <p>Brewery-applied identity establishing the definitive NA product label upstream.</p>
+        <p>
+          Brewery-applied identity that clearly designates non-alcoholic kegs before they 
+          ever enter shared cold storage.
+        </p>
       </div>
 
       <div class="card reveal">
         <h3>NFC Coupler Tags</h3>
         <img 
           src="{{ '/assets/4.png' | relative_url }}" 
-          alt="DraftVerify NFC Coupler Tag"
+          alt="DraftVerify NFC Coupler Tag card held near a coupler"
           style="width:100%;max-width:140px;margin:12px auto 18px;display:block;">
-        <p>The verification checkpoint. One scan confirms the exact keg before connection.</p>
+        <p>
+          A credit-card sized NFC tag that confirms the exact keg at the moment of connection — 
+          where most mix-ups happen.
+        </p>
       </div>
 
       <div class="card reveal">
         <h3>Digital Registry</h3>
         <img 
           src="{{ '/assets/5.png' | relative_url }}" 
-          alt="DraftVerify Digital Registry"
+          alt="DraftVerify Digital Registry interface on a screen"
           style="width:100%;max-width:160px;margin:12px auto 18px;display:block;">
-        <p>Real-time identity and traceability — forming the global digital registry for NA draft.</p>
+        <p>
+          A cloud registry that records verification events and gives multi-location visibility 
+          into how NA draft is being served.
+        </p>
       </div>
 
     </div>
@@ -157,16 +160,22 @@ description: "The world’s first complete identity, verification, and traceabil
     <h2 class="h2">Identity That Follows the Entire Pathway</h2>
 
     <p>
-      Once a keg is tagged and verified, its identity flows unbroken through the system. Staff can 
-      always follow the route — and verify the tap — using visible markers and a required NFC check 
-      at the coupler.
+      Once a keg is tagged and verified with DraftVerify, its identity isn’t just written on a handle 
+      — it follows the entire system. Staff can trace the route and confirm the tap using a simple, 
+      repeatable routine:
     </p>
 
-    <!-- IMAGE 6 -->
-    <img 
-      src="{{ '/assets/6.png' | relative_url }}" 
-      alt="DraftVerify NA draft identity pathway"
-      class="fullwidth-img">
+    <ol style="margin-top:20px;">
+      <li>Keg arrives already designated as NA via Keg Tag.</li>
+      <li>Staff scan the NFC Coupler Tag to confirm the correct keg before connecting.</li>
+      <li>The chosen line is marked as NA and traced to the tower.</li>
+      <li>The NA faucet is clearly identified for staff and guests.</li>
+      <li>Verification logs are stored automatically in the DraftVerify Registry.</li>
+    </ol>
+
+    <p style="margin-top:20px;">
+      The result is a system that’s easy to follow on busy nights and consistent across venues.
+    </p>
   </div>
 </section>
 
@@ -184,7 +193,6 @@ description: "The world’s first complete identity, verification, and traceabil
       </div>
       <div>
         <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
-        <a class="btn ghost" href="{{ '/pricing/' | relative_url }}" style="margin-left:10px;">View Pricing</a>
       </div>
     </div>
   </div>
