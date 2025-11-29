@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "NA Keg Labeling & Identification Standard — DraftVerify"
-description: "The brewery-side standard for labeling, tagging, and digitally identifying non-alcoholic kegs, including mandatory NFC-enabled identifiers and integration with the DraftVerify Registry."
+title: "NA Keg Labeling & Identification Guide — DraftVerify"
+description: "A practical, modern guide for how non-alcoholic kegs should be labeled, tagged, and digitally identified so they stay unmistakable from the brewery to the bar — powered by DraftVerify."
 permalink: /cornerstone/na-keg-labeling-guide/
 ---
 
@@ -9,11 +9,11 @@ permalink: /cornerstone/na-keg-labeling-guide/
 <section class="hero hero-simple">
   <div class="container">
     <div class="hero-card reveal">
-      <h1>NA Keg Labeling & Identification Standard</h1>
+      <h1>NA Keg Labeling & Identification Guide</h1>
       <p>
-        The brewery-side standard governing how non-alcoholic (NA) kegs shall be labeled, 
-        digitally tagged, serialized, and documented to ensure safe and correct downstream 
-        dispensing — using the DraftVerify Identification Pathway and NFC-enabled identity system.
+        A modern, brewery-friendly guide for making sure every non-alcoholic (NA) keg 
+        leaves the facility with clear labeling, durable identity, and digital traceability — 
+        all tied together through the DraftVerify system.
       </p>
     </div>
   </div>
@@ -23,238 +23,210 @@ permalink: /cornerstone/na-keg-labeling-guide/
 <section class="section center">
   <div class="container">
     <div class="kicker">Overview</div>
-    <h2 class="h2">Why NA Kegs Require a Modern Labeling and Identity Standard</h2>
+    <h2 class="h2">Why NA Kegs Need Better Labeling Than Ever Before</h2>
+
     <p style="max-width:820px;margin:0 auto">
-      Non-alcoholic (NA) kegs move through breweries, warehouses, delivery vehicles, shared coolers, 
-      and busy bars alongside alcoholic products. Without a unified physical and digital identity 
-      standard, the risk of misconnection, mix-ups, or incorrect service increases significantly.
+      NA products have exploded in popularity, but the keg world hasn’t changed with them. 
+      Breweries are still sending NA kegs into distribution using the same collars, stickers, and 
+      handwritten notes they’ve always used — and those tools weren’t built for today’s expectations.
     </p>
 
     <p style="max-width:820px;margin:20px auto 0;">
-      This standard establishes the mandatory labeling, NFC-tagging, serialization, and digital 
-      registry requirements that breweries shall follow before releasing any NA keg into 
-      distribution.  
-      <strong>The only currently recognized system that fulfills these requirements is DraftVerify.</strong>
+      When someone orders NA, they’re trusting everyone in the chain — the brewery, distributor, 
+      venue, bartender — to get it right. Clear labeling helps, but it has limits. Paper gets wet. 
+      Ink smears. Kegs rub against each other. Coolers get crowded.
+    </p>
+
+    <p style="max-width:820px;margin:20px auto 0;">
+      This guide explains how to give every NA keg a physical and digital identity that stays intact 
+      through transport, storage, and service.  
+      <strong>Today, the only system capable of delivering that level of clarity is DraftVerify.</strong>
     </p>
   </div>
 </section>
 
-<!-- 1. PURPOSE & SCOPE -->
-<section class="section" id="purpose">
+<!-- SECTION -->
+<section class="section">
   <div class="container">
-    <div class="kicker">1. Purpose & Scope</div>
-    <h2 class="h2">What This Standard Establishes</h2>
+    <div class="kicker">1. Before the Keg Leaves the Brewery</div>
+    <h2 class="h2">Where Mistakes Start — and How to Prevent Them</h2>
 
-    <h3>1.1 Purpose</h3>
     <p>
-      To define the physical, visual, and digital identification requirements for all 
-      non-alcoholic kegs prior to shipment. This includes mandatory NA labeling, product 
-      identity, batch traceability, and NFC-enabled unique identifiers linked to the 
-      DraftVerify Registry.
+      Anyone who has worked in a brewhouse knows how chaotic a packaging day can be. Kegs are 
+      moving through rinse cycles, filling lanes, palette staging, and trucking schedules. NA kegs 
+      naturally get mixed in with everything else.
     </p>
 
-    <h3>1.2 Scope</h3>
-    <ul>
-      <li>All kegs containing beverages represented as non-alcoholic (≤ 0.5% ABV or local equivalent)</li>
-      <li>All packaging formats (20L, 30L, 50L, U.S. 1/6 bbl, etc.)</li>
-      <li>All brewery, co-packing, and mobile canning/cold-fill operations producing NA kegs</li>
-      <li>Kegs destined for bars, restaurants, venues, hotels, stadiums, and draft systems of any type</li>
-    </ul>
+    <p>
+      The easiest time for an NA keg to lose its identity is before it ever leaves your own 
+      facility — which is why clear labeling and digital identification start here, not at the 
+      venue.
+    </p>
 
     <p>
-      Downstream operational handling is covered separately in the NA Draft Safety Standard 
-      and the NA Draft Service Operations Standard.
+      Think of this guide as your brewery’s “identity prep” — the simple steps that make the rest 
+      of the system work flawlessly downstream.
     </p>
   </div>
 </section>
 
-<!-- 2. CORE PRINCIPLES -->
-<section class="section" id="principles" style="background:#f7f9fc">
+<!-- SECTION -->
+<section class="section" style="background:#f7f9fc">
   <div class="container">
-    <div class="kicker">2. Core Labeling & Identification Principles</div>
-    <h2 class="h2">The Four Principles of Compliant NA Keg Labeling</h2>
+    <div class="kicker">2. The Four Things Every NA Keg Should Communicate</div>
+    <h2 class="h2">A Simple Framework for Making NA Identity Obvious</h2>
+
+    <p>
+      No matter where the keg goes — distributor warehouses, festival tents, shared walk-in 
+      coolers, national chain venues — staff should be able to understand four things instantly:
+    </p>
 
     <div class="grid cols-4" style="margin-top:22px">
-      <div class="card reveal"><h3>Unambiguous</h3><p>NA status must be instantly recognizable.</p></div>
-      <div class="card reveal"><h3>Durable</h3><p>Labels and tags must survive distribution and cooler conditions.</p></div>
-      <div class="card reveal"><h3>Traceable</h3><p>Each keg must be tied to a verifiable digital record.</p></div>
-      <div class="card reveal"><h3>Integrated</h3><p>Physical labels and NFC tags must match the same DraftVerify record.</p></div>
+      <div class="card reveal"><h3>1. It’s NA</h3><p>Not “probably NA.” Unmistakably NA.</p></div>
+      <div class="card reveal"><h3>2. What’s Inside</h3><p>Brewery, style, and product identity.</p></div>
+      <div class="card reveal"><h3>3. Where It Came From</h3><p>Batch, fill date, lot, and freshness data.</p></div>
+      <div class="card reveal"><h3>4. That It’s the Right Keg</h3><p>A digital ID that removes all guesswork.</p></div>
     </div>
 
     <p style="margin-top:18px;">
-      These principles cannot be met through paper labeling alone — NFC-enabled identity and 
-      the DraftVerify Registry are required.
+      When all four pieces line up — visually and digitally — you have a keg that can’t be mixed up 
+      or misidentified at any point in the chain.
     </p>
   </div>
 </section>
 
-<!-- 3. LABEL REQUIREMENTS -->
-<section class="section" id="requirements">
+<!-- SECTION -->
+<section class="section">
   <div class="container">
-    <div class="kicker">3. Label Requirements</div>
-    <h2 class="h2">What Every NA Keg Label Shall Include</h2>
+    <div class="kicker">3. The Identity Package</div>
+    <h2 class="h2">The Modern, Brewery-Friendly Way to Label NA Kegs</h2>
 
     <p>
-      Each NA keg shall contain a complete identity package that matches its digital record.  
-      Labels shall contain:
-    </p>
-
-    <ol>
-      <li><strong>NA Status:</strong> “NON-ALCOHOLIC” in high-contrast type.</li>
-      <li><strong>ABV Statement:</strong> ≤ 0.5% ABV (or local requirement).</li>
-      <li><strong>Product Identity:</strong> Brewery name, brand name, and style.</li>
-      <li><strong>Batch Information:</strong> Lot code, fill date, freshness date.</li>
-      <li><strong>Serialized Keg ID:</strong> A unique alphanumeric identifier.</li>
-      <li><strong>NFC-Enabled Tag ID:</strong> A cryptographically unique ID linked to the DraftVerify Registry.</li>
-    </ol>
-
-    <p>
-      All information shall correspond exactly to the associated DraftVerify digital record.
-    </p>
-  </div>
-</section>
-
-<!-- 4. REQUIRED COMPONENTS -->
-<section class="section" id="components" style="background:#f7f9fc">
-  <div class="container">
-    <div class="kicker">4. Required Labeling & Identification Components</div>
-    <h2 class="h2">The DraftVerify-Compliant Keg Identity Package</h2>
-
-    <div class="grid cols-4" style="margin-top:22px">
-
-      <div class="card reveal">
-        <h3>4.1 Keg Collar</h3>
-        <p>
-          Primary visible identifier showing NA status, product identity, and serialized Keg ID.
-        </p>
-      </div>
-
-      <div class="card reveal">
-        <h3>4.2 Sidewall Label</h3>
-        <p>
-          Secondary identifier visible during stacking and transport; duplicates key identity fields.
-        </p>
-      </div>
-
-      <div class="card reveal">
-        <h3>4.3 Coupler Tag (NFC)</h3>
-        <p>
-          Mandatory NFC-enabled identifier attached at the keg’s coupler connection point.  
-          Contains the cryptographically unique ID used for digital verification.
-        </p>
-      </div>
-
-      <div class="card reveal">
-        <h3>4.4 Digital Registry Entry</h3>
-        <p>
-          The DraftVerify record representing the keg’s product data, batch, and verification state.
-        </p>
-      </div>
-
-    </div>
-
-    <p style="margin-top:18px;">
-      All four components must validate the same identity; mismatches shall be corrected 
-      before the keg leaves the brewery.
-    </p>
-  </div>
-</section>
-
-<!-- 5. NFC & DIGITAL TRACEABILITY -->
-<section class="section" id="digital">
-  <div class="container">
-    <div class="kicker">5. NFC Identity & Digital Traceability</div>
-    <h2 class="h2">How NA Keg Identity Shall Be Digitally Managed</h2>
-
-    <p>
-      Each keg shall include a DraftVerify NFC tag containing a cryptographically secure, 
-      non-duplicable ID linked to its digital record.  
-      Digital records shall include:
+      Instead of treating labeling as a chore, DraftVerify treats it as part of a connected identity 
+      system. A compliant NA keg leaves the brewery with three physical elements and one digital one:
     </p>
 
     <ul>
-      <li>Keg ID and NFC Tag ID</li>
-      <li>Product name, style, and NA status</li>
-      <li>Batch code, fill date, freshness date</li>
-      <li>Destination (venue or distributor)</li>
-      <li>Verification history (optional)</li>
+      <li><strong>Keg Collar:</strong> the top-facing badge that says “NON-ALCOHOLIC” loud and clear</li>
+      <li><strong>Sidewall Label:</strong> rugged, cooler-proof information for stacked or racked storage</li>
+      <li><strong>Coupler Tag (NFC):</strong> the small digital anchor that confirms identity during connection</li>
+      <li><strong>Digital Registry Entry:</strong> the authoritative record that ties everything together</li>
     </ul>
 
     <p>
-      The NFC ID is the authoritative identity for the keg and shall override handwritten, paper, 
-      or applied labels in the event of discrepancy.
+      Together, these four pieces make it almost impossible for a NA keg to disappear into the chaos 
+      of a shared cooler or crowded delivery truck.
     </p>
   </div>
 </section>
 
-<!-- 6. LABEL PLACEMENT -->
-<section class="section" id="placement" style="background:#f7f9fc">
+<!-- SECTION -->
+<section class="section" style="background:#f7f9fc">
   <div class="container">
-    <div class="kicker">6. Label Placement</div>
-    <h2 class="h2">Where Labels and NFC Tags Shall Be Applied</h2>
+    <div class="kicker">4. Why NFC Tags Matter</div>
+    <h2 class="h2">The Part That Paper Labels Can’t Do</h2>
 
-    <h3>6.1 Keg Collar</h3>
     <p>
-      Shall be applied at the top of the keg so NA status is visible from above in storage locations.
-    </p>
-
-    <h3>6.2 Sidewall Label</h3>
-    <p>
-      Shall be placed on the body of the keg to remain visible when stacked, shelved, or racked.
-    </p>
-
-    <h3>6.3 Coupler Tag (NFC)</h3>
-    <p>
-      Shall be securely attached near the keg valve so staff can scan and verify the keg’s 
-      identity before connection.
+      Every brewery has dealt with collars falling off or labels peeling in the cold. That’s normal.
     </p>
 
     <p>
-      The Coupler Tag shall remain attached for the entire service life of the keg.
+      An NFC tag solves the problem paper can’t: it gives the keg a digital fingerprint that 
+      doesn’t wear off, doesn’t smear, and doesn’t get lost if everything else does.
+    </p>
+
+    <p>
+      When a venue scans the tag, they instantly see:
+    </p>
+
+    <ul>
+      <li>the product</li>
+      <li>the batch</li>
+      <li>the NA classification</li>
+      <li>the keg’s serialized ID</li>
+      <li>its next destination (optional)</li>
+    </ul>
+
+    <p>
+      This is why the NFC Coupler Tag is the heart of the DraftVerify system. It’s the one piece 
+      that survives every keg’s entire journey.
     </p>
   </div>
 </section>
 
-<!-- 7. REUSE & RESET PROCESS -->
-<section class="section" id="reuse">
+<!-- SECTION -->
+<section class="section">
   <div class="container">
-    <div class="kicker">7. Reuse & Reset Requirements</div>
-    <h2 class="h2">How Returned NA Kegs Shall Be Reset</h2>
+    <div class="kicker">5. Placement That Works in the Real World</div>
+    <h2 class="h2">Where Everything Goes — Based on Actual Brewery Use</h2>
+
+    <p>
+      Brewers, cellar staff, drivers, and venue teams all interact with kegs differently. Over time, 
+      operators across the industry unknowingly developed “unofficial standards” for where labeling 
+      works best.
+    </p>
+
+    <p>DraftVerify formalizes those instincts:</p>
+
+    <h3>Keg Collar</h3>
+    <p>Up top where it’s impossible to miss — especially in storage.</p>
+
+    <h3>Sidewall Label</h3>
+    <p>Low enough to avoid scraping, high enough to remain visible in racks and stacks.</p>
+
+    <h3>Coupler Tag (NFC)</h3>
+    <p>Placed near the valve so staff can scan before connecting — the moment where accuracy matters most.</p>
+
+    <p>
+      The result is an identity system that works instinctively for anyone who touches the keg.
+    </p>
+  </div>
+</section>
+
+<!-- SECTION -->
+<section class="section" style="background:#f7f9fc">
+  <div class="container">
+    <div class="kicker">6. When the Keg Comes Home</div>
+    <h2 class="h2">A Quick Reset Before Its Next Journey</h2>
+
+    <p>
+      Most breweries already refresh collars and touch up labels on returned kegs. The only new 
+      step is confirming that the NFC tag is still intact and connected to the right record.
+    </p>
+
+    <p>
+      Resetting the keg becomes simple:
+    </p>
 
     <ol>
-      <li><strong>Clean & Inspect:</strong> Kegs shall undergo full cleaning.</li>
-      <li><strong>Label Refresh:</strong> Damaged or unreadable labels shall be replaced.</li>
-      <li><strong>NFC Integrity Check:</strong> NFC tag shall be tested; if damaged, replaced and re-registered.</li>
-      <li><strong>Digital Reset:</strong> The DraftVerify record shall be updated to mark the keg available.</li>
+      <li>Inspect & clean</li>
+      <li>Replace any worn physical labels</li>
+      <li>Check or swap the NFC tag if needed</li>
+      <li>Update the DraftVerify Registry</li>
     </ol>
 
     <p>
-      Kegs shall not be refilled for NA service until all identification components match the updated 
-      DraftVerify record.
+      After that, the keg is ready for another safe NA fill — with its identity restored.
     </p>
   </div>
 </section>
 
-<!-- 8. CONFORMANCE -->
-<section class="section center" id="conformance" style="background:#f7f9fc">
+<!-- SECTION -->
+<section class="section center">
   <div class="container">
-    <div class="kicker">8. Conformance</div>
-    <h2 class="h2">Meeting the Requirements of This Standard</h2>
+    <div class="kicker">7. Why This Matters</div>
+    <h2 class="h2">Clear Identity = Safe Service = Trust in Your Product</h2>
 
-    <p style="max-width:820px;margin:0 auto">
-      Compliance with this standard requires the use of:
+    <p style="max-width:820px;margin:0 auto;">
+      Brewing a great non-alcoholic beer is only half the story. Making sure it stays NA from the 
+      moment it leaves your brewery to the moment someone orders it is the other half — and that’s 
+      what this guide is designed to protect.
     </p>
 
-    <ul style="max-width:820px;margin:12px auto;">
-      <li>DraftVerify Keg Collar and Sidewall Label formats</li>
-      <li>NFC-enabled DraftVerify Coupler Tags</li>
-      <li>DraftVerify’s cryptographically unique ID system</li>
-      <li>The DraftVerify digital Registry for batch and traceability data</li>
-    </ul>
-
-    <p style="max-width:820px;margin:10px auto 0;">
-      At the time of publication, DraftVerify is the only system capable of meeting the 
-      physical, digital, and traceability requirements defined in this standard.
+    <p style="max-width:820px;margin:20px auto 0;">
+      DraftVerify gives breweries, distributors, and venues a shared language for NA keg identity.  
+      And right now, it’s the only system that connects physical labels with a digital record that 
+      can’t be mistaken for anything else.
     </p>
   </div>
 </section>
