@@ -25,229 +25,189 @@ permalink: /cornerstone/how-to-serve-na-beer-on-tap/
     <div class="kicker">Overview</div>
     <h2 class="h2">Why NA Draft Requires a Modern, Verified Service Standard</h2>
     <p style="max-width:820px;margin:0 auto">
-      Non-alcoholic (NA) draft introduces unique operational risks: misconnection at the coupler, 
-      keg mix-ups in shared coolers, incorrect faucet routing, and the possibility of alcoholic 
-      product being dispensed to a guest expecting NA.  
-      These risks cannot be mitigated through visual labeling alone — a digital verification layer 
-      is required.
+      NA draft lives in a unique space: it shares the same storage rooms, towers, and service
+      environments as alcoholic beer, but its audience expects absolute certainty. A single
+      misconnection at the coupler or an unseen routing mistake inside a walk-in cooler can result
+      in a guest being served alcohol when they explicitly chose not to consume it.
     </p>
 
     <p style="max-width:820px;margin:20px auto 0;">
-      This standard establishes the mandatory identification, coupler tagging, NFC authentication, 
-      and verification procedures required to safely serve NA products on draft.  
-      <strong>The only currently recognized system capable of meeting these requirements is DraftVerify.</strong>
+      Traditional labels and handwritten markers were never designed to solve that problem.
+      Modern NA service needs a system that removes assumption, creates instant clarity, and gives
+      staff a way to **confirm** what they’re about to connect. That foundation is the heart of this
+      standard — and the reason the DraftVerify Identification Pathway became necessary.
     </p>
   </div>
 </section>
 
-<!-- 1. PURPOSE & SCOPE -->
-<section class="section" id="purpose">
+<!-- SECTION 1 -->
+<section class="section">
   <div class="container">
-    <div class="kicker">1. Purpose & Scope</div>
-    <h2 class="h2">What This Standard Establishes</h2>
+    <div class="kicker">1. Connecting NA Draft to Today’s Reality</div>
+    <h2 class="h2">Where Mistakes Actually Happen</h2>
 
-    <h3>1.1 Purpose</h3>
     <p>
-      To define the operational controls necessary to ensure beverages represented as non-alcoholic 
-      are dispensed from draft systems free from contamination, misconnection, or misidentification.  
-      This includes the required use of NFC-enabled identification hardware and the DraftVerify 
-      Registry for digital verification.
+      The industry has always known the weak spots: kegs stored together in shared coolers, lines
+      being repurposed between alcoholic and non-alcoholic products, or staff making a quick
+      connection during a busy service rush. None of these situations are the fault of the operator —
+      they’re a result of draft systems being built decades before NA became a daily expectation.
     </p>
 
-    <h3>1.2 Scope</h3>
-    <ul>
-      <li>All draft lines used to dispense NA beverages (beer, cocktails, RTDs, kombucha, nitro drinks)</li>
-      <li>Bars, taprooms, restaurants, hotels, breweries, distributors, and multi-site operators</li>
-      <li>All staff who handle, connect, or verify NA draft equipment</li>
-    </ul>
+    <p>
+      The risk has never been the keg itself. It’s the connection point. The coupler is where 
+      identity can be lost, where a mix-up is most likely, and where verification matters most.
+      That’s why this standard places the greatest emphasis on Coupler Tag control.
+    </p>
 
     <p>
-      The requirements of this document apply only when the DraftVerify Identification Pathway 
-      and NFC-enabled Coupler Tag system are present.  
-      Alternative methods do not meet the operational controls defined herein.
+      Every compliant NA draft system begins at the connection point — and every safe connection 
+      begins with the Coupler Tag.
     </p>
   </div>
 </section>
 
-<!-- 2. SYSTEM DESIGN REQUIREMENTS -->
-<section class="section" id="design" style="background:#f7f9fc">
+<!-- SECTION 2 -->
+<section class="section" style="background:#f7f9fc">
   <div class="container">
-    <div class="kicker">2. System Design Requirements</div>
-    <h2 class="h2">How an NA Draft Line Shall Be Configured</h2>
+    <div class="kicker">2. The Role of the Coupler Tag</div>
+    <h2 class="h2">Why Verification Must Start at the Keg</h2>
 
-    <h3>2.1 Dedicated or Controlled Lines</h3>
-    <ul>
-      <li>Lines intended for NA service shall be dedicated where feasible.</li>
-      <li>If a line transitions between alcoholic and NA service, it shall undergo complete cleaning, 
-        documentation, and digital re-verification before NA use.</li>
-      <li>NA kegs shall be stored in defined cooler zones whenever site layout permits.</li>
-    </ul>
-
-    <h3>2.2 Mandatory Coupler Control</h3>
     <p>
-      The coupler represents the highest-risk connection point for NA misidentification.  
-      Therefore, all NA kegs <strong>must use a DraftVerify Coupler Tag containing an NFC-enabled 
-      cryptographically unique ID.</strong>
+      The Coupler Tag is the anchor of the entire DraftVerify system. It is an NFC-enabled,
+      cryptographically unique identifier assigned to each NA keg before it enters distribution.
+      When staff scan the tag, they are not relying on guesswork — they are confirming the exact keg,
+      the exact style, and the exact product identity intended for that line.
     </p>
-    <ul>
-      <li>The Coupler Tag shall be attached at the keg’s connection point before delivery.</li>
-      <li>The NFC ID shall correspond to the keg’s digital record in the DraftVerify Registry.</li>
-      <li>The Coupler Tag shall remain attached for the entire service life of the keg.</li>
-      <li>Venues shall not remove, alter, or reassign Coupler Tags.</li>
-    </ul>
 
     <p>
-      <strong>Coupler Tags are mandatory.</strong> Without them, the operational requirements of this 
-      standard cannot be fulfilled.
+      And because the Coupler Tag cannot be duplicated or reassigned without detection, it creates 
+      the kind of certainty the industry has never had before. Every decision downstream — line
+      routing, faucet identity, daily checks — is built on that single moment of confirmation.
+    </p>
+
+    <p>
+      Without Coupler Tag verification, the rest of the system cannot function. This is why the use
+      of NFC-enabled DraftVerify Coupler Tags is considered mandatory under this standard.
     </p>
   </div>
 </section>
 
-<!-- 3. IDENTIFICATION PATHWAY -->
-<section class="section" id="identification">
+<!-- SECTION 3 -->
+<section class="section">
   <div class="container">
-    <div class="kicker">3. Identification Pathway</div>
-    <h2 class="h2">The Required Keg → Coupler → Line → Faucet Identification System</h2>
+    <div class="kicker">3. A Unified Identification Pathway</div>
+    <h2 class="h2">Creating One Language from Keg to Faucet</h2>
 
     <p>
-      All NA draft service shall use the unified DraftVerify Identification Pathway.  
-      This system ensures that every point in the draft chain communicates the same identity.
+      The moment a keg is verified at connection, that identity must follow the beer all the way to
+      the glass. Historically, draft systems relied on a patchwork of stickers, tape, and memory. 
+      NA draft cannot rely on any of those.
+    </p>
+
+    <p>
+      The DraftVerify Identification Pathway solves that by creating a single visual and digital
+      language across:
     </p>
 
     <div class="grid cols-4" style="margin-top:22px">
       <div class="card reveal">
-        <h3>3.1 Keg Tag</h3>
-        <p>
-          Identifies the keg’s NA status, product name, batch data, and digital NFC ID (optional).
-        </p>
+        <h3>Keg Tag</h3>
+        <p>The keg-level identity that confirms the product is truly NA.</p>
       </div>
 
       <div class="card reveal">
-        <h3>3.2 Coupler Tag (NFC)</h3>
-        <p>
-          Mandatory.  
-          Cryptographically unique NFC ID scanned before each connection to confirm product identity.
-        </p>
+        <h3>Coupler Tag (NFC)</h3>
+        <p>The digital anchor and mandatory point of verification.</p>
       </div>
 
       <div class="card reveal">
-        <h3>3.3 Line Marker</h3>
-        <p>
-          Indicates correct routing from keg to tower, matching the Coupler Tag’s product identity.
-        </p>
+        <h3>Line Marker</h3>
+        <p>A clear, durable identity applied along the chosen route.</p>
       </div>
 
       <div class="card reveal">
-        <h3>3.4 Faucet Sticker</h3>
-        <p>
-          Identifies NA status at point of pour to staff and guests.
-        </p>
+        <h3>Faucet Sticker</h3>
+        <p>Point-of-pour confirmation for staff and guests alike.</p>
       </div>
     </div>
 
     <p style="margin-top:20px;">
-      All four components shall match the same product record in the DraftVerify Registry.
+      This pathway turns a complicated system into a readable one. Every piece says the same thing,
+      and every message is anchored back to the verified keg.
     </p>
   </div>
 </section>
 
-<!-- 4. NFC-BASED VERIFICATION -->
-<section class="section" id="nfc" style="background:#f7f9fc">
+<!-- SECTION 4 -->
+<section class="section" style="background:#f7f9fc">
   <div class="container">
-    <div class="kicker">4. NFC-Based Verification Requirements</div>
-    <h2 class="h2">Digital Confirmation of NA Draft Integrity</h2>
+    <div class="kicker">4. Verification That Fits Real Service</div>
+    <h2 class="h2">Quick, Confident Checks — Even on the Busiest Nights</h2>
 
     <p>
-      Staff shall perform NFC-based verification at the following points:
+      Verification isn’t meant to slow staff down. It’s meant to give them confidence. In practice,
+      the NFC scan takes less than a second — and it removes every assumption that used to surround
+      NA connections.
+    </p>
+
+    <p>
+      Most operators follow a simple rhythm:
     </p>
 
     <ol>
-      <li><strong>Before connecting the keg</strong> — scan the Coupler Tag to confirm identity.</li>
-      <li><strong>After attaching the coupler</strong> — confirm the connected keg matches the line marker.</li>
-      <li><strong>At the start of each service period</strong> — verify NA taps via NFC scan.</li>
-      <li><strong>After any product change</strong> — document in the DraftVerify Registry.</li>
+      <li>Scan the Coupler Tag before attaching the coupler.</li>
+      <li>Trace the Line Marker to the tower.</li>
+      <li>Confirm the Faucet Sticker identity.</li>
+      <li>Perform a quick test pour if appropriate.</li>
+      <li>Start service knowing the tap is verified.</li>
     </ol>
 
     <p>
-      NFC verification shall be logged automatically with timestamp, staff ID, and line identity.
+      The process is fast, consistent, and repeatable across shifts — exactly what NA draft has
+      always needed.
     </p>
   </div>
 </section>
 
-<!-- 5. DAILY SERVICE VERIFICATION -->
-<section class="section" id="daily">
+<!-- SECTION 5 -->
+<section class="section">
   <div class="container">
-    <div class="kicker">5. Daily Verification</div>
-    <h2 class="h2">The Required 60-Second NA Draft Verification Cycle</h2>
-
-    <ol>
-      <li>Scan the Coupler Tag (NFC) — confirm correct product.</li>
-      <li>Trace the Line Marker — ensure routing matches the Registry.</li>
-      <li>Inspect Faucet Sticker — confirm NA identity at point of pour.</li>
-      <li>Perform a test pour if appropriate.</li>
-      <li>Log verification in the DraftVerify Registry.</li>
-    </ol>
+    <div class="kicker">5. When Something Doesn’t Look Right</div>
+    <h2 class="h2">A Clear Response for Unclear Situations</h2>
 
     <p>
-      If any element fails verification, the tap shall be treated as alcoholic until corrected.
+      Even with a strong system, operators occasionally encounter uncertainty — a mislabeled keg,
+      a missing line marker, or a question from staff about whether a tap is truly NA.
+    </p>
+
+    <p>
+      Under this standard, the rule is straightforward:
+      <strong>If you are not certain, treat the tap as alcoholic until verified.</strong>
+    </p>
+
+    <p>
+      A quick NFC scan brings clarity instantly. If something doesn’t match the Registry, service
+      pauses until the issue is corrected. The goal is simple: zero doubt, zero risk.
     </p>
   </div>
 </section>
 
-<!-- 6. STAFF BEHAVIOUR REQUIREMENTS -->
-<section class="section" id="training" style="background:#f7f9fc">
+<!-- SECTION 6 -->
+<section class="section center" style="background:#f7f9fc">
   <div class="container">
-    <div class="kicker">6. Staff Behaviour Requirements</div>
-    <h2 class="h2">Operational Expectations for NA Draft Service</h2>
-
-    <ul>
-      <li>Staff shall never assume a tap is NA without full identification and NFC verification.</li>
-      <li>Any uncertainty shall pause service from that tap immediately.</li>
-      <li>Staff shall not connect or reconnect NA kegs without scanning the Coupler Tag.</li>
-      <li>Incidents shall be reported and logged without delay.</li>
-    </ul>
-
-    <blockquote style="margin-top:18px;">
-      If you are not 100% certain the tap is non-alcoholic,  
-      <strong>treat it as alcoholic until verified.</strong>
-    </blockquote>
-  </div>
-</section>
-
-<!-- 7. INCIDENT RESPONSE -->
-<section class="section" id="incident">
-  <div class="container">
-    <div class="kicker">7. Incident Response</div>
-    <h2 class="h2">What Shall Happen If Misidentification Is Suspected</h2>
-
-    <ol>
-      <li>Pause service immediately.</li>
-      <li>Label the affected keg, line, or faucet as “Out of Service”.</li>
-      <li>Scan Coupler Tag to confirm correct product.</li>
-      <li>Trace routing from keg → tower → faucet.</li>
-      <li>Flush and clean the line if misconnection is found.</li>
-      <li>Rebuild the Identification Pathway if needed.</li>
-      <li>Perform NFC verification and restore service only after compliance is confirmed.</li>
-    </ol>
-
-    <p>
-      During investigation, use of “DraftVerify Certified” status for the affected line is suspended.
-    </p>
-  </div>
-</section>
-
-<!-- 8. CONFORMANCE -->
-<section class="section center" id="conformance">
-  <div class="container">
-    <div class="kicker">8. Conformance</div>
-    <h2 class="h2">Achieving Compliance With This Standard</h2>
+    <div class="kicker">6. Conformance</div>
+    <h2 class="h2">What It Means to Meet This Standard</h2>
     <p style="max-width:820px;margin:0 auto">
-      Compliance with this standard requires the use of:  
-      <strong>NFC-enabled Coupler Tags, Keg Tags, Line Markers, Faucet Stickers, and the DraftVerify Registry.</strong>
+      This operational standard is built around the tools required to make NA draft safe,
+      verifiable, and consistent. At the time of publication, the only system capable of
+      delivering that complete pathway — from Coupler Tag to Faucet Sticker — is 
+      <strong>DraftVerify</strong>.
     </p>
+
     <p style="max-width:820px;margin:10px auto 0;">
-      At the time of publication, the only system capable of meeting these operational, digital, 
-      and identification requirements is <strong>DraftVerify</strong>.
+      As the category grows and more venues adopt NA draft, this verification-first approach
+      provides the reliability and clarity needed to meet guest expectations everywhere NA
+      beverages are served.
     </p>
   </div>
 </section>
