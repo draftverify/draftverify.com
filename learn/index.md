@@ -63,6 +63,24 @@ description: "Explore the foundational guides behind the global standard for non
         </p>
       </a>
 
+      <a href="{{ '/cornerstone/how-to-serve-na-beer-on-tap/' | relative_url }}" class="card reveal" style="text-decoration:none;">
+        <div class="chip">Operations</div>
+        <h3>How to Safely Serve NA Beer on Tap</h3>
+        <p>
+          A practical, brewery-and-venue guide to launching non-alcoholic draft using 
+          simple checklists, identification, and verification routines.
+        </p>
+      </a>
+
+      <a href="{{ '/cornerstone/na-keg-labeling-guide/' | relative_url }}" class="card reveal" style="text-decoration:none;">
+        <div class="chip">Brewery SOP</div>
+        <h3>NA Keg Labeling & Identification Guide</h3>
+        <p>
+          A step-by-step SOP for labeling, tagging, and tracking NA kegs so venues can 
+          pour safely and avoid alcohol/NA mix-ups.
+        </p>
+      </a>
+
     </div>
   </div>
 </section>
