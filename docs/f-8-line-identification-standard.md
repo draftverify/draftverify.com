@@ -1,260 +1,237 @@
 ---
 layout: default
-title: "F-8 — Beer Line Identification Standard"
-permalink: /docs/line-id/
-description: "The mandatory identification system for non-alcoholic beer lines, including tags, spacing, visibility requirements, routing rules, durability, and digital integration."
+title: "F-8 — Line Identification Standard"
+permalink: /docs/line-identification-standard/
+description: "The universal standard for identifying, labeling, and verifying draft beverage lines — ensuring accuracy, safety, and accountability from cooler to faucet."
 ---
 
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
 <div class="kicker">DraftVerify Standards Library · F-8</div>
-# Beer Line Identification Standard
+# Line Identification Standard
 <p style="font-size:0.95rem;color:#6b7280;">
 Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
 <br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-This standard defines the **mandatory identification requirements for non-alcoholic (NA) beer lines** used in DraftVerify-compliant systems.
+DraftVerify establishes the first **global line-identification system** for draft beverages.  
+This standard defines how to **label, verify, and protect** the identity of beverage lines from keg to faucet using physical tags, NFC-enabled markers, and the DraftVerify Registry.
 
-Beer lines are the **longest, least visible, and most failure-prone link** in the NA identity chain.  
-Correct line identification ensures staff, auditors, and technicians can follow the NA draft path from **keg → coupler → line → tower → faucet** without guesswork or ambiguity.
+Proper line identification protects:
+- **Safety** (critical for non-alcoholic draft)
+- **Cross-contamination prevention**
+- **Loss reduction + accuracy**
+- **Brand integrity for breweries**
+- **Operational clarity for venues**
 
-  </div>
-</section>
+---
 
+## 1. Purpose
+The purpose of this standard is to ensure that every draft line has:
+1. A **clear physical identifier** visible to staff and auditors  
+2. A **digital identity** tied to a cryptographically-unique NFC ID  
+3. A **direct mapping** between the keg, the coupler, the line, and the faucet  
 
+This system provides a single source of truth for what is flowing through each tap at any given time.
 
-<!-- SECTION 1 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+---
 
-## 1.0 Purpose
+## 2. Scope
+This standard applies to:
+- Bars  
+- Restaurants  
+- Breweries  
+- Stadiums & arenas  
+- Distributor-managed draft systems  
+- Any venue using DraftVerify for NA or alcoholic draft  
 
-The Beer Line Identification Standard ensures:
+It covers:
+- Line tags  
+- Coupler tags  
+- Optional tower markers  
+- NFC-enabled identity points  
 
-- NA lines are unmistakably marked along their entire length  
-- staff can visually trace the NA pathway even in dense cooler setups  
-- cross-contact between alcoholic and NA products is prevented  
-- operators can verify the correct line during installation, cleaning, or troubleshooting  
-- digital records map to physical identity points  
+---
 
-Line tags are required elements of DraftVerify Standard v1.0 and may not be omitted.
+## 3. Components of the Line Identification System
 
-  </div>
-</section>
+### 3.1 Line Tag (Primary Identifier)
+A **durable, high-contrast physical tag** placed on the beverage line near the coupler.  
+The tag displays:
+- Product name  
+- Style (if applicable)  
+- Colour-coded category  
+- Matching NFC ID code (non-scannable printed shorthand)
 
+This is the **first visual cue** staff see when connecting a keg.
 
+### 3.2 Coupler Tag (NFC Identity Point)
+A small, tamper-resistant NFC tag placed near the keg valve.  
+Used to:
+- Confirm identity before tapping  
+- Validate NA vs alcoholic  
+- Link keg → coupler → line in the Registry  
+- Tie into audit logs  
 
-<!-- SECTION 2 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+This is the **digital verification point**.
 
-## 2.0 Required Identification Components
+### 3.3 Tower Marker (Optional)
+A small identifier placed at the faucet head.  
+Useful for:
+- High-volume bars  
+- Stadium service  
+- Multi-shift venues  
+- Fast or rotating staff environments  
 
-Every NA line must include the following:
+This is an **optional redundancy layer**, not required for standard compliance.
 
-### 2.1 Line Tags (Mandatory)
-Durable, clearly visible NA tags spaced along the full line.
+---
 
-Minimum properties:
-- NA Gold (#c7aa4a) color  
-- high-contrast text or symbols  
-- moisture and chemical resistance  
-- no sharp edges  
-- non-removable without tools  
-- compatible with coils, bundles, and trunk lines  
+## 4. Placement Requirements
 
-Approved formats:
-- clip-on ID rings  
-- adhesive NA bands  
-- wrap-around polymer flags  
-- fixed ID plates  
+### 4.1 Line Tag Placement
+- Must be placed **within the first 12–18 inches** from the coupler.  
+- Must be **forward-facing** and readable when reaching into the cooler.  
+- Must not obstruct movement, cooling, or cleaning.
 
-### 2.2 Line Header Tag (Mandatory)
-A large, high-visibility NA tag must be placed:
+### 4.2 Coupler Tag Placement
+- Placed on or near the coupler body.  
+- Must be accessible for NFC scanning **before tap connection**.  
+- Must not interfere with keg valves or seals.
 
-- within **10 cm** of the coupler end  
-- readable during all keg swaps  
-- facing outward toward staff  
+### 4.3 Tower Marker Placement (Optional)
+- Placed above or behind the faucet.  
+- Must be visible from bartending position.  
+- Not required for F-8 compliance.
 
-### 2.3 Mid-Line Identification (Mandatory)
-Tags must be spaced at:
+---
 
-- **every 1.0–1.5 meters** for direct-draw systems  
-- **every 1.5–2.0 meters** for long-draw trunk systems  
+## 5. Identification Hierarchy  
+The following hierarchy ensures clarity and traceability:
 
-Distance may be reduced in dense routing environments.
+### 5.1 Primary Identifier  
+**Line Tag** → what staff see first  
 
-### 2.4 Tower Entry Tag (Mandatory)
-A tag must be positioned at the **tower entrance** or shank connection to confirm the correct NA line enters the tower.
+### 5.2 Verification Point  
+**Coupler NFC Tag** → what staff must scan before tapping  
 
-### 2.5 NFC Line Tag (Optional)
-If NFC is used:
+### 5.3 Service-Side Indicator (Optional)  
+**Tower Marker** → what staff see at the faucet  
 
-- the tag must contain a unique ID  
-- the ID must resolve to a registry record  
-- placement must allow field scanning  
-- tag must withstand trunk line compression  
+This hierarchy ensures the correct product is flowing through the correct line **before**, **during**, and **after** service.
 
-NFC is optional but strongly recommended for multi-venue operators.
+---
 
-  </div>
-</section>
+## 6. Standardized Colour Coding
 
+| Category | Colour | Required |
+|---------|--------|----------|
+| Non-Alcoholic (NA) | Gold | Mandatory |
+| Alcoholic | Blue | Recommended |
+| Seasonal / Rotational | Teal | Optional |
+| House / Staff-Only | Grey | Optional |
 
+Gold for NA is **non-negotiable** under the DraftVerify NA Standard.  
+Visual distinction is essential for preventing mis-taps.
 
-<!-- SECTION 3 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+---
 
-## 3.0 Placement Requirements
+## 7. NFC Verification Workflow
 
-### 3.1 General Placement Rules
-Line tags must be:
+### Step 1 — Connect  
+Staff sees the **line tag** when reaching for the coupler.
 
-- upright and legible  
-- unobstructed by insulation  
-- placed on the **visible outer layer** when multiple lines are bundled  
-- consistent in orientation  
-- installed before routing where possible  
+### Step 2 — Scan  
+Staff scans the **NFC coupler tag** using any NFC-capable phone.
 
-### 3.2 Bundled/Trunk Lines
-For trunk lines:
+### Step 3 — Confirm  
+Phone displays:
+- Brewery  
+- Product  
+- Category (NA or alcoholic)  
+- Notes (if provided by brewery or distributor)
 
-- NA line must be identified at entry, midpoint, and exit  
-- identification must remain readable without removing insulation  
-- tag must not interfere with glycol lines or trunk compression  
+### Step 4 — Serve  
+Once validated, the keg is tapped and service begins.
 
-### 3.3 Vertical Runs
-Tags must be spaced more frequently if:
+Each scan creates an **immutable audit log entry** tied to that specific NFC ID.
 
-- lines run vertically more than 1.5 meters  
-- lines pass through multiple elevation changes  
+---
 
-### 3.4 Cooler Ceilings and Racks
-If lines run overhead:
-
-- tags must face downward or outward  
-- tags must be placed before and after any obstruction  
-
-### 3.5 Tower Entry
-The tower entry tag must be:
-
-- directly above the shank  
-- visible without moving foam, insulation, or other lines  
-- readable during faucet service  
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 4 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 4.0 Durability Requirements
-
-Line identification must withstand:
-
-- condensation and freeze/thaw cycles  
-- chemical cleaners (alkaline and acid)  
-- CO₂/N₂ exposure  
-- abrasion from routing and cooler traffic  
-- compression from other lines  
-- long-term tension and flex  
-
-Tags must remain legible for at least **12 months** under normal operating conditions.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 5 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 5.0 Brewery Responsibilities
+## 8. Brewery & Distributor Responsibilities
 
 Breweries must:
+- Apply coupler tags to NA kegs (minimum requirement)  
+- Maintain accurate product-to-tag assignments  
+- Provide venues with accurate line tag artwork  
 
-- include a line ID reference with each NA keg shipment  
-- specify the product’s intended line designation  
-- ensure line tags match keg and coupler tags  
-- provide full routing diagrams for multi-venue programs  
-
-Breweries may not rely on venue staff to determine NA routing without guidance.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 6 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 6.0 Venue Responsibilities
+Distributors must:
+- Ensure line tags match delivered product  
+- Confirm coupler NFC tags are present and readable  
+- Report inconsistencies to DraftVerify  
 
 Venues must:
+- Apply line tags correctly  
+- Use NFC verification when tapping  
+- Maintain basic cleanliness and visibility of identifiers  
 
-- tag all NA lines according to this standard  
-- inspect tags during every keg change  
-- replace damaged or missing tags immediately  
-- map the NA line number in DraftVerify records  
-- ensure cleaning crews respect NA identification  
-- ensure alcoholic lines never use NA markers  
+---
 
-Venues that do not maintain line identification lose DraftVerify compliance.
+## 9. Compliance Requirements
+A venue is compliant when all of the following are true:
+- Every NA line has a **Line Tag**  
+- Every NA keg has a **Coupler NFC Tag**  
+- Tags match the actual product being served  
+- All NFC tags are registered and active  
+- Staff verify identity before connecting new kegs  
 
-  </div>
-</section>
+Optional components (tower markers) do not affect compliance.
 
+---
 
+## 10. Rationale
+Correct line identification solves fundamental industry risks:
+- Wrong beer on the wrong line  
+- Cross-contamination (especially NA)  
+- Brand misrepresentation  
+- Revenue leakage from mis-pours  
+- Staff turnover → training gaps  
+- Distributor disputes over what was actually on tap  
 
-<!-- SECTION 7 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+DraftVerify standardizes what has never been standardized.
 
-## 7.0 Prohibited Practices
+The result:
+**No guesswork. No mistakes. No ambiguity.**
 
-The following violate DraftVerify Standard v1.0:
+A fully identified draft system builds trust from brewery → distributor → venue → consumer.
 
-- placing tags under insulation  
-- handwritten tags or tape  
-- using NA tags on alcoholic lines  
-- covering tags with foam wrap  
-- placing tags on trunkline glycol tubes  
-- using non-durable label stock  
-- placing tags only at one end of the line  
+---
 
-Any violation must be logged as an **exception event**.
+## 11. Future-Proofing & Extensions
+This standard is designed to scale as:
+- NA draft volumes grow  
+- NFC technology becomes more common  
+- Breweries add more SKUs  
+- Distributors adopt unified regional systems  
+- Venues move toward digital tap menus  
 
-  </div>
-</section>
+Future capabilities may include:
+- Full tap-to-keg verification  
+- Automated rotation tracking  
+- Digital line cleaning logs  
+- Real-time pour identity mapping  
 
+---
 
+## 12. Summary
+The Line Identification Standard ensures that every beverage line is:
+- **Clear**  
+- **Consistent**  
+- **Verified**  
+- **Digitally traceable**  
 
-<!-- SECTION 8 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+DraftVerify turns an industry built on habit and tradition into one built on **clarity and accountability** — without slowing down service or complicating workflow.
 
-## 8.0 Intellectual Property & Copyright
-
-All line identification methodology—including spacing rules, placement diagrams, digital mapping structure, and tag architecture—is proprietary DraftVerify™ intellectual property.
-
-Use in external:
-- SOPs  
-- manuals  
-- competing standards  
-- training courses  
-- brewery system designs  
-
-is prohibited without written permission.
-
-© 2025 DraftVerify Standards Initiative. All rights reserved.
-
-  </div>
+</div>
 </section>
