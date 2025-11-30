@@ -47,12 +47,14 @@ layout: default
     <!-- DIRECT EMAIL SECTION -->
     <div class="card" style="max-width:720px;margin:32px auto;padding:32px;text-align:center;">
       <h3>Email Us Directly</h3>
-      <p>If you prefer, you can reach us anytime at:</p>
+      <p>You can also reach us anytime at:</p>
+
       <p>
         <a href="mailto:info@draftverify.com" class="btn primary" style="margin-top:12px;">
           info@draftverify.com
         </a>
       </p>
+
       <p style="margin-top:12px;color:#0d3b66;font-weight:600;">
         Include your venue name, city, and number of taps for fastest response.
       </p>
