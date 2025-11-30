@@ -30,8 +30,8 @@ layout: default
         <div class="dv-two-col">
           <label>
             Organization type<br>
-            <select name="role" required>
-              <option value="Restaurant / Bar / Venue">Restaurant / Bar / Venue</option>
+            <select id="orgType" name="role" required>
+              <option value="Restaurant">Restaurant / Bar / Venue</option>
               <option value="Distributor">Distributor</option>
               <option value="Brewery">Brewery</option>
             </select>
@@ -64,7 +64,7 @@ layout: default
 
           <label>
             Website<br>
-            <input type="url" name="website" placeholder="https://example.com">
+            <input type="url" name="website">
           </label>
 
           <label>
@@ -74,7 +74,7 @@ layout: default
 
           <label>
             Role / title<br>
-            <input type="text" name="contact_role" placeholder="e.g. General Manager">
+            <input type="text" name="contact_role">
           </label>
 
           <label>
@@ -84,7 +84,7 @@ layout: default
 
           <label>
             Phone<br>
-            <input type="text" name="phone" placeholder="+1 555 123 4567">
+            <input type="text" name="phone">
           </label>
 
           <label>
@@ -108,131 +108,122 @@ layout: default
           </label>
         </div>
 
-        <!-- DRAFT PROGRAM -->
-        <h4>Draft Program</h4>
+        <!-- RESTAURANT SECTION -->
+        <div id="restaurantSection" class="conditional-section">
+          <h4>Restaurant / Venue Draft Program</h4>
 
-        <div class="dv-two-col">
-          <label>
-            Total taps on site<br>
-            <input type="number" name="total_taps" placeholder="e.g. 12">
-          </label>
+          <div class="dv-two-col">
+            <label>
+              Total taps on site<br>
+              <input type="number" name="total_taps_restaurant" placeholder="e.g. 12">
+            </label>
 
-          <label>
-            Non-alcoholic taps today<br>
-            <input type="number" name="na_taps" placeholder="e.g. 2">
-          </label>
+            <label>
+              NA taps today<br>
+              <input type="number" name="na_taps_restaurant" placeholder="e.g. 2">
+            </label>
 
-          <label>
-            Estimated monthly NA volume (kegs/month)<br>
-            <input type="text" name="na_volume" placeholder="e.g. 4–6 kegs">
-          </label>
+            <label>
+              Monthly NA draft volume (kegs)<br>
+              <input type="text" name="na_volume_restaurant" placeholder="e.g. 4–6">
+            </label>
 
-          <label>
-            Current beer / NA suppliers<br>
-            <input type="text" name="suppliers" placeholder="e.g. Local brewery, Distributor X">
-          </label>
+            <label>
+              Suppliers<br>
+              <input type="text" name="suppliers_restaurant">
+            </label>
 
-          <label>
-            POS system<br>
-            <select name="pos_system">
-              <option value="">Select POS</option>
-              <option>Square</option>
-              <option>Toast</option>
-              <option>Lightspeed</option>
-              <option>TouchBistro</option>
-              <option>Other</option>
-            </select>
-          </label>
+            <label>
+              Line-cleaning frequency<br>
+              <select name="cleaning_frequency_restaurant">
+                <option value="">Select</option>
+                <option>Every 1–2 weeks</option>
+                <option>Every 3–4 weeks</option>
+                <option>Less frequent</option>
+              </select>
+            </label>
+
+            <label>
+              Who manages your draft lines?<br>
+              <select name="line_manager_restaurant">
+                <option value="">Select</option>
+                <option>In-house</option>
+                <option>Third-party</option>
+                <option>Shared</option>
+              </select>
+            </label>
+          </div>
         </div>
 
-        <!-- DISTRIBUTOR -->
-        <h4>Distributor Details (if applicable)</h4>
+        <!-- DISTRIBUTOR SECTION -->
+        <div id="distributorSection" class="conditional-section">
+          <h4>Distributor Details</h4>
 
-        <div class="dv-two-col">
-          <label>
-            Territories served<br>
-            <input type="text" name="territories">
-          </label>
+          <div class="dv-two-col">
+            <label>
+              Territories served<br>
+              <input type="text" name="territories_distributor">
+            </label>
 
-          <label>
-            On-premise accounts served<br>
-            <input type="number" name="on_premise_accounts">
-          </label>
+            <label>
+              On-premise accounts served<br>
+              <input type="number" name="accounts_distributor">
+            </label>
 
-          <label>
-            Annual draft volume<br>
-            <input type="text" name="annual_draft_volume">
-          </label>
+            <label>
+              Annual draft volume<br>
+              <input type="text" name="annual_volume_distributor">
+            </label>
 
-          <label>
-            Handle NA draft today?<br>
-            <select name="handles_na_draft">
-              <option value="">Select</option>
-              <option>Yes</option>
-              <option>No</option>
-              <option>Planning to add</option>
-            </select>
-          </label>
+            <label>
+              Handle NA draft today?<br>
+              <select name="handles_na_distributor">
+                <option value="">Select</option>
+                <option>Yes</option>
+                <option>No</option>
+                <option>Planning to add</option>
+              </select>
+            </label>
+          </div>
         </div>
 
-        <!-- BREWERY -->
-        <h4>Brewery Details (if applicable)</h4>
+        <!-- BREWERY SECTION -->
+        <div id="brewerySection" class="conditional-section">
+          <h4>Brewery Details</h4>
 
-        <div class="dv-two-col">
-          <label>
-            Annual production volume<br>
-            <input type="text" name="annual_production">
-          </label>
+          <div class="dv-two-col">
+            <label>
+              Annual production volume<br>
+              <input type="text" name="production_brewery">
+            </label>
 
-          <label>
-            NA share of production<br>
-            <input type="text" name="na_share">
-          </label>
+            <label>
+              NA share of production<br>
+              <input type="text" name="na_share_brewery">
+            </label>
 
-          <label>
-            Keg formats<br>
-            <input type="text" name="keg_formats" placeholder="e.g. 20L, 30L">
-          </label>
+            <label>
+              Keg formats<br>
+              <input type="text" name="keg_formats_brewery">
+            </label>
 
-          <label>
-            Number of NA draft accounts<br>
-            <input type="number" name="na_draft_accounts">
-          </label>
+            <label>
+              Number of NA draft accounts<br>
+              <input type="number" name="na_accounts_brewery">
+            </label>
+          </div>
         </div>
 
-        <!-- OPS & GOALS -->
-        <h4>Operations & Goals</h4>
-
-        <div class="dv-two-col">
-          <label>
-            Who manages your draft lines?<br>
-            <select name="line_manager">
-              <option value="">Select</option>
-              <option>In-house team</option>
-              <option>Third-party service</option>
-              <option>Shared</option>
-            </select>
-          </label>
-
-          <label>
-            Line-cleaning frequency<br>
-            <select name="cleaning_frequency">
-              <option value="">Select</option>
-              <option>Every 1–2 weeks</option>
-              <option>Every 3–4 weeks</option>
-              <option>Less frequent</option>
-              <option>Varies</option>
-            </select>
-          </label>
-        </div>
+        <!-- COMMON FINAL QUESTIONS -->
+        <h4>Your Goals</h4>
 
         <label>
-          What are you hoping DraftVerify will help with?<br>
+          What do you want DraftVerify to help with?<br>
           <textarea name="goals" rows="3"></textarea>
         </label>
 
         <label>
-          Anything else we should know?<br>
+          Additional notes<br>
           <textarea name="notes" rows="4"></textarea>
         </label>
 
@@ -247,70 +238,85 @@ layout: default
   </div>
 </section>
 
+<!-- CONDITIONAL LOGIC -->
+<script>
+  const orgType = document.getElementById("orgType");
+  const restaurantSection = document.getElementById("restaurantSection");
+  const distributorSection = document.getElementById("distributorSection");
+  const brewerySection = document.getElementById("brewerySection");
+
+  function updateVisibility() {
+    const value = orgType.value;
+
+    restaurantSection.style.display = value === "Restaurant" ? "block" : "none";
+    distributorSection.style.display = value === "Distributor" ? "block" : "none";
+    brewerySection.style.display = value === "Brewery" ? "block" : "none";
+  }
+
+  orgType.addEventListener("change", updateVisibility);
+  updateVisibility(); // run on load
+</script>
+
 <style>
-  /* GLOBAL FIXES FOR ONBOARDING UI/UX */
   .dv-onboarding-form {
     display: flex;
     flex-direction: column;
-    gap: 26px !important;
+    gap: 26px;
   }
 
   .dv-onboarding-form h4 {
-    font-size: 18px !important;
-    font-weight: 700 !important;
-    margin-top: 30px !important;
-    margin-bottom: 4px !important;
-    color: #0d3b66 !important;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 4px;
+    color: #0d3b66;
+    font-weight: 700;
   }
 
   .dv-onboarding-form label {
-    font-size: 16px !important;
-    font-weight: 600 !important;
-    color: #0d3b66 !important;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d3b66;
   }
 
   .dv-onboarding-form input,
   .dv-onboarding-form select,
   .dv-onboarding-form textarea {
-    font-size: 16px !important;
-    padding: 14px 16px !important;
-    border-radius: 12px !important;
-    width: 100% !important;
-    border: 1px solid #ccc !important;
-    box-sizing: border-box !important;
-  }
-
-  .dv-onboarding-form textarea {
-    min-height: 100px;
-    resize: vertical;
-  }
-
-  .dv-onboarding-form .btn.gold {
-    background: #BFA14A;
-    padding: 16px 22px !important;
-    border-radius: 12px !important;
-    border: none;
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px !important;
-    cursor: pointer;
-    transition: 0.2s ease;
-  }
-
-  .dv-onboarding-form .btn.gold:hover {
-    background: #a98f40;
-    transform: translateY(-1px);
+    font-size: 16px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .dv-two-col {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 26px !important;
+    gap: 26px;
   }
 
   @media (max-width: 720px) {
     .dv-two-col {
-      grid-template-columns: 1fr !important;
+      grid-template-columns: 1fr;
     }
+  }
+
+  .conditional-section {
+    display: none;
+  }
+
+  .btn.gold {
+    background: #bfa14a;
+    color: #fff;
+    padding: 16px 22px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .btn.gold:hover {
+    background: #a98f40;
+    transform: translateY(-1px);
   }
 </style>
