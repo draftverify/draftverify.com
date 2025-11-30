@@ -1,288 +1,249 @@
 ---
 layout: default
-title: "F-10 — Visual Lexicon: Colors, Shapes & Symbols"
+title: "F-10 — Visual Lexicon"
 permalink: /docs/visual-lexicon/
-description: "The standardized visual language for non-alcoholic draft systems, including color codes, symbols, typography, patterns, shapes, and visibility rules."
+description: "The standardized visual language, symbols, colors, and markings used throughout the DraftVerify system."
 ---
 
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
 <div class="kicker">DraftVerify Standards Library · F-10</div>
-# Visual Lexicon: Colors, Shapes & Symbols
+# Visual Lexicon
 <p style="font-size:0.95rem;color:#6b7280;">
 Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
 <br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-This document defines the **official DraftVerify visual lexicon**—the standardized colors, shapes, patterns, icons, and symbols used to identify non-alcoholic draft components across **kegs, couplers, lines, towers, and faucets**.
+The Visual Lexicon defines the **official visual language** used in the DraftVerify Standard.  
+It establishes the **icons, colors, labels, terminology, and formatting rules** that ensure consistency across kegs, couplers, lines, faucets, documentation, training, and digital interfaces.
 
-A unified visual system ensures NA components are recognized **instantly**, even in fast-paced, low-light, or high-density environments.
+This lexicon ensures every participant — breweries, distributors, venues, and auditors — sees the same meaning in the same symbols, regardless of location or experience level.
 
-This lexicon is mandatory for all DraftVerify-compliant installations and is protected under copyright and trademark law.
+---
 
-  </div>
-</section>
+## 1. Purpose
 
+The purpose of the DraftVerify Visual Lexicon is to:
 
-<!-- SECTION 1 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+- Standardize the appearance of DraftVerify identification points  
+- Enhance safety and clarity (especially for NA draft)  
+- Prevent confusion caused by inconsistent or improvised labels  
+- Create a unified “visual grammar” across all touchpoints  
+- Support training and reduce staff errors  
+- Build trust and recognizability for the DraftVerify mark  
 
-## 1.0 Purpose
+The lexicon acts as an **identity backbone** for the entire Standards Library.
 
-The DraftVerify Visual Lexicon provides:
+---
 
-- **instantly recognizable NA identification**
-- **consistent design language** across all hardware
-- **cross-venue standardization**
-- **universal visibility** for staff and auditors
-- **copyright protection** over the full NA visual system
+## 2. Scope
 
-This lexicon prevents ambiguity and ensures NA identity is never confused with alcoholic draft lines.
+This document defines:
 
-  </div>
-</section>
+- Category color standards  
+- Official symbols and icons  
+- Line and faucet label formats  
+- Tag shorthand codes  
+- Safety and compliance markings  
+- Naming and formatting rules  
 
+It applies to:
 
-<!-- SECTION 2 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+- Keg collars and keg stickers  
+- Coupler tags  
+- Line tags  
+- Faucet markers  
+- Printed materials  
+- Digital screens and verification pages  
+- Training content  
 
-## 2.0 Core Color Standard (Mandatory)
+---
 
-### 2.1 Primary NA Color — “DraftVerify Gold”
-This color is the global visual anchor for non-alcoholic draft identity.
+## 3. Category Color System
 
-- **Hex:** #C7AA4A  
-- **RGB:** 199, 170, 74  
-- **CMYK:** 20, 27, 80, 10  
-- **Finish:** Matte or semi-gloss  
+The category color system is the most important visual element in DraftVerify.  
+It must be applied consistently across all surfaces.
 
-Use Cases:
-- keg collars  
-- coupler bands  
-- line tags  
-- faucet markers  
-- tower symbols  
-- NA icons  
+| Category | Color | Usage |
+|---------|--------|-------|
+| Non-Alcoholic (NA) | Gold | Mandatory for all NA tags, labels, faucets, and screens |
+| Alcoholic | Blue | Recommended for alcoholic draft lines and faucets |
+| Seasonal / Rotational | Teal | Optional category for rotating taps |
+| House / Staff Use | Grey | Optional indicator for internal lines |
 
-### 2.2 Secondary Support Colors
-These may appear in supportive roles:
+Gold is the **non-negotiable** safety color for NA.
 
-- **DraftVerify Black:** #0F1216  
-- **DraftVerify White:** #FFFFFF  
-- **DraftVerify Slate:** #6B7280 (text)  
+---
 
-Secondary colors cannot replace DraftVerify Gold for NA identity.
+## 4. Typography & Naming Conventions
 
-### 2.3 Color Visibility Requirements
-DraftVerify Gold must be visible from:
+### 4.1 Capitalization
+- Product names: Title Case  
+- Styles: Sentence case  
+- Categories: Uppercase short form allowed (e.g., "NA")  
 
-- **1 meter** on kegs  
-- **0.5 meters** on couplers  
-- **2 meters** on faucets and tower markers  
+### 4.2 Label Clarity
+Labels must:
+- Be short enough for quick scanning  
+- Avoid internal jargon or abbreviations unknown to customers  
+- Use full product names on faucet markers  
 
-Color must remain recognizable in:
+### 4.3 Acceptable Abbreviations
+Used primarily on line tags or tight-space identifiers:
 
-- low light  
-- coolers  
-- outdoor sunlight  
-- foggy or humid environments  
+- NA = Non-Alcoholic  
+- LGR = Lager  
+- IPA = India Pale Ale  
+- STT = Stout  
+- GPS = Guest Tap  
 
-  </div>
-</section>
+Breweries may define their own abbreviations if they remain unambiguous.
 
+---
 
-<!-- SECTION 3 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+## 5. Official Symbols & Icons
 
-## 3.0 Symbol Standard (Mandatory)
+### 5.1 NFC Indicator
+A simple tap icon is used to signal NFC presence on coupler tags.  
+This icon may appear:
 
-DraftVerify uses a unified NA symbol for all identity points:
+- On coupler tags  
+- On training pages  
+- In the verification UI  
 
-### 3.1 Primary Symbol — “Circle-NA”
-A simple, unmistakable, globally recognizable mark.
+### 5.2 DraftVerify Mark
+A minimal DraftVerify identifier may appear on:
 
-**Shape:**  
-- Gold circle with white “NA” lettering  
-- Minimum size:  
-  - **20mm** on keg collars  
-  - **12mm** on couplers  
-  - **16mm** on faucet markers  
-  - **12mm** on line tags  
+- Coupler tags  
+- Line tags  
+- Faucet markers  
+- Documentation  
 
-**Purpose:**  
-- clear product identification  
-- non-linguistic universality  
-- immediate recognition  
+It serves as a **trust cue**, not a branding element.
 
-### 3.2 Alternative Symbol — “0.0%”
-Used for customer-facing elements only.
+### 5.3 Category Badges
+Used on digital screens and printed materials:
 
-### 3.3 Symbol Prohibitions
-- no handwritten versions  
-- no alternate fonts  
-- no altered shapes  
-- no inverted colors  
-- no transparent variations  
+- Gold circle = NA  
+- Blue square = Alcoholic  
+- Teal diamond = Seasonal  
+- Grey line = House tap  
 
-Symbols are protected under intellectual property and licensing rules.
+Badges support fast category recognition.
 
-  </div>
-</section>
+---
 
+## 6. Label Architecture
 
-<!-- SECTION 4 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+### 6.1 Line Tags
+Line tags must include:
+- Product name or shorthand  
+- Category color  
+- Optional style  
+- Optional short identifier code  
 
-## 4.0 Shape & Pattern Language
+Short codes should be 4–8 characters and purely alphanumeric.
 
-To ensure cross-venue consistency, DraftVerify defines **mandatory shapes** for key components:
+### 6.2 Faucet Markers
+Faucet markers must include:
+- Full product name  
+- Category color  
+- Optional style identifier  
 
-### 4.1 Keg Collar Shape
-- Circular  
-- 360° wrap  
-- NA Gold primary color  
-- Circle-NA symbol required  
+Faucet markers should prioritize readability and guest understanding.
 
-### 4.2 Coupler Tag Shape
-Approved forms:
-- polygon ring  
-- rectangular adhesive band  
-- molded clip  
+### 6.3 Coupler Tag Shorthand Code
+Printed codes on coupler tags (not URLs) must:
+- Match the registry entry  
+- Be alphanumeric only  
+- Avoid confusing characters (e.g., O vs 0, 1 vs l)  
 
-### 4.3 Line Tag Shape
-- wrap-around flag  
-- slim rectangular band  
-- NA pattern strip  
+The shorthand code is for quick visual reference —  
+the NFC tag is the source of truth.
 
-### 4.4 Faucet Marker Shape
-- circular badge  
-- rectangular top plate  
-- silicone wrap strip  
+---
 
-### 4.5 Pattern Standard
-DraftVerify NA Pattern:  
-- diagonal bars at 15° incline  
-- alternating gold/black or gold/slate  
+## 7. Safety & Compliance Markings
 
-Purpose:
-- high-visibility  
-- suppression of counterfeits  
-- easy identification when obstructed  
+### 7.1 NA Visibility Rules
+Non-Alcoholic draft must use:
+- Gold category color  
+- Clear NA identification in text or icon form  
+- No ambiguous labeling  
 
-  </div>
-</section>
+Staff must be able to identify NA lines **within two seconds**.
 
+### 7.2 Prohibited Visual Patterns
+To avoid confusion:
+- No red × or warning icons on verified tags  
+- No brewery-specific icons that resemble DraftVerify icons  
+- No handwritten NA labels on faucet markers  
 
-<!-- SECTION 5 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+Handwritten labels are allowed on temporary lines only if:
+- They include the gold NA marker  
+- They are replaced within 48 hours  
 
-## 5.0 Typography Standard
+---
 
-Typeface is standardized to avoid misinterpretation.
+## 8. Digital Interface Lexicon
 
-### 5.1 Primary Typeface — Inter / Semi-Bold
-Used for:
-- NA text  
-- strength indicators  
-- equipment labels  
+The DraftVerify verification page must display:
 
-### 5.2 Secondary Typeface — Inter / Regular
-Used for:
-- explanatory labels  
-- routing diagrams  
+- Product name in large text  
+- Category color  
+- Style  
+- Brewery name  
+- Status indicator (“Active”)  
+- Scan timestamp (optional for venues)  
 
-### 5.3 Typography Requirements
-- minimum line height: 1.15  
-- minimum contrast ratio: 4.5:1  
-- uppercase “NA” for universal clarity  
+Colors used in digital UI must match the physical lexicon.
 
-  </div>
-</section>
+Digital vs physical consistency prevents misinterpretation when staff compare the faucet and coupler identity.
 
+---
 
-<!-- SECTION 6 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+## 9. Physical Durability Requirements
 
-## 6.0 Application Rules
+All physical lexicon elements must be:
 
-The visual lexicon must be applied consistently across:
+- Moisture-resistant  
+- Cooler-safe (down to minus five degrees Celsius)  
+- Resistant to abrasion  
+- Replaceable without damaging equipment  
+- High-contrast and readable in dim cooler lighting  
 
-- kegs  
-- couplers  
-- trunklines  
-- towers  
-- faucets  
-- log sheets  
-- digital registry UI  
+This ensures the lexicon works in **real service environments**, not theoretical ones.
 
-The purpose is **system-wide uniformity**.
+---
 
-### 6.1 Mandatory Use Cases
-- NA product identity  
-- routing markers  
-- verification logs  
-- training materials  
+## 10. Rationale
 
-### 6.2 Prohibited Uses
-- alcoholic products  
-- POS materials  
-- promotional items not approved by DraftVerify  
+The visual lexicon prevents:
+- Mis-taps  
+- NA/alcoholic mix-ups  
+- Brand confusion  
+- Inconsistent venue practices  
+- Errors caused by staff turnover  
+- Slow training cycles  
+- Disputes between breweries, distributors, and venues  
 
-Any misuse creates unacceptable confusion and violates compliance.
+A shared visual language is essential for industry-wide consistency.
 
-  </div>
-</section>
+---
 
+## 11. Summary
 
-<!-- SECTION 7 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+The Visual Lexicon provides a standardized language of symbols, colors, formatting, and identifiers across all DraftVerify components.  
+It ensures:
 
-## 7.0 Visibility & Legibility Requirements
+- Instant recognition  
+- Safety through color  
+- Uniform training  
+- Consistent service-side labeling  
+- Alignment between keg, coupler, line, faucet, and digital verification  
 
-The lexicon must remain visible under:
+A shared lexicon brings clarity to the entire draft ecosystem and supports the global adoption of DraftVerify as a unified standard.
 
-- condensation  
-- dim cooler lighting  
-- fast-paced bar shifts  
-- overlapping equipment  
-- customer-facing environments  
-
-Minimum legibility distances:
-- 2m (faucet)  
-- 1m (keg collar)  
-- 0.5m (coupler)  
-
-  </div>
-</section>
-
-
-<!-- SECTION 8 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 8.0 Intellectual Property & Copyright
-
-The DraftVerify visual lexicon—including color specifications, symbol system, pattern library, typography rules, and shape conventions—is proprietary intellectual property of DraftVerify™.
-
-Unauthorized reproduction, adaptation, or incorporation into:
-- competing standards  
-- brewery SOPs  
-- distributor manuals  
-- training programs  
-- product labeling  
-- POS kits  
-
-is strictly prohibited.
-
-© 2025 DraftVerify Standards Initiative. All rights reserved.
-
-  </div>
+</div>
 </section>
