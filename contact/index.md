@@ -21,7 +21,10 @@ layout: default
 
         <!-- FormSubmit config -->
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://draftverify.com/thankyou.html">
+
+        <!-- EXACT REDIRECT YOU REQUESTED -->
+        <input type="hidden" name="_next" value="https://www.draftverify.com/thank-you.html">
+
         <input type="hidden" name="_subject" value="New DraftVerify Contact Message">
         <input type="text" name="_honey" style="display:none">
 
