@@ -1,30 +1,33 @@
 ---
 layout: default
-title: "DraftVerify Standard v1.0 — Non-Alcoholic Draft Systems"
+title: "F-1 — DraftVerify Standard v1.0 — Non-Alcoholic Draft Systems"
 permalink: /docs/standard-v1/
 description: "The core DraftVerify Standard v1.0 for identifying, separating, and verifying non-alcoholic draft systems from keg to faucet."
 ---
 
-<div class="doc-header">
-  <p class="doc-kicker">DraftVerify Standards Library · F-1</p>
-  <h1>DraftVerify Standard v1.0 — Non-Alcoholic Draft Systems</h1>
-  <p class="doc-meta">
-    Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
-    © 2025 DraftVerify™ Standards Initiative. All rights reserved.
-  </p>
-</div>
+<section class="section">
+  <div class="container" style="max-width:820px">
+    <div class="kicker">DraftVerify Standards Library · F-1</div>
+    <h1>DraftVerify Standard v1.0 — Non-Alcoholic Draft Systems</h1>
+    <p style="font-size:0.95rem;color:#6b7280;">
+      Version: 1.0 · Publication Date: 2025-01-01 · Status: Active<br>
+      © 2025 DraftVerify™ Standards Initiative. All rights reserved.
+    </p>
+  </div>
+</section>
 
----
+<section class="section">
+  <div class="container" style="max-width:820px">
 
 ## 1. Purpose, Scope, and Status
 
 ### 1.1 Purpose
 
-The purpose of the DraftVerify Standard v1.0 is to provide a clear, repeatable, and verifiable framework for:
+The purpose of the **DraftVerify Standard v1.0** is to provide a clear, repeatable, and verifiable framework for:
 
 - **Identifying** non-alcoholic (NA) draft products and their dedicated pathways  
 - **Separating** NA draft systems from alcoholic draft systems to prevent cross-contact  
-- **Verifying** the integrity of NA draft service through a combined physical and digital approach  
+- **Verifying** the integrity of NA draft service using a combined physical and digital approach  
 
 This Standard exists to make NA draft service **understandable, explainable, auditable, and trusted** by venues, breweries, distributors, staff, and guests.
 
@@ -32,9 +35,9 @@ This Standard exists to make NA draft service **understandable, explainable, aud
 
 This Standard applies to:
 
-- Draft systems serving beverages that are **non-alcoholic by legal definition** in their jurisdiction (e.g. ≤ 0.5% ABV where applicable)  
+- Draft systems serving beverages that are **non-alcoholic by legal definition** in their jurisdiction  
 - Mixed draft environments where NA and alcoholic products coexist  
-- Dedicated NA draft systems where differentiation and verification still provide value  
+- Dedicated NA draft systems where identity, separation, and traceability still provide value  
 - Breweries, distributors, and venues that choose to adopt the DraftVerify system  
 
 It covers:
@@ -46,52 +49,63 @@ It covers:
 This Standard does **not** cover:
 
 - Packaged product labeling outside of draft service  
-- Detailed mechanical design of draft equipment (keg shells, faucets, couplers, etc.)  
-- Non-beverage draft systems (e.g., cleaning chemicals, gas systems alone)  
+- Detailed mechanical design of draft equipment  
+- Non-beverage draft systems (e.g., non-food chemical dosing only)  
 
 ### 1.3 Status of This Standard
 
 DraftVerify Standard v1.0 is a **voluntary, non-regulatory industry standard**.  
-It does **not** replace any applicable laws, regulations, or health codes.  
+It does **not** replace any applicable:
 
-Operators remain responsible for:
+- food safety laws  
+- liquor regulations  
+- health codes  
+- building or workplace safety requirements  
 
-- Complying with all local, provincial/state, and federal regulations  
-- Ensuring food safety and worker safety in their operations  
+Operators remain fully responsible for complying with all local, provincial/state, and federal regulations and for ensuring food safety and worker safety in their operations.
 
-DraftVerify may update this Standard periodically. The most recent version is always the one published on:
+The most current version of this Standard is the one published at:  
+`https://www.draftverify.com/standards/`
 
-**https://www.draftverify.com/standards/**
+  </div>
+</section>
 
----
+<section class="section">
+  <div class="container" style="max-width:820px">
 
 ## 2. Key Concepts and Definitions
 
-This section summarizes foundational terms. Full definitions are provided in **F-2: Definitions, Scope & Terminology**.
+This section summarizes foundational terms.  
+Full definitions are provided in **F-2 — Definitions, Scope & Terminology**.
 
 - **Non-Alcoholic (NA) Beverage**  
-  A beverage that meets the legal criteria for non-alcoholic status in the jurisdiction of service (e.g. ≤ 0.5% ABV where applicable).
+  A beverage that meets the legal criteria for NA status in the jurisdiction of service.
 
 - **NA Draft Pathway**  
-  The contiguous set of components used to move NA beverage from keg to faucet, including:  
-  keg → coupler → beer line → tower (if used) → faucet.
+  The contiguous set of components used to move NA beverage from **keg → coupler → line → tower → faucet**.
 
 - **Draft Identity Architecture (DIA)**  
   The structured way NA draft identities are applied and linked across physical and digital layers.
 
 - **DraftVerify Tag**  
-  A serialized identifier (physical tag and digital record) assigned to a specific connection point in the NA draft pathway (e.g. keg collar, coupler tag, line marker, faucet marker).
+  A serialized identifier (physical tag and corresponding digital record) assigned to a specific connection point in the NA pathway.
 
 - **DraftVerify Registry**  
-  The digital system where all NA-relevant tags, venues, products, and verification events are recorded and managed.
+  The digital system where all NA tags, venues, products, and verification events are recorded and managed.
 
 - **Verification Event**  
   A logged check where a trained person confirms that a given NA draft pathway remains compliant with this Standard.
 
 - **Identity Lockout**  
-  The process of marking a draft component as **non-compliant** or **out of service** within the Registry and/or physically, until corrective action is taken.
+  A state in which a keg, line, coupler, or faucet is taken out of NA service until identity and compliance are restored.
 
----
+Where there is any conflict between terms in this document and other DraftVerify materials, the **F-2 Definitions document prevails**.
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:820px">
 
 ## 3. Structure of the DraftVerify System
 
@@ -100,102 +114,78 @@ This section summarizes foundational terms. Full definitions are provided in **F
 The DraftVerify Standard is built on two required layers:
 
 1. **Physical Identification Layer**  
-   Visual markers and tags that make NA draft obvious, traceable, and easy to follow along the hardware.
+   Visual markers and tags that make NA draft obvious and easy to follow.
 
 2. **Digital Traceability Layer**  
    A Registry-backed system that records:
 
    - which keg is connected where  
    - which product is on which line  
-   - when verification events and changes occur  
-   - who performed them  
+   - when verification events, cleaning, and changes occur  
 
-A draft system is only considered **DraftVerify Compliant** when **both layers** are in place and aligned.
+A draft system is only considered **DraftVerify Compliant** when **both layers are in place and aligned**.
 
 ### 3.2 Identity Chain: Keg → Line → Faucet
 
 Each NA draft pathway must be uniquely identifiable across three primary points:
 
-1. **Keg Identity**  
-   - Keg is marked with a DraftVerify-compliant NA collar and, where applicable, an encoded tag.  
-   - The keg’s product, batch/lot, and NA status are known and recorded.
-
-2. **Line Identity**  
-   - The beer line used for NA is visually distinct from non-NA lines.  
-   - Line segments and transitions (e.g., trunk line, jumper) are marked according to the Identification Standards.
-
-3. **Faucet Identity**  
-   - Faucets serving NA are clearly marked at the point of pour.  
-   - The identity at the faucet must match the identity recorded at the line and keg.
+- **Keg Identity** – the keg is marked with a DraftVerify-compliant NA collar and, where applicable, an encoded tag.  
+- **Line Identity** – the beer line used for NA is visually distinct and marked according to the Identification Standards.  
+- **Faucet Identity** – faucets serving NA products are clearly marked at the point of pour and match the keg/line identity.
 
 ### 3.3 Connection Points and Tags
 
-Each NA draft component may receive one or more of the following tag types (as applicable):
+Each NA draft component may receive one or more of the following tag types:
 
-- **Keg Collar Tag**  
-- **Coupler Tag**  
-- **Line Identification Tag(s)**  
-- **Faucet Marker Tag**  
+- Keg collar tag  
+- Coupler tag  
+- Line identification tag(s)  
+- Faucet marker tag  
 
-Tag specifications, formats, and placement rules are defined in:
+Tag specifications, formats, and placement rules are defined in the **Identification Series (ID-1 through ID-5)** and the **Digital Series (Registry, Tag Activation, and Verification Event specifications)**.
 
-- **ID-Series** (Documents 6–10)  
-- **R-Series** (Documents 28–31)
+  </div>
+</section>
 
----
+<section class="section">
+  <div class="container" style="max-width:820px">
 
 ## 4. Core Requirements
 
-To be considered DraftVerify Compliant, an NA draft system must meet **all** of the following high-level requirements.
+To be considered **DraftVerify Compliant**, an NA draft system must meet all of the following high-level requirements.
 
 ### 4.1 NA Separation
 
-1. NA products must be served on pathways that are **fully flushed, cleaned, and dedicated** to the product currently in use.  
-2. Mixed-use lines (NA and alcoholic) are **strongly discouraged**. Where unavoidable, strict controls defined in **System Design** and **Product Switching & Line Reuse Protocol** (Docs 24, 39) must be followed.  
-3. Towers that serve both alcoholic and NA products must implement **Tower Sharing Standards** (Doc 25), including clear separation in:
-
-   - faucet arrangement and labeling  
-   - line routing inside towers  
-   - line identification in trunk bundles  
+- NA products must be served on pathways that are flushed, cleaned, and dedicated to the product currently in use.  
+- Mixed-use lines (NA and alcoholic) are strongly discouraged. Where unavoidable, strict controls defined in the **System Design** and **Product Switching & Line Reuse Protocol** documents must be followed.  
+- Shared towers must implement **Tower Sharing Standards**, including physical and visual separation in tower layouts.
 
 ### 4.2 Physical Identification
 
-1. All NA draft kegs must be identified with a **DraftVerify-compliant keg collar** and any required digital tags.  
-2. Each NA coupler must have a **coupler tag** that matches the keg and line identity it serves.  
-3. NA beer lines must be visually marked at consistent intervals and at any transition point (e.g., wall plate, chase entry, trunk line entry).  
-4. Faucets serving NA products must be clearly marked at the handle and/or faucet-level according to the **Faucet Identification Standard**.  
-5. NA identification must remain **visible, durable, and readable** under typical operating conditions (lighting, moisture, cleaning).
+- All NA kegs must be identified with a DraftVerify-compliant keg collar and required tags.  
+- Each NA coupler must have a coupler tag matching the keg and line identity it serves.  
+- NA beer lines must be visually marked at consistent intervals and at transitions.  
+- Faucets serving NA products must be clearly marked at the handle and/or faucet level.  
+- NA identification must remain visible, durable, and readable under typical operating conditions.
 
 ### 4.3 Digital Activation and Registry Alignment
 
-1. Each NA connection point (keg, coupler, line, faucet) that receives a DraftVerify tag must be **digitally activated** in the Registry before being used in service.  
-2. A tag is considered **valid** only when:
-
-   - it exists in the Registry  
-   - it is associated with the correct venue, system, and product  
-   - its status is **Active** (not locked out or retired)  
-
-3. Any change that affects the NA pathway (different product, re-plumbed line, new faucet, etc.) must trigger an update in the Registry as defined in **System Modification Protocol** (Doc 27).  
-4. Verification Events must be recorded according to **Verification Event Specification** (Doc 30).
+- Each NA connection point that receives a DraftVerify tag must be digitally activated in the **DraftVerify Registry** before being used in service.  
+- A tag is considered valid only when it exists in the Registry, is associated with the correct venue/system/product, and its status is **Active**.  
+- Any change affecting the NA pathway must trigger an update in the Registry according to the **System Modification Protocol**.  
+- Verification events must be recorded according to the **Verification Event Specification**.
 
 ### 4.4 Verification and Records
 
-1. Venues must maintain, at minimum:
+- Venues must maintain verification logs, cleaning logs, change logs, and incident logs for NA draft.  
+- Records may be digital or physical, but must be accessible, complete, legible, and retained for an appropriate period.  
+- Breweries and distributors must maintain upstream records in accordance with their respective implementation and records documents.
 
-   - **Verification logs** (daily/weekly checks)  
-   - **Cleaning logs** for NA lines (Doc 21)  
-   - **Change logs** for system modifications (Doc 20)  
-   - **Incident logs** when mis-serves or cross-contact events occur (Doc 22)  
+  </div>
+</section>
 
-2. Records may be maintained digitally, physically, or hybrid, but must be:
-
-   - accessible for review  
-   - complete, legible, and timestamped  
-   - retained for the period required by the operator’s policy or local regulation  
-
-3. Breweries and distributors must maintain their own upstream records in accordance with Docs 11–17.
-
----
+<section class="section">
+  <div class="container" style="max-width:820px">
 
 ## 5. Roles and Responsibilities
 
@@ -205,27 +195,27 @@ Breweries that participate in DraftVerify are responsible for:
 
 - Preparing NA kegs with accurate product and batch information  
 - Applying NA-specific keg identification according to the **Keg Identification Standard**  
-- Serializing and, where applicable, pre-encoding NA tags according to **Brewery NFC Tag Serialization SOP**  
-- Communicating NA draft requirements to distribution partners and venues  
+- Serializing and, where applicable, pre-encoding NA tags  
+- Communicating NA draft requirements to partner venues and distributors  
 
 ### 5.2 Distributors
 
 Distributors are responsible for:
 
 - Maintaining cold chain and NA separation during transport and storage  
-- Ensuring NA kegs and associated tags are not misapplied or altered  
+- Ensuring NA kegs and tags are not misapplied or altered  
 - Logging handoffs, exceptions, and returns  
 - Coordinating with venues for correct NA setup where applicable  
 
-### 5.3 Venues (Bars, Restaurants, Taprooms, Groups)
+### 5.3 Venues
 
 Venues are responsible for:
 
-- Installing and configuring NA draft systems according to **Venue Setup & Verification Protocol**  
+- Installing and configuring NA draft systems according to the **Venue Setup & Verification Protocol**  
 - Keeping NA components correctly tagged and easily identifiable  
 - Performing routine verification checks and logging them  
-- Ensuring staff are trained on NA draft expectations and mis-serve prevention  
-- Responding to incidents according to **Incident Response & Mis-Serve Procedure**
+- Training staff on NA draft expectations and mis-serve prevention  
+- Responding to incidents according to the **Incident Response & Mis-Serve Procedure**  
 
 ### 5.4 DraftVerify Standards Initiative
 
@@ -234,91 +224,131 @@ DraftVerify is responsible for:
 - Maintaining and publishing the current version of this Standard  
 - Maintaining the DraftVerify Registry and tag specifications  
 - Providing guidance and educational materials related to NA draft integrity  
-- Updating standards based on field experience, safety findings, and technology improvements  
+- Updating standards based on field experience and safety findings  
 
 DraftVerify does **not** act as a regulator or enforcement agency.
 
----
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:820px">
 
 ## 6. Verification, Compliance, and Use of Mark
 
 ### 6.1 Verification Levels
 
-Operators may participate at different levels, defined in more detail in **Compliance Audit Framework** (Doc 33):
+Operators may participate at different levels, defined in more detail in the **Compliance Audit Framework**:
 
-- **Self-Verified**: Venue follows the Standard and maintains records without third-party audits.  
-- **Brewery-Verified**: Brewery confirms participating venues meet the Standard for their NA brand(s).  
-- **DraftVerify-Verified**: Audits and reviews performed according to DraftVerify’s formal audit process.
+- **Self-Verified** – the venue follows the Standard and maintains records without third-party audits.  
+- **Brewery-Verified** – a brewery confirms participating venues meet the Standard for their NA brands.  
+- **DraftVerify-Verified** – audits and reviews performed under DraftVerify’s formal process.
 
 ### 6.2 Conditions for Using the DraftVerify Mark
 
 An operator may only use the DraftVerify name, marks, or visual identifiers where:
 
-1. They are **actively following** this Standard and the relevant SOPs for their role.  
-2. They maintain verifiable records that can be produced upon request.  
-3. Their NA draft systems remain in **good standing** according to the Compliance Audit Framework.  
+- They are actively following this Standard and the relevant SOPs for their role.  
+- They maintain verifiable records that can be produced upon request.  
+- Their NA draft systems remain in good standing according to the **Compliance Audit Framework** and **Use of Mark & Certification Policy**.
 
-Misuse of the DraftVerify marks is prohibited and subject to enforcement, as outlined in **Use of Mark & Certification Policy** (Doc 32) and the site-wide Legal page.
+Misuse of DraftVerify marks is prohibited and may result in loss of mark privileges and other enforcement actions as outlined in the **Certification Policy** and site-wide **Legal Notice**.
 
----
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:820px">
 
 ## 7. Incident Response and Continuous Improvement
 
 ### 7.1 Mis-Serve or Cross-Contact Events
 
-If a mis-serve or cross-contact incident occurs (e.g., alcoholic product served from an NA-marked faucet):
+If a mis-serve or cross-contact incident occurs:
 
-1. The affected line(s) and components must be immediately **locked out** from NA use.  
-2. The incident must be documented according to **Incident Response & Mis-Serve Procedure** (Doc 22).  
-3. The Registry must be updated to reflect the incident and any changes to the system.  
-4. Corrective actions (e.g., re-cleaning, re-tagging, staff re-training) must be implemented before resuming NA service.
+- The affected line(s) and components must be immediately locked out from NA use.  
+- The incident must be documented according to the **Incident Response & Mis-Serve Procedure**.  
+- The Registry must be updated to reflect the incident and any changes.  
+- Corrective actions (cleaning, re-tagging, staff re-training) must be implemented before resuming NA service on that pathway.
 
 ### 7.2 Field Findings and Feedback
 
 Operators are encouraged to report:
 
-- Confusing system scenarios  
-- Edge cases not covered in this version  
-- Safety concerns or recurring failure modes  
+- unclear scenarios  
+- edge cases  
+- safety concerns  
+- recurring failure modes  
 
-These reports inform future revisions, as defined in **Revision & Governance Policy** (Doc 40).
+These reports inform future revisions as defined in the **Revision & Governance Policy**.
 
----
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:820px">
 
 ## 8. Relationship to Laws and Other Standards
 
 This Standard is designed to be compatible with:
 
-- Food safety regulations applicable to the venue’s jurisdiction  
-- General draft system hygiene and cleaning standards  
-- Accessibility and clear communication principles for guests  
+- food safety regulations  
+- general draft system hygiene standards  
+- occupational health and safety requirements  
 
-Where there is any conflict between this Standard and law, **law prevails**.  
-Operators should treat this Standard as an **additional layer** of clarity and control, not a substitute for regulation.
+Where there is any conflict between this Standard and law, **law prevails**.
 
-DraftVerify may reference external standards (e.g., DIN, ISO, NSF) for alignment. Such references do **not** imply endorsement, certification, or affiliation by those bodies.
+DraftVerify may reference external standards (e.g., DIN, ISO, NSF) for alignment.  
+Such references do **not** imply endorsement, certification, or affiliation by those bodies.
 
----
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:820px">
 
 ## 9. Revision Policy
 
-- **Version 1.0** is the initial release of the DraftVerify Standard for non-alcoholic draft systems.  
-- Revisions will be published with incremented version numbers (e.g., 1.1, 1.2, 2.0) and clear change summaries.  
+Version 1.0 is the initial release of the DraftVerify Standard for non-alcoholic draft systems.
+
+Revisions will be published with incremented version numbers (e.g., **1.1**, **1.2**, **2.0**) and clear change summaries.
+
 - Only the most recent version published on the DraftVerify website should be treated as current.  
+- Historical versions may be archived for reference but should not be used for new implementations.
 
-Historical versions may be archived for reference but should not be used for new implementations.
+  </div>
+</section>
 
----
+<section class="section">
+  <div class="container" style="max-width:820px">
 
 ## 10. Copyright and Intellectual Property
 
-All content within this Standard — including structure, terminology, identity architecture, workflows, and definitions — is the intellectual property of the **DraftVerify Standards Initiative**.
+All content within this Standard — including:
 
-No part of this document may be copied, adapted, or used to create derivative standards or competing frameworks without prior written permission.
+- structure  
+- terminology  
+- identity architecture  
+- workflows  
+- definitions  
 
-For licensing and permissions:
+is the intellectual property of the **DraftVerify Standards Initiative**.
 
-- 📧 **legal@draftverify.com**  
-- 🌐 **https://www.draftverify.com/legal/**
+No part of this document may be:
+
+- copied  
+- adapted  
+- reworded  
+- or used to create derivative standards or competing frameworks  
+
+without prior written permission.
+
+For licensing and permissions:  
+
+📧 legal@draftverify.com  
+🌐 https://www.draftverify.com/legal/  
 
 © 2025 DraftVerify™ Standards Initiative. All rights reserved.
+
+  </div>
+</section>
