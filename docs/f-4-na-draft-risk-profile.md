@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "F-4 — NA Draft Risk Profile & Rationale"
-permalink: /docs/risk-profile/
-description: "A comprehensive analysis of the unique safety, operational, and brand-risk factors that justify the separation, identification, and verification of non-alcoholic draft systems."
+permalink: /docs/f-4-na-draft-risk-profile/
+description: "Formal risk analysis establishing why non-alcoholic draft requires mandatory identification, separation, and verification across breweries, distributors, and venues."
 ---
 
 <section class="section">
@@ -15,11 +15,8 @@ Version: 1.0 · Publication Date: 2025-01-01 · Status: Active
 <br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-This document outlines the **full risk landscape** associated with serving non-alcoholic (NA) beverages on draft.  
-These risks form the **underlying justification** for the DraftVerify Standard v1.0, supporting the requirement for:
-- clear physical identification,  
-- strict separation from alcoholic lines, and  
-- digital verification of keg → coupler → line → faucet.
+This document defines the **complete risk landscape** associated with non-alcoholic (NA) draft service and explains the justification for the DraftVerify Standard v1.0.  
+The risks outlined here form the basis for the mandatory **physical identification**, **digital activation**, and **verification requirements** described throughout the F-Series.
 
   </div>
 </section>
@@ -32,14 +29,14 @@ These risks form the **underlying justification** for the DraftVerify Standard v
 
 ## 1.0 Introduction
 
-Non-alcoholic draft beverages pose **unique risks** that do not exist in traditional alcoholic draft systems.  
-These risks come from three areas:
+Non-alcoholic draft is the only beverage category where a mis-serve can result in both:
 
-1. **Operational Risk** — staff error, mis-serves, line switching  
-2. **Regulatory Risk** — alcohol laws, labeling requirements, consumer protections  
-3. **Brand & Consumer Risk** — consumer trust, health concerns, sober population  
+- **alcohol liability**, and  
+- **harm to sober or medically restricted consumers**.
 
-Understanding this risk profile explains *why* NA draft requires its own identification and verification standard.
+These combined risks do **not** exist in alcoholic draft service.
+
+This document outlines the operational, regulatory, consumer, brand, and environmental risks that justify a separate global identification and verification standard.
 
   </div>
 </section>
@@ -52,42 +49,40 @@ Understanding this risk profile explains *why* NA draft requires its own identif
 
 ## 2.0 Operational Risk
 
-The most common incidents in mixed draft systems are operational — and they are almost **always unintentional**.
+Operational errors are the most frequent cause of NA draft failure.
 
 ### 2.1 Mis-Serve (Accidental Alcohol Service)
-The single highest-risk event.
+The highest-risk and most common failure event.
 
-Occurs when:
-- an alcoholic keg is tapped onto an NA line,  
-- a faucet is mislabeled,  
-- a staff member assumes a line is NA because “it usually is,”  
-- tower sharing causes confusion.
+Mis-serves occur when:
+- an alcoholic keg is connected to an NA line  
+- a faucet is mislabeled  
+- tower-sharing causes staff confusion  
+- a staff member assumes a line is NA “because it usually is”
 
 ### 2.2 Incorrect Line Switching
-Happens during:
-- keg changeovers  
-- mid-shift product rotations  
-- events with temporary draft setups  
-- shared coolers with many similar-looking kegs  
+Risks are amplified during:
+- keg swaps  
+- seasonal product rotations  
+- high-volume service periods  
+- temporary or mobile draft setups  
 
-### 2.3 Staff Turnover
-Bars, restaurants, and event venues have high turnover.  
-New staff often:
+### 2.3 High Staff Turnover
+Bars and restaurants experience continual turnover.
 
-- don't know which lines are NA  
-- assume the previous employee routed everything correctly  
-- rely on memory or guesswork  
+New staff may:
+- not know which lines are NA  
+- rely on memory rather than identification  
+- skip verification under time pressure
 
-### 2.4 Multi-Vendor Draft Rooms
-In large coolers:
-- different breweries  
+### 2.4 Cooler & Keg Room Congestion
+Typical environments include:
+- mixed alcoholic and NA kegs  
+- nearly identical stainless vessels  
+- limited labeling  
 - multiple distributors  
-- temporary kegs  
-- seasonal rotations  
 
-…create **identity chaos** without a standard.
-
-**DraftVerify eliminates these operational risks** through clear physical ID + a required digital check.
+Without a standard, identity confusion is predictable.
 
   </div>
 </section>
@@ -100,119 +95,110 @@ In large coolers:
 
 ## 3.0 Regulatory Risk
 
-Serving an alcoholic beverage as “non-alcoholic” has regulatory implications.
+A mis-serve involving alcohol has regulatory implications.
 
-### 3.1 Licensing Liability
-Alcoholic beverages are strictly controlled.  
-Mis-serving alcohol to:
-
+### 3.1 Licensing & Legal Exposure
+Serving alcohol to:
 - minors  
-- sober drivers  
+- designated drivers  
 - pregnant individuals  
-- people with medical or addiction considerations  
+- medically restricted guests  
 
-…carries major penalties.
+…creates substantial liability.
 
-### 3.2 Beverage Labeling Requirements
-Draft systems bypass packaging labels.  
-Without clear identification:
+### 3.2 Labeling & Disclosure Gaps
+Packaged NA beverages contain mandatory labeling.  
+Draft lines do not.
 
-- consumers cannot confirm the product  
+Without physical identification:
+- consumers cannot confirm what they are being served  
 - venues cannot demonstrate compliance  
-- breweries face brand exposure  
+- breweries risk misrepresentation of their NA product
 
-### 3.3 Insurance Exposure
-A mis-serve incident involving alcohol:
-- exposes the venue’s liability insurance  
-- may result in denied claims  
-- is amplified when the guest believed they were consuming NA  
+### 3.3 Insurance Risk
+Mis-serves involving alcohol:
+- create heightened insurance exposure  
+- may invalidate claims  
+- trigger liability reviews  
 
-
-DraftVerify creates a **provable compliance framework** that reduces regulatory and insurance exposure.
+DraftVerify provides traceable, provable, auditable compliance.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 4 — BRAND & CONSUMER RISK -->
+<!-- SECTION 4 — CONSUMER & BRAND RISK -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 4.0 Brand & Consumer Risk
+## 4.0 Consumer & Brand Risk
 
-### 4.1 The NA Consumer is a High-Risk Demographic
-People choosing NA beverages are often:
-
-- sober by choice  
-- sober for health  
-- sober for recovery  
+### 4.1 High-Risk Consumer Demographics
+Many NA drinkers choose NA products for:
+- sobriety  
+- medical safety  
+- pregnancy  
+- medication interaction  
+- recovery  
 - driving  
-- pregnant  
-- managing medications  
 
-A mis-serve in this demographic is **far more serious** than serving the wrong IPA to a craft beer enthusiast.
+A mis-serve is significantly more harmful in this demographic.
 
-### 4.2 Brewery Brand Risk
-NA brands rely on:
+### 4.2 Brewery Brand Exposure
+NA brands depend on:
 - trust  
-- purity  
+- safety  
 - reliability  
-- alignment with health-conscious consumers  
+- consistency  
 
-A mis-serve — even one — can permanently damage:
+A single mis-serve can damage:
+- brewery reputation  
+- distributor relationships  
+- retail trust  
+- the entire NA category
 
-- brewery credibility  
-- distribution relationships  
-- the category’s overall reputation  
-
-### 4.3 Category-Wide Risk
-The NA draft category is young.  
-A few high-profile mis-serves could:
-
+### 4.3 Category-Wide Vulnerability
+The NA draft category is early-stage.  
+High-profile mis-serves could:
 - slow adoption  
-- cause insurers to flag the category  
-- create negative press  
-- invite unnecessary regulation  
-
-DraftVerify provides the system-level safeguards the category needs to grow responsibly.
+- increase regulation  
+- deter venues  
+- damage consumer trust  
 
   </div>
 </section>
 
 
 
-<!-- SECTION 5 — ENVIRONMENTAL RISK -->
+<!-- SECTION 5 — ENVIRONMENTAL & SYSTEM RISK -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
 ## 5.0 Environmental & System Risk
 
-### 5.1 Cooler Congestion
-Many coolers have:
-- mixed alcoholic and NA kegs  
-- nearly identical stainless steel formats  
-- zero labeling  
-- rapid changeovers  
-
-A small mistake becomes a big liability.
+### 5.1 Cooler Complexity
+Risks increase with:
+- mixed kegs  
+- fast turnover  
+- multi-brewery storage  
+- visual similarity  
 
 ### 5.2 Tower Sharing
-Most bars use:
-- shared beer towers  
-- product rotation  
-- seasonal taps  
+Most bars share tower lines between alcoholic and NA beverages.  
+This creates:
+- routing confusion  
+- line identity ambiguity  
+- faucet mislabeling risk  
 
-NA product identity is extremely vulnerable without a standard.
+### 5.3 Temporary & Event Draft Systems
+Festivals, mobile bars, and catering introduce:
+- untrained staff  
+- rapid setup/teardown  
+- multi-operator involvement  
+- no consistent identification method  
 
-### 5.3 Portable Draft Systems
-Festivals, catering, and events increase the risks due to:
-- temporary hookups  
-- staff with little training  
-- mixed vendor involvement  
-- chaotic keg rooms  
-
-DraftVerify was built to work in every one of these contexts.
+DraftVerify provides a universal system suitable for all environments.
 
   </div>
 </section>
@@ -225,31 +211,27 @@ DraftVerify was built to work in every one of these contexts.
 
 ## 6.0 Rationale for the DraftVerify Standard
 
-### The core rationale:
-**Non-alcoholic draft is the only beverage category where a mis-serve has *both* alcohol liability and sober-consumer risk.**
+**NA draft is the only draft category where a mistake has both alcohol liability and sober-consumer harm implications.**
 
-DraftVerify solves this by creating:
-- a clear physical identity path  
-- a mandatory digital activation  
+The DraftVerify Standard resolves this by providing:
+- a unified physical identity system  
+- a required digital activation record  
 - continuous verification  
-- audit-proof traceability  
-
-This removes ambiguity, guesswork, and human error from the system.
+- chain-of-custody traceability  
+- auditable compliance  
 
 ### Without DraftVerify:
-- a keg can be switched once and create dozens of mis-serves  
-- a staff assumption becomes a liability event  
-- breweries have no control over how their NA beer is poured  
-- venues cannot demonstrate compliance or due diligence  
+- a single keg switch can produce dozens of mis-serves  
+- identity mistakes go undetected  
+- breweries lose control of product integrity  
+- venues cannot prove compliance after an incident  
 
 ### With DraftVerify:
 - identity is permanent  
-- continuity is provable  
-- errors are detectable  
-- verification is logged  
-- NA integrity is maintained end-to-end  
-
-The Standard exists because **NA draft requires more rigor**, not less.
+- continuity is verifiable  
+- mis-serves become preventable  
+- records are audit-ready  
+- NA draft integrity is preserved end-to-end  
 
   </div>
 </section>
@@ -262,14 +244,13 @@ The Standard exists because **NA draft requires more rigor**, not less.
 
 ## 7.0 Copyright & Intellectual Property
 
-All risk analysis, categories, frameworks, definitions, and operational models in this document are the protected intellectual property of the **DraftVerify Standards Initiative**.
+All risk categories, definitions, frameworks, and analysis in this document are the intellectual property of the **DraftVerify™ Standards Initiative**.
 
-Use in:
+Reproduction or use in:
 - derivative standards  
-- training materials  
-- operational protocols  
-- certification systems  
-- commercial inspection frameworks  
+- competing verification systems  
+- training programs  
+- industry certification frameworks  
 
 is prohibited without written authorization.
 
