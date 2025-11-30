@@ -42,17 +42,17 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   </div>
 </section>
 
-<!-- FULL STANDARDS LIBRARY (40 DOCUMENTS) -->
+<!-- STANDARDS LIBRARY -->
 <section class="section" id="standards-library" style="background:#f7f9fc;">
   <div class="container">
     <div class="kicker center">DraftVerify Standards Library</div>
-    <h2 class="h2 center">The Complete 40-Document Standards System</h2>
+    <h2 class="h2 center">The DraftVerify Standards Library for NA Draft</h2>
 
     <p style="max-width:820px;margin:0 auto 26px;text-align:center;">
-      The DraftVerify Standards Library is the most comprehensive body of knowledge ever published on 
-      non-alcoholic draft systems.  
-      These 40 documents define the full physical, digital, operational, legal, and verification framework for 
-      identifying, separating, and managing NA draft in any venue, brewery, or distribution network.
+      The DraftVerify Standards Library is a structured body of work that defines the full physical, digital,
+      operational, legal, and verification framework for non-alcoholic draft.  
+      Each document builds on the DraftVerify Standard v1.0 to give breweries, distributors, and venues a complete,
+      defensible playbook for identifying, separating, and managing NA draft in any system.
       All documents are protected under international copyright.
     </p>
 
