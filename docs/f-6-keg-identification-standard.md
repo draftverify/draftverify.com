@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "F-6 — Keg Identification Standard"
-permalink: /docs/keg-id/
-description: "The standardized requirements for identifying non-alcoholic kegs, including collars, placement, durability, NFC options, and brewery obligations."
+permalink: /docs/f-6-keg-identification-standard/
+description: "Official DraftVerify Standard for physical identification requirements, placement rules, and durability specifications for non-alcoholic draft keg identification."
 ---
 
 <section class="section">
@@ -15,235 +15,284 @@ Version: 1.0 · Publication Date: 2025-01-01 · Status: Active
 <br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-This standard defines the **required identification system** for non-alcoholic kegs used in DraftVerify-compliant venues, distribution networks, and brewery packaging lines.  
-It governs the placement, durability, design, and digital integration of **NA keg collars and optional NFC-enabled identity points**.
+This document defines the **mandatory physical identification requirements** for all non-alcoholic (NA) kegs served under the DraftVerify Standard v1.0.
 
-Keg identification is the first element in the NA identity chain and must be implemented at the brewery before distribution.
-
-  </div>
-</section>
-
-
-<!-- SECTION 1 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 1.0 Purpose of the Standard
-
-The goal of keg identification is to ensure:
-- non-alcoholic kegs are *visually unmistakable*  
-- identity is **clear from any angle** in storage, transit, or cooler environments  
-- staff can trace the NA product path from **keg → coupler → line → faucet**  
-- keg identity persists through movement, condensation, abrasion, and handling  
-- operators can verify identity even without digital tools  
-
-Physical identity must stand on its own.  
-Digital identity enhances it, but does not replace it.
-
-  </div>
-</section>
-
-
-<!-- SECTION 2 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 2.0 Required Identification Components
-
-All non-alcoholic kegs must include the following:
-
-### 2.1 DraftVerify Keg Collar (Mandatory)
-The collar is the primary NA identifier.
-
-Minimum requirements:
-- placed on the **top chime**, fully visible when stacked  
-- material must be **moisture-resistant** and **tear-resistant**  
-- color must use the standardized DraftVerify NA Gold (#c7aa4a)  
-- must include:  
-  - the NA designation  
-  - brewery name  
-  - product name  
-  - product category  
-  - batch/lot code (if used)  
-  - DraftVerify mark (licensed use only)
-
-### 2.2 Secondary Body Label (Recommended but Optional)
-Sidewall label ensures visibility when:
-- kegs are shelved horizontally  
-- stacked 3+ high  
-- viewed through cooler doors  
-
-Placement:
-- mid-to-upper body  
-- clear of abrasion points  
-- horizontal orientation
-
-### 2.3 Coupler Identification Point (Mandatory unless NFC tag is used)
-A bright NA marker must be present **within 3cm of the spear/valve**.
-
-Options:
-- adhesive band  
-- clip-on ring  
-- DraftVerify coupler tag  
-
-Purpose:  
-To stop accidental connection of alcoholic lines.
-
-### 2.4 NFC Tag (Optional but Strongly Recommended)
-If used, the NFC tag should:
-- contain a **cryptographically-unique ID**  
-- resolve to a **DraftVerify Registry URL**  
-- be placed near the coupler for easy scanning  
-- withstand moisture, abrasion, and condensate  
-
-An NFC tag does not replace the collar.  
-Both must exist.
-
-  </div>
-</section>
-
-
-<!-- SECTION 3 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 3.0 Placement Standards
-
-### 3.1 Collar Placement
-The collar must:
-- sit flat and tight against the top chime  
-- not be obscured by handles, stacking, or shrink film  
-- be readable from at least 1 meter  
-
-### 3.2 Sidewall Placement
-Sidewall label must:
-- avoid seam welds and scrape zones  
-- be visible when kegs are palletized  
-- be straight, not angled  
-
-### 3.3 Coupler Placement
-The NA coupler marking must be:
-- immediately adjacent to the valve  
-- compatible with all S-type, D-type, and G-type couplers  
-- visible **before** attachment, not after  
-
-### 3.4 NFC Placement (If Used)
-The NFC tag should be:
-- on the top dome, near the spear  
-- not placed under or near metallic obstructions  
-- accessible while the keg is in-place  
-
-  </div>
-</section>
-
-
-<!-- SECTION 4 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 4.0 Durability Requirements
-
-Identification components must survive:
-- condensation cycles  
-- cold storage (0°C to 4°C)  
-- pallet movement  
-- keg washer heat exposure (collars removed before washing)  
-- loading and unloading impacts  
-
-Labels must resist:
-- tearing  
-- smearing  
-- ink migration  
-- peeling under friction  
-
-DraftVerify provides approved artwork templates for consistent identity use.
+The keg is the **origin point** of the NA identity chain.  
+Clear, durable, unambiguous identification at the keg level is required to prevent mis-serve, cross-connection, and operational error throughout the draft pathway.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 5 -->
+<!-- SECTION 1 — PURPOSE -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 5.0 Brewery Responsibilities
+## 1.0 Purpose
 
-Breweries must:
-- apply all mandatory identifiers before the keg leaves the facility  
-- ensure information is accurate and legible  
-- maintain serialization and batch records  
-- activate NFC tags (if used)  
-- document keg preparation in brewery logs  
-- prevent reuse of NA collars on alcoholic kegs  
+This Standard ensures:
 
-Once labeled, NA identity must remain intact until the keg is empty and returned.
+- NA kegs are unmistakably identifiable in mixed coolers  
+- staff can visually confirm identity during changeovers  
+- distributors maintain chain-of-custody accuracy  
+- venues can trace NA product back to its origin  
+- DraftVerify Registry identity matches the physical tag  
+
+Keg identification is non-optional for DraftVerify compliance.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 6 -->
+<!-- SECTION 2 — REQUIRED COMPONENTS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 6.0 Venue & Distributor Responsibilities
+## 2.0 Required Components
 
-Venues and distributors must:
-- reject unlabeled or improperly labeled NA kegs  
-- report damaged or missing identifiers  
-- preserve collar integrity during handling  
-- ensure coupler markers remain present  
-- log exceptions in DraftVerify records  
+Every NA keg must include the following **three** identification elements:
 
-Keg identity must remain intact through the entire supply chain.
+### **2.1 Keg Collar (Primary Identifier)**
+A DraftVerify-approved NA keg collar that includes:
+- the DraftVerify NA color band  
+- the brewery name  
+- product name  
+- the serialized DraftVerify Tag ID  
+- “NON-ALCOHOLIC DRAFT” in required typography  
+
+### **2.2 Serialized Coupler Tag (Mandatory)**
+Affixed to the keg spear/coupler flange.
+
+Must include:
+- DraftVerify NA banding  
+- NFC-enabled or encoded tag ID  
+- matching Registry identity  
+
+(Full encoding rules in **F-12 — Brewery NFC Tag Serialization SOP**.)
+
+### **2.3 Optional Sidewall Identification**
+Used when:
+- coolers stack kegs  
+- visibility is reduced  
+- distributors mix SKUs tightly  
+
+May include:  
+- adhesive NA band  
+- printed NA stripe  
+- secondary QR label  
+
+Sidewall identification is **recommended**, but not strictly required.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 7 -->
+<!-- SECTION 3 — VISUAL REQUIREMENTS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 7.0 Prohibited Practices
+## 3.0 Visual Requirements
 
-The following actions violate DraftVerify Standard v1.0:
+### **3.1 Color System (Mandatory)**
+NA keg identifiers must use the DraftVerify **NA Gold Band** or the DraftVerify **NA Blue Band** depending on program version.
 
-- mixing NA collars with alcoholic products  
-- using handwritten markers as primary identification  
-- covering NA markers with tape or wrap  
-- using digital-only identification  
-- applying collars post-distribution  
-- removing collars prematurely  
+Colors must meet:
 
-Non-compliance must be documented and reported.
+- high-contrast visibility  
+- non-reflective safety finish  
+- minimum band height (25 mm)  
+
+### **3.2 Typography**
+All NA identifiers must use:
+- sans-serif, high-weight font  
+- minimum height 9 mm  
+- uppercase text for NA statements  
+
+### **3.3 Required NA Statements**
+The keg collar must include:
+
+**NON-ALCOHOLIC DRAFT**  
+or  
+**0.0% DRAFT (NON-ALCOHOLIC)**  
+
+No substitute language is permitted.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 8 -->
+<!-- SECTION 4 — PLACEMENT RULES -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 8.0 Copyright & Intellectual Property
+## 4.0 Placement Requirements
 
-All artwork specifications, placement rules, tag architectures, and identification standards in this document are the exclusive intellectual property of DraftVerify™.
+### **4.1 Keg Collar Placement**
+Must be:
+- fully seated  
+- unobstructed  
+- visible from upright and stacked positions  
+- intact for the lifecycle of the keg fill  
+
+Torn, partially applied, or low-visibility collars violate compliance.
+
+### **4.2 Coupler Tag Placement**
+The coupler tag must be attached:
+- directly adjacent to the spear/coupler flange  
+- in a tamper-resistant position  
+- within 25 mm of the engagement point  
+
+This ensures staff identify the keg **during** changeover — the moment of greatest risk.
+
+### **4.3 Sidewall Placement (If Used)**
+Must be:
+- horizontal  
+- unbroken  
+- placed in the upper third of the keg surface  
+- oriented for visibility on racks or pallets  
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 5 — DURABILITY REQUIREMENTS -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 5.0 Durability Standards
+
+Identification must remain intact under:
+
+- condensation  
+- low temperatures  
+- abrasion  
+- transport vibration  
+- stacking pressure  
+- cleaning chemicals  
+
+Minimum durability: **120 days** under typical cold-chain conditions.
+
+The DraftVerify Initiative may require testing or samples for verification.
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 6 — MATCHING WITH DIGITAL REGISTRY -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 6.0 Digital Consistency Requirements
+
+The physical keg ID must **match** the DraftVerify Registry record for:
+
+- tag ID  
+- product  
+- batch  
+- brewery  
+- date of activation  
+
+If a keg is mislabeled or inconsistently activated, the keg must be:
+
+1. quarantined  
+2. corrected  
+3. re-verified  
+
+Any mislabeled keg is **not compliant**.
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 7 — NON-COMPLIANCE CONDITIONS -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 7.0 Non-Compliance Conditions
+
+A keg is **not** DraftVerify-compliant if:
+
+- collar is missing, torn, or unreadable  
+- coupler tag is missing or mismatched  
+- color band is incorrect  
+- identity does not match Registry  
+- text is obstructed or non-standard  
+- tag has not been activated  
+
+Such kegs must not enter NA draft service.
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 8 — AUDIT REQUIREMENTS -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 8.0 Audit Requirements
+
+Audits may include:
+
+- physical inspection  
+- digital record verification  
+- durability testing  
+- identity reconciliation  
+
+Audit failures may result in:
+- corrective actions  
+- temporary removal from DraftVerify program  
+- reactivation review  
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 9 — DOCUMENT INTEGRATION -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 9.0 Related Documents
+
+This document must be applied in conjunction with:
+
+- **F-7 — Coupler Tag Standard**  
+- **F-12 — Brewery NFC Tag Serialization SOP**  
+- **F-13 — Brewery Activation Workflow**  
+- **F-18 — Venue Setup & Verification Protocol**  
+- **F-32 — Certification & Use of Mark Policy**
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 10 — COPYRIGHT -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 10.0 Copyright & Intellectual Property
+
+All identification requirements, visual systems, and placement rules in this document are the protected intellectual property of the **DraftVerify™ Standards Initiative**.
 
 Unauthorized use in:
 - competing standards  
-- brewery SOPs  
-- distributor manuals  
-- digital systems  
+- operational frameworks  
+- certification programs  
 - training materials  
+- labeling systems  
 
-is strictly prohibited.
+is prohibited without written authorization.
 
-© 2025 DraftVerify™ Standards Initiative. All Rights Reserved.
+© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 
   </div>
 </section>
