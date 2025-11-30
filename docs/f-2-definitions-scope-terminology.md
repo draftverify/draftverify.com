@@ -5,13 +5,15 @@ permalink: /docs/f-2-definitions-scope-terminology/
 description: "Authoritative terminology and definitions governing all DraftVerify standards, identity structures, and verification procedures."
 ---
 
-DraftVerify Standards Library · F-2
-===================================
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
 
+<div class="kicker">DraftVerify Standards Library · F-2</div>
 # Definitions, Scope & Terminology
-
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
+<p style="font-size:0.95rem;color:#6b7280;">
+Version 1.0 · Publication Date: 2025-01-01 · Status: Active<br>
 © 2025 DraftVerify™ Standards Initiative. All rights reserved.
+</p>
 
 This document is the **authoritative glossary** for the DraftVerify Standards Library.  
 It defines all terminology, identity structures, object classes, digital registry fields,  
@@ -19,429 +21,235 @@ and NA draft system vocabulary referenced throughout documents F-1 through F-40.
 
 Where terminology conflicts occur, **F-2 controls**.
 
----
+  </div>
+</section>
+
+
+<!-- SECTION 1 -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
 
 ## 1. Scope of This Document
 
-### 1.1 Purpose
-
+### **1.1 Purpose**
 This document establishes:
 
 - standardized vocabulary  
 - precise technical definitions  
 - identity architecture terminology  
 - data model definitions  
-- operative language (“shall,” “should,” etc.)  
-- classification rules for NA draft system components  
+- operative language used in all DraftVerify Standards  
 
-It ensures interoperability, consistency, and global clarity.
+F-2 provides the **linguistic and structural foundation** for compliance, certification,  
+identity accuracy, and digital verification.
 
-### 1.2 Applicability
+### **1.2 Applicability**
+F-2 applies to all:
 
-Applies to **all DraftVerify standards**, including:
+- breweries  
+- distributors  
+- venues  
+- auditors  
+- DraftVerify partners  
+- digital registry clients  
+- implementers of ID-Series standards  
 
-- physical identification (ID-series)  
-- brewery, distributor, venue protocols  
-- digital registry specifications  
-- verification and audit standards  
-- legal and certification frameworks  
+Any entity using or referencing DraftVerify materials must interpret terms as defined here.
 
-### 1.3 Hierarchy
+### **1.3 Status**
+This is a **normative, controlling document**.  
+It is not optional and must be applied to all DraftVerify-related activities.
 
-Definitions in **F-2 override**:
+  </div>
+</section>
 
-- terms used in other DraftVerify standards  
-- external definitions  
-- informal industry usage  
 
----
+<!-- SECTION 2 -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
 
-## 2. Normative Language
+## 2. Definitions
 
-### 2.1 Shall
+### **2.1 Beverage & Category Terms**
 
-Indicates a **mandatory requirement**.
+**NA Beverage**  
+A beverage meeting legal criteria for non-alcoholic classification in its jurisdiction.
 
-### 2.2 Shall Not / Must Not
+**Alcoholic Beverage**  
+Any beverage exceeding local NA thresholds (e.g., >0.5% ABV in Canada/USA).
 
-Indicates a **prohibited action** and non-compliance.
+**Mixed Draft System**  
+A draft system containing **both** NA and alcoholic pathways.
 
-### 2.3 Should
-
-Indicates a **recommended practice**, unless a documented constraint exists.
-
-### 2.4 May
-
-Indicates a **permitted action** within standard boundaries.
-
-### 2.5 Is Considered / Is Not Considered
-
-Used for formal classification determinations.
-
----
-
-## 3. Core NA Draft Definitions
-
-### 3.1 Non-Alcoholic Beverage (NA Beverage)
-
-A beverage meeting local legal NA thresholds for alcohol content  
-(for example, less than or equal to 0.5% ABV depending on jurisdiction).
-
-### 3.2 NA Draft System
-
-Any draft-dispense system serving NA beverages, comprising:
-
-- keg  
-- coupler  
-- beer line  
-- tower  
-- faucet  
-- gas system  
-- digital identity and records (DraftVerify layer)  
-
-### 3.3 NA Draft Pathway
-
-The continuous chain from **keg → faucet** associated with an NA product.
-
-### 3.4 Mixed Draft Environment
-
-A system where alcoholic and NA draft products coexist.
-
-### 3.5 Dedicated NA System
-
-A draft system exclusively serving NA beverages.
-
-### 3.6 Cross-Contact
-
-Unintended mixing between alcoholic and NA pathways.
+**Dedicated NA System**  
+A draft system containing **only** non-alcoholic pathways.
 
 ---
 
-## 4. Identity Architecture (DIA) Definitions
+### **2.2 Draft Pathway Terms**
 
-### 4.1 DraftVerify Identity Architecture (DIA)
+**Draft Pathway**  
+The uninterrupted physical route from keg → coupler → line → tower → faucet.
 
-The combined physical and digital identity system for NA draft.
+**NA Draft Pathway**  
+A pathway exclusively dedicated to NA beverage service.
 
-### 4.2 Serialized Tag
+**Component**  
+Any hardware element along the pathway (keg, coupler, jumper, trunk, tower, faucet).
 
-A uniquely encoded DraftVerify identifier with:
-
-- DV identity string  
-- NDEF record  
-- JSON metadata  
-- registry activation record  
-
-### 4.3 Digital Activation
-
-The process of linking a serialized tag to a component and registry entry.
-
-### 4.4 Identity Chain
-
-The continuous set of identities associated with one NA pathway:
-
-- keg  
-- coupler  
-- line  
-- faucet  
-
-### 4.5 Object Class Codes
-
-| Code | Object     |
-|------|------------|
-| KG   | Keg        |
-| CP   | Coupler    |
-| LN   | Beer Line  |
-| TW   | Tower      |
-| FT   | Faucet     |
-| GS   | Gas System |
-| VT   | Venue      |
-| BR   | Brewery    |
-| DS   | Distributor|
-
-### 4.6 Identity States
-
-| State | Meaning                    |
-|-------|----------------------------|
-| A     | Active                     |
-| I     | Inactive (not yet activated) |
-| L     | Locked Out                 |
-| R     | Retired                    |
-| X     | Exception (flagged)        |
+**System Break**  
+Any interruption to identity, tagging, or digital activation, invalidating compliance.
 
 ---
 
-## 5. Digital Registry & Data Definitions
+### **2.3 Identification & Tagging Terms**
 
-### 5.1 DraftVerify Registry
+**Serialized Tag**  
+A uniquely identified physical tag with a cryptographically-unique NFC ID or  
+machine-readable code.
 
-Authoritative database capturing:
+**Identity Architecture (DIA)**  
+DraftVerify’s layered system of object identifiers, component classes, tag placement  
+rules, and digital registry references enabling end-to-end traceability.
 
-- tag identifiers  
-- activation data  
-- verification events  
-- custody transfers  
-- audit trails  
-- exception flags  
+**Identity Chain**  
+The continuous linkage between all identification elements across the NA pathway.
 
-### 5.2 DV Identity String
+**Keg Collar (ID-1)**  
+Top-mounted identification marking for NA kegs.
 
-Official, globally unique DV identity  
-(for example: `DV-KG-2025-HOPCO-00412`).
+**Coupler Tag (ID-2)**  
+Serialized tag affixed near the keg valve/coupler connection.
 
-### 5.3 NDEF Record
+**Line Tag (ID-3)**  
+Identification label or NFC marker applied along the beverage line.
 
-The NFC record containing the DV identity and associated data.
-
-### 5.4 UID (Hardware ID)
-
-Unchangeable NFC chip ID.  
-Distinct from DV identity.  
-Never used as the official identity.
-
-### 5.5 Verification Event
-
-A documented compliance check recorded in the Registry.
-
-### 5.6 Custody Event
-
-Record showing transfer of responsibility:
-
-- brewery → distributor  
-- distributor → venue  
-- venue → venue  
-
-### 5.7 Activation Record
-
-Record linking identity to component, user, timestamp, and batch.
-
-### 5.8 Exception Flag
-
-System-level marker indicating irregularity.
+**Faucet Marker (ID-4)**  
+Visible identifier at the face of service (tower or faucet).
 
 ---
 
-## 6. Physical System Definitions
+### **2.4 Digital Registry Terms**
 
-### 6.1 Keg (KG)
+**Digital Activation**  
+The process of linking serialized tags to registry objects and verifying  
+their status.
 
-Primary vessel containing NA beverage.
+**Registry Object**  
+Any digital record representing a tagged component, beverage, batch, or system state.
 
-### 6.2 Coupler (CP)
+**Verification Event**  
+A logged interaction confirming identity, cleanliness, status, or pathway integrity.
 
-Hardware connecting keg valve to beer line.
+**Change Log**  
+Registry entries documenting modifications to tagged components or system structure.
 
-### 6.3 Beer Line (LN)
-
-Tubing delivering beverage to tower.
-
-### 6.4 Tower (TW)
-
-Structure housing line-to-faucet transition.
-
-### 6.5 Faucet (FT)
-
-Final dispense mechanism.
-
-### 6.6 Gas System (GS)
-
-CO₂ or N₂ system driving product through lines.
-
-### 6.7 Shared Tower
-
-Tower serving both alcoholic and NA products.
-
-### 6.8 Rerouted Line
-
-Line temporarily reassigned to a new product.
-
-### 6.9 Line Break
-
-Loss of continuous NA identity chain.
+**Incident Record**  
+A documented event indicating mis-serve, cross-contact, or integrity failure.
 
 ---
 
-## 7. Identification System Definitions (ID-Series)
+### **2.5 Compliance & Certification Terms**
 
-### 7.1 Keg Collar Tag
+**DraftVerify-Verified**  
+A venue, brewery, or distributor meeting all standards and passing required audits.
 
-Primary visual identity device for NA kegs.
+**Self-Verified**  
+A venue following F-Series requirements without external audit.
 
-### 7.2 Coupler Tag
+**Corrective Action**  
+Required operational steps following a mis-serve, system failure, or identity break.
 
-Serialized identifier installed at the coupler connection point.
+**Mark Usage**  
+Authorized placement of the DraftVerify certification mark per F-32.
 
-### 7.3 Line Identity Tag
+  </div>
+</section>
 
-Identification markers applied along beer lines.
 
-### 7.4 Faucet Marker
+<!-- SECTION 3 -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
 
-Visual signal at the faucet level clearly indicating NA product.
+## 3. Terminology Rules
 
-### 7.5 Visual Lexicon
+### **3.1 Operative Language**
+DraftVerify uses standard normative terms:
 
-Unified graphical system including:
+- **Must** — mandatory requirement  
+- **Shall** — compliance-critical requirement  
+- **Should** — recommended best practice  
+- **May** — optional practice  
+- **Can** — describes capability, not permission  
 
-- color codes  
-- shapes  
-- symbol geometry  
-- label layouts  
-- spacing rules  
+### **3.2 Precedence**
+Where contradictions occur:
 
-### 7.6 Durability Standard
+1. F-2 — Definitions (this document)  
+2. F-1 — Core Standard  
+3. ID-Series standards (physical components)  
+4. VX-Series standards (digital verification)  
+5. CX-Series documents (compliance, mark use, incident response)
 
-Minimum environmental performance requirements for IDs.
+F-2 overrides all terminology conflicts.
 
----
+  </div>
+</section>
 
-## 8. Brewery-Level Definitions
 
-### 8.1 Serialization
+<!-- SECTION 4 -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
 
-Assignment of a unique DV identity to a component or batch.
+## 4. Governance & Updates
 
-### 8.2 Encoding
+### **4.1 Living Glossary**
+Terminology evolves with:
 
-Writing DV identity to an NFC tag.
+- new field findings  
+- updates to digital systems  
+- identity architecture changes  
+- new components or tag formats  
+- future revisions of DraftVerify Standards  
 
-### 8.3 Locking
+### **4.2 Change Control**
+Proposed modifications must be submitted to:
 
-Applying write-protection to an encoded tag.
+📧 **standards@draftverify.com**
 
-### 8.4 Activation Preparation
+Changes are reviewed and published at the discretion of  
+the DraftVerify Standards Initiative.
 
-Steps performed before products ship to ensure identities are ready for use.
+  </div>
+</section>
 
-### 8.5 Rejected Tag
 
-A tag that fails validation and is destroyed or permanently disabled.
+<!-- SECTION 5 -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
 
----
+## 5. Copyright & Intellectual Property
 
-## 9. Distributor-Level Definitions
+All terminology, identity structures, and digital schemas defined in this document  
+are the exclusive property of the:
 
-### 9.1 Custody Chain
+### **DraftVerify™ Standards Initiative**
 
-Documented record of product movement and responsibility.
+No terms may be:
 
-### 9.2 Exception Handling
-
-Procedures for damaged, misconfigured, or mismatched components.
-
-### 9.3 Segregated Transport
-
-Physical separation of NA and alcoholic kegs in transit.
-
----
-
-## 10. Venue-Level Definitions
-
-### 10.1 First Verification
-
-Initial site-wide compliance confirmation when DraftVerify is implemented.
-
-### 10.2 Daily Verification
-
-Routine staff-level checks.
-
-### 10.3 Weekly Verification
-
-Manager-level compliance review.
-
-### 10.4 Locked-Out Component
-
-Component temporarily removed from service due to non-compliance.
-
----
-
-## 11. Incident Response Definitions
-
-### 11.1 Mis-Serve
-
-Serving an alcoholic beverage as NA.
-
-### 11.2 Cross-Contact Event
-
-Any contamination between NA and alcoholic systems.
-
-### 11.3 Incident Report
-
-Formal record of any mis-serve or near-miss event.
-
-### 11.4 Corrective Action
-
-Required steps to restore compliance and prevent recurrence.
-
----
-
-## 12. Certification & Mark Use Definitions
-
-### 12.1 Certification Mark
-
-DraftVerify symbols and badges granted to compliant operators.
-
-### 12.2 Certification Levels
-
-| Level            | Meaning                          |
-|------------------|----------------------------------|
-| Self-Verified    | Internal compliance only         |
-| Brewery-Verified | Verified by product manufacturer |
-| DV-Verified      | Verified by DraftVerify review   |
-
-### 12.3 Misuse of Mark
-
-Any unauthorized or deceptive use of the mark.
-
----
-
-## 13. Legal Definitions
-
-### 13.1 Intellectual Property (IP)
-
-All DV identity structures, workflows, data schemas, naming conventions,  
-and document language.
-
-### 13.2 Proprietary Framework
-
-The combined identity, digital, and procedural system unique to DraftVerify.
-
-### 13.3 Derivative Standard
-
-Any competing or modified standard built using DraftVerify concepts — prohibited.
-
----
-
-## 14. Revision Definitions
-
-### 14.1 Minor Revision
-
-Small clarification; no structural change to compliance.
-
-### 14.2 Major Revision
-
-Structural change affecting compliance or implementation.
-
-### 14.3 Governance Authority
-
-DraftVerify Standards Initiative (DVSI).
-
----
-
-## 15. Copyright & IP Notice
-
-All definitions, terms, identity structures, workflows, and data models contained within  
-this document are the exclusive intellectual property of:
-
-**DraftVerify™ Standards Initiative**
-
-No part may be:
-
-- reproduced  
-- modified  
+- copied  
+- repurposed  
+- adapted into competing systems  
 - redistributed  
-- incorporated into competing standards  
+- reformatted into competing standards  
 
-without written authorization.
+without explicit written authorization.
 
-For permissions: `legal@draftverify.com`
+For permissions:  
+📧 **legal@draftverify.com**  
+🌐 <https://www.draftverify.com/legal/>
+
+© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+
+  </div>
+</section>
