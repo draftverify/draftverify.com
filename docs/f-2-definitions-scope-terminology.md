@@ -5,14 +5,13 @@ permalink: /docs/f-2-definitions-scope-terminology/
 description: "Authoritative terminology and definitions governing all DraftVerify standards, identity structures, and verification procedures."
 ---
 
-<div class="kicker">DraftVerify Standards Library · F-2</div>
+DraftVerify Standards Library · F-2
+===================================
 
 # Definitions, Scope & Terminology
 
-<p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active<br>
+Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
 © 2025 DraftVerify™ Standards Initiative. All rights reserved.
-</p>
 
 This document is the **authoritative glossary** for the DraftVerify Standards Library.  
 It defines all terminology, identity structures, object classes, digital registry fields,  
@@ -148,27 +147,27 @@ The continuous set of identities associated with one NA pathway:
 
 ### 4.5 Object Class Codes
 
-| Code | Object      |
-|------|-------------|
-| KG   | Keg         |
-| CP   | Coupler     |
-| LN   | Beer Line   |
-| TW   | Tower       |
-| FT   | Faucet      |
-| GS   | Gas System  |
-| VT   | Venue       |
-| BR   | Brewery     |
-| DS   | Distributor |
+| Code | Object     |
+|------|------------|
+| KG   | Keg        |
+| CP   | Coupler    |
+| LN   | Beer Line  |
+| TW   | Tower      |
+| FT   | Faucet     |
+| GS   | Gas System |
+| VT   | Venue      |
+| BR   | Brewery    |
+| DS   | Distributor|
 
 ### 4.6 Identity States
 
-| State | Meaning              |
-|-------|----------------------|
-| A     | Active               |
+| State | Meaning                    |
+|-------|----------------------------|
+| A     | Active                     |
 | I     | Inactive (not yet activated) |
-| L     | Locked Out           |
-| R     | Retired              |
-| X     | Exception (flagged)  |
+| L     | Locked Out                 |
+| R     | Retired                    |
+| X     | Exception (flagged)        |
 
 ---
 
