@@ -42,6 +42,82 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   </div>
 </section>
 
+<!-- FULL STANDARDS LIBRARY -->
+<section class="section" id="standards-library" style="background:#f7f9fc;">
+  <div class="container">
+    <div class="kicker center">DraftVerify Standards Library</div>
+    <h2 class="h2 center">All Published Documents & Protocols</h2>
+
+    <p style="max-width:820px;margin:0 auto 26px;text-align:center;">
+      The following documents form the complete DraftVerify Standards Library — the official 
+      framework for non-alcoholic draft identification, separation, and verification.  
+      Each document is protected under international copyright and may not be reproduced without permission.
+    </p>
+
+    <div class="grid cols-2" style="max-width:860px;margin:0 auto;gap:24px;">
+      <div class="card">
+        <h3>1. DraftVerify Standard v1.0</h3>
+        <p>The core standard defining NA draft identification, separation, and verification requirements.</p>
+        <a href="/docs/standard-v1/" class="btn small primary">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>2. NA Draft Identification Guide</h3>
+        <p>Keg collars, coupler tags, line identifiers, faucet markers, and the full identity chain.</p>
+        <a href="/docs/identification-guide/" class="btn small primary">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>3. Brewery Implementation Guide</h3>
+        <p>How breweries prepare, tag, serialize, and activate NA kegs before distribution.</p>
+        <a href="/docs/brewery-implementation/" class="btn small primary">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>4. Distributor Protocol (D-Series)</h3>
+        <p>Transport, storage, activation, verification, and chain-of-custody requirements.</p>
+        <a href="/docs/distributor-protocol/" class="btn small primary">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>5. Venue Setup & Verification Protocol</h3>
+        <p>How bars and restaurants set up NA draft systems, activate tags, and maintain records.</p>
+        <a href="/docs/venue-verification/" class="btn small primary">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>6. Cleaning & Change Log SOP</h3>
+        <p>Required logs and workflows for cleaning, switching products, and maintaining NA draft lines.</p>
+        <a href="/docs/cleaning-log/" class="btn small primary">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>7. Incident Response & Mis-Serve Prevention</h3>
+        <p>Step-by-step procedures for dealing with cross-contact, serving errors, or tap mix-ups.</p>
+        <a href="/docs/incident-response/" class="btn small primary">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>8. DraftVerify Registry Specification</h3>
+        <p>How the digital registry works: activation rules, tag serialization, records, and audit logs.</p>
+        <a href="/docs/registry-spec/" class="btn small primary">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>9. Glossary & Terminology Standard</h3>
+        <p>Definitions for all DraftVerify terms, processes, and identity-layer components.</p>
+        <a href="/docs/glossary/" class="btn small primary">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>10. Use of Mark & Certification Policy</h3>
+        <p>Rules governing how venues, breweries, and distributors may use DraftVerify trademarks.</p>
+        <a href="/docs/certification-policy/" class="btn small primary">Open</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- WHAT IT IS -->
 <section class="section center" id="standard-overview">
   <div class="container">
@@ -97,7 +173,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   </div>
 </section>
 
-<!-- TECHNOLOGY (REQUIRED DIGITAL LAYER) -->
+<!-- TECHNOLOGY -->
 <section class="section" id="technology" style="background:#f7f9fc">
   <div class="container center">
     <div class="kicker">Digital Enforcement Layer</div>
@@ -123,7 +199,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   </div>
 </section>
 
-<!-- CORE REQUIREMENTS SUMMARY -->
+<!-- CORE REQUIREMENTS -->
 <section class="section" id="core-requirements">
   <div class="container">
     <div class="kicker center">Core Requirements</div>
