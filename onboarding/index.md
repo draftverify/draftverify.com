@@ -22,8 +22,7 @@ layout: default
       </p>
 
       <!-- FormSubmit form -->
-      <!-- IMPORTANT: Replace YOUR_FORMSUBMIT_URL_HERE with your FormSubmit endpoint -->
-      <form action="https://formsubmit.co/YOUR_FORMSUBMIT_URL_HERE" method="POST" id="dv-form">
+      <form action="https://formsubmit.co/info@draftverify.com" method="POST" id="dv-form">
 
         <!-- FormSubmit config -->
         <input type="hidden" name="_captcha" value="false">
@@ -73,7 +72,7 @@ layout: default
 
           <div>
             <label>Website</label>
-            <input name="Website" type="url" placeholder="https://example.com" style="width:100%;margin-top:4px;">
+            <input name="Website" type="text" placeholder="Website or socials (optional)" style="width:100%;margin-top:4px;">
           </div>
 
           <div>
