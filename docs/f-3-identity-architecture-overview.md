@@ -1,272 +1,359 @@
 ---
 layout: default
-title: "F-3 — DraftVerify Identity Architecture (DIA)"
-permalink: /docs/identity-architecture/
-description: "The hierarchical identity architecture governing all physical and digital components in DraftVerify non-alcoholic draft systems."
+title: "F-3 — DraftVerify Identity Architecture (DIA) Overview"
+permalink: /docs/f-3-identity-architecture-overview/
+description: "Structural overview of the DraftVerify Identity Architecture (DIA), including object classes, identity chains, tagging layers, and digital registry relationships."
 ---
 
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
 <div class="kicker">DraftVerify Standards Library · F-3</div>
-# DraftVerify Identity Architecture (DIA)
+# DraftVerify Identity Architecture (DIA) — Overview
 <p style="font-size:0.95rem;color:#6b7280;">
-Version: 1.0 · Status: Active · Publication Date: 2025-01-01  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 1.0 · Publication Date: 2025-01-01 · Status: Active<br>
+© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-The DraftVerify Identity Architecture (DIA) defines the **hierarchical identity system** used across all 
-non-alcoholic draft components — from product to faucet.  
-It ensures every component in the NA draft pathway can be **identified, verified, and traced** through a 
-common structured framework backed by the DraftVerify Registry.
+The **DraftVerify Identity Architecture (DIA)** defines the complete structural  
+framework that maintains identity, traceability, and verification across the  
+entire non-alcoholic (NA) draft pathway.
 
-This document forms the technical foundation for the **entire standards library**.
-
-  </div>
-</section>
-
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 1. Purpose and Scope
-
-### 1.1 Purpose
-The DIA establishes:
-
-- a **consistent identity format** for all draft objects  
-- strict **parent → child hierarchical relationships**  
-- rules governing activation, state, lineage, and associations  
-- how identity transitions occur during kegging, transport, installation, and service  
-- how the DraftVerify Registry encodes, stores, and validates these relationships  
-
-### 1.2 Scope
-The DIA applies to all objects governed by the DraftVerify Standard, including:
-
-- Products  
-- Batches  
-- Kegs  
-- Couplers  
-- Lines  
-- Towers  
-- Faucets  
-- Events and change logs  
-
-Any NA draft system using DraftVerify must adhere to this architecture.
+DIA is the backbone of all DraftVerify standards.  
+It governs physical identity, digital activation, component relationships,  
+registry object structures, and continuous verification.
 
   </div>
 </section>
 
+
+<!-- SECTION 1 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 2. Hierarchical Identity Model
+## 1. Purpose & Scope
 
-The DraftVerify identity chain follows a **top-down lineage structure**:
+### **1.1 Purpose**
+The Identity Architecture establishes:
 
-```
-Product → Batch → Keg → Coupler → Line → Faucet
-```
+- the structural identity chain for NA draft  
+- standardized tagging and component identifiers  
+- digital-to-physical linkage rules  
+- object-class relationships  
+- verification and event record principles  
 
-Each level inherits constraints from the level above it.  
-Each child entity **cannot exist independently** and must reference its parent.
+It ensures NA draft systems are:
 
-### 2.1 Parent/Child Rules
-A child object must:
+- identifiable  
+- auditable  
+- consistent  
+- tamper-resistant  
+- verifiable at every step  
 
-- reference exactly one parent  
-- inherit identity constraints defined at that level  
-- maintain referential integrity in the Registry  
-- be invalid if parent status is invalid  
+### **1.2 Scope**
+DIA applies to all:
 
-### 2.2 Why Hierarchy is Mandatory
-Hierarchy ensures:
+- NA draft beverages  
+- kegs and dispensing equipment  
+- NA pathways (mixed or dedicated)  
+- DraftVerify-certified venues  
+- breweries and distributors  
+- digital registry users  
 
-- traceable chain-of-custody  
-- clean contamination control logic  
-- auditable activation workflows  
-- digital matching between physical components  
-
-This structure also forms a strong IP moat because the identity logic is unique, detailed, and difficult to reproduce without infringing the architecture.
+DIA is a core requirement for **all** DraftVerify recognition levels.
 
   </div>
 </section>
 
+
+<!-- SECTION 2 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 3. Identity Format and Serialization
+## 2. Architecture Structure
 
-Each object follows a structured identity format:
+### **2.1 Dual-Layer Identity Model**
+The DIA consists of two inseparable layers:
 
-### 3.1 General Format
-```
-DV-<OBJECT>-<YEAR>-<SITE/BREWERY>-<SERIAL>
-```
+1. **Physical Identity Layer**  
+2. **Digital Identity Layer**
 
-### 3.2 Object Code List
+Both layers must be present and correct for compliance.
 
-| Object | Code | Example |
-|--------|------|---------|
-| Product | PROD | DV-PROD-2025-HOPCO-0001 |
-| Batch | BATCH | DV-BATCH-2025-HOPCO-0194 |
-| Keg | KEG | DV-KEG-2025-HOPCO-00412 |
-| Coupler | CPL | DV-CPL-2025-HOPCO-00412-A |
-| Line | LINE | DV-LINE-2025-HOPCO-L01 |
-| Tower | TWR | DV-TWR-2025-HOPCO-02 |
-| Faucet | FCT | DV-FCT-2025-HOPCO-F01 |
+**Physical Identity Layer includes:**
 
-### 3.3 Serialization Rules
+- ID-1 — Keg Collar  
+- ID-2 — Coupler Tag  
+- ID-3 — Line Identity Tag  
+- ID-4 — Faucet Marker  
+- ID-5 — Tower Marker (where applicable)
 
-- Serial numbers must be **zero-padded**  
-- Serialization must be **monotonic** (no reuse)  
-- Brewery/Site code must be 3–6 characters  
-- Year is the year of original creation  
+**Digital Identity Layer includes:**
 
-If any element fails validation, the identity is invalid.
+- registry objects  
+- digital activation  
+- NFC scans  
+- verification events  
+- change logs  
+- incident records  
+
+---
+
+### **2.2 Component Object Classes**
+Each tagged component corresponds to a digital **Object Class**, including:
+
+- Beverage Object (BO)  
+- Batch Object (BA)  
+- Keg Object (KO)  
+- Coupler Object (CO)  
+- Line Object (LO)  
+- Tower/Faucet Object (FO)  
+- Venue Object (VO)  
+- Distributor Object (DO)  
+- Verification Event (VE)  
+- Incident Record (IR)
+
+Object Classes define:
+
+- required attributes  
+- relational structure  
+- valid linkages  
+- modification rules  
+
+---
+
+### **2.3 Continuous Identity Chain**
+The identity chain must be unbroken through the full NA pathway:
+
+**Keg → Coupler → Line → Tower → Faucet**
+
+The chain includes:
+
+- physical presence of tags  
+- correct placement  
+- active digital status  
+- correct object-class relationships  
+- no unresolved incidents  
+
+Any break invalidates compliance.
+
+---
+
+### **2.4 Identity Persistence**
+Identity must persist during:
+
+- delivery  
+- installation  
+- service  
+- keg changes  
+- cleaning cycles  
+- repairs  
+- switching between beverages  
+- component replacement  
+
+Loss of identity requires a **Change Event** or **Incident Record**.
 
   </div>
 </section>
 
+
+<!-- SECTION 3 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 4. Identity Binding Rules
+## 3. Tagging Framework
 
-Identity binding refers to the required links between objects.
+### **3.1 Tag Types**
+DIA governs four core serialized tag types:
 
-### 4.1 Mandatory Bindings
-- A **Batch** must link to one Product  
-- A **Keg** must link to one Batch  
-- A **Coupler** must link to one Keg  
-- A **Line** must link to one Coupler  
-- A **Faucet** must link to one Line  
+- **ID-1 — Keg Collar Tag**  
+- **ID-2 — Coupler Tag**  
+- **ID-3 — Line Identity Tag**  
+- **ID-4 — Faucet Marker**  
 
-### 4.2 Binding Constraints
-Bindings must:
+Each serialized tag includes:
 
-- follow parent → child hierarchy  
-- remain intact unless a controlled change is executed  
-- be logged as a **Change Event** when modified  
-- be reflected immediately in the Registry  
+- unique ID  
+- cryptographically-unique NFC UID (if NFC-enabled)  
+- component type  
+- placement rules  
+- registry linkage requirements  
 
-### 4.3 Invalid Binding Conditions
-A binding is invalid if:
+---
 
-- the parent object is inactive  
-- the parent identity is corrupted  
-- the object is unverified  
-- the hierarchy is broken at any point  
+### **3.2 Placement Requirements**
+Placement standards (defined in ID-Series) ensure:
 
-Invalid bindings force a **system lockout** until corrected.
+- correct orientation  
+- operator visibility  
+- resistance to moisture and abrasion  
+- repeatable installation  
+- validity of the overall identity chain  
+
+---
+
+### **3.3 Tag States**
+Tags may enter one of four digital states:
+
+- **Active** — valid and linked  
+- **Inactive** — unused or unassigned  
+- **Suspended** — temporarily invalid  
+- **Retired** — permanently removed  
+
+Only the **Active** state satisfies DraftVerify compliance.
 
   </div>
 </section>
 
+
+<!-- SECTION 4 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 5. Identity States and Transitions
+## 4. Digital Relationships & Verification
 
-Every object in the hierarchy follows a controlled state machine.
+### **4.1 Digital Activation**
+Digital activation connects:
 
-### 5.1 Allowed States
-- **Created**  
-- **Serialized**  
-- **Activated**  
-- **In Service**  
-- **Suspended**  
-- **Retired**  
+- tag → component  
+- component → pathway  
+- pathway → venue  
+- component → beverage object  
+- beverage → batch object  
 
-### 5.2 Trigger Events
-Example transitions:
+Activation must occur **before** the component enters service.
 
-- Serialization → Created → Serialized  
-- Activation → Serialized → Activated  
-- Installation → Activated → In Service  
-- Mis-Serve → In Service → Suspended  
-- Decommissioning → Suspended → Retired  
+---
 
-Each state change creates a **state event record**.
+### **4.2 Registry Rules**
+Registry rules define:
 
-### 5.3 Immutable History
-Once recorded:
+- parent-child relationships  
+- identity chain mapping  
+- system versioning  
+- metadata retention  
+- audit visibility  
+- tamper detection  
 
-- no state may be deleted  
-- no state may be overwritten  
-- corrections require a formal Correction Event  
+---
 
-This is essential for audit integrity.
+### **4.3 Verification Events**
+Verification Events confirm:
+
+- correct identity  
+- tag presence  
+- correct linking  
+- NA pathway integrity  
+- cleanliness / switching compliance  
+
+They create a **traceable event history** for each component.
+
+---
+
+### **4.4 Incident Handling**
+If identity integrity fails:
+
+- component is locked out  
+- incident is logged  
+- corrective action is required  
+- chain must be restored  
+- verification required before resuming service  
 
   </div>
 </section>
 
+
+<!-- SECTION 5 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 6. Digital Registry Requirements
+## 5. Identity Integrity Requirements
 
-The DraftVerify Registry must maintain:
+Identity is considered valid when:
 
-- complete identity records  
-- binding and lineage relationships  
-- state history  
-- activation metadata  
-- event logs  
-- rejection logs  
-- cross-check integrity validation  
+- all required tags are installed  
+- digital activation is complete  
+- no unresolved incidents exist  
+- registry relationships match the physical installation  
+- verification events are recent and complete  
 
-Registry data forms the authoritative record for compliance, certification, and incident reconstruction.
-
-### 6.1 Integrity Checks
-The Registry must automatically validate:
-
-- identity format  
-- parent/child binding  
-- state legality  
-- activation consistency  
-- uniqueness  
-
-Any conflict forces an error and requires human review.
+Failure in any category = **non-compliance**.
 
   </div>
 </section>
 
+
+<!-- SECTION 6 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 7. Physical ↔ Digital Correspondence
+## 6. Relationship to Other Standards
 
-The DIA requires that:
+The DIA is authoritative for:
 
-- **every physical tag** must have a **digital counterpart**  
-- **every digital record** must correspond to a **physical component**  
+- ID-Series — Physical Identification Standards  
+- VX-Series — Digital Verification Standards  
+- CX-Series — Compliance & Audit Standards  
 
-If a physical component exists without a matching digital identity, the system is **non-compliant**.
+Precedence hierarchy:
 
-If a digital identity exists without a matching physical component, activation is blocked.
+1. F-2 — Definitions  
+2. F-3 — Identity Architecture  
+3. F-1 — Core Standard  
+4. ID-Series  
+5. VX-Series  
+6. CX-Series
 
   </div>
 </section>
 
+
+<!-- SECTION 7 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 8. Identity Protection and IP Notice
+## 7. Governance & Revision
 
-All identity structures, serialization schemas, lineage rules, state machines, and architectural models 
-defined by the DIA are the intellectual property of the DraftVerify™ Standards Initiative.
+The DIA is updated when:
 
-They may not be:
+- new tagging technologies emerge  
+- identity failures are reported  
+- registry capabilities expand  
+- field findings require new guidance  
 
-- reproduced  
-- adapted  
+Revision proposals may be submitted to:
+
+📧 **standards@draftverify.com**
+
+  </div>
+</section>
+
+
+<!-- SECTION 8 -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 8. Copyright & Intellectual Property
+
+All identity structures, object classes, digital schemas, tagging logic,  
+and verification models outlined in this document are the exclusive property of:
+
+### **DraftVerify™ Standards Initiative**
+
+No portion of this document may be:
+
+- copied  
 - repurposed  
-- restructured  
-- reverse-engineered  
+- adapted  
+- redistributed  
+- incorporated into competing systems  
+- reverse-engineered into equivalent standards  
 
-without written permission.
+without explicit written authorization.
 
-Violation constitutes the creation of an unauthorized derivative standard.
+For permissions:  
+📧 **legal@draftverify.com**  
+🌐 <https://www.draftverify.com/legal/>
 
 © 2025 DraftVerify™ Standards Initiative. All rights reserved.
 
