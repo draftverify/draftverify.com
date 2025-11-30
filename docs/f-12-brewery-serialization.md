@@ -1,10 +1,112 @@
+---
+layout: default
+title: "F-12 — Brewery NFC Tag Serialization SOP"
+permalink: /docs/brewery-serialization/
+description: "Official DraftVerify SOP for encoding, serializing, validating, and assigning NFC tags to non-alcoholic kegs at the brewery level."
+---
 
-### Encoding Rules
-- Brewery code must remain consistent across all NA SKUs.  
-- Sequential numbers must **never reset within a calendar year**.  
-- Each tag must map exactly 1:1 to a single keg.  
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
 
-Any deviation invalidates the tag.
+<div class="kicker">DraftVerify Standards Library · F-12</div>
+# Brewery NFC Tag Serialization SOP
+<p style="font-size:0.95rem;color:#6b7280;">
+Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
+<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+</p>
+
+This document defines the **mandatory serialization procedure** for NFC-enabled DraftVerify tags assigned to non-alcoholic draft kegs at the brewery.
+
+It provides the full workflow for:
+- digital identity structure  
+- mandatory encoding fields  
+- serialization sequences  
+- activation rules  
+- rejection logic  
+- audit and traceability requirements  
+
+Every NFC tag issued under this SOP becomes part of the **global DraftVerify digital identity system**, ensuring NA kegs are fully traceable from brewery → distributor → venue.
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 1 -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 1.0 Purpose
+
+The purpose of this SOP is to:
+
+- establish a universal, duplicational-resistant identity format  
+- ensure each NA keg receives a **cryptographically-unique** identity  
+- prevent tag reuse, duplication, or reassignment  
+- maintain chain-of-custody integrity  
+- allow breweries to produce consistent, auditable digital records  
+
+Serialization is the foundation of the DraftVerify verification layer.
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 2 -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 2.0 Required Materials & Tools
+
+Breweries must use:
+
+- **DraftVerify NFC Tags** (NTAG213/215/216 or approved equivalent)  
+- **DraftVerify Encoding App** (mobile or desktop)  
+- **Serialization Sheet or API Integration**  
+- **Secure WiFi or Cellular Connection**  
+- **Workstation in NA-Only Kegging Area**  
+- **Optional QR Failover Labels** (hybrid systems only)
+
+All NFC tags must be:
+
+- stored dry  
+- protected from strong magnets  
+- kept below 45°C  
+- inventoried and tracked  
+
+Untracked tags are **not permitted** for use.
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 3 -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 3.0 Digital Identity Structure (Mandatory)
+
+Each NFC tag must encode the official DraftVerify identity string:
+
+### **DV-KG-YYYY-BREWERYCODE-#####**
+
+Where:
+
+| Segment | Description |
+|--------|-------------|
+| **DV** | DraftVerify master prefix |
+| **KG** | Identifies object type = keg |
+| **YYYY** | Year of serialization |
+| **BREWERYCODE** | 3–6 character alphanumeric brewery code |
+| **#####** | Sequential 5-digit ID, zero-padded |
+
+### Example  
+**DV-KG-2025-ATB-00412**
+
+This identity is the **sole globally valid identity** for the keg.  
+Brewery-internal numbers may not replace or modify it.
 
   </div>
 </section>
@@ -15,152 +117,19 @@ Any deviation invalidates the tag.
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 4.0 Serialization Workflow
+## 4.0 Mandatory NFC Fields to Encode
 
-Breweries must follow these steps **in order**:
+Each NFC tag must contain:
 
-### **Step 1 — Retrieve Next Available Serial Number**
-Via the serialization sheet/API:
-- find the highest-issued number  
-- increment by one  
+1. **Primary Identifier (NDEF Text Record)**  
+   - `DV-KG-YYYY-BREWERYCODE-#####`
 
-### **Step 2 — Prepare Tag for Writing**
-- verify tag has not been pre-encoded  
-- ensure tag UID is readable  
-- ensure no password lock exists  
-
-### **Step 3 — Encode Data Payload**
-Write the following fields:
-
-| Field | Description |
-|-------|-------------|
-| **Primary Serial** | DV-KG-YYYY-BREWERYCODE-##### |
-| **Brewery Name** | full legal name |
-| **Product Variety** | SKU or beer style |
-| **Keg Size** | 20L, 30L, 50L |
-| **Activation Status** | set to 'UNACTIVATED' |
-| **Timestamp** | automated UTC encoding time |
-
-### **Step 4 — Validate Payload**
-System must verify:
-
-- successful write  
-- UID matches logged UID  
-- checksum passes  
-- payload formatting matches schema  
-
-### **Step 5 — Apply Tag to Keg**
-Placement:
-- near collar  
-- upright orientation  
-- free from condensation  
-
-### **Step 6 — Mark Serialization Sheet / API**
-Status changes from:
-- **BLANK** → **ENCODED** (not yet activated)  
-
-### **Step 7 — Transfer to Conditioning / Cold Storage**
-Tags remain unactivated until shipping or final inspection.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 5 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 5.0 Activation Rules (Digital)
-
-A tag becomes **live** only after:
-
-1. brewery completes serialization  
-2. brewery or distributor triggers activation  
-3. registry confirms:  
-   - serial is unused  
-   - UID matches  
-   - payload is valid  
-4. activation event is logged  
-
-### Activation Must Occur:
-- **before shipment** OR  
-- **during distributor intake**  
-
-Unactivated tags in the field are non-compliant.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 6 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 6.0 Exception Handling & Rejection Criteria
-
-Tags must be rejected immediately if:
-
-- serialization string is malformed  
-- UID cannot be read  
-- duplicate serial is detected  
-- checksum mismatch occurs  
-- encoding tool reports write failure  
-- tag is physically damaged  
-
-Rejected tags must be logged as **VOID** and never reused.
-
-Breweries must maintain a 3% buffer of backup tags for replacements.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 7 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 7.0 Recordkeeping & Audit Requirements
-
-Breweries must retain:
-
-- serialization logs  
-- encoding timestamps  
-- UID → serial mapping  
-- exception reports  
-- activation events  
-- shipping records  
-
-All records must be kept for **minimum 3 years** or longer if local regulations require.
-
-DraftVerify reserves the right to audit serialization practices at any time.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 8 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 8.0 Intellectual Property Notice
-
-The serialization schema, encoding workflow, tag placement, and digital identity rules are proprietary to DraftVerify™.
-
-Unauthorized reproduction or adaptation within:
-
-- brewery software  
-- RFID/NFC products  
-- third-party standards  
-- distributor systems  
-- POS or ERP systems  
-
-is strictly prohibited.
-
-© 2025 DraftVerify Standards Initiative. All rights reserved.
-
-  </div>
-</section>
+2. **Secondary Metadata (JSON Block)**  
+   ```json
+   {
+     "dv_version": "1.0",
+     "type": "keg",
+     "brewery": "BREWERYCODE",
+     "year": "YYYY",
+     "serial": "#####"
+   }
