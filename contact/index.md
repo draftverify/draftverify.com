@@ -1,155 +1,208 @@
 ---
-title: Contact
-description: Get in touch with DraftVerify to start verification, request training, or ask a question.
+title: Onboarding
+description: Start DraftVerify onboarding for venues, distributors, and breweries.
+permalink: /onboarding/
+layout: default
 ---
 
 <section class="section">
   <div class="container">
-    <div class="kicker">Contact</div>
-    <h2 class="h2">Talk to DraftVerify</h2>
-    <p>Tell us about your venue(s), beverage categories, and timelines. We’ll respond quickly with next steps.</p>
-
-    <div class="card" style="max-width:720px;margin:22px auto">
-      <h3>Email</h3>
-      <p><a class="btn primary" href="mailto:info@draftverify.com">info@draftverify.com</a></p>
-      <p>Include your venue name, city, number of taps, and any details about your current draft setup.</p>
-    </div>
+    <div class="kicker">Onboarding</div>
+    <h2 class="h2">Tell us about your draft program</h2>
+    <p>Share a few details about your organization, taps, and goals. We’ll review the info and follow up with next steps for DraftVerify deployment.</p>
 
     <div class="card" style="max-width:720px;margin:32px auto;padding:32px;">
-      <h3>Contact & Onboarding Form</h3>
+      <h3>DraftVerify Onboarding Form</h3>
 
-     <form action="https://formsubmit.co/info@draftverify.com" method="POST" class="dv-contact-form">
+      <form action="https://formsubmit.co/info@draftverify.com"
+            method="POST"
+            class="dv-contact-form">
 
-  <!-- Honeypot for spam protection -->
-  <input type="text" name="_honey" style="display:none">
+        <!-- Honeypot for spam protection -->
+        <input type="text" name="_honey" style="display:none">
 
-  <!-- Disable CAPTCHA -->
-  <input type="hidden" name="_captcha" value="false">
+        <!-- Disable CAPTCHA -->
+        <input type="hidden" name="_captcha" value="false">
 
-  <!-- Redirect to a thank-you page after submitting -->
-  <input type="hidden" name="_next" value="https://draftverify.com/thank-you">
+        <!-- Redirect to a thank-you page after submitting -->
+        <input type="hidden" name="_next" value="https://draftverify.com/thank-you">
 
-  <!-- Set a clear subject line for rules/automation -->
-  <input type="hidden" name="_subject" value="DraftVerify Contact – New submission">
+        <!-- Set a clear subject line for rules/automation -->
+        <input type="hidden" name="_subject" value="DraftVerify Onboarding – New submission">
 
-  <label>
-    Name<br>
-    <input type="text" name="name" required>
-  </label>
+        <!-- PROFILE -->
+        <h4>Profile</h4>
 
-  <label>
-    Email<br>
-    <input type="email" name="email" required>
-  </label>
+        <label>
+          Organization type<br>
+          <select name="role" required>
+            <option value="Restaurant / Bar / Venue" selected>Restaurant / Bar / Venue</option>
+            <option value="Distributor">Distributor</option>
+            <option value="Brewery">Brewery</option>
+          </select>
+        </label>
 
-  <label>
-    Phone (with country code)<br>
-    <input type="text" name="phone" placeholder="+1 647 555 1234">
-  </label>
+        <label>
+          Number of locations<br>
+          <input type="number" name="locations" min="1" placeholder="e.g. 1">
+        </label>
 
-  <label>
-    Venue / Company<br>
-    <input type="text" name="company" required>
-  </label>
+        <label>
+          Country<br>
+          <input type="text" name="country" placeholder="e.g. Canada" required>
+        </label>
 
-  <label>
-    Country<br>
-    <input type="text" name="country" required>
-  </label>
+        <!-- COMPANY & CONTACT -->
+        <h4>Company & contact</h4>
 
-  <label>
-    City / Region<br>
-    <input type="text" name="city" required>
-  </label>
+        <label>
+          Legal business name<br>
+          <input type="text" name="legal_business_name" placeholder="e.g. Norris Hospitality Inc." required>
+        </label>
 
-  <label>
-    Number of taps (total)<br>
-    <input type="text" name="taps" required>
-  </label>
+        <label>
+          Trading / public name<br>
+          <input type="text" name="trading_name" placeholder="e.g. Angel & Live Taproom">
+        </label>
 
-  <label>
-    Do you currently serve non-alcoholic draft?<br>
-    <select name="na_draft" required>
-      <option value="" disabled selected>Select one</option>
-      <option value="Yes">Yes</option>
-      <option value="No">No</option>
-      <option value="Planning to start">Planning to start</option>
-    </select>
-  </label>
+        <label>
+          Website<br>
+          <input type="url" name="website" placeholder="https://example.com">
+        </label>
 
-  <label>
-    What prompted your interest in DraftVerify?<br>
-    <select name="reason" required>
-      <option value="" disabled selected>Select one</option>
-      <option value="Prevent contamination">Prevent contamination</option>
-      <option value="Launch NA draft">Launch NA draft</option>
-      <option value="Brewery/distributor recommendation">Brewery/distributor recommendation</option>
-      <option value="Customer demand">Customer demand</option>
-      <option value="Staff training">Staff training</option>
-      <option value="Certification">Certification</option>
-      <option value="Other">Other</option>
-    </select>
-  </label>
+        <label>
+          Primary contact name<br>
+          <input type="text" name="contact_name" required>
+        </label>
 
-  <label>
-    Anything else you want to share?<br>
-    <textarea name="message" rows="4" placeholder="Tell us about your system, brands, or timelines..."></textarea>
-  </label>
+        <label>
+          Role / title<br>
+          <input type="text" name="contact_role" placeholder="e.g. General Manager">
+        </label>
 
-  <button type="submit" class="btn gold">Submit</button>
-</form>
+        <label>
+          Email<br>
+          <input type="email" name="email" required>
+        </label>
 
-    </div>
-  </div>
-</section>
+        <label>
+          Phone (with country code)<br>
+          <input type="text" name="phone" placeholder="+1 647 555 1234">
+        </label>
 
-<style>
-  .dv-contact-form {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-  }
+        <label>
+          Street address<br>
+          <input type="text" name="street" placeholder="123 Example Ave." required>
+        </label>
 
-  .dv-contact-form label {
-    font-weight: 600;
-    color: #0d3b66;
-    font-size: 15px;
-  }
+        <label>
+          City<br>
+          <input type="text" name="city" required>
+        </label>
 
-  .dv-contact-form input,
-  .dv-contact-form select,
-  .dv-contact-form textarea {
-    width: 100%;
-    margin-top: 6px;
-    padding: 11px 13px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    font-size: 15px;
-    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    box-sizing: border-box;
-  }
+        <label>
+          Province / State<br>
+          <input type="text" name="region">
+        </label>
 
-  .dv-contact-form textarea {
-    resize: vertical;
-    min-height: 100px;
-  }
+        <label>
+          Postal / ZIP code<br>
+          <input type="text" name="postal">
+        </label>
 
-  .dv-contact-form .btn.gold {
-    margin-top: 8px;
-    background: #BFA14A;
-    color: #fff;
-    padding: 13px 18px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    transition: background 0.2s ease, transform 0.05s ease;
-  }
+        <!-- DRAFT PROGRAM -->
+        <h4>Draft program</h4>
 
-  .dv-contact-form .btn.gold:hover {
-    background: #a98f40;
-    transform: translateY(-1px);
-  }
-</style>
+        <label>
+          Total taps on site<br>
+          <input type="number" name="total_taps" min="0" placeholder="e.g. 12">
+        </label>
+
+        <label>
+          Non-alcoholic taps today<br>
+          <input type="number" name="na_taps" min="0" placeholder="e.g. 2">
+        </label>
+
+        <label>
+          Estimated monthly NA draft volume (kegs/month)<br>
+          <input type="text" name="na_volume" placeholder="e.g. 4–6 kegs/month">
+        </label>
+
+        <label>
+          Current beer / NA suppliers<br>
+          <input type="text" name="suppliers" placeholder="e.g. Local brewery, Distributor X">
+        </label>
+
+        <label>
+          POS system<br>
+          <select name="pos_system">
+            <option value="" selected>Select POS</option>
+            <option>Square</option>
+            <option>Toast</option>
+            <option>Lightspeed</option>
+            <option>TouchBistro</option>
+            <option>Other</option>
+          </select>
+        </label>
+
+        <!-- Distributor-specific (optional) -->
+        <h4>Distributor details (if applicable)</h4>
+
+        <label>
+          Territories served<br>
+          <input type="text" name="territories" placeholder="e.g. ON, QC, MI">
+        </label>
+
+        <label>
+          On-premise accounts served (approx.)<br>
+          <input type="number" name="on_premise_accounts" min="0" placeholder="e.g. 120">
+        </label>
+
+        <label>
+          Annual draft volume<br>
+          <input type="text" name="annual_draft_volume" placeholder="e.g. 2,500 kegs/year">
+        </label>
+
+        <label>
+          Do you currently handle non-alcoholic draft?<br>
+          <select name="handles_na_draft">
+            <option value="" disabled selected>Select one</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Planning to add soon">Planning to add soon</option>
+          </select>
+        </label>
+
+        <!-- Brewery-specific (optional) -->
+        <h4>Brewery details (if applicable)</h4>
+
+        <label>
+          Annual production volume<br>
+          <input type="text" name="annual_production" placeholder="e.g. 5,000 hl/year">
+        </label>
+
+        <label>
+          Non-alcoholic share of production<br>
+          <input type="text" name="na_share" placeholder="e.g. 10% of total">
+        </label>
+
+        <label>
+          Draft formats (keg sizes)<br>
+          <input type="text" name="keg_formats" placeholder="e.g. 20L, 30L">
+        </label>
+
+        <label>
+          Number of NA draft accounts<br>
+          <input type="number" name="na_draft_accounts" min="0" placeholder="e.g. 18">
+        </label>
+
+        <!-- OPERATIONS & GOALS -->
+        <h4>Operations & goals</h4>
+
+        <label>
+          Who manages your draft lines?<br>
+          <select name="line_manager">
+            <option value="" selected>Select one</option>
+            <option>In-house team</option>
+            <option>Third-party draft service</option>
+            <option>Shared (brewery + venue)</opt
