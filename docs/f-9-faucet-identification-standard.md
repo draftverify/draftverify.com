@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "F-9 — Faucet Identification Standard"
-permalink: /docs/faucet-id/
-description: "The mandatory identification requirements for non-alcoholic draft faucets, including handle markers, tower cues, customer-facing indicators, and digital verification."
+permalink: /docs/faucet-identification-standard/
+description: "The global standard for identifying draft beverage faucets to ensure accuracy, consistency, and immediate clarity at the point of service."
 ---
 
 <section class="section">
@@ -15,248 +15,200 @@ Version: 1.0 · Publication Date: 2025-01-01 · Status: Active
 <br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-This standard defines the **mandatory identification system for non-alcoholic draft faucets** in DraftVerify-compliant venues.
+The Faucet Identification Standard defines the required practices for labeling draft faucets so that customers, bartenders, managers, and inspectors can quickly and reliably identify what is flowing from each tap.  
+This standard brings clarity to the **final point of service**, ensuring the beverage presented to the guest matches the keg, the line, and the verified coupler identity.
 
-The faucet is the **public-facing endpoint** of the NA identity chain.  
-Correct faucet identification ensures:
+Faucet identification supports:
+- Product accuracy  
+- Safety (especially for non-alcoholic draft)  
+- Brand integrity  
+- Simplified staff training  
+- Faster service with fewer errors  
 
-- customers know what they are being served  
-- staff can verify NA taps instantly  
-- auditors can confirm compliance without entering the cooler  
-- towers with mixed alcoholic and NA products remain unambiguous  
+This document complements the keg, coupler, and line standards (F-7 and F-8), completing the full identity chain.
 
-This is the final visual checkpoint before a beverage is served.
+---
 
-  </div>
-</section>
+## 1. Purpose
 
+The purpose of the Faucet Identification Standard is to establish an easy-to-read, highly consistent system that identifies the beverage served from each faucet through:
 
+- Clear visual labels  
+- Category color coding  
+- Optional DraftVerify marks  
+- Alignment with the line and coupler identifiers  
 
-<!-- SECTION 1 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+This ensures that the product a customer receives is always the product advertised.
 
-## 1.0 Purpose
+---
 
-The purpose of faucet identification is to:
+## 2. Scope
 
-- clearly distinguish NA taps from alcoholic taps  
-- prevent mis-pours at the final service point  
-- maintain visual consistency across venues  
-- provide customer assurance and transparency  
-- create a reliable endpoint for the digital verification chain  
+This standard applies to:
+- Bars  
+- Restaurants  
+- Breweries and taprooms  
+- Stadiums and arenas  
+- Multi-venue draft systems  
+- DraftVerify-certified operators  
 
-Faucet identification is a **mandatory requirement** for DraftVerify compliance.
+It covers:
+- Faucet labels  
+- Placement requirements  
+- Category color usage  
+- Optional visibility elements  
+- Compliance criteria  
 
-  </div>
-</section>
+This standard does **not** regulate the physical tap handle shape or branding. It defines the **identification layer**, not the mechanical hardware.
 
+---
 
+## 3. Components of the Faucet Identification System
 
-<!-- SECTION 2 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+### 3.1 Faucet Marker (Primary Identifier)
+A small visual identifier placed at or near the faucet dispensing point. It must display:
+- Product name  
+- Category color  
+- Optional style or sub-style  
 
-## 2.0 Required Identification Elements
+This marker provides **immediate clarity** for bartenders and guests.
 
-Every NA faucet must include **all** of the following:
+### 3.2 Tap Handle Branding (Optional)
+Breweries may provide branded handles, provided they:
+- Match the actual product on tap  
+- Do not contradict or obscure the faucet marker  
 
-### 2.1 NA Handle Band (Mandatory)
-A high-visibility NA Gold (#c7aa4a) band applied around the faucet handle.
+Tap handles are optional and separate from compliance.
 
-Requirements:
-- must wrap 360° around handle  
-- must remain visible during pouring  
-- must not interfere with handle movement  
-- must use DraftVerify-approved material  
-- must display the NA symbol or text (“NA” or “0.0%”)  
+### 3.3 Tower Label Row (Optional)
+For bars with large multi-tap towers:
+- A label strip or plate may be used  
+- Each faucet must still have its own clear product marker  
+- Layouts must match the real faucet order  
 
-### 2.2 Front-of-House Marker (Mandatory)
-A customer-facing marker must be present.
+---
 
-Approved types:
-- DraftVerify NA badge (adhesive plate)  
-- NA Gold clip-on shield  
-- integrated tap handle marker  
-- custom brewery NA handle with DraftVerify designation  
+## 4. Placement Requirements
 
-Must be:
-- visible from at least 2 meters  
-- placed above or beside the faucet  
-- readable in low-light environments  
+### 4.1 Primary Placement
+Faucet markers must be:
+- Placed directly on the faucet collar, tower face, or an equivalent location  
+- Clearly visible to bartenders and guests  
+- Positioned so that visibility is not obstructed by glassware, tap handles, or POS systems  
 
-### 2.3 Tower Identification Cue (Mandatory for Multi-Product Towers)
-If the tower includes alcoholic products:
+### 4.2 Orientation
+Markers must:
+- Face outward toward service  
+- Be aligned directly with the correct faucet  
+- Match the exact faucet position (left-to-right, top-to-bottom)  
 
-- tower must include a DraftVerify NA tower marker  
-- marker must be placed at eye height  
-- marker must be oriented toward customers and staff  
+### 4.3 Proximity to Service Point
+Faucet markers should be:
+- Within 5–15 cm of the faucet head  
+- Not placed so low that they are covered by drip trays or glass rinsers  
+- Not placed so high that they create confusion with adjacent taps  
 
-This prevents confusion when towers contain both NA and alcoholic taps.
+---
 
-### 2.4 NFC Faucet Tag (Optional)
-If used, the NFC faucet tag must:
+## 5. Identification Hierarchy
 
-- contain a unique UID  
-- resolve to the corresponding NA registry entry  
-- be placed on the faucet body or shank  
-- be invisible to customers but scannable by staff  
-- withstand cleaning chemicals and heat  
+Every faucet must match the chain of identity:
 
-Physical markers remain mandatory even when NFC is used.
+1. **Line Tag** (product running through line)  
+2. **Coupler Tag** (verified digital identity)  
+3. **Faucet Marker** (final service confirmation)  
 
-  </div>
-</section>
+If the faucet marker and the verified coupler identity do not match, the system is considered **non-compliant**.
 
+---
 
+## 6. Category Color Coding (Service-Side)
 
-<!-- SECTION 3 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+The faucet marker must follow the DraftVerify category color system:
 
-## 3.0 Placement Requirements
+| Category | Color | Requirement |
+|---------|--------|-------------|
+| Non-Alcoholic (NA) | Gold | Mandatory |
+| Alcoholic | Blue | Recommended |
+| Seasonal / Rotational | Teal | Optional |
+| House / Staff | Grey | Optional |
 
-### 3.1 Handle Band Placement
-The NA handle band must be:
+The faucet is the **customer-facing layer**, making category clarity essential.
 
-- placed on the **upper half** of the handle  
-- above any branding wrap  
-- installed straight, without twists  
-- added after any tap handle swap  
+---
 
-### 3.2 FOH Marker Placement
-The front-facing marker must be:
+## 7. Accessibility & Readability
 
-- aligned horizontally  
-- placed within 5 cm of the faucet head  
-- not blocked by other handles or tower features  
-- visible from the customer’s perspective  
+Faucet markers must be:
+- Large enough to be read from typical service distance  
+- High-contrast with clear typography  
+- Resistant to moisture, steam, cleaning chemicals, and abrasion  
+- Made from plastic, laminated paper, metal tags, or any durable material  
 
-### 3.3 Tower Marker Placement
-If required:
+Fonts do not need to be standardized, but readability is required.
 
-- tower marker must be on the front-facing surface  
-- placed at or above tap handle height  
-- not obstructed by POS materials  
+---
 
-### 3.4 NFC Placement
-If NFC is used:
+## 8. Roles & Responsibilities
 
-- place on fixed metal portions only  
-- avoid moving parts or lever arms  
-- do not place on areas scrubbed during cleaning  
-- ensure tag orientation supports reading through stainless steel (if applicable)  
+### 8.1 Breweries
+- Provide accurate faucet label information  
+- Ensure product names match keg and line assignments  
+- Provide category color if supplying branded materials  
 
-  </div>
-</section>
+### 8.2 Distributors
+- Ensure faucets match delivered product  
+- Report mismatches between kegs and faucet identity  
+- Support venues during line changes  
 
+### 8.3 Venues
+- Maintain accurate faucet labeling  
+- Update faucet markers immediately when products rotate  
+- Remove or replace outdated labels  
+- Ensure faucet markers match:
+  - The keg  
+  - The line tag  
+  - The coupler identity  
 
+---
 
-<!-- SECTION 4 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+## 9. Compliance Requirements
 
-## 4.0 Durability Requirements
+A venue is considered **F-9 compliant** when:
+- Every faucet has a correct and visible faucet marker  
+- NA products use gold category coloring  
+- The faucet marker, line tag, and coupler identity all match  
+- Markers are in correct left-to-right order  
+- Outdated labels are removed immediately  
+- Staff can identify any faucet within two seconds  
 
-Faucet identification must withstand:
+---
 
-- daily handling  
-- cleaning and chemical exposure  
-- heat from hot water rinsing  
-- condensation and cold crashes  
-- friction from tap handle operation  
-- customer contact  
+## 10. Rationale
 
-Approved materials include:
-- polymerized label stock  
-- molded plastic  
-- anodized aluminum markers  
-- high-visibility silicone bands  
+Correct faucet identification solves:
+- Wrong product being poured  
+- NA/alcoholic mix-ups  
+- Brand misrepresentation  
+- Staff confusion during busy hours  
+- Errors caused by rotating taps and new staff  
 
-All materials must maintain color, adhesive strength, and readability for **1 year**.
+The faucet is the last step in the chain — and the most visible one.
 
-  </div>
-</section>
+DraftVerify standardizes this final step to complete the entire identity system.
 
+---
 
+## 11. Summary
 
-<!-- SECTION 5 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+The Faucet Identification Standard ensures that every faucet:
+- Is clearly labeled  
+- Matches the keg and line identity  
+- Supports category clarity (especially NA)  
+- Provides instant service-side accuracy  
+- Strengthens brand trust and consumer safety  
 
-## 5.0 Brewery Responsibilities
+When combined with coupler verification (F-7) and line identification (F-8), this standard creates a complete, end-to-end identity system for modern draft beverage programs.
 
-Breweries may supply tap handles pre-marked with NA indicators.  
-Brewery responsibilities include:
-
-- providing NA handle art or wraps  
-- specifying the correct faucet identification requirements  
-- ensuring distributors and venues receive faucet ID documentation  
-- confirming that NA handles cannot be mistaken for alcoholic handles  
-
-Breweries may not ship NA products for draft service without required faucet ID instructions.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 6 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 6.0 Venue Responsibilities
-
-Venues must:
-
-- apply NA handle bands on *every* NA faucet  
-- maintain FOH markers in clean, readable condition  
-- confirm tower markers remain in place  
-- inspect faucet ID during keg changes  
-- replace missing or damaged identification immediately  
-- ensure cleaning crews do not remove or relocate markers  
-
-Failure to maintain faucet identification results in non-compliance with DraftVerify Standard v1.0.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 7 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 7.0 Prohibited Practices
-
-The following are not permitted:
-
-- handwritten labels  
-- alcoholic tap handles with NA stickers  
-- placing the NA band below the brand wrap  
-- covering NA markers with POS materials  
-- using tape, string, or improvised materials  
-- placing NA markers behind the faucet  
-- installing the band on moving parts  
-
-Any violation must be recorded as an **exception event**.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 8 -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 8.0 Intellectual Property & Copyright
-
-The faucet identification rules, visual lexicon, placement requirements, and marker architecture defined in this document are the proprietary intellectual property of DraftVerify™.
-
-Unauthorized use—including incorporation into external SOPs, manuals, or competing standards—is strictly prohibited.
-
-© 2025 DraftVerify Standards Initiative. All rights reserved.
-
-  </div>
+</div>
 </section>
