@@ -1,269 +1,272 @@
 ---
 layout: default
-title: "F-3 — Identity Architecture Overview"
+title: "F-3 — DraftVerify Identity Architecture (DIA)"
 permalink: /docs/identity-architecture/
-description: "A structural overview of the DraftVerify Identity Architecture — the unified physical and digital system that establishes, maintains, and verifies NA draft identity across all hardware and venues."
+description: "The hierarchical identity architecture governing all physical and digital components in DraftVerify non-alcoholic draft systems."
 ---
 
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
 <div class="kicker">DraftVerify Standards Library · F-3</div>
-# Identity Architecture Overview  
+# DraftVerify Identity Architecture (DIA)
 <p style="font-size:0.95rem;color:#6b7280;">
-Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
+Version: 1.0 · Status: Active · Publication Date: 2025-01-01  
 <br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-This document describes the **Identity Architecture (IA)** that underpins all DraftVerify identification, activation, and verification systems.  
-The IA defines *how non-alcoholic draft is recognized, separated, and validated* from **keg → coupler → line → faucet**, using both physical markers and digital traceability.
+The DraftVerify Identity Architecture (DIA) defines the **hierarchical identity system** used across all 
+non-alcoholic draft components — from product to faucet.  
+It ensures every component in the NA draft pathway can be **identified, verified, and traced** through a 
+common structured framework backed by the DraftVerify Registry.
+
+This document forms the technical foundation for the **entire standards library**.
 
   </div>
 </section>
 
-
-
-<!-- SECTION 1 — PURPOSE -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 1.0 Purpose of the Identity Architecture
+## 1. Purpose and Scope
 
-The Identity Architecture provides a unified framework that ensures:
+### 1.1 Purpose
+The DIA establishes:
 
-- NA draft is **immediately distinguishable** anywhere in the system  
-- every NA connection point carries a **durable physical marker**  
-- every physical marker corresponds to a **digital record**  
-- NA pathways remain **continuous and verifiable**  
-- cross-contact is **prevented, detected, or traced**  
+- a **consistent identity format** for all draft objects  
+- strict **parent → child hierarchical relationships**  
+- rules governing activation, state, lineage, and associations  
+- how identity transitions occur during kegging, transport, installation, and service  
+- how the DraftVerify Registry encodes, stores, and validates these relationships  
 
-The IA is the backbone of the DraftVerify Standard v1.0 and the foundation for all subsequent protocols.
+### 1.2 Scope
+The DIA applies to all objects governed by the DraftVerify Standard, including:
+
+- Products  
+- Batches  
+- Kegs  
+- Couplers  
+- Lines  
+- Towers  
+- Faucets  
+- Events and change logs  
+
+Any NA draft system using DraftVerify must adhere to this architecture.
 
   </div>
 </section>
 
-
-
-<!-- SECTION 2 — STRUCTURE -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 2.0 Architecture Structure
+## 2. Hierarchical Identity Model
 
-The Identity Architecture consists of **four interconnected layers**:
+The DraftVerify identity chain follows a **top-down lineage structure**:
 
-### **Layer 1 — Physical Markers (Required)**
-Mandatory visual identifiers applied to all NA draft hardware:
+```
+Product → Batch → Keg → Coupler → Line → Faucet
+```
 
-- **Keg Collars**  
-- **Coupler Tags (NFC-enabled)**  
-- **Line Identification Tags**  
-- **Faucet Markers / Bands**  
+Each level inherits constraints from the level above it.  
+Each child entity **cannot exist independently** and must reference its parent.
 
-These define the *visible identity path* for staff and operators.
+### 2.1 Parent/Child Rules
+A child object must:
 
----
+- reference exactly one parent  
+- inherit identity constraints defined at that level  
+- maintain referential integrity in the Registry  
+- be invalid if parent status is invalid  
 
-### **Layer 2 — Serialized Tag Numbers (STNs)**
-Every physical tag contains a globally unique STN:
+### 2.2 Why Hierarchy is Mandatory
+Hierarchy ensures:
 
-**DV-SITE-YEAR-#####**
+- traceable chain-of-custody  
+- clean contamination control logic  
+- auditable activation workflows  
+- digital matching between physical components  
 
-This enables:
-
-- machine-readable identity  
-- human-readable confirmation  
-- digital tie-in to the registry  
-- cross-location traceability  
-
----
-
-### **Layer 3 — Digital Activation Layer**
-The non-negotiable digital enforcement layer.
-
-A tag is only valid when activated in the **DraftVerify Registry**, which stores:
-
-- keg identity  
-- coupler assignment  
-- line assignment  
-- faucet assignment  
-- activation date  
-- verification logs  
-- change logs  
-- cleaning cycles  
-
-Physical tags **without** digital activation are **not compliant**.
-
----
-
-### **Layer 4 — Verification & Continuity**
-Operational processes and logs ensure ongoing alignment between:
-
-- the physical system (tags)  
-- the digital system (registry)  
-- the real-world system (operations)  
-
-This is the “proof of continuity” that ensures the NA pathway has not been compromised.
+This structure also forms a strong IP moat because the identity logic is unique, detailed, and difficult to reproduce without infringing the architecture.
 
   </div>
 </section>
 
-
-
-<!-- SECTION 3 — IDENTITY CHAIN -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 3.0 The Identity Chain: Keg → Coupler → Line → Faucet
+## 3. Identity Format and Serialization
 
-The Identity Architecture forms a **single unbroken chain**:
+Each object follows a structured identity format:
 
-### **3.1 Keg Identity**
-Begins when a keg is tagged at the brewery using:
+### 3.1 General Format
+```
+DV-<OBJECT>-<YEAR>-<SITE/BREWERY>-<SERIAL>
+```
 
-- DraftVerify NA Keg Collar  
-- Brewery-encoded STN  
-- (optional early activation)  
+### 3.2 Object Code List
 
-### **3.2 Coupler Identity**
-Coupler tags maintain continuity when the keg is tapped.
+| Object | Code | Example |
+|--------|------|---------|
+| Product | PROD | DV-PROD-2025-HOPCO-0001 |
+| Batch | BATCH | DV-BATCH-2025-HOPCO-0194 |
+| Keg | KEG | DV-KEG-2025-HOPCO-00412 |
+| Coupler | CPL | DV-CPL-2025-HOPCO-00412-A |
+| Line | LINE | DV-LINE-2025-HOPCO-L01 |
+| Tower | TWR | DV-TWR-2025-HOPCO-02 |
+| Faucet | FCT | DV-FCT-2025-HOPCO-F01 |
 
-The coupler tag serves as:
+### 3.3 Serialization Rules
 
-- the junction between keg and line  
-- the required NFC activation point  
-- the operator’s real-time identity confirmation  
+- Serial numbers must be **zero-padded**  
+- Serialization must be **monotonic** (no reuse)  
+- Brewery/Site code must be 3–6 characters  
+- Year is the year of original creation  
 
-### **3.3 Line Identity**
-Line tags maintain identity through the entire routing, including:
-
-- cooler  
-- trunk line  
-- chiller  
-- tower  
-
-Spacing rules ensure tags remain visible at key points.
-
-### **3.4 Faucet Identity**
-The final point of confirmation for both staff and guests.
-
-Faucet markers or bands:
-
-- confirm NA status at the moment of pour  
-- prevent accidental mis-serves  
-- complete the identity chain  
-
-If any point in this chain is missing or mismatched, the system enters **Identity Lockout**.
+If any element fails validation, the identity is invalid.
 
   </div>
 </section>
 
-
-
-<!-- SECTION 4 — DIGITAL RELATIONSHIPS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 4.0 Digital Architecture & Relationships
+## 4. Identity Binding Rules
 
-Each STN is digitally linked to a structured set of fields in the Registry:
+Identity binding refers to the required links between objects.
 
-- **hardware_type** (keg, coupler, line, faucet)  
-- **location** (site code)  
-- **activation_status**  
-- **paired_tags** (previous/next in the chain)  
-- **verification_records**  
-- **cleaning_records**  
-- **change_records**  
+### 4.1 Mandatory Bindings
+- A **Batch** must link to one Product  
+- A **Keg** must link to one Batch  
+- A **Coupler** must link to one Keg  
+- A **Line** must link to one Coupler  
+- A **Faucet** must link to one Line  
 
-The architecture ensures that:
+### 4.2 Binding Constraints
+Bindings must:
 
-- identity flows in one direction  
-- each tag knows its neighbors  
-- audit trails form automatically  
-- mis-alignment triggers alerts  
+- follow parent → child hierarchy  
+- remain intact unless a controlled change is executed  
+- be logged as a **Change Event** when modified  
+- be reflected immediately in the Registry  
 
-This creates **strong digital proof** of NA draft integrity.
+### 4.3 Invalid Binding Conditions
+A binding is invalid if:
+
+- the parent object is inactive  
+- the parent identity is corrupted  
+- the object is unverified  
+- the hierarchy is broken at any point  
+
+Invalid bindings force a **system lockout** until corrected.
 
   </div>
 </section>
 
-
-
-<!-- SECTION 5 — IDENTITY FAILURE MODES -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 5.0 Identity Failure Modes
+## 5. Identity States and Transitions
 
-Identity failures occur when:
+Every object in the hierarchy follows a controlled state machine.
 
-1. **Missing Tag**  
-   A hardware point is unmarked.
+### 5.1 Allowed States
+- **Created**  
+- **Serialized**  
+- **Activated**  
+- **In Service**  
+- **Suspended**  
+- **Retired**  
 
-2. **Incorrect Tag**  
-   A tag is present but in the wrong location.
+### 5.2 Trigger Events
+Example transitions:
 
-3. **Unactivated Tag**  
-   Physical tag exists but is not activated in the registry.
+- Serialization → Created → Serialized  
+- Activation → Serialized → Activated  
+- Installation → Activated → In Service  
+- Mis-Serve → In Service → Suspended  
+- Decommissioning → Suspended → Retired  
 
-4. **Broken Chain**  
-   Digital linkage between keg → coupler → line → faucet is incomplete.
+Each state change creates a **state event record**.
 
-5. **Cross-Contact**  
-   The NA pathway is compromised by alcohol.
+### 5.3 Immutable History
+Once recorded:
 
-Any failure triggers **Identity Lockout** until corrected.
+- no state may be deleted  
+- no state may be overwritten  
+- corrections require a formal Correction Event  
+
+This is essential for audit integrity.
 
   </div>
 </section>
 
-
-
-<!-- SECTION 6 — GOVERNANCE -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 6.0 Governance & Document Authority
+## 6. Digital Registry Requirements
 
-This document sits under the **F-Series (Foundation)** and governs all ID-Series documents:
+The DraftVerify Registry must maintain:
 
-- ID-1 Keg Identification Standard  
-- ID-2 Coupler Tag Standard  
-- ID-3 Line Identification Standard  
-- ID-4 Faucet Identification Standard  
-- ID-5 Visual Lexicon  
+- complete identity records  
+- binding and lineage relationships  
+- state history  
+- activation metadata  
+- event logs  
+- rejection logs  
+- cross-check integrity validation  
 
-In the event of conflict:
+Registry data forms the authoritative record for compliance, certification, and incident reconstruction.
 
-**F-3 overrides all ID-series documents.**
+### 6.1 Integrity Checks
+The Registry must automatically validate:
+
+- identity format  
+- parent/child binding  
+- state legality  
+- activation consistency  
+- uniqueness  
+
+Any conflict forces an error and requires human review.
 
   </div>
 </section>
 
-
-
-<!-- SECTION 7 — COPYRIGHT -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 7.0 Copyright & Intellectual Property
+## 7. Physical ↔ Digital Correspondence
 
-All identity architecture concepts, tag structures, nomenclature, visual systems, and digital relationships described in this document are **protected intellectual property** of the DraftVerify Standards Initiative.
+The DIA requires that:
 
-Use in:
+- **every physical tag** must have a **digital counterpart**  
+- **every digital record** must correspond to a **physical component**  
 
-- competing standards  
-- derivative frameworks  
-- training systems  
-- commercial certifications  
+If a physical component exists without a matching digital identity, the system is **non-compliant**.
 
-is strictly prohibited.
+If a digital identity exists without a matching physical component, activation is blocked.
 
-<br>
+  </div>
+</section>
 
-For permissions:  
-📧 **legal@draftverify.com**
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 8. Identity Protection and IP Notice
+
+All identity structures, serialization schemas, lineage rules, state machines, and architectural models 
+defined by the DIA are the intellectual property of the DraftVerify™ Standards Initiative.
+
+They may not be:
+
+- reproduced  
+- adapted  
+- repurposed  
+- restructured  
+- reverse-engineered  
+
+without written permission.
+
+Violation constitutes the creation of an unauthorized derivative standard.
 
 © 2025 DraftVerify™ Standards Initiative. All rights reserved.
 
