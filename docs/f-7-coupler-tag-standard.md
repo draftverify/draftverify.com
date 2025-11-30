@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "F-7 — Coupler Tag Standard"
-permalink: /docs/f-7-coupler-tag-standard/
-description: "Mandatory DraftVerify Standard for the design, placement, durability, and serialized digital identity requirements of coupler-mounted non-alcoholic draft identification tags."
+permalink: /docs/coupler-tag-standard/
+description: "The global standard for NFC-enabled coupler tagging, ensuring accurate product identification at the exact moment a keg is connected."
 ---
 
 <section class="section">
@@ -15,310 +15,150 @@ Version: 1.0 · Publication Date: 2025-01-01 · Status: Active
 <br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-The coupler tag is the **final control point** in the DraftVerify identity chain and the tag that staff interact with at the **moment of greatest risk** — keg changeover.
+The coupler is the single most important interaction point in the entire draft workflow.  
+The **Coupler Tag** provides a permanent, verifiable, cryptographically-unique identity at the exact moment a keg is connected — ensuring that what’s about to be tapped is truly what it claims to be.  
+This matters most for **non-alcoholic (NA)** draft, where mis-taps pose safety, regulatory, and reputational risks.
 
-This document defines the **mandatory requirements** for coupler tag design, placement, serialization, digital identity, durability, and compliance under the DraftVerify Standard v1.0.
+---
 
-  </div>
-</section>
+## 1. Purpose
 
+The Coupler Tag Standard establishes:
 
+- A **tamper-resistant digital identity point**  
+- A way to confirm product identity *before* tapping  
+- A consistent tagging method across breweries, distributors, and venues  
+- A verification process that takes **less than 2 seconds**  
+- An audit trail proving correct tapping procedures  
 
-<!-- SECTION 1 — PURPOSE -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+The goal is **certainty at the point of connection**.
 
-## 1.0 Purpose
+---
 
-The coupler tag ensures that:
+## 2. Scope
 
-- non-alcoholic identity is visible at the exact point of keg connection  
-- staff are prevented from accidentally connecting an alcoholic keg to an NA line  
-- the digital DraftVerify Registry identity matches the physical keg in use  
-- chain-of-custody and activation begin at the keg engagement point  
-- mis-serve and cross-contact risk are reduced to near-zero  
+This standard applies to:
 
-Coupler tags are **mandatory** for all NA kegs in DraftVerify-compliant service.
+- Breweries producing NA draft  
+- Distributors delivering NA kegs  
+- Venues serving NA products on tap  
+- Any DraftVerify-certified operator  
 
-  </div>
-</section>
+Optional (recommended):
 
+- Alcoholic products requiring brand protection, loss-prevention, or identity tracking
 
+This standard defines:
 
-<!-- SECTION 2 — APPROVED TAG TYPES -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+- Tag hardware  
+- NFC programming  
+- URL structure  
+- Registry mapping  
+- Physical placement  
+- Verification workflow  
+- Minimum compliance requirements  
 
-## 2.0 Approved Coupler Tag Types
+## 6. Programming & Assignment
 
-DraftVerify authorizes two coupler tag categories:
+### 6.1 Centralized Programming (Version 1.0 Standard)
+For this release of the DraftVerify Standard:
+- All coupler tags are programmed by DraftVerify prior to shipment.  
+- Tags arrive in clearly labeled product-specific bags.  
+- Breweries simply apply the correct tags to the correct non-alcoholic kegs.
 
-### 2.1 NFC-Enabled Coupler Tag (Primary Standard)
+This eliminates technical friction and ensures accuracy.
 
-The NFC-enabled tag is the **preferred and default** implementation.
+### 6.2 Product Lock-In
+Once a coupler tag is assigned to a product:
+- It may not be reassigned to another product.  
+- It may not be reused.  
+- Damaged tags must be retired and replaced, not reprogrammed.
 
-It must:
+### 6.3 Optional Future Brewery-Side Programming
+Future versions may introduce:
+- A DraftVerify programming app  
+- On-site programming hardware  
+- Bulk programming workflows  
 
-- contain an NFC NTAG (213 / 215 / 216 or approved equivalent)  
-- be encoded with a **globally unique DraftVerify digital identity**  
-- follow all encoding rules in **F-12 — Brewery NFC Tag Serialization SOP**  
-- include DraftVerify non-alcoholic (NA) banding and insignia  
-- be physically readable and scannable at the keg coupler location  
+These remain outside the scope of Version 1.0.
 
-### 2.2 Non-NFC Physical Coupler Tag (Fallback)
+---
 
-Used only when:
+## 7. Verification Workflow
 
-- NFC is temporarily unavailable, or  
-- a distributor or venue is in transition toward full NFC compliance  
+### Step 1 — Visual Check
+Staff sees the coupler with a DraftVerify tag attached before tapping.
 
-It must:
+### Step 2 — NFC Scan
+Before the coupler is connected:
+- Staff taps the tag using any NFC-enabled phone.  
+- The phone opens a verification page through the tag’s encoded URL.
 
-- display the serialized DraftVerify Tag ID in human-readable form  
-- include DraftVerify NA color banding  
-- be tamper-resistant once applied  
+### Step 3 — Confirmation
+The verification page displays:
+- Brewery name  
+- Product identity  
+- Category (non-alcoholic clearly highlighted)  
+- Style details  
+- Tag status (must be active)  
 
-Fallback tags must be logged and replaced with NFC-enabled tags at the earliest feasible opportunity.
+### Step 4 — Connection
+Once confirmed, staff attach the coupler and prepare the keg for service.
 
-  </div>
-</section>
+### Step 5 — Logging
+The scan is recorded in the DraftVerify Registry, including:
+- Tag identifier  
+- Timestamp  
+- High-level venue reference (where enabled)  
 
+These logs support audits, investigations, and responsible draft handling.
 
+---
 
-<!-- SECTION 3 — DIGITAL IDENTITY & ENCODING -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+## 8. Roles & Responsibilities
 
-## 3.0 Digital Identity & Encoding Requirements
+### 8.1 Breweries
+- Apply coupler tags to all non-alcoholic kegs.  
+- Use correct tags for correct products.  
+- Report damaged or missing tags for retirement.
 
-For NFC-enabled coupler tags, the following requirements apply.
+### 8.2 Distributors
+- Ensure tagged kegs remain intact during transport.  
+- Avoid covering or damaging coupler tags.  
+- Report mismatches or missing tags to breweries or DraftVerify.
 
-### 3.1 Identity Schema
+### 8.3 Venues
+- Scan before connecting new kegs.  
+- Do not remove or cover coupler tags.  
+- Maintain visibility and cleanliness of the coupler area.  
+- Report suspicious or incorrect scan results.
 
-Each tag must encode the official DraftVerify identity string:
+---
 
-DV-KG-YYYY-BREWERYCODE-#####
+## 9. Compliance Requirements
 
-Where:
+A venue is considered compliant with F-7 when:
+- All non-alcoholic kegs have a DraftVerify coupler tag.  
+- Tags are scannable at the moment of connection.  
+- Staff verify identity before attaching the coupler.  
+- Tags remain intact, visible, and unobstructed.  
+- Missing or damaged tags are replaced promptly.
 
-- DV = DraftVerify system prefix  
-- KG = object class (keg / coupler identity)  
-- YYYY = year of serialization  
-- BREWERYCODE = 3–6 character brewery identifier  
-- ##### = zero-padded sequential serial number  
+Alcoholic products may optionally use coupler tags for brand protection, but non-alcoholic products are the mandatory category.
 
-The full schema is defined in F-12.
+---
 
-### 3.2 NDEF Primary Record
+## 10. Summary
 
-The primary NDEF record must contain the identity string exactly as defined above.
+The coupler tag is the **primary digital identity point** in the DraftVerify ecosystem.  
+By standardizing placement, programming, and verification, DraftVerify provides a fast, reliable, and secure method for confirming keg identity at the exact moment it matters.
 
-### 3.3 JSON Metadata Record
+The result:
+- Clearer workflows  
+- Safer service  
+- Fewer errors  
+- Stronger brand protection  
+- Documented accountability across the entire draft system  
 
-A secondary record (text or JSON) must store the following fields:
-
-- dv_version  
-- object (set to “coupler”)  
-- brewery (BREWERYCODE)  
-- year (YYYY)  
-- serial (#####)  
-
-### 3.4 Optional URL Pointer
-
-If used, the URL pointer must follow the format:
-
-https://registry.draftverify.com/keg/DV-KG-YYYY-BREWERYCODE-#####
-
-### 3.5 Tag Locking
-
-After encoding, all NFC coupler tags must:
-
-- be write-locked  
-- apply password protection if supported  
-- be verified using a DraftVerify-approved encoder  
-
-Unsecured or partially encoded tags are **not valid** under this Standard.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 4 — VISUAL REQUIREMENTS -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 4.0 Visual Design Requirements
-
-Coupler tags must clearly indicate non-alcoholic identity.
-
-### 4.1 Color System
-
-Tags must use the DraftVerify NA color system:
-
-- NA Gold Band (primary program), or  
-- NA Blue Band (alternate program, if applicable)  
-
-The band must be:
-
-- continuous around the visible edge or face  
-- non-reflective  
-- minimum 16 mm in height where space allows  
-
-### 4.2 Typography
-
-Printed text must:
-
-- use a bold sans-serif typeface  
-- be at least 7 mm in height for NA statements  
-- use uppercase for critical wording  
-
-### 4.3 Required Printed Elements
-
-Each coupler tag must display:
-
-- the serialized DraftVerify ID (or shortened human-readable form if space-limited)  
-- “NON-ALCOHOLIC DRAFT” or “NA DRAFT”  
-- the DraftVerify insignia or approved mark  
-
-No brewery may alter or substitute these required elements.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 5 — PLACEMENT REQUIREMENTS -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 5.0 Placement Requirements
-
-The coupler tag must be installed:
-
-- directly adjacent to the keg spear / coupler flange  
-- in a position visible to staff **as they attach the coupler**  
-- not obstructed by gas lines, safety locks, or other hardware  
-- within approximately 25 mm of the engagement point, where feasible  
-
-The purpose of this location is to ensure that **no staff member can connect a keg without seeing the NA identifier**.
-
-Incorrect placement is a non-compliance condition.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 6 — DURABILITY REQUIREMENTS -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 6.0 Durability Requirements
-
-Coupler tags must withstand:
-
-- condensation and moisture  
-- cold storage temperatures  
-- routine handling during keg rotation  
-- contact with sanitizers and cleaning chemicals  
-- vibration and impact during transport  
-
-Minimum functional durability: **90 days** under typical cold-chain conditions.
-
-Damaged or unreadable tags must be replaced before the keg re-enters service.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 7 — VERIFICATION & CHAIN-OF-CUSTODY -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 7.0 Verification & Chain-of-Custody
-
-At the point of keg connection, staff must:
-
-- confirm the presence of a coupler tag  
-- visually verify that the tag indicates NA draft  
-- ensure the serialized ID matches the intended line identity  
-- confirm that the tag is in an Active state in the DraftVerify Registry  
-
-Distributors must:
-
-- verify alignment between lot, product, and tag identity  
-- ensure NA-only segregation in storage and transport  
-- report any inconsistencies or damaged tags  
-
-Failure to perform these checks removes the system from DraftVerify compliance.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 8 — NON-COMPLIANCE CONDITIONS -->
-<section class="section">
-  <div className="container" style="max-width:820px" markdown="1">
-
-## 8.0 Non-Compliance Conditions
-
-A keg is **not** DraftVerify-compliant if its coupler tag is:
-
-- missing  
-- damaged or illegible  
-- incorrectly placed or rotated out of sight  
-- not encoded using the DraftVerify identity schema  
-- not write-locked or otherwise secure  
-- not activated in the DraftVerify Registry  
-- mismatched to the product or line configuration  
-
-Such kegs must not be connected to any NA draft line.
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 9 — RELATED DOCUMENTS -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 9.0 Related Standards
-
-This document must be applied together with:
-
-- **F-6 — Keg Identification Standard**  
-- **F-8 — Beer Line Identification Standard**  
-- **F-12 — Brewery NFC Tag Serialization SOP**  
-- **F-13 — Brewery Activation Workflow**  
-- **F-18 — Venue Setup & Verification Protocol**
-
-  </div>
-</section>
-
-
-
-<!-- SECTION 10 — COPYRIGHT -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 10.0 Copyright & Intellectual Property
-
-All coupler tag specifications, visual systems, placement rules, and digital identity models in this document are the protected intellectual property of the **DraftVerify™ Standards Initiative**.
-
-Use in:
-
-- derivative or competing standards  
-- commercial certification frameworks  
-- inspection or audit programs  
-- training or education materials  
-
-is prohibited without prior written authorization.
-
-© 2025 DraftVerify™ Standards Initiative. All rights reserved.
-
-  </div>
+</div>
 </section>
