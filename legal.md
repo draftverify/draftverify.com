@@ -4,40 +4,107 @@ layout: default
 permalink: /legal/
 ---
 
-# Legal Notice
+# Legal Notice  
+© 2025 DraftVerify™ Standards Initiative — All Rights Reserved.
 
-DraftVerify™ and its associated logo, marks, and materials are protected under international trademark and copyright law.  
-All references to DraftVerify standards, identifiers, and training materials must include proper attribution. Unauthorized reproduction, modification, or distribution of DraftVerify materials is strictly prohibited.
+DraftVerify™ owns and controls all intellectual property contained within this website and the DraftVerify Standards Library, including but not limited to: written standards, training materials, workflow descriptions, diagrams, terminology, naming conventions, identity architectures, verification protocols, and all associated documents, imagery, and digital assets.
 
----
+No part of DraftVerify materials may be copied, reproduced, republished, mirrored, adapted, distributed, or translated — in whole or in part — without prior written authorization from the DraftVerify Standards Initiative.
 
-## Disclaimer of Liability and Scope of Use
-
-DraftVerify™ is an independent standards and education initiative designed to promote best practices for the safe handling, identification, and verification of non-alcoholic draft systems.
-
-The information, procedures, and materials provided by DraftVerify — including, but not limited to, the DraftVerify Standard, visual identifiers, training modules, and certification references — are offered **solely as voluntary industry guidelines**.  
-DraftVerify does **not** represent or function as a government agency, regulatory authority, or inspection service, and **does not replace** any applicable local, provincial, federal, or international beverage, health, or sanitation regulation.
-
-Implementation of the DraftVerify Standard is **voluntary and self-directed**. Operators, breweries, distributors, and technicians remain fully responsible for ensuring compliance with all relevant safety, hygiene, and labeling requirements within their respective jurisdictions.
-
-By accessing or using DraftVerify materials, the user acknowledges and agrees that all content is provided “as-is,” without warranties of any kind, expressed or implied.  
-DraftVerify™, its founders, affiliates, and contributors **assume no liability** for any direct, indirect, incidental, or consequential damages arising from the use, misuse, or reliance upon any information or material provided.
+Unauthorized use constitutes copyright infringement and may result in legal action.
 
 ---
 
-## Intellectual Property
+## Intellectual Property Rights
 
-All DraftVerify™ names, logos, documents, images, and associated materials are the intellectual property of the DraftVerify Standards Initiative.  
-References to external standards (including DIN, ISO, NSF, or others) are provided **for informational alignment only** and do not imply endorsement, certification, or affiliation.
+The following are the protected intellectual properties of DraftVerify™:
 
-Use of the DraftVerify name or visual identifiers for promotional, commercial, or certification purposes requires prior written authorization from the DraftVerify Standards Initiative.
+- The DraftVerify Standard (all versions)  
+- The Draft Identity Architecture (DIA)  
+- Verification Protocols (VP series)  
+- Brewery, Distributor, and Venue SOPs (B-, D-, V-series)  
+- Compliance and Audit materials (A-series)  
+- All diagrams, workflow maps, and identity chain descriptions  
+- All terminology, including but not limited to:  
+  **Draft Identity Architecture**, **Verification Event**,  
+  **Identity Lockout**, **Coupler Identity Tag**,  
+  **Verified Pour**, **NA Draft Integrity Zone**,  
+  and all other coined terms unique to DraftVerify  
+- The DraftVerify logo, marks, tags, badges, and visual identifiers  
+- All proprietary tag placement rules and identity-layer definitions  
+- The DraftVerify Registry interaction descriptions and data models  
+
+These materials are protected under applicable national and international copyright and trademark laws.
+
+Any attempt to create derivative standards, documentation, or systems based on DraftVerify materials — including rewritten versions, AI-generated adaptations, or structural clones — is expressly prohibited.
+
+DraftVerify reserves all rights to pursue civil or criminal remedies for infringement.
+
+---
+
+## Permitted Use
+
+DraftVerify materials may be accessed **for reference, education, and voluntary adoption only**.
+
+The following actions are permitted **only with prior written approval**:
+
+- Commercial use of DraftVerify names, marks, or identifiers  
+- Use of DraftVerify materials in corporate training or certification programs  
+- Adaptation of DraftVerify standards into internal documentation  
+- Reproduction of any diagrams, protocols, or workflow structures  
+- Public representation of DraftVerify affiliation or compliance  
+
+DraftVerify certification, recognition, and use of DraftVerify badges or marks **must not be implied** without written authorization.
+
+---
+
+## Disclaimer of Liability
+
+DraftVerify™ is an independent standards and education initiative.  
+DraftVerify:
+
+- is **not** a government body  
+- is **not** a regulatory authority  
+- is **not** an inspection or enforcement agency  
+- does **not** replace any local, provincial, federal, or international law, regulation, or ordinance  
+
+Implementation of the DraftVerify Standard is **voluntary** and **self-guided**.  
+Breweries, distributors, venues, and technicians remain solely responsible for:
+
+- compliance with all applicable laws  
+- ensuring food safety and sanitation  
+- operating draft systems safely and correctly  
+- meeting all statutory and regulatory obligations  
+- verifying local requirements for alcoholic and non-alcoholic beverages  
+
+All DraftVerify materials are provided **“as-is”**, without warranties of any kind, express or implied.  
+DraftVerify™, its founders, contributors, and affiliates assume **no liability** for any damages, losses, contamination events, mis-serve incidents, or operational failures arising from use, misuse, or reliance upon DraftVerify documentation.
+
+---
+
+## Enforcement
+
+DraftVerify aggressively protects its intellectual property.  
+This includes, but is not limited to:
+
+- DMCA takedown requests  
+- cease-and-desist notices  
+- removal demands to hosting providers, platforms, and publishers  
+- civil claims for statutory damages, legal fees, and injunctive relief  
+
+If you believe DraftVerify materials are being used without authorization, please contact:
+
+📩 **legal@draftverify.com**
 
 ---
 
 ## Contact
 
-For permissions, trademark inquiries, or legal correspondence:  
-📩 **legal@draftverify.com**  
-🌐 [https://www.draftverify.com](https://www.draftverify.com)
+For licensing, permissions, legal correspondence, or IP inquiries:
 
-© 2025 DraftVerify Standards Initiative. All rights reserved.
+**DraftVerify Standards Initiative**  
+📧 legal@draftverify.com  
+🌐 https://www.draftverify.com
+
+© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+
