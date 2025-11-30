@@ -42,78 +42,240 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   </div>
 </section>
 
-<!-- FULL STANDARDS LIBRARY -->
+<!-- FULL STANDARDS LIBRARY (40 DOCUMENTS) -->
 <section class="section" id="standards-library" style="background:#f7f9fc;">
   <div class="container">
     <div class="kicker center">DraftVerify Standards Library</div>
-    <h2 class="h2 center">All Published Documents & Protocols</h2>
+    <h2 class="h2 center">The Complete 40-Document Standards System</h2>
 
     <p style="max-width:820px;margin:0 auto 26px;text-align:center;">
-      The following documents form the complete DraftVerify Standards Library — the official 
-      framework for non-alcoholic draft identification, separation, and verification.  
-      Each document is protected under international copyright and may not be reproduced without permission.
+      The DraftVerify Standards Library is the most comprehensive body of knowledge ever published on 
+      non-alcoholic draft systems.  
+      These 40 documents define the full physical, digital, operational, legal, and verification framework for 
+      identifying, separating, and managing NA draft in any venue, brewery, or distribution network.
+      All documents are protected under international copyright.
     </p>
 
-    <div class="grid cols-2" style="max-width:860px;margin:0 auto;gap:24px;">
+    <div class="grid cols-2" style="max-width:960px;margin:0 auto;gap:24px;">
+      
+      <!-- FOUNDATION SERIES -->
       <div class="card">
         <h3>1. DraftVerify Standard v1.0</h3>
-        <p>The core standard defining NA draft identification, separation, and verification requirements.</p>
+        <p>The core global standard.</p>
         <a href="/docs/standard-v1/" class="btn small primary">Open</a>
       </div>
-
       <div class="card">
-        <h3>2. NA Draft Identification Guide</h3>
-        <p>Keg collars, coupler tags, line identifiers, faucet markers, and the full identity chain.</p>
-        <a href="/docs/identification-guide/" class="btn small primary">Open</a>
+        <h3>2. Definitions, Scope & Terminology</h3>
+        <p>The complete glossary for all DraftVerify terms.</p>
+        <a href="/docs/definitions/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>3. Identity Architecture Overview</h3>
+        <p>The non-alcoholic draft identity chain structure.</p>
+        <a href="/docs/identity-architecture/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>4. NA Draft Risk Profile & Rationale</h3>
+        <p>Why NA draft requires its own verification standard.</p>
+        <a href="/docs/risk-profile/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>5. Legal & Compliance Basis for NA Separation</h3>
+        <p>The legal justification for isolating NA lines.</p>
+        <a href="/docs/legal-basis/" class="btn small primary">Open</a>
       </div>
 
+      <!-- IDENTIFICATION SERIES -->
       <div class="card">
-        <h3>3. Brewery Implementation Guide</h3>
-        <p>How breweries prepare, tag, serialize, and activate NA kegs before distribution.</p>
+        <h3>6. Keg Identification Standard</h3>
+        <p>Collars, placement, artwork, and durability requirements.</p>
+        <a href="/docs/keg-id/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>7. Coupler Tag Standard</h3>
+        <p>Coupler tagging, placement, NFC encoding, and use.</p>
+        <a href="/docs/coupler-tags/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>8. Beer Line Identification Standard</h3>
+        <p>Line tags, spacing, visibility, and routing conventions.</p>
+        <a href="/docs/line-id/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>9. Faucet Identification Standard</h3>
+        <p>Handle banding, faucet markers, and front-of-house cues.</p>
+        <a href="/docs/faucet-id/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>10. Visual Lexicon: Colors, Shapes, Symbols</h3>
+        <p>The unified identification language for NA draft.</p>
+        <a href="/docs/visual-lexicon/" class="btn small primary">Open</a>
+      </div>
+
+      <!-- BREWERY SERIES -->
+      <div class="card">
+        <h3>11. Brewery Implementation Guide</h3>
+        <p>How breweries prepare, tag, and ship NA kegs.</p>
         <a href="/docs/brewery-implementation/" class="btn small primary">Open</a>
       </div>
-
       <div class="card">
-        <h3>4. Distributor Protocol (D-Series)</h3>
-        <p>Transport, storage, activation, verification, and chain-of-custody requirements.</p>
+        <h3>12. Brewery NFC Tag Serialization SOP</h3>
+        <p>How NA tags are encoded, serialized, and tracked at the brewery.</p>
+        <a href="/docs/brewery-serialization/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>13. Brewery Activation Workflow</h3>
+        <p>Step-by-step pre-distribution activation workflow.</p>
+        <a href="/docs/brewery-activation/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>14. Brewery Documentation & Records</h3>
+        <p>Compliance forms, logs, and traceability requirements.</p>
+        <a href="/docs/brewery-records/" class="btn small primary">Open</a>
+      </div>
+
+      <!-- DISTRIBUTOR SERIES -->
+      <div class="card">
+        <h3>15. Distributor Protocol (D-Series)</h3>
+        <p>Chain-of-custody and NA-specific handling rules.</p>
         <a href="/docs/distributor-protocol/" class="btn small primary">Open</a>
       </div>
-
       <div class="card">
-        <h3>5. Venue Setup & Verification Protocol</h3>
-        <p>How bars and restaurants set up NA draft systems, activate tags, and maintain records.</p>
-        <a href="/docs/venue-verification/" class="btn small primary">Open</a>
+        <h3>16. Distributor Transport & Storage Requirements</h3>
+        <p>Cold chain and segregation standards for NA kegs.</p>
+        <a href="/docs/distributor-transport/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>17. Distributor Verification & Reconciliation Logs</h3>
+        <p>Check-in/out, variances, and exception handling.</p>
+        <a href="/docs/distributor-logs/" class="btn small primary">Open</a>
       </div>
 
+      <!-- VENUE SERIES -->
       <div class="card">
-        <h3>6. Cleaning & Change Log SOP</h3>
-        <p>Required logs and workflows for cleaning, switching products, and maintaining NA draft lines.</p>
+        <h3>18. Venue Setup & Verification Protocol</h3>
+        <p>How venues configure NA draft and complete first verification.</p>
+        <a href="/docs/venue-setup/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>19. Daily / Weekly Verification Checklist</h3>
+        <p>Operational verification routine for staff and managers.</p>
+        <a href="/docs/venue-checklist/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>20. Change Log SOP</h3>
+        <p>Documenting any system modifications or reroutes.</p>
+        <a href="/docs/change-log/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>21. Cleaning Log SOP</h3>
+        <p>Standardized recordkeeping for cleaning and line maintenance.</p>
         <a href="/docs/cleaning-log/" class="btn small primary">Open</a>
       </div>
-
       <div class="card">
-        <h3>7. Incident Response & Mis-Serve Prevention</h3>
-        <p>Step-by-step procedures for dealing with cross-contact, serving errors, or tap mix-ups.</p>
+        <h3>22. Incident Response & Mis-Serve Procedure</h3>
+        <p>Steps for handling mis-serves, cross-contact, or tap errors.</p>
         <a href="/docs/incident-response/" class="btn small primary">Open</a>
       </div>
-
       <div class="card">
-        <h3>8. DraftVerify Registry Specification</h3>
-        <p>How the digital registry works: activation rules, tag serialization, records, and audit logs.</p>
+        <h3>23. NA Draft Staff Training Manual</h3>
+        <p>Training content and standards for all NA draft staff.</p>
+        <a href="/docs/staff-training/" class="btn small primary">Open</a>
+      </div>
+
+      <!-- SYSTEM DESIGN SERIES -->
+      <div class="card">
+        <h3>24. System Design Requirements</h3>
+        <p>Design guidelines for NA-compatible draft systems.</p>
+        <a href="/docs/system-design/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>25. Tower Sharing Standards</h3>
+        <p>Safe configurations for mixed alcoholic/NA towers.</p>
+        <a href="/docs/tower-sharing/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>26. Gas Management & Pressure Safety</h3>
+        <p>CO₂ / N₂ usage and safety in NA systems.</p>
+        <a href="/docs/gas-management/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>27. System Modification Protocol</h3>
+        <p>How to update, expand, or repurpose draft systems.</p>
+        <a href="/docs/system-modification/" class="btn small primary">Open</a>
+      </div>
+
+      <!-- DIGITAL SERIES -->
+      <div class="card">
+        <h3>28. DraftVerify Registry Specification</h3>
+        <p>Digital architecture, fields, and data relationships.</p>
         <a href="/docs/registry-spec/" class="btn small primary">Open</a>
       </div>
-
       <div class="card">
-        <h3>9. Glossary & Terminology Standard</h3>
-        <p>Definitions for all DraftVerify terms, processes, and identity-layer components.</p>
-        <a href="/docs/glossary/" class="btn small primary">Open</a>
+        <h3>29. Tag Activation Rules</h3>
+        <p>Valid/invalid activation events and rejection rules.</p>
+        <a href="/docs/tag-activation/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>30. Verification Event Specification</h3>
+        <p>What counts as a verification event and how it’s logged.</p>
+        <a href="/docs/verification-events/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>31. Audit Log & Traceability Framework</h3>
+        <p>Standard for storing and reviewing audit trails.</p>
+        <a href="/docs/audit-log/" class="btn small primary">Open</a>
       </div>
 
+      <!-- CERTIFICATION & MARK USE -->
       <div class="card">
-        <h3>10. Use of Mark & Certification Policy</h3>
-        <p>Rules governing how venues, breweries, and distributors may use DraftVerify trademarks.</p>
+        <h3>32. Use of Mark & Certification Policy</h3>
+        <p>Rules for all DraftVerify logos, badges, and marks.</p>
         <a href="/docs/certification-policy/" class="btn small primary">Open</a>
       </div>
+      <div class="card">
+        <h3>33. Compliance Audit Framework</h3>
+        <p>Audit scoring, frequency, and pass/fail criteria.</p>
+        <a href="/docs/compliance-audit/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>34. Multi-Venue Program Requirements</h3>
+        <p>Chain and group-level DraftVerify adoption.</p>
+        <a href="/docs/multi-venue/" class="btn small primary">Open</a>
+      </div>
+
+      <!-- ADVANCED SERIES -->
+      <div class="card">
+        <h3>35. NA Draft Safety & Contamination Report</h3>
+        <p>Comprehensive analysis of risk and mitigation.</p>
+        <a href="/docs/contamination-report/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>36. NA Draft System Failure Modes Guide</h3>
+        <p>Failure modes, root cause, and prevention strategies.</p>
+        <a href="/docs/failure-modes/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>37. Field Audit Handbook</h3>
+        <p>On-site inspector workflows, tools, and checklists.</p>
+        <a href="/docs/audit-handbook/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>38. Distributor & Venue Education Handbook</h3>
+        <p>Standardized education material for partners.</p>
+        <a href="/docs/education-handbook/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>39. Product Switching & Line Reuse Protocol</h3>
+        <p>Safe procedures for changing products in NA lines.</p>
+        <a href="/docs/product-switching/" class="btn small primary">Open</a>
+      </div>
+      <div class="card">
+        <h3>40. Revision & Governance Policy</h3>
+        <p>How the DraftVerify Standard evolves over time.</p>
+        <a href="/docs/governance-policy/" class="btn small primary">Open</a>
+      </div>
+
     </div>
   </div>
 </section>
@@ -173,7 +335,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   </div>
 </section>
 
-<!-- TECHNOLOGY -->
+<!-- TECHNOLOGY (REQUIRED DIGITAL LAYER) -->
 <section class="section" id="technology" style="background:#f7f9fc">
   <div class="container center">
     <div class="kicker">Digital Enforcement Layer</div>
@@ -199,7 +361,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   </div>
 </section>
 
-<!-- CORE REQUIREMENTS -->
+<!-- CORE REQUIREMENTS SUMMARY -->
 <section class="section" id="core-requirements">
   <div class="container">
     <div class="kicker center">Core Requirements</div>
