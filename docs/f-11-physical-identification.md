@@ -1,272 +1,241 @@
 ---
 layout: default
-title: "F-11 — Physical Identification Requirements: Kegs, Couplers, Lines & Faucets"
-permalink: /docs/physical-identification/
-description: "Mandatory DraftVerify identification rules for non-alcoholic draft hardware: keg collars, coupler markers, line tags, faucet markers, and tower symbols."
+title: "F-11 — Brewery Implementation Guide"
+permalink: /docs/brewery-implementation/
+description: "Step-by-step implementation guide for breweries adopting the DraftVerify Standard for non-alcoholic draft identification and digital activation."
 ---
 
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
 <div class="kicker">DraftVerify Standards Library · F-11</div>
-# Physical Identification: Kegs, Couplers, Lines & Faucets
+# Brewery Implementation Guide  
 <p style="font-size:0.95rem;color:#6b7280;">
 Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
 <br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-This document defines the **mandatory physical identification system** required for any DraftVerify-compliant non-alcoholic draft installation.  
+This document provides breweries with the **complete implementation workflow** required to adopt the DraftVerify Standard.  
 
-It includes:  
-- keg identification  
-- coupler identification  
-- trunk line identification  
-- faucet & tower identification  
-- visibility requirements  
-- durability requirements  
-- inspection & replacement rules  
+It covers:  
+- NA keg preparation  
+- physical tagging  
+- digital activation  
+- NA-only handling procedures  
+- documentation requirements  
+- compliance expectations  
 
-Together, these create the universal physical language of non-alcoholic draft integrity.
+This guide ensures breweries can achieve **full DraftVerify compliance** with minimal operational friction.
 
   </div>
 </section>
+
 
 
 <!-- SECTION 1 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 1.0 Purpose
+## 1.0 Purpose of This Guide
 
-The physical identification system ensures that non-alcoholic draft components are:
+This implementation guide gives breweries a **repeatable, standardized workflow** for:
 
-- **instantly recognizable**
-- **clearly separated** from alcoholic draft paths
-- **consistent** across all venues and operators
-- **easy to verify** against the digital registry
-- **resistant** to wear, condensation, abrasion, and cooler environments
+- preparing NA draft products  
+- attaching physical identification  
+- activating serialized tags  
+- ensuring NA-only handling  
+- producing compliant documentation  
+- passing DraftVerify verification audits  
 
-DraftVerify’s physical identification layer forms one half of the compliance framework; the digital registry completes it.
+This guide is required reading for any brewery shipping NA draft products.
 
   </div>
 </section>
+
 
 
 <!-- SECTION 2 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 2.0 General Requirements (Mandatory)
+## 2.0 Pre-Implementation Requirements
 
-All NA draft equipment must:
+Before adopting DraftVerify, breweries must ensure:
 
-- display **DraftVerify Gold (#C7AA4A)** as the primary identification color  
-- display the **Circle-NA symbol** defined in the Visual Lexicon  
-- maintain visibility from at least:  
-  - 1m on kegs  
-  - 0.5m on couplers  
-  - 2m at faucets  
-- use **durable, water-resistant, cooler-safe materials**
-- be **intact, legible, and not tampered with**
+### **2.1 Production Readiness**
+- Non-alcoholic products must be fully compliant with regulatory definitions  
+- Dedicated NA production areas strongly recommended  
+- Batch tracking infrastructure is in place  
 
-Any missing, faded, or damaged identifier must be replaced immediately.
+### **2.2 Operational Readiness**
+- Staff assigned to NA handling  
+- Devices available for NFC activation  
+- WiFi or cellular coverage in kegging area  
+
+### **2.3 Storage & Handling**
+- NA-only storage zones identified  
+- Clear segregation from alcoholic kegs  
+- Temperature-controlled cold storage available  
 
   </div>
 </section>
+
 
 
 <!-- SECTION 3 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 3.0 Keg Identification Requirements
+## 3.0 Keg Preparation (NA Only)
 
-Every NA keg must include:
+Breweries must ensure:
 
-### 3.1 NA Keg Collar (Mandatory)
-- Circular, full 360° wrap  
-- Primary color: DraftVerify Gold  
-- Symbol: Circle-NA  
-- Minimum diameter: 180–200mm  
-- Must not be obstructed by shrink wrap or keg caps  
-- Must remain readable under:  
-  - condensation  
-  - frosting  
-  - stacking  
+- kegs are cleaned and sanitized according to NA protocols  
+- kegs are clearly separated from alcoholic kegs at all times  
+- all tools, hoses, and manifolds used in NA production are NA-only  
 
-### 3.2 Serialized Tag Area
-A designated region must be available for:
-- NFC-enabled keg tag  
-- printed serial reference  
-- activation sticker if applicable
-
-### 3.3 What May NOT Appear
-- handwritten NA identifiers  
-- tape-based solutions  
-- altered or custom colors  
-- brewery-specific NA markings that conflict with DraftVerify visuals  
+Any cross-contact invalidates DraftVerify compliance.
 
   </div>
 </section>
+
 
 
 <!-- SECTION 4 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 4.0 Coupler Identification Requirements
+## 4.0 Physical Tagging Requirements
 
-Couplers must feature a **high-visibility wrap** or **clip-on marker** in DraftVerify Gold.
+Each keg must receive:
 
-### 4.1 Required Features
-- Color: DraftVerify Gold  
-- Symbol: Circle-NA  
-- Minimum size: visible at 0.5m  
-- 360° visibility strongly recommended  
+1. **NA Keg Collar** (per F-6)  
+2. **NFC Coupler Tag** (per F-7)  
+3. **Optional sidewall identifier** (for facilities with stacked storage)  
 
-### 4.2 Approved Formats
-- silicone band  
-- clamp-on coupler tag  
-- molded clip  
-- adhesive wrap band  
-
-### 4.3 Placement
-- Must be visible from above and from the hose connection view  
-- Must not interfere with cleaning or coupler operation  
+Tagging must occur **before** any movement out of NA-only storage.
 
   </div>
 </section>
+
 
 
 <!-- SECTION 5 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 5.0 Line Identification Requirements
+## 5.0 Digital Activation Process
 
-Lines must be marked along their entire NA path.
+Digital activation must follow F-13 and includes:
 
-### 5.1 Tag Types
-DraftVerify-approved line markers include:
-- wrap-around flag tags  
-- pattern-based NA strips  
-- elongated rectangular identity bands  
-- embedded-pattern sleeves  
+- scanning the NFC tag  
+- validating the serial number  
+- linking keg → batch → product  
+- logging activation timestamp  
+- recording staff ID  
+- verifying NA-only handling conditions  
 
-### 5.2 Tag Spacing
-Minimum spacing:
-- **every 1 meter**, or  
-- at every choke point, bend, or clip  
-
-### 5.3 Cooler Routing
-When lines run in bundles, NA lines must be:
-- visually distinct  
-- physically separated when possible  
-- identified before & after the trunkline jacket  
-
-### 5.4 Prohibited Practices
-- marker pens  
-- tape-based markings  
-- non-standard colors  
+Unactivated tags are not compliant and must never leave the brewery.
 
   </div>
 </section>
+
 
 
 <!-- SECTION 6 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 6.0 Faucet & Tower Identification Requirements
+## 6.0 Brewery Workflow Overview
 
-### 6.1 Faucet Marker
-Each NA faucet must display:
-- Circle-NA symbol  
-- DraftVerify Gold background  
-- Minimum diameter: **16mm**  
+### **Step-by-Step Implementation**
 
-### 6.2 Tower Marker
-If towers contain mixed alcoholic + NA lines:
-- a DraftVerify Gold tower badge must be present  
-- badge must be visible from customer side  
+1. Prepare NA keg in NA-only production zone  
+2. Apply keg collar  
+3. Apply NFC coupler tag  
+4. Encode NFC tag (F-12)  
+5. Digitally activate the identity (F-13)  
+6. Move keg to NA-only cold storage  
+7. Complete documentation (F-14)  
+8. Release product to NA-compliant distributor  
 
-### 6.3 Customer-Facing Visibility
-Patrons must be able to identify an NA tap without staff assistance.
-
-### 6.4 Multi-Tap Towers
-When multiple NA lines appear on a single tower:
-- each faucet is individually marked  
-- a single tower badge is not enough  
+Breweries may not skip or reorder steps.
 
   </div>
 </section>
+
 
 
 <!-- SECTION 7 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 7.0 Maintenance & Replacement Rules
+## 7.0 Compliance Documentation
 
-Identification elements must be replaced when:
+Breweries must maintain:
 
-- faded  
-- damaged  
-- peeling  
-- obstructed  
-- cracked  
-- unreadable  
-- covered by other materials  
+- serialization logs  
+- activation logs  
+- batch tracking metadata  
+- NA handling and segregation logs  
+- temperature records  
+- shipping chain-of-custody  
 
-Replacement must occur **within 24 hours** of detection.
-
-Venues must maintain:
-- spare coupler bands  
-- spare faucet markers  
-- spare line tags  
-- spare keg collars (if applicable)  
+Documentation requirements are specified in **F-14 Brewery Documentation & Records.**
 
   </div>
 </section>
+
 
 
 <!-- SECTION 8 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 8.0 Alignment With Digital Registry
+## 8.0 Distributor Handoff Requirements
 
-All physical tags must correspond to:
+Before handing off kegs, breweries must:
 
-- active digital activation  
-- correct serial numbers  
-- correct keg → line → faucet mapping  
+- verify all tags are active  
+- attach transport documentation  
+- provide distributor with NA-only routing expectations  
+- confirm proper cold chain conditions  
 
-If the digital registry does not match the physical identifiers, the system is **not DraftVerify compliant**.
+Distributors receiving unverified kegs must reject them.
 
   </div>
 </section>
+
 
 
 <!-- SECTION 9 -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 9.0 Intellectual Property Notice
+## 9.0 Annual Verification Renewal
 
-All physical identification formats—colors, symbols, shapes, patterns, placements, and visibility standards—are proprietary to DraftVerify™.
+Breweries must complete:
 
-Unauthorized reproduction or incorporation into:
+- self-audit checklist  
+- serialization and activation compliance review  
+- NA-only storage and handling verification  
+- DraftVerify audit (if applicable)  
 
-- competitor standards  
-- brewery SOPs  
-- distributor manuals  
-- POS materials  
-- third-party hardware  
+Failure to renew results in temporary suspension of certification.
 
-is prohibited.
+  </div>
+</section>
 
-© 2025 DraftVerify Standards Initiative. All rights reserved.
+
+
+<!-- SECTION 10 -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 10.0 Intellectual Property Notice
+
+All processes, workflows, diagrams, and SOPs in this document are © DraftVerify™ and protected under international copyright.  
+Unauthorized reproduction or adaptation is prohibited.
 
   </div>
 </section>
