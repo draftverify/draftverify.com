@@ -1,259 +1,266 @@
 ---
 layout: default
-title: "F-5 — Legal & Compliance Basis for NA Separation"
-permalink: /docs/legal-basis/
-description: "The legal foundation supporting the physical and digital separation of non-alcoholic draft lines, including liability, regulatory considerations, and duty-of-care obligations."
+title: "F-5 — Legal & Compliance Basis for NA Draft Separation"
+permalink: /docs/f-5-legal-compliance-basis/
+description: "Formal legal and compliance justification for mandatory physical identification, separation, and verification of non-alcoholic draft systems under the DraftVerify Standard."
 ---
 
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
 <div class="kicker">DraftVerify Standards Library · F-5</div>
-# Legal & Compliance Basis for NA Separation
+# Legal & Compliance Basis for NA Draft Separation
 <p style="font-size:0.95rem;color:#6b7280;">
 Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
 <br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-This document defines the **legal rationale** behind the DraftVerify Standard v1.0 and outlines why non-alcoholic draft systems require **strict identification, separation, and verification** in any venue serving both alcoholic and NA beverages on draft.
-  
-  </div>
-</section>
+This document defines the **legal, regulatory, and compliance foundation** supporting the requirement for dedicated identification and verification of non-alcoholic (NA) draft systems.  
 
-
-
-<!-- SECTION 1 — INTRODUCTION -->
-<section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
-
-## 1.0 Introduction
-
-Serving alcoholic beverages under the representation of “non-alcoholic” introduces a rare combination of:
-
-- **alcohol service liability**  
-- **consumer rights law**  
-- **health/privacy considerations**  
-- **insurance exposure**  
-- **operational negligence risk**  
-
-The following compliance framework explains the **legal necessity** of a formal NA draft standard.
-
-DraftVerify is built to satisfy three core obligations:
-
-1. **Duty of care**  
-2. **Truth-in-service requirements**  
-3. **Risk mitigation and documentation**
+While DraftVerify is **not a regulatory body**, the Standard is grounded in real legal obligations, alcohol-service requirements, consumer-protection laws, and venue-level liability frameworks.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 2 — DUTY OF CARE -->
+<!-- SECTION 1 — PURPOSE -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 2.0 Duty of Care Obligations
+## 1.0 Purpose
 
-Venues and operators have a legal obligation to prevent foreseeable harm.
+The purpose of this document is to:
 
-### 2.1 Foreseeable Harm Is High for NA Consumers
-NA consumers may be:
-- sober by medical requirement  
-- driving  
-- pregnant  
-- managing addiction recovery  
-- avoiding alcohol for religious or personal reasons  
+- outline the **legal risks** associated with mis-serving alcoholic beverages as NA  
+- define the **compliance justification** for NA-specific identification  
+- describe the **liability exposure** for breweries, distributors, and venues  
+- ensure operators understand why DraftVerify provides **due diligence** and **audit protection**  
 
-A mis-serve is not simply a customer inconvenience — it may constitute **actual harm**, triggering liability.
-
-### 2.2 Reasonable Preventative Measures Are Required
-The legal test is:
-> *“Did the venue implement reasonable operational safeguards to prevent foreseeable harm?”*
-
-Historically, no system existed for NA draft.  
-DraftVerify creates the **industry-standard safeguard**.
-
-### 2.3 Identification + Verification = Reasonable Safeguard
-Physical tags + digital activation + logs demonstrate:
-
-- intent to prevent mis-serve  
-- staff clarity  
-- ongoing supervision  
-- traceability  
-
-This matters in litigation, insurance claims, and regulatory review.
+DraftVerify is a voluntary standard, but the risks it mitigates are **legally binding**.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 3 — TRUTH-IN-SERVICE REQUIREMENTS -->
+<!-- SECTION 2 — LEGAL FOUNDATIONS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 3.0 Truth-in-Service Requirements
+## 2.0 Legal Foundations for NA Draft Separation
 
-### 3.1 Misrepresentation of Product Identity
-Serving alcohol as “non-alcoholic” violates:
+Regulatory systems worldwide treat alcoholic beverages as a controlled product.  
+Serving alcohol when a consumer expects NA can violate:
 
-- consumer protection law  
-- labeling law  
-- food & beverage identity regulations  
-- federal/provincial alcohol service law  
+- alcohol licensing laws  
+- age-restriction laws  
+- impairment and driving laws  
+- truth-in-service and consumer protection laws  
+- health disclosures  
+- workplace safety statutes  
+- insurance policy conditions  
 
-Draft systems remove packaging labels — creating conditions for misrepresentation unless clear identification exists.
-
-### 3.2 Product Identity Must Be Verifiable
-Consumers must have the ability to confirm:
-- product category  
-- alcohol content  
-- accurate identity  
-
-Physical DraftVerify tags + registry entries provide this.
-
-### 3.3 Venue Compliance Documentation
-DraftVerify provides:
-- verification logs  
-- cleaning records  
-- change logs  
-- photographic evidence  
-- tag activation time stamps  
-
-This documentation becomes crucial for audits and defense.
+Failure to identify NA draft correctly introduces **legal harm that does not exist** in alcoholic-to-alcoholic mis-serves.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 4 — LIABILITY & INSURANCE -->
+<!-- SECTION 3 — LIABILITY & RISK -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 4.0 Liability & Insurance Considerations
+## 3.0 Liability Exposure
 
-### 4.1 Alcohol Service Liability
-If a consumer is mis-served alcohol while expecting NA, the venue may face claims for:
+### 3.1 Licensing Liability  
+A venue is legally responsible for ensuring that alcoholic beverages are served only when intended.
 
-- negligence  
-- breach of duty  
-- failure to prevent foreseeable harm  
-- breach of consumer protection obligations  
+A mis-serve to:
+- minors  
+- drivers  
+- pregnant individuals  
+- medically restricted guests  
+- people in recovery  
 
-### 4.2 Insurance Position
-Insurance carriers may deny a claim if:
-- the venue had no identification system  
-- no verification logs existed  
-- staff training was inadequate  
-- there was no documented NA separation protocol  
+…creates significant legal risk.
 
-DraftVerify provides a **repeatable, auditable risk-management system**.
+### 3.2 Duty of Care  
+Hospitality operators owe a **duty of care** to protect consumers from foreseeable harm.  
+Accidental alcohol service to an NA consumer is considered **foreseeable** when systems lack proper identification.
 
-### 4.3 Brewery Liability Exposure
-Brewery NA brands are at risk if:
-- their beer is served incorrectly, or  
-- a mis-serve occurs under their branding  
+### 3.3 Negligence  
+A venue may be considered negligent if:
+- identification was unclear  
+- staff were not provided with proper systems  
+- industry-standard precautions (such as DraftVerify) were not used  
 
-DraftVerify creates provable protection for breweries.
+### 3.4 Insurance Exposure  
+Most insurance policies exclude coverage when:
+- alcohol is served contrary to licensing rules  
+- staff fail to follow established safety protocols  
+- consumer safety expectations are violated  
+
+DraftVerify provides documented due diligence that insurers recognize.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 5 — REGULATORY BASIS -->
+<!-- SECTION 4 — CONSUMER PROTECTION -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 5.0 Regulatory Basis for NA Line Separation
+## 4.0 Consumer-Protection Requirements
 
-### 5.1 Alcohol Regulations
-Even though NA beer contains little or no alcohol, it is **not** legally interchangeable with alcoholic beverages.
+NA consumers rely on clarity and correctness of service.
 
-Mixing lines or ambiguous labeling:
-- violates category identity  
-- creates risk of unlawful service  
-- can breach local liquor regulations  
+Legal frameworks require venues to:
+- accurately disclose what is being served  
+- prevent misrepresentation  
+- ensure consumers can make informed decisions  
 
-### 5.2 Health & Food Safety Regulations
-DraftVerify supports:
-- allergen disclosure  
-- accurate product identity  
-- integrity of food handling systems  
-- sanitary line management
+Because draft systems do not display package labels, NA draft requires a **visual and digital replacement** for that disclosure.
 
-### 5.3 Emerging Regulatory Scrutiny
-The rapid rise of NA draft increases regulatory visibility.  
-A standardized system helps avoid future regulatory burden.
+DraftVerify provides that mechanism.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 6 — WHY DIGITAL VERIFICATION IS REQUIRED -->
+<!-- SECTION 5 — BRAND & MANUFACTURER OBLIGATIONS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 6.0 Why Digital Verification Is a Required Component
+## 5.0 Brewery and Manufacturer Compliance Obligations
 
-Physical labeling alone does not satisfy legal expectations.
+Brewery-produced NA products must be represented accurately downstream.  
+Failure to prevent NA→alcohol mis-serves may:
 
-Digital verification provides:
-- proof of which keg was tapped where  
-- evidence of compliance  
-- logs of ongoing checks  
-- chain-of-custody visibility  
-- audit-ready documentation  
+- violate brand integrity  
+- create false product representation  
+- undermine claims related to health or sobriety  
+- expose breweries to civil liability  
 
-A physical tag without a digital record is not compliant with DraftVerify Standard v1.0.
+The DraftVerify Standard allows breweries to demonstrate **reasonable safety measures** and **identity protection**.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 7 — ENFORCEABILITY -->
+<!-- SECTION 6 — BASIS FOR IDENTIFICATION REQUIREMENTS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 7.0 Enforceability of the DraftVerify Standard
+## 6.0 Why Physical Identification Is Legally Necessary
 
-DraftVerify is a **voluntary industry standard**, but it becomes enforceable when:
+Draft beer lacks the physical label present on packaged NA beverages.  
+Therefore, identity must be maintained through:
 
-- adopted by breweries  
-- included in distribution agreements  
-- referenced in insurance policies  
-- integrated into venue SOPs  
-- used as evidence of reasonable care  
+### 6.1 Keg Identification  
+Proves the correct product is connected.
 
-This establishes DraftVerify as the **de facto compliance framework**.
+### 6.2 Coupler Tagging  
+Ensures NA identity is preserved at the attachment point.
+
+### 6.3 Beer Line Identification  
+Prevents cross-connection and accidental switching.
+
+### 6.4 Faucet Identification  
+Provides consumers with the visual disclosure required by consumer protection laws.
+
+DraftVerify harmonizes all four points of legal disclosure into a single system.
 
   </div>
 </section>
 
 
 
-<!-- SECTION 8 — COPYRIGHT -->
+<!-- SECTION 7 — BASIS FOR DIGITAL VERIFICATION -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
-## 8.0 Copyright & Intellectual Property
+## 7.0 Why Digital Verification Is Legally Necessary
 
-All legal frameworks, risk models, diagrams, and definitions in this document are the protected intellectual property of the **DraftVerify Standards Initiative**.
+Physical identification alone cannot meet modern compliance expectations.
 
-Unauthorized use in:
-- commercial training  
-- certification systems  
-- compliance frameworks  
-- industry standards  
-- operational manuals  
+Digital activation provides:
+- chain-of-custody records  
+- time-stamped verification logs  
+- batch and product traceability  
+- auditable compliance documentation  
+- evidence of due diligence  
 
-is prohibited.
+In a mis-serve or legal claim, the DraftVerify Registry becomes the **single source of truth** demonstrating operational responsibility.
 
-For permissions and legal correspondence:  
+  </div>
+</section>
+
+
+
+<!-- SECTION 8 — COMPLIANCE BENEFITS -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 8.0 Compliance Benefits for Operators
+
+DraftVerify provides operators with:
+
+- a legally defensible framework  
+- recordkeeping that shows due diligence  
+- reduced liability exposure  
+- verifiable staff compliance routines  
+- audit-ready logs  
+- enhanced insurance defensibility  
+
+DraftVerify does *not* replace licensing or regulatory obligations, but it strengthens compliance frameworks.
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 9 — LIMITATIONS -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 9.0 Limitations
+
+DraftVerify is:
+
+- not a government agency  
+- not a regulatory enforcement system  
+- not a substitute for local liquor, food safety, or health laws  
+
+Where law conflicts with the DraftVerify Standard, **law supersedes the Standard**.
+
+  </div>
+</section>
+
+
+
+<!-- SECTION 10 — COPYRIGHT -->
+<section class="section">
+  <div class="container" style="max-width:820px" markdown="1">
+
+## 10.0 Copyright & Intellectual Property
+
+All legal analysis, definitions, frameworks, and compliance models in this document are the protected intellectual property of the **DraftVerify™ Standards Initiative**.
+
+Use in:
+- derivative standards  
+- training materials  
+- regulatory guidance  
+- certification programs  
+- commercial inspection systems  
+
+is prohibited without written permission.
+
+For permissions:  
 📧 **legal@draftverify.com**
 
 © 2025 DraftVerify™ Standards Initiative. All rights reserved.
