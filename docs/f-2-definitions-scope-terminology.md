@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "F-2 — Definitions, Scope & Terminology"
-permalink: /docs/f-2-definitions-scope-terminology/
+permalink: /docs/definitions/
 description: "Authoritative terminology and definitions governing all DraftVerify standards, identity structures, and verification procedures."
 ---
 
