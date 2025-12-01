@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "F-4 — NA Draft Risk Profile & Rationale"
-permalink: /docs/f-4-na-draft-risk-profile/
+permalink: /docs/risk-profile/
 description: "Comprehensive analysis of the safety, operational, and brand-risk factors that justify the identification, separation, and verification of non-alcoholic draft systems."
 ---
 
@@ -9,20 +9,22 @@ description: "Comprehensive analysis of the safety, operational, and brand-risk 
   <div class="container" style="max-width:820px" markdown="1">
 
 <div class="kicker">DraftVerify Standards Library · F-4</div>
+
 # NA Draft Risk Profile & Rationale
+
 <p style="font-size:0.95rem;color:#6b7280;">
 Version 1.0 · Publication Date: 2025-01-01 · Status: Active<br>
 © 2025 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
 This document outlines the **full risk landscape** associated with serving  
-non-alcoholic (NA) beverages on draft.  
+non-alcoholic (NA) beverages on draft.
 
 These risks form the **underlying justification** for the DraftVerify Standard  
 and the need for continuous identification, separation, and verification  
 from keg to faucet.
 
-  </div>
+</div>
 </section>
 
 
@@ -33,7 +35,8 @@ from keg to faucet.
 ## 1. Purpose of This Risk Profile
 
 ### **1.1 Why This Document Exists**
-NA draft introduces risks that **do not exist** for alcoholic draft service.  
+NA draft introduces risks that **do not exist** for alcoholic draft service.
+
 Traditional alcoholic systems rely on:
 
 - cultural familiarity  
@@ -55,7 +58,7 @@ This document informs:
 
 It defines the **“why”** behind the DraftVerify Standard.
 
-  </div>
+</div>
 </section>
 
 
@@ -72,10 +75,9 @@ A mis-serve of alcoholic beer **where NA was expected** can involve:
 - pregnant individuals  
 - individuals in recovery  
 - designated drivers  
-- people avoiding alcohol for medical reasons  
-- individuals with personal, cultural, or religious restrictions  
+- individuals avoiding alcohol for medical or personal reasons  
 
-The consequences include:
+Consequences include:
 
 - legal liability  
 - health incidents  
@@ -83,7 +85,7 @@ The consequences include:
 - regulatory complaints  
 
 ### **2.2 Physiological Adverse Reactions**
-Even low-level alcohol exposures may risk:
+Even low-level alcohol exposure may risk:
 
 - medication interactions  
 - allergic sensitivity  
@@ -98,7 +100,7 @@ If identity is ambiguous, cleaning or switching may:
 
 This necessitates strict NA → alcoholic pathway separation.
 
-  </div>
+</div>
 </section>
 
 
@@ -125,16 +127,16 @@ Serving alcoholic beer under the impression of NA classification can violate:
 - local alcohol service regulations  
 
 ### **3.3 Lack of Global NA Draft Standards**
-Unlike alcohol draft (which has long-standing conventions), NA draft has:
+Unlike alcoholic draft (which has long-standing conventions), NA draft has:
 
 - no standardized tagging  
 - no common ID rules  
 - no global verification layer  
 - varying legal definitions across jurisdictions  
 
-DraftVerify exists to resolve this inconsistency.
+DraftVerify resolves this inconsistency.
 
-  </div>
+</div>
 </section>
 
 
@@ -160,7 +162,7 @@ Bars with:
 - seasonal offerings  
 - mixed NA/alcoholic towers  
 
-…are especially vulnerable to mislabelling.
+…are especially vulnerable to mislabeling.
 
 ### **4.3 Cleaning and Switching Failures**
 Operators may:
@@ -169,9 +171,9 @@ Operators may:
 - install NA kegs onto alcoholic couplers  
 - incorrectly assume a line is dedicated  
 
-These risks justify stringent identity rules (ID-Series) and digital activation (VX-Series).
+These risks justify strict identity rules (ID-Series) and digital activation (VX-Series).
 
-  </div>
+</div>
 </section>
 
 
@@ -197,10 +199,7 @@ Any failure can permanently damage:
 ### **5.2 Breweries Risk Reputational Damage**
 If a brewery’s NA beer is mis-served:
 
-- consumers blame the brand  
-- not the venue  
-- not the distributor  
-- not the bartender  
+- consumers blame the brand—not the venue or distributor  
 
 ### **5.3 Negative Social Media Amplification**
 A single mis-serve incident can spread:
@@ -211,7 +210,7 @@ A single mis-serve incident can spread:
 
 DraftVerify mitigates brand-damaging events.
 
-  </div>
+</div>
 </section>
 
 
@@ -244,9 +243,9 @@ Wrong-keg mistakes lead to:
 
 - product loss  
 - wasted inventory  
-- pour inconsistencies  
+- inconsistencies  
 
-  </div>
+</div>
 </section>
 
 
@@ -272,13 +271,13 @@ DraftVerify mitigates risk by enforcing:
 ### **Separation & Control**
 - NA-only pathways  
 - switching protocols  
-- incidence tracking  
+- incident tracking  
 - operator training  
 
 DraftVerify creates a **repeatable, auditable, and globally consistent**  
-approach to NA draft service — replacing assumptions with structure.
+approach to NA draft service.
 
-  </div>
+</div>
 </section>
 
 
@@ -288,7 +287,7 @@ approach to NA draft service — replacing assumptions with structure.
 
 ## 8. Relationship to Other Standards
 
-This document is directly referenced by:
+This document is referenced by:
 
 - F-1 — Core Standard  
 - F-3 — Identity Architecture  
@@ -297,11 +296,10 @@ This document is directly referenced by:
 - VX-Series — Digital Requirements  
 - CX-Series — Compliance & Corrective Action  
 
-Where conflicts occur with external regulations, **legal requirements override**.
+Where conflicts occur with external regulations,  
+**legal requirements override**.
 
-References to other standards do not imply endorsement.
-
-  </div>
+</div>
 </section>
 
 
@@ -311,9 +309,9 @@ References to other standards do not imply endorsement.
 
 ## 9. Governance & Revision
 
-Updates to this document occur when:
+Updates occur when:
 
-- new risks are identified  
+- new risks emerge  
 - field findings require adjustment  
 - technologies evolve  
 - tagging or registry systems change  
@@ -322,7 +320,7 @@ Proposals may be submitted to:
 
 📧 **standards@draftverify.com**
 
-  </div>
+</div>
 </section>
 
 
@@ -337,7 +335,7 @@ are the exclusive intellectual property of the:
 
 ### **DraftVerify™ Standards Initiative**
 
-No portion of this document may be:
+No portion may be:
 
 - copied  
 - reproduced  
@@ -353,5 +351,5 @@ For permissions:
 
 © 2025 DraftVerify™ Standards Initiative. All rights reserved.
 
-  </div>
+</div>
 </section>
