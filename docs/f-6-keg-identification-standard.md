@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "F-6 — Keg Identification Standard"
-permalink: /docs/keg-identification/
+permalink: /docs/f-6-keg-identification-standard/
 description: "Official DraftVerify Standard for physical identification requirements, placement rules, and durability specifications for non-alcoholic draft keg identification."
 ---
 
@@ -25,7 +25,6 @@ Clear, durable, unambiguous identification at the keg level is required to preve
 </div>
 </section>
 
-
 <!-- SECTION 1 — PURPOSE -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
@@ -45,7 +44,6 @@ Keg identification is non-optional for DraftVerify compliance.
 </div>
 </section>
 
-
 <!-- SECTION 2 — REQUIRED COMPONENTS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
@@ -56,7 +54,7 @@ Every NA keg must include the following **three** identification elements:
 
 ### 2.1 Keg Collar (Primary Identifier)
 
-A DraftVerify-approved NA keg collar that includes:
+A DraftVerify-approved NA keg collar must include:
 
 - the DraftVerify NA color band  
 - the brewery name  
@@ -95,7 +93,6 @@ Sidewall identification is **recommended**, but not strictly required.
 </div>
 </section>
 
-
 <!-- SECTION 3 — VISUAL REQUIREMENTS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
@@ -104,7 +101,7 @@ Sidewall identification is **recommended**, but not strictly required.
 
 ### 3.1 Color System (Mandatory)
 
-NA keg identifiers must use the DraftVerify **NA Gold Band** or the DraftVerify **NA Blue Band** depending on program version.
+NA keg identifiers must use the DraftVerify **NA Gold Band** or **NA Blue Band** (depending on program version).
 
 Colors must meet:
 
@@ -133,8 +130,7 @@ No substitute language is permitted.
 </div>
 </section>
 
-
-<!-- SECTION 4 — PLACEMENT RULES -->
+<!-- SECTION 4 — PLACEMENT REQUIREMENTS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
@@ -159,7 +155,7 @@ The coupler tag must be attached:
 - in a tamper-resistant position  
 - within 25 mm of the engagement point  
 
-This ensures staff identify the keg **during** changeover — the moment of greatest risk.
+This ensures staff identify the keg **during** changeover.
 
 ### 4.3 Sidewall Placement (If Used)
 
@@ -172,7 +168,6 @@ Must be:
 
 </div>
 </section>
-
 
 <!-- SECTION 5 — DURABILITY REQUIREMENTS -->
 <section class="section">
@@ -196,8 +191,7 @@ The DraftVerify Initiative may require testing or samples for verification.
 </div>
 </section>
 
-
-<!-- SECTION 6 — MATCHING WITH DIGITAL REGISTRY -->
+<!-- SECTION 6 — DIGITAL CONSISTENCY -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
@@ -222,7 +216,6 @@ Any mislabeled keg is **not compliant**.
 </div>
 </section>
 
-
 <!-- SECTION 7 — NON-COMPLIANCE CONDITIONS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
@@ -238,11 +231,8 @@ A keg is **not** DraftVerify-compliant if:
 - text is obstructed or non-standard  
 - tag has not been activated  
 
-Such kegs must not enter NA draft service.
-
 </div>
 </section>
-
 
 <!-- SECTION 8 — AUDIT REQUIREMENTS -->
 <section class="section">
@@ -266,8 +256,7 @@ Audit failures may result in:
 </div>
 </section>
 
-
-<!-- SECTION 9 — DOCUMENT INTEGRATION -->
+<!-- SECTION 9 — RELATED DOCUMENTS -->
 <section class="section">
   <div class="container" style="max-width:820px" markdown="1">
 
@@ -283,7 +272,6 @@ This document must be applied in conjunction with:
 
 </div>
 </section>
-
 
 <!-- SECTION 10 — COPYRIGHT -->
 <section class="section">
