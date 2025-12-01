@@ -8,27 +8,79 @@ layout: default
 <section class="section">
   <div class="container">
 
-    <!-- HERO -->
-    <div class="hero-card" style="max-width:880px;margin:0 auto 40px;padding:32px 32px 28px;">
-      <div class="kicker">Pricing</div>
-      <h1 class="h2" style="margin-bottom:12px;">Clear, Standardized Pricing for Real Draft Programs</h1>
-      <p style="max-width:760px;margin:0 0 20px;">
-        DraftVerify is the global standard for non-alcoholic draft identity, compliance, and verification. 
-        Pricing is structured so that a <strong>single venue</strong>, a <strong>regional distributor</strong>, or a 
-        <strong>global brewery group</strong> can all adopt the same standard with the right level of support.
+    <!-- HERO / SAAS STYLE -->
+    <div class="hero-card" style="max-width:960px;margin:0 auto 40px;padding:32px 32px 28px;border-radius:18px;
+      background:radial-gradient(circle at top left,#0d3b66 0,#020617 55%,#020617 100%);
+      color:#e5e7eb;box-shadow:0 22px 60px rgba(15,23,42,.55);position:relative;overflow:hidden;">
+      
+      <div style="position:absolute;inset:auto -80px -80px auto;opacity:.18;
+        background:radial-gradient(circle,#22c55e 0,transparent 60%);width:260px;height:260px;pointer-events:none;"></div>
+
+      <div class="kicker" style="color:#e5e7eb;opacity:.8;">Pricing</div>
+      <h1 class="h2" style="margin-bottom:10px;color:#f9fafb;">
+        Clear, Productized Pricing for NA Draft Integrity
+      </h1>
+
+      <p style="max-width:720px;margin:0 0 18px;font-size:0.98rem;line-height:1.7;color:#e5e7eb;">
+        DraftVerify turns non-alcoholic draft verification into a <strong>repeatable system</strong>: NFC tags, 
+        registry, SOPs, and audits. Pricing is structured like a SaaS platform, so a single venue, 
+        distributor, or global brewery can all plug into the same standard.
       </p>
-      <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:8px;">
-        <a class="btn primary" href="/onboarding/">Start Onboarding</a>
-        <a class="btn ghost" href="#compare-tiers">Compare Tiers</a>
+
+      <!-- HERO TAGS -->
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 18px;font-size:0.8rem;">
+        <span class="pill" style="background:rgba(15,23,42,.85);border:1px solid rgba(148,163,184,.5);color:#e5e7eb;">
+          NFC Identity Layer
+        </span>
+        <span class="pill" style="background:rgba(15,23,42,.85);border:1px solid rgba(148,163,184,.5);color:#e5e7eb;">
+          DraftVerify Registry
+        </span>
+        <span class="pill" style="background:rgba(15,23,42,.85);border:1px solid rgba(148,163,184,.5);color:#e5e7eb;">
+          Playbooks & Training
+        </span>
       </div>
-      <p style="font-size:0.85rem;color:#6b7280;margin-top:16px;">
-        All prices in USD. Custom scopes and pilot programs available on request.
+
+      <!-- BILLING TOGGLE (SaaS vibe, informational only) -->
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-bottom:18px;">
+        <div style="display:inline-flex;padding:4px;border-radius:999px;background:rgba(15,23,42,.85);
+          border:1px solid rgba(148,163,184,.55);">
+          <button type="button" style="border:none;outline:none;background:#f9fafb;color:#020617;
+            font-size:0.8rem;font-weight:600;border-radius:999px;padding:6px 14px;cursor:default;">
+            Annual billing (shown)
+          </button>
+          <button type="button" style="border:none;outline:none;background:transparent;color:#9ca3af;
+            font-size:0.8rem;font-weight:500;border-radius:999px;padding:6px 12px;cursor:not-allowed;">
+            Monthly (available on request)
+          </button>
+        </div>
+        <span style="font-size:0.8rem;color:#e5e7eb;opacity:.85;">
+          Most partners opt for annual contracts aligned to fiscal year.
+        </span>
+      </div>
+
+      <!-- HERO CTAS -->
+      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:4px;z-index:1;position:relative;">
+        <a class="btn primary" href="/onboarding/" 
+           style="background:#facc15;color:#111827;border:none;">
+          Start Onboarding
+        </a>
+        <a class="btn" href="#compare-tiers"
+           style="background:rgba(15,23,42,.85);border:1px solid rgba(148,163,184,.8);
+           color:#e5e7eb;font-weight:500;">
+          Compare Plans
+        </a>
+      </div>
+
+      <p style="font-size:0.8rem;color:#e5e7eb;opacity:.8;margin-top:16px;">
+        All prices in USD. Custom scopes, pilots, and multi-year agreements available on request.
       </p>
     </div>
 
     <!-- QUICK NAV -->
-    <div class="card" style="max-width:880px;margin:0 auto 40px;padding:16px 20px;">
-      <div style="font-size:0.8rem;text-transform:uppercase;letter-spacing:.08em;color:#6b7280;margin-bottom:8px;">Jump to</div>
+    <div class="card" style="max-width:960px;margin:0 auto 40px;padding:14px 20px;border-radius:14px;">
+      <div style="font-size:0.8rem;text-transform:uppercase;letter-spacing:.08em;color:#6b7280;margin-bottom:8px;">
+        Plans by customer type
+      </div>
       <div style="display:flex;flex-wrap:wrap;gap:8px;">
         <a href="#venues" class="pill">Venues</a>
         <a href="#groups" class="pill">Multi-Venue Groups</a>
@@ -47,25 +99,27 @@ layout: default
           <h2 class="h3" style="margin-bottom:4px;">Venues</h2>
           <p style="max-width:600px;margin:0;">
             For bars, restaurants, taprooms, hotels, stadiums, and any venue serving non-alcoholic draft.
-            Simple annual pricing with NFC assets, training, and verification included.
+            Simple annual plans that ship with NFC assets, signage, and staff training.
           </p>
         </div>
         <p style="font-size:0.85rem;color:#6b7280;margin:0;">
-          Ideal for: single venues, pilot sites, flagship locations.
+          Typical footprint: 1–4 NA taps per venue.
         </p>
       </div>
 
       <div class="grid" style="display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:24px;">
         
         <!-- Single Venue -->
-        <div class="card" style="padding:28px 24px;position:relative;">
-          <div class="pill" style="position:absolute;top:18px;right:18px;font-size:0.75rem;">Starter</div>
+        <div class="card" style="padding:26px 22px;position:relative;border-radius:16px;">
+          <div class="pill" style="position:absolute;top:18px;right:18px;font-size:0.75rem;">Entry</div>
           <h3 style="margin:6px 0 4px;">Single Venue Verification</h3>
-          <p class="price" style="font-size:28px;font-weight:650;margin:0 0 12px;">$499 <span style="font-size:0.9rem;font-weight:400;">/ year</span></p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:14px;">
-            Core verification and display kit for one venue running NA draft.
+          <p class="price" style="font-size:28px;font-weight:650;margin:0 0 10px;">
+            $499 <span style="font-size:0.9rem;font-weight:400;">/ year</span>
           </p>
-          <ul style="padding-left:18px;margin:0 0 18px;font-size:0.95rem;">
+          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
+            Everything a single bar or restaurant needs to run NA draft correctly.
+          </p>
+          <ul style="padding-left:18px;margin:0 0 16px;font-size:0.95rem;">
             <li>Official DraftVerify Certification</li>
             <li>Pre-programmed NFC coupler tags</li>
             <li>Verified Tap™ decal kit</li>
@@ -73,16 +127,27 @@ layout: default
             <li>DraftVerify Registry listing</li>
             <li>Annual re-verification</li>
           </ul>
-          <a href="/onboarding/" class="btn ghost" style="width:100%;text-align:center;">Start with 1 Venue</a>
+          <a href="/onboarding/" class="btn" 
+             style="width:100%;text-align:center;border-radius:999px;
+             border:1px solid #d1d5db;background:#ffffff;color:#111827;">
+            Start with 1 Venue
+          </a>
         </div>
 
         <!-- Venue Pro (Featured) -->
-        <div class="card" style="padding:30px 24px;border:1px solid var(--gold,#c7aa4a);box-shadow:0 18px 40px rgba(0,0,0,.08);position:relative;transform:translateY(-4px);">
-          <div class="pill" style="position:absolute;top:18px;right:18px;background:var(--gold,#c7aa4a);color:#111827;font-weight:600;font-size:0.75rem;">Most Popular</div>
+        <div class="card" style="padding:30px 24px;border-radius:18px;
+          border:1px solid var(--gold,#eab308);box-shadow:0 22px 60px rgba(15,23,42,.18);
+          position:relative;transform:translateY(-4px);background:#0b1120;color:#e5e7eb;">
+          <div class="pill" style="position:absolute;top:18px;right:18px;
+            background:var(--gold,#eab308);color:#111827;font-weight:600;font-size:0.75rem;">
+            Most Popular
+          </div>
           <h3 style="margin:6px 0 4px;">Venue Pro</h3>
-          <p class="price" style="font-size:30px;font-weight:700;margin:0 0 12px;">$1,250 <span style="font-size:0.9rem;font-weight:400;">/ year</span></p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:14px;">
-            Enhanced support, additional NFC assets, and reporting for venues that treat NA draft seriously.
+          <p class="price" style="font-size:30px;font-weight:700;margin:0 0 10px;">
+            $1,250 <span style="font-size:0.9rem;font-weight:400;">/ year</span>
+          </p>
+          <p style="font-size:0.9rem;color:#e5e7eb;margin-bottom:12px;">
+            For venues that treat NA draft as a core part of their program, not an afterthought.
           </p>
           <ul style="padding-left:18px;margin:0 0 18px;font-size:0.95rem;">
             <li>Everything in Single Venue</li>
@@ -92,7 +157,11 @@ layout: default
             <li>Staff retraining modules</li>
             <li>DraftVerify Pro Venue badge</li>
           </ul>
-          <a href="/onboarding/" class="btn primary" style="width:100%;text-align:center;">Upgrade to Venue Pro</a>
+          <a href="/onboarding/" class="btn primary" 
+             style="width:100%;text-align:center;border-radius:999px;
+             background:#facc15;color:#111827;border:none;">
+            Upgrade to Venue Pro
+          </a>
         </div>
 
       </div>
@@ -106,22 +175,24 @@ layout: default
         <div>
           <h2 class="h3" style="margin-bottom:4px;">Multi-Venue Groups</h2>
           <p style="max-width:600px;margin:0;">
-            For restaurant groups, airports, casinos, and foodservice operators that want consistent NA draft handling 
-            across every bar and outlet.
+            For restaurant groups, airports, casinos, and foodservice operators that want NA draft handled 
+            the same way across every outlet.
           </p>
         </div>
         <p style="font-size:0.85rem;color:#6b7280;margin:0;">
-          Includes group-wide rollout, centralized training, and shared SOPs.
+          Rollout playbooks, templates, and shared SOPs included.
         </p>
       </div>
 
       <div class="grid" style="display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:24px;">
         
-        <div class="card" style="padding:26px 22px;">
+        <div class="card" style="padding:26px 22px;border-radius:16px;">
           <h3 style="margin:4px 0 4px;">3–9 Locations</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 10px;">$4,900 / year</p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
-            Ideal for small regional groups and early pilot networks.
+          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
+            $4,900 / year
+          </p>
+          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
+            For early adopters standardizing a small footprint.
           </p>
           <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
             <li>Group-wide DraftVerify rollout</li>
@@ -132,11 +203,13 @@ layout: default
           </ul>
         </div>
 
-        <div class="card" style="padding:26px 22px;">
+        <div class="card" style="padding:26px 22px;border-radius:16px;">
           <h3 style="margin:4px 0 4px;">10–25 Locations</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 10px;">$9,900 / year</p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
-            Built for established groups with multiple regions and bar teams.
+          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
+            $9,900 / year
+          </p>
+          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
+            For established groups with multiple regions and bar teams.
           </p>
           <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
             <li>Everything in previous tier</li>
@@ -146,10 +219,12 @@ layout: default
           </ul>
         </div>
 
-        <div class="card" style="padding:26px 22px;">
+        <div class="card" style="padding:26px 22px;border-radius:16px;">
           <h3 style="margin:4px 0 4px;">25–100 Locations</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 10px;">$24,000 / year</p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
+          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
+            $24,000 / year
+          </p>
+          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
             Ready for national or cross-country NA draft programs.
           </p>
           <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
@@ -171,22 +246,24 @@ layout: default
         <div>
           <h2 class="h3" style="margin-bottom:4px;">Distributors</h2>
           <p style="max-width:600px;margin:0;">
-            For draft distributors handling non-alcoholic kegs. Ensure chain-of-custody accuracy from warehouse to tap, 
-            reduce mis-serve risk, and protect supplier brands.
+            For draft distributors handling non-alcoholic kegs. Close the gap between 
+            brewery intent and what actually pours at the tap handle.
           </p>
         </div>
         <p style="font-size:0.85rem;color:#6b7280;margin:0;">
-          Includes warehouse SOPs, staff training, and integration with the DraftVerify Registry.
+          Includes warehouse SOPs, staff training, and registry integration.
         </p>
       </div>
 
       <div class="grid" style="display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:24px;">
         
-        <div class="card" style="padding:26px 22px;">
+        <div class="card" style="padding:26px 22px;border-radius:16px;">
           <h3 style="margin:4px 0 4px;">Distributor Basic</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 10px;">$12,500 / year</p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
-            Core verification layer for distributors beginning NA draft standardization.
+          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
+            $12,500 / year
+          </p>
+          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
+            For distributors beginning to standardize NA draft handling.
           </p>
           <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
             <li>Distributor Verification</li>
@@ -196,12 +273,15 @@ layout: default
           </ul>
         </div>
 
-        <div class="card" style="padding:26px 22px;border:1px solid var(--gold,#c7aa4a);box-shadow:0 14px 32px rgba(0,0,0,.06);position:relative;">
+        <div class="card" style="padding:26px 22px;border-radius:16px;
+          border:1px solid var(--gold,#eab308);box-shadow:0 14px 40px rgba(15,23,42,.14);position:relative;">
           <div class="pill" style="position:absolute;top:18px;right:18px;font-size:0.75rem;">Recommended</div>
           <h3 style="margin:4px 0 4px;">Distributor Pro</h3>
-          <p class="price" style="font-size:24px;font-weight:700;margin:0 0 10px;">$28,000 / year</p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
-            Adds dashboards, reporting, and deeper oversight for regional NA programs.
+          <p class="price" style="font-size:24px;font-weight:700;margin:0 0 8px;">
+            $28,000 / year
+          </p>
+          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
+            Dashboards, escalation paths, and deeper oversight for regional NA programs.
           </p>
           <ul style="padding-left:18px;margin:0 0 16px;font-size:0.95rem;">
             <li>Everything in Basic</li>
@@ -209,13 +289,19 @@ layout: default
             <li>Issue reporting system</li>
             <li>Annual site audit</li>
           </ul>
-          <a href="/onboarding/" class="btn primary" style="width:100%;text-align:center;">Talk to Sales</a>
+          <a href="/onboarding/" class="btn primary" 
+             style="width:100%;text-align:center;border-radius:999px;
+             background:#0f172a;color:#f9fafb;border:1px solid #020617;">
+            Talk to Sales
+          </a>
         </div>
 
-        <div class="card" style="padding:26px 22px;">
+        <div class="card" style="padding:26px 22px;border-radius:16px;">
           <h3 style="margin:4px 0 4px;">Distributor Enterprise</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 10px;">$55,000 / year</p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
+          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
+            $55,000 / year
+          </p>
+          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
             For large, multi-warehouse distributors operating across wide territories.
           </p>
           <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
@@ -236,8 +322,8 @@ layout: default
         <div>
           <h2 class="h3" style="margin-bottom:4px;">Breweries</h2>
           <p style="max-width:600px;margin:0;">
-            Pricing based on production scale and NA portfolio. Breweries use DraftVerify to protect NA brands, 
-            align distributors, and standardize keg handling from packaging line to venue.
+            Pricing aligned to production scale and NA portfolio. Breweries use DraftVerify to 
+            protect NA brands, align distributors, and standardize keg handling from packaging line to venue.
           </p>
         </div>
         <p style="font-size:0.85rem;color:#6b7280;margin:0;">
@@ -247,10 +333,12 @@ layout: default
 
       <div class="grid" style="display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:24px;">
         
-        <div class="card" style="padding:26px 22px;">
+        <div class="card" style="padding:26px 22px;border-radius:16px;">
           <h3 style="margin:4px 0 4px;">Micro Brewery</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 10px;">$18,500 / year</p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
+          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
+            $18,500 / year
+          </p>
+          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
             For small producers with focused NA draft programs.
           </p>
           <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
@@ -262,10 +350,12 @@ layout: default
           </ul>
         </div>
 
-        <div class="card" style="padding:26px 22px;">
+        <div class="card" style="padding:26px 22px;border-radius:16px;">
           <h3 style="margin:4px 0 4px;">Regional Brewery</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 10px;">$65,000 / year</p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
+          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
+            $65,000 / year
+          </p>
+          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
             For breweries with multiple facilities and regional NA distribution.
           </p>
           <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
@@ -277,10 +367,12 @@ layout: default
           </ul>
         </div>
 
-        <div class="card" style="padding:26px 22px;">
+        <div class="card" style="padding:26px 22px;border-radius:16px;">
           <h3 style="margin:4px 0 4px;">Large Brewery</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 10px;">$150,000 / year</p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
+          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
+            $150,000 / year
+          </p>
+          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
             For large NA portfolios and national draft distribution.
           </p>
           <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
@@ -291,11 +383,14 @@ layout: default
           </ul>
         </div>
 
-        <div class="card" style="padding:26px 22px;border:1px solid var(--gold,#c7aa4a);box-shadow:0 16px 36px rgba(0,0,0,.07);position:relative;">
+        <div class="card" style="padding:26px 22px;border-radius:18px;
+          border:1px solid var(--gold,#eab308);box-shadow:0 18px 50px rgba(15,23,42,.25);position:relative;background:#020617;color:#e5e7eb;">
           <div class="pill" style="position:absolute;top:18px;right:18px;font-size:0.75rem;">Top Tier</div>
           <h3 style="margin:4px 0 4px;">Macro Enterprise Brewery</h3>
-          <p class="price" style="font-size:24px;font-weight:700;margin:0 0 10px;">$500,000 / country / year</p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
+          <p class="price" style="font-size:24px;font-weight:700;margin:0 0 8px;">
+            $500,000 / country / year
+          </p>
+          <p style="font-size:0.9rem;color:#e5e7eb;margin-bottom:10px;">
             For global players standardizing NA draft integrity across entire countries.
           </p>
           <ul style="padding-left:18px;margin:0 0 16px;font-size:0.95rem;">
@@ -306,7 +401,11 @@ layout: default
             <li>Custom digital registry portal</li>
             <li>Full support + priority access</li>
           </ul>
-          <a href="/onboarding/" class="btn primary" style="width:100%;text-align:center;">Book an Enterprise Call</a>
+          <a href="/onboarding/" class="btn primary" 
+             style="width:100%;text-align:center;border-radius:999px;
+             background:#facc15;color:#111827;border:none;">
+            Book an Enterprise Call
+          </a>
         </div>
 
       </div>
@@ -329,20 +428,25 @@ layout: default
         </p>
       </div>
 
-      <div class="card" style="padding:28px 24px;max-width:520px;margin-top:24px;">
-        <h3 style="margin:4px 0 4px;">Global License</h3>
-        <p class="price" style="font-size:24px;font-weight:700;margin:0 0 10px;">$1.2M–$2.5M / year</p>
-        <p style="font-size:0.95rem;color:#4b5563;margin-bottom:14px;">
-          A global framework and rights package for groups that want NA draft integrity standardized across every market.
+      <div class="card" style="padding:28px 24px;max-width:520px;margin-top:24px;border-radius:18px;">
+        <h3 style="margin:4px 0 6px;">Global License</h3>
+        <p class="price" style="font-size:24px;font-weight:700;margin:0 0 8px;">
+          $1.2M–$2.5M / year
         </p>
-        <ul style="padding-left:18px;margin:0 0 18px;font-size:0.95rem;">
+        <p style="font-size:0.95rem;color:#4b5563;margin-bottom:12px;">
+          A global framework and rights package for groups that want NA draft integrity standardized across every market they operate in.
+        </p>
+        <ul style="padding-left:18px;margin:0 0 16px;font-size:0.95rem;">
           <li>Global DraftVerify standard rights</li>
           <li>Worldwide registry integration</li>
           <li>Global distributor compliance</li>
           <li>Training across all territories</li>
           <li>Dedicated global support team</li>
         </ul>
-        <a href="/onboarding/" class="btn primary">Discuss Global Scope</a>
+        <a href="/onboarding/" class="btn primary"
+           style="border-radius:999px;">
+          Discuss Global Scope
+        </a>
       </div>
     </section>
 
@@ -350,11 +454,11 @@ layout: default
     <!-- SIMPLE COMPARISON + FOOTER CTA -->
     <!-- ===================================== -->
     <section id="compare-tiers" class="pricing-section" style="margin-top:72px;">
-      <div class="card" style="padding:24px 22px;max-width:920px;margin:0 auto 16px;">
-        <h2 class="h4" style="margin:0 0 10px;">At a Glance</h2>
+      <div class="card" style="padding:24px 22px;max-width:960px;margin:0 auto 16px;border-radius:18px;">
+        <h2 class="h4" style="margin:0 0 8px;">At a Glance</h2>
         <p style="font-size:0.9rem;color:#6b7280;margin:0 0 12px;">
-          Every tier includes <strong>NA draft identity standards</strong>, <strong>NFC-ready workflows</strong>, and 
-          <strong>access to the DraftVerify Registry</strong>. Higher levels add scale, dashboards, and governance.
+          Every plan includes <strong>NA draft identity standards</strong>, <strong>NFC-ready workflows</strong>, 
+          and <strong>access to the DraftVerify Registry</strong>. Higher tiers add dashboards, governance, and scaled rollout.
         </p>
         <div style="display:flex;flex-wrap:wrap;gap:16px;font-size:0.9rem;">
           <div style="flex:1 1 160px;min-width:140px;">
@@ -376,11 +480,56 @@ layout: default
         </div>
       </div>
 
+      <!-- FAQ (SaaS style) -->
+      <div class="card" style="padding:24px 22px;max-width:960px;margin:24px auto 8px;border-radius:18px;">
+        <h3 style="margin:0 0 10px;">FAQ</h3>
+        <details style="margin-bottom:8px;">
+          <summary style="cursor:pointer;font-size:0.95rem;font-weight:500;">
+            Do these prices include the physical NFC tags and decals?
+          </summary>
+          <p style="font-size:0.9rem;color:#4b5563;margin-top:6px;">
+            Yes. Each plan includes the NFC assets, decals, and setup guides required to bring your NA draft program
+            into alignment with the DraftVerify standard. Larger tiers include more tags and replenishment options.
+          </p>
+        </details>
+        <details style="margin-bottom:8px;">
+          <summary style="cursor:pointer;font-size:0.95rem;font-weight:500;">
+            Can we start with a pilot before rolling out across all venues?
+          </summary>
+          <p style="font-size:0.9rem;color:#4b5563;margin-top:6px;">
+            Absolutely. Many partners start with one flagship venue or a small group, then expand once internal teams
+            and distributors are comfortable with the workflow.
+          </p>
+        </details>
+        <details style="margin-bottom:8px;">
+          <summary style="cursor:pointer;font-size:0.95rem;font-weight:500;">
+            Do you support both non-alcoholic and alcoholic draft lines?
+          </summary>
+          <p style="font-size:0.9rem;color:#4b5563;margin-top:6px;">
+            DraftVerify is built around non-alcoholic risk first, but the registry and tagging model can extend to
+            alcoholic SKUs where financial, brand, or regulatory risk justify tighter controls.
+          </p>
+        </details>
+        <details>
+          <summary style="cursor:pointer;font-size:0.95rem;font-weight:500;">
+            What if our footprint doesn’t fit neatly into one tier?
+          </summary>
+          <p style="font-size:0.9rem;color:#4b5563;margin-top:6px;">
+            That’s common. Use the onboarding form to outline your breweries, distributors, and venues and we’ll scope
+            a plan that matches your real draft footprint.
+          </p>
+        </details>
+      </div>
+
       <div style="text-align:center;margin-top:24px;">
         <p style="font-size:0.95rem;color:#6b7280;margin-bottom:16px;">
-          Not sure which tier fits? Share your draft footprint and we’ll recommend the right starting point.
+          Not sure where to slot your draft footprint? Send us your venues and distributors and we’ll build a simple, 
+          phased rollout plan around your reality.
         </p>
-        <a href="/onboarding/" class="btn primary">Tell Us About Your Draft Program</a>
+        <a href="/onboarding/" class="btn primary"
+           style="border-radius:999px;">
+          Tell Us About Your Draft Program
+        </a>
       </div>
     </section>
 
