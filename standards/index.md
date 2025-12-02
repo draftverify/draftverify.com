@@ -6,432 +6,305 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
 ---
 
 <style>
-  /* Local tweaks just for this page */
+  /* ===== Simple, calm Standards page ===== */
 
-  .std-hero-card{
-    max-width:980px;
+  .std-hero{
+    max-width:880px;
     margin:0 auto 40px;
-    padding:32px 32px 26px;
-    border-radius:20px;
-    background:radial-gradient(circle at top left,#0d3b66 0,#020617 55%,#020617 100%);
+    padding:32px 24px 30px;
+    border-radius:24px;
+    background:linear-gradient(150deg,#0d1b2a 0%,#020617 70%);
     color:#e5e7eb;
     box-shadow:0 26px 70px rgba(15,23,42,.55);
-    position:relative;
-    overflow:hidden;
   }
-  .std-hero-card::after{
-    content:"";
-    position:absolute;
-    right:-80px;
-    bottom:-80px;
-    width:260px;
-    height:260px;
-    background:radial-gradient(circle,#22c55e 0,transparent 60%);
-    opacity:.18;
-    pointer-events:none;
-  }
-  .std-hero-meta{
-    font-size:0.8rem;
-    color:#e5e7eb;
-    opacity:.85;
-    margin-bottom:10px;
-    display:flex;
-    flex-wrap:wrap;
-    gap:6px;
-    align-items:center;
-  }
-  .std-hero-meta span.dot{
-    opacity:.6;
-  }
-  .std-hero-bullets{
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-    margin:14px 0 18px;
-    font-size:0.8rem;
-  }
-  .std-pill{
-    display:inline-flex;
-    align-items:center;
-    padding:4px 10px;
-    border-radius:999px;
-    border:1px solid rgba(148,163,184,.6);
-    background:rgba(15,23,42,.8);
-    color:#e5e7eb;
+  .std-hero-eyebrow{
     font-size:0.78rem;
-    font-weight:500;
-    white-space:nowrap;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    opacity:.7;
+    margin-bottom:8px;
   }
-  .std-hero-ctas{
+  .std-hero h1{
+    margin:0 0 10px;
+    font-size:2rem;
+    color:#f9fafb;
+  }
+  .std-hero p.lead{
+    margin:0 0 14px;
+    font-size:0.98rem;
+    line-height:1.7;
+    color:#e5e7eb;
+  }
+  .std-hero ul{
+    margin:0 0 18px 18px;
+    padding:0;
+    font-size:0.9rem;
+    color:#e5e7eb;
+  }
+  .std-hero ul li{
+    margin-bottom:4px;
+  }
+  .std-hero-actions{
     display:flex;
     flex-wrap:wrap;
     gap:10px;
+    align-items:center;
     margin-top:8px;
-    position:relative;
-    z-index:1;
   }
-  .std-hero-ctas .btn-primary-local{
-    background:#facc15;
-    color:#111827;
-    border:none;
-  }
-  .std-hero-ctas .btn-secondary-local{
-    background:rgba(15,23,42,.85);
-    border:1px solid rgba(148,163,184,.8);
-    color:#e5e7eb;
-    font-weight:500;
-  }
-  .std-hero-subcopy{
-    font-size:0.8rem;
-    color:#e5e7eb;
-    opacity:.8;
+  .std-hero-note{
     margin-top:14px;
+    font-size:0.82rem;
+    color:#cbd5f5;
   }
 
-  .std-quick-nav{
-    max-width:980px;
-    margin:0 auto 40px;
-    padding:12px 20px;
-    border-radius:14px;
+  .std-section-intro{
+    max-width:760px;
+    margin:0 auto 18px;
+    text-align:center;
+    font-size:0.96rem;
+    color:#4b5563;
   }
-  .std-quick-nav-header{
-    font-size:0.8rem;
+
+  .std-series-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:22px;
+    margin-top:26px;
+  }
+  .std-series-card{
+    background:#ffffff;
+    border-radius:14px;
+    padding:18px 18px 16px;
+    box-shadow:0 10px 30px rgba(15,23,42,.06);
+  }
+  .std-series-label{
+    font-size:0.78rem;
     text-transform:uppercase;
     letter-spacing:.08em;
     color:#6b7280;
-    margin-bottom:8px;
+    margin-bottom:4px;
   }
-  .std-quick-nav-links{
-    display:flex;
-    flex-wrap:wrap;
-    gap:8px;
+  .std-series-card h3{
+    margin:0 0 6px;
+    font-size:1.02rem;
+    color:#111827;
   }
-
-  .chip-series{
-    display:inline-block;
-    padding:4px 10px;
-    border-radius:999px;
-    background:#eef2ff;
-    color:#3730a3;
-    font-size:0.75rem;
-    font-weight:500;
-    margin-bottom:6px;
+  .std-series-card p{
+    margin:0 0 8px;
+    font-size:0.9rem;
+    color:#4b5563;
   }
-  .series-card p.small-links{
-    font-size:0.82rem;
-    color:#6b7280;
-    margin-top:10px;
+  .std-series-card ul{
+    margin:0;
+    padding-left:16px;
+    font-size:0.85rem;
   }
-  .series-card p.small-links a{
-    text-decoration:underline;
-    text-underline-offset:2px;
+  .std-series-card ul li{
+    margin-bottom:2px;
   }
 
-  .doc-index{
-    max-width:900px;
-    margin:32px auto 0;
-    text-align:left;
+  .std-index details{
+    max-width:860px;
+    margin:28px auto 0;
+    font-size:0.9rem;
   }
-  .doc-index summary{
+  .std-index summary{
     cursor:pointer;
     font-weight:600;
-    font-size:0.95rem;
+    list-style:none;
   }
-  .doc-index-list{
+  .std-index summary::-webkit-details-marker{display:none;}
+  .std-index-list{
+    margin-top:10px;
     padding-left:18px;
-    margin-top:12px;
     columns:2;
-    column-gap:32px;
+    column-gap:26px;
   }
-  .doc-index-list li{
-    font-size:0.9rem;
+  .std-index-list li{
     margin-bottom:4px;
     break-inside:avoid;
   }
 
-  .std-feature-list li{
-    margin-bottom:4px;
-  }
-
   @media (max-width:768px){
-    .std-hero-card{
-      padding:24px 20px 22px;
-      margin-bottom:28px;
+    .std-hero{
+      padding:24px 18px 22px;
+      border-radius:18px;
     }
-    .doc-index-list{columns:1;}
+    .std-hero h1{font-size:1.7rem;}
+    .std-index-list{columns:1;}
   }
 </style>
 
 <!-- HERO -->
-<section class="hero hero-simple">
+<section class="section">
   <div class="container">
-    <div class="std-hero-card reveal">
-      <div class="std-hero-meta">
-        <span>DraftVerify Standard v1.0</span>
-        <span class="dot">•</span>
-        <span>NA Draft Systems</span>
-        <span class="dot">•</span>
-        <span>F-1–F-40 Library</span>
+    <div class="std-hero">
+      <div class="std-hero-eyebrow">
+        DraftVerify Standard v1.0 · NA Draft Systems · F-1–F-40 Library
       </div>
 
-      <h1 style="margin:0 0 10px;color:#f9fafb;">
-        DraftVerify Standard v1.0
-      </h1>
+      <h1>DraftVerify Standard v1.0</h1>
 
-      <p style="max-width:720px;margin:0 0 8px;font-size:0.98rem;line-height:1.7;color:#e5e7eb;">
-        The global standard for <strong>non-alcoholic draft integrity</strong> — a combined 
-        <strong>physical identification system</strong> and <strong>digital traceability layer</strong> that keeps 
-        NA draft lines clearly marked, separated, and verifiable from <strong>keg → line → faucet</strong>.
+      <p class="lead">
+        The global standard for <strong>non-alcoholic draft integrity</strong> — a combined
+        <strong>physical identification system</strong> and <strong>digital traceability layer</strong>
+        that keeps NA draft lines clearly marked, separated, and verifiable from
+        <strong>keg → line → faucet</strong>.
       </p>
 
-      <div class="std-hero-bullets">
-        <span class="std-pill">NA Safety &amp; Mis-serve Prevention</span>
-        <span class="std-pill">NFC Identity &amp; Registry</span>
-        <span class="std-pill">F-Series Standards Library (F-1–F-40)</span>
+      <ul>
+        <li>Defines how NA draft must be identified and separated from alcoholic lines.</li>
+        <li>Backed by a digital registry for tags, taps, and verification events.</li>
+        <li>Published as the F-1–F-40 DraftVerify Standards Library.</li>
+      </ul>
+
+      <div class="std-hero-actions">
+        <a class="btn gold" href="#how-it-works">See How the Standard Works</a>
+        <a class="btn ghost" href="#library">Browse the Library</a>
       </div>
 
-      <div class="std-hero-ctas">
-        <a class="btn btn-primary-local" href="#standard-overview">
-          See How the Standard Works
-        </a>
-        <a class="btn btn-secondary-local" href="#standards-library">
-          Browse the F-Series Library
-        </a>
-      </div>
-
-      <p class="std-hero-subcopy">
-        Formal PDFs are available in English and German. Web documents below reflect the same v1.0 content.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- QUICK NAV -->
-<section class="section-sm">
-  <div class="container">
-    <div class="card std-quick-nav">
-      <div class="std-quick-nav-header">Jump to</div>
-      <div class="std-quick-nav-links">
-        <a href="#downloads" class="pill">Downloads (PDF)</a>
-        <a href="#standards-library" class="pill">Standards Library</a>
-        <a href="#standard-overview" class="pill">What It Is</a>
-        <a href="#how-it-works" class="pill">How It Works</a>
-        <a href="#technology" class="pill">Digital Layer</a>
-        <a href="#core-requirements" class="pill">Core Requirements</a>
-        <a href="#applications" class="pill">Where It Applies</a>
-        <a href="#audiences" class="pill">Who It’s For</a>
+      <div class="std-hero-note">
+        Formal PDFs are available in English and German. Web pages below mirror the same v1.0 content.
       </div>
     </div>
   </div>
 </section>
 
 <!-- DOWNLOADS -->
-<section class="section center" id="downloads">
-  <div class="container">
-    <div class="kicker">Downloads</div>
-    <h2 class="h2">Official DraftVerify Standard v1.0 PDFs</h2>
-    <p style="max-width:760px;margin:0 auto">
-      Use the PDF versions for legal, compliance, and internal documentation. The web library below mirrors the
-      same v1.0 content for easier browsing and linking.
+<section class="section-sm" id="downloads">
+  <div class="container center">
+    <h2 class="h2">Download the Formal PDFs</h2>
+    <p class="std-section-intro">
+      Use these for contracts, legal review, or internal policies. They contain the canonical wording of
+      DraftVerify Standard v1.0.
     </p>
 
-    <p style="margin-top:18px">
-      <a class="btn gold" href="{{ '/standard-en.pdf' | relative_url }}">Download English PDF</a>
-      <a class="btn gold" href="{{ '/standard-de.pdf' | relative_url }}" style="margin-left:10px">Download German PDF</a>
-    </p>
-
-    <p style="margin-top:14px;font-size:0.9rem;color:#666;">
-      Having trouble? Right-click → “Save link as…”, or open directly:<br>
-      <a href="{{ '/standard-en.pdf' | relative_url }}">/standard-en.pdf</a> · 
-      <a href="{{ '/standard-de.pdf' | relative_url }}">/standard-de.pdf</a>
+    <p>
+      <a class="btn primary" href="{{ '/standard-en.pdf' | relative_url }}">English PDF</a>
+      <a class="btn ghost" href="{{ '/standard-de.pdf' | relative_url }}" style="margin-left:8px;">German PDF</a>
     </p>
   </div>
 </section>
 
-<!-- STANDARDS LIBRARY -->
-<section class="section" id="standards-library" style="background:#f7f9fc;">
+<!-- WHAT IT IS / HOW IT WORKS -->
+<section class="section" id="how-it-works">
   <div class="container">
-    <div class="kicker center">DraftVerify Standards Library</div>
-    <h2 class="h2 center">A Structured F-1–F-40 Library — Not a Wall of Links</h2>
-
-    <p style="max-width:820px;margin:0 auto 16px;text-align:center;">
-      The DraftVerify Standards Library defines the <strong>physical, digital, operational, legal, and verification</strong>
-      framework for non-alcoholic draft.  
-      Start with the Foundation series, then dive into the series that matches your role.
+    <h2 class="h2 center">What the Standard Actually Does</h2>
+    <p class="std-section-intro">
+      DraftVerify defines a simple idea: <strong>if a tap is sold as non-alcoholic, it should always be
+      non-alcoholic</strong>. The standard turns that into practical rules for hardware, records, and checks.
     </p>
 
-    <p style="max-width:820px;margin:0 auto 32px;text-align:center;font-size:0.9rem;color:#666;">
-      Each card highlights a <strong>series</strong> and a few <strong>key documents</strong>.  
-      A full F-1–F-40 index is available at the bottom of this section.
-    </p>
-
-    <!-- BROWSE BY SERIES -->
-    <div class="grid cols-3" style="max-width:1080px;margin:0 auto;gap:24px;align-items:stretch;">
-
-      <!-- FOUNDATION SERIES -->
-      <div class="card series-card">
-        <div class="chip-series">Foundation · F-1–F-5</div>
-        <h3>Core Standard &amp; Rationale</h3>
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card">
+        <h3>1. Physical Identification</h3>
         <p>
-          The big-picture view: what DraftVerify is, why NA draft needs its own standard, 
-          and the shared language used across every other document.
-        </p>
-        <p class="small-links">
-          Key docs:<br>
-          <a href="/docs/standard-v1/">F-1 Standard v1.0</a> ·
-          <a href="/docs/definitions/">F-2 Definitions</a> ·
-          <a href="/docs/identity-architecture/">F-3 Identity Architecture</a> ·
-          <a href="/docs/risk-profile/">F-4 Risk Profile</a> ·
-          <a href="/docs/legal-basis/">F-5 Legal Basis</a>
+          Kegs, couplers, lines, and faucets used for NA products are clearly marked so anyone can follow
+          the NA path from cooler to tap without guesswork.
         </p>
       </div>
+      <div class="card">
+        <h3>2. Digital Activation</h3>
+        <p>
+          Each NA connection point receives a serialized DraftVerify tag and is recorded in the DraftVerify
+          Registry as part of a specific keg → line → faucet path.
+        </p>
+      </div>
+      <div class="card">
+        <h3>3. Ongoing Verification</h3>
+        <p>
+          Simple checklists and logs keep NA lines separated from alcoholic lines over time, with records
+          available for audits, complaints, or insurance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-      <!-- IDENTIFICATION SERIES -->
-      <div class="card series-card">
-        <div class="chip-series">Identification · F-6–F-10</div>
+<!-- LIBRARY OVERVIEW -->
+<section class="section" id="library" style="background:#f7f9fc;">
+  <div class="container">
+    <h2 class="h2 center">The F-Series Library at a Glance</h2>
+    <p class="std-section-intro">
+      The standard is published as <strong>F-1–F-40</strong>. You don’t have to read all of it.
+      Most people only need the series that matches their role.
+    </p>
+
+    <div class="std-series-grid">
+
+      <div class="std-series-card">
+        <div class="std-series-label">F-1–F-5 · Foundation</div>
+        <h3>What DraftVerify Is &amp; Why It Exists</h3>
+        <p>Core standard, definitions, risk profile, and legal / compliance basis.</p>
+        <ul>
+          <li><a href="/docs/standard-v1/">F-1 DraftVerify Standard v1.0</a></li>
+          <li><a href="/docs/definitions/">F-2 Definitions &amp; Scope</a></li>
+          <li><a href="/docs/risk-profile/">F-4 NA Draft Risk Profile</a></li>
+        </ul>
+      </div>
+
+      <div class="std-series-card">
+        <div class="std-series-label">F-6–F-10 · Identification</div>
         <h3>What NA Looks Like on Hardware</h3>
-        <p>
-          How to mark NA kegs, couplers, lines, and faucets so anyone can follow the NA path in seconds — 
-          plus the visual lexicon behind the system.
-        </p>
-        <p class="small-links">
-          Key docs:<br>
-          <a href="/docs/keg-id/">F-6 Keg ID</a> ·
-          <a href="/docs/coupler-tags/">F-7 Coupler Tags</a> ·
-          <a href="/docs/line-id/">F-8 Line ID</a> ·
-          <a href="/docs/faucet-id/">F-9 Faucet ID</a> ·
-          <a href="/docs/visual-lexicon/">F-10 Visual Lexicon</a>
-        </p>
+        <p>How to physically mark kegs, couplers, lines, and faucets for NA use.</p>
+        <ul>
+          <li><a href="/docs/keg-id/">F-6 Keg Identification</a></li>
+          <li><a href="/docs/coupler-tags/">F-7 Coupler Tags</a></li>
+          <li><a href="/docs/line-id/">F-8 Line Identification</a></li>
+        </ul>
       </div>
 
-      <!-- BREWERY SERIES -->
-      <div class="card series-card">
-        <div class="chip-series">Breweries · F-11–F-14</div>
-        <h3>Preparing &amp; Shipping NA Kegs</h3>
-        <p>
-          Brewery-side playbooks for tagging, encoding, activating, and documenting NA draft before 
-          it ever leaves the facility.
-        </p>
-        <p class="small-links">
-          Key docs:<br>
-          <a href="/docs/brewery-implementation/">F-11 Implementation Guide</a> ·
-          <a href="/docs/brewery-serialization/">F-12 Serialization SOP</a> ·
-          <a href="/docs/brewery-activation/">F-13 Activation Workflow</a> ·
-          <a href="/docs/brewery-records/">F-14 Records</a>
-        </p>
+      <div class="std-series-card">
+        <div class="std-series-label">F-11–F-17 · Breweries &amp; Distributors</div>
+        <h3>Preparing &amp; Moving NA Kegs</h3>
+        <p>Tagging, activation, records, and chain-of-custody requirements.</p>
+        <ul>
+          <li><a href="/docs/brewery-implementation/">F-11 Brewery Implementation Guide</a></li>
+          <li><a href="/docs/brewery-serialization/">F-12 Serialization SOP</a></li>
+          <li><a href="/docs/distributor-protocol/">F-15 Distributor Protocol</a></li>
+        </ul>
       </div>
 
-      <!-- DISTRIBUTOR SERIES -->
-      <div class="card series-card">
-        <div class="chip-series">Distributors · F-15–F-17</div>
-        <h3>Chain-of-Custody &amp; Handling</h3>
-        <p>
-          How distributors keep NA separated, documented, and traceable through warehouses, trucks,
-          and transfers between partners.
-        </p>
-        <p class="small-links">
-          Key docs:<br>
-          <a href="/docs/distributor-protocol/">F-15 Distributor Protocol</a> ·
-          <a href="/docs/distributor-transport/">F-16 Transport &amp; Storage</a> ·
-          <a href="/docs/distributor-logs/">F-17 Verification Logs</a>
-        </p>
-      </div>
-
-      <!-- VENUE SERIES -->
-      <div class="card series-card">
-        <div class="chip-series">Venues · F-18–F-23</div>
+      <div class="std-series-card">
+        <div class="std-series-label">F-18–F-23 · Venues</div>
         <h3>Running NA Draft Day-to-Day</h3>
-        <p>
-          Everything a venue needs: setup, daily/weekly checks, cleaning and change logs,
-          and how to respond if something goes wrong.
-        </p>
-        <p class="small-links">
-          Key docs:<br>
-          <a href="/docs/venue-setup/">F-18 Venue Setup</a> ·
-          <a href="/docs/venue-checklist/">F-19 Verification Checklist</a> ·
-          <a href="/docs/change-log/">F-20 Change Log SOP</a> ·
-          <a href="/docs/cleaning-log/">F-21 Cleaning Log SOP</a> ·
-          <a href="/docs/incident-response/">F-22 Incident Response</a> ·
-          <a href="/docs/staff-training/">F-23 Staff Training</a>
-        </p>
+        <p>Setup, daily checks, cleaning, change logs, and incident response.</p>
+        <ul>
+          <li><a href="/docs/venue-setup/">F-18 Venue Setup</a></li>
+          <li><a href="/docs/venue-checklist/">F-19 Verification Checklist</a></li>
+          <li><a href="/docs/incident-response/">F-22 Incident Response</a></li>
+        </ul>
       </div>
 
-      <!-- SYSTEM DESIGN SERIES -->
-      <div class="card series-card">
-        <div class="chip-series">System Design · F-24–F-27</div>
-        <h3>Engineering &amp; Modifications</h3>
-        <p>
-          For designers, installers, and technicians: how to build NA-compatible systems, 
-          share towers safely, manage gas, and make changes without breaking compliance.
-        </p>
-        <p class="small-links">
-          Key docs:<br>
-          <a href="/docs/system-design/">F-24 System Design</a> ·
-          <a href="/docs/tower-sharing/">F-25 Tower Sharing</a> ·
-          <a href="/docs/gas-management/">F-26 Gas Management</a> ·
-          <a href="/docs/system-modification/">F-27 System Modification</a>
-        </p>
+      <div class="std-series-card">
+        <div class="std-series-label">F-24–F-31 · System &amp; Digital</div>
+        <h3>System Design &amp; Registry</h3>
+        <p>Tower sharing, gas management, and the DraftVerify Registry specification.</p>
+        <ul>
+          <li><a href="/docs/system-design/">F-24 System Design</a></li>
+          <li><a href="/docs/tower-sharing/">F-25 Tower Sharing</a></li>
+          <li><a href="/docs/registry-spec/">F-28 Registry Spec</a></li>
+        </ul>
       </div>
 
-      <!-- DIGITAL SERIES -->
-      <div class="card series-card">
-        <div class="chip-series">Digital · F-28–F-31</div>
-        <h3>Registry &amp; Data Model</h3>
-        <p>
-          The digital backbone: how tags, sites, taps, and events are represented, activated, and logged 
-          inside the DraftVerify Registry.
-        </p>
-        <p class="small-links">
-          Key docs:<br>
-          <a href="/docs/registry-spec/">F-28 Registry Spec</a> ·
-          <a href="/docs/tag-activation/">F-29 Tag Activation</a> ·
-          <a href="/docs/verification-events/">F-30 Verification Events</a> ·
-          <a href="/docs/audit-log/">F-31 Audit Log Framework</a>
-        </p>
-      </div>
-
-      <!-- PROGRAMS SERIES -->
-      <div class="card series-card">
-        <div class="chip-series">Programs · F-32–F-34</div>
-        <h3>Mark Use, Audits &amp; Multi-Venue</h3>
-        <p>
-          When and how the DraftVerify mark may be used, what audits look like, and 
-          how multi-venue programs are structured.
-        </p>
-        <p class="small-links">
-          Key docs:<br>
-          <a href="/docs/certification-policy/">F-32 Certification Policy</a> ·
-          <a href="/docs/compliance-audit/">F-33 Compliance Audit</a> ·
-          <a href="/docs/multi-venue/">F-34 Multi-Venue Requirements</a>
-        </p>
-      </div>
-
-      <!-- ADVANCED SERIES -->
-      <div class="card series-card">
-        <div class="chip-series">Advanced · F-35–F-40</div>
-        <h3>Risk, Field Work &amp; Governance</h3>
-        <p>
-          Deeper analysis and field tools: contamination risk, failure modes, field audit guides,
-          education material, product switching, and how the standard evolves over time.
-        </p>
-        <p class="small-links">
-          Key docs:<br>
-          <a href="/docs/contamination-report/">F-35 Contamination Report</a> ·
-          <a href="/docs/failure-modes/">F-36 Failure Modes</a> ·
-          <a href="/docs/audit-handbook/">F-37 Audit Handbook</a> ·
-          <a href="/docs/education-handbook/">F-38 Education Handbook</a> ·
-          <a href="/docs/product-switching/">F-39 Product Switching</a> ·
-          <a href="/docs/governance-policy/">F-40 Governance Policy</a>
-        </p>
+      <div class="std-series-card">
+        <div class="std-series-label">F-32–F-40 · Programs &amp; Governance</div>
+        <h3>Marks, Audits &amp; Long-Term Care</h3>
+        <p>Use of mark, audits, multi-venue programs, education, and governance.</p>
+        <ul>
+          <li><a href="/docs/certification-policy/">F-32 Certification Policy</a></li>
+          <li><a href="/docs/compliance-audit/">F-33 Compliance Audit</a></li>
+          <li><a href="/docs/governance-policy/">F-40 Governance Policy</a></li>
+        </ul>
       </div>
 
     </div>
 
-    <!-- FULL INDEX -->
-    <div class="doc-index">
+    <!-- Full index collapsed so it doesn't clutter the page -->
+    <div class="std-index">
       <details>
         <summary>View full F-1–F-40 document index</summary>
-        <ol class="doc-index-list">
+        <ol class="std-index-list">
           <li><a href="/docs/standard-v1/">F-1 — DraftVerify Standard v1.0</a></li>
           <li><a href="/docs/definitions/">F-2 — Definitions, Scope &amp; Terminology</a></li>
           <li><a href="/docs/identity-architecture/">F-3 — Identity Architecture Overview</a></li>
@@ -446,7 +319,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
           <li><a href="/docs/brewery-serialization/">F-12 — Brewery NFC Tag Serialization SOP</a></li>
           <li><a href="/docs/brewery-activation/">F-13 — Brewery Activation Workflow</a></li>
           <li><a href="/docs/brewery-records/">F-14 — Brewery Documentation &amp; Records</a></li>
-          <li><a href="/docs/distributor-protocol/">F-15 — Distributor Protocol (D-Series)</a></li>
+          <li><a href="/docs/distributor-protocol/">F-15 — Distributor Protocol</a></li>
           <li><a href="/docs/distributor-transport/">F-16 — Distributor Transport &amp; Storage Requirements</a></li>
           <li><a href="/docs/distributor-logs/">F-17 — Distributor Verification &amp; Reconciliation Logs</a></li>
           <li><a href="/docs/venue-setup/">F-18 — Venue Setup &amp; Verification Protocol</a></li>
@@ -479,188 +352,17 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   </div>
 </section>
 
-<!-- WHAT IT IS -->
-<section class="section center" id="standard-overview">
-  <div class="container">
-    <div class="kicker">What It Is</div>
-    <h2 class="h2">A Unified Physical + Digital Standard</h2>
-    <p style="max-width:820px;margin:0 auto">
-      The DraftVerify Standard defines how non-alcoholic draft must be identified, separated, and verified 
-      in mixed or dedicated draft systems. It combines a clear visual language on the hardware with a required 
-      digital registry that records which keg, line, and faucet are part of the NA draft path.
-    </p>
-    <p style="max-width:820px;margin:16px auto 0">
-      A system is only considered <strong>DraftVerify compliant</strong> when both layers are in place:
-      visible NA identification at the point of pour, and active digital records backing every serialized tag.
-    </p>
-  </div>
-</section>
-
-<!-- HOW IT WORKS -->
-<section class="section center" id="how-it-works">
-  <div class="container">
-    <div class="kicker">How It Works</div>
-    <h2 class="h2">Identification → Activation → Verification</h2>
-    <p>Three pieces that work together in any venue or group.</p>
-
-    <div class="grid cols-3" style="margin-top:22px">
-      <div class="card reveal">
-        <h3>1. Physical Identification</h3>
-        <p>
-          Kegs, lines, and faucets used for non-alcoholic products are clearly marked so teams can follow the 
-          NA path from the cooler to the tap in seconds.
-        </p>
-      </div>
-
-      <div class="card reveal">
-        <h3>2. Digital Activation</h3>
-        <p>
-          Each NA connection point receives a serialized DraftVerify tag and is digitally activated in the 
-          DraftVerify Registry — creating a traceable record for that keg → line → faucet.
-        </p>
-      </div>
-
-      <div class="card reveal">
-        <h3>3. Ongoing Verification</h3>
-        <p>
-          Venues perform simple checks and maintain logs so NA lines stay correctly identified, separated from 
-          alcoholic lines, and aligned with the digital record over time.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TECHNOLOGY (REQUIRED DIGITAL LAYER) -->
-<section class="section" id="technology" style="background:#f7f9fc">
-  <div class="container center">
-    <div class="kicker">Digital Layer</div>
-    <h2 class="h2">Required Traceability Behind Every Tag</h2>
-    <p style="max-width:820px;margin:0 auto">
-      DraftVerify is not just stickers on hardware. The digital platform is a required part of the standard — 
-      providing traceability, accountability, and proof that NA draft systems are being managed correctly over time.
-    </p>
-
-    <ul class="std-feature-list" style="max-width:720px;margin:30px auto 0;text-align:left">
-      <li><strong>Serialized DraftVerify tags</strong> assigned to NA kegs, lines, and faucets.</li>
-      <li><strong>Mandatory digital activation</strong> of each tag in the DraftVerify Registry.</li>
-      <li><strong>Verification logs</strong> capturing who checked what, where, and when.</li>
-      <li><strong>Change and cleaning records</strong> for system modifications and maintenance.</li>
-      <li><strong>Multi-venue visibility</strong> for breweries, groups, and distributors.</li>
-    </ul>
-
-    <p style="max-width:820px;margin:24px auto 0">
-      <strong>A DraftVerify tag is only considered valid when digitally activated in the DraftVerify Registry 
-      and linked to the verified connection point.</strong>  
-      Physical tags without an active record are not compliant with the standard.
-    </p>
-  </div>
-</section>
-
-<!-- CORE REQUIREMENTS SUMMARY -->
-<section class="section" id="core-requirements">
-  <div class="container">
-    <div class="kicker center">Core Requirements</div>
-    <h2 class="h2 center">What the DraftVerify Standard Covers</h2>
-
-    <div class="grid cols-3" style="margin-top:22px">
-      <div class="card reveal">
-        <h3>Separation</h3>
-        <p>
-          NA draft pathways are kept isolated from alcoholic lines. Equipment reuse and tower sharing are 
-          controlled and documented to prevent cross-contact.
-        </p>
-      </div>
-      <div class="card reveal">
-        <h3>Identification</h3>
-        <p>
-          NA components are visibly distinguished at the keg, along the beer line, and on the faucet. Staff can 
-          follow the NA path visually without guesswork.
-        </p>
-      </div>
-      <div class="card reveal">
-        <h3>Verification &amp; Records</h3>
-        <p>
-          Operators maintain verification records, cleaning logs, change logs, and tag data in the DraftVerify 
-          Registry, supporting audits and incident response.
-        </p>
-      </div>
-    </div>
-
-    <div style="max-width:860px;margin:30px auto 0;font-size:0.98rem;line-height:1.6">
-      <h3 class="h3">High-Level Structure of the Standard</h3>
-      <ul>
-        <li><strong>Definitions &amp; Scope</strong> — What counts as non-alcoholic, where the standard applies, and what is out of scope.</li>
-        <li><strong>System Identification</strong> — Requirements for visible, durable NA labeling and serialized tags.</li>
-        <li><strong>Physical Separation &amp; Cross-Contact Prevention</strong> — Rules for shared towers, gas management, and line reuse.</li>
-        <li><strong>Handling &amp; Storage</strong> — Cold chain and handling guidance for NA kegs.</li>
-        <li><strong>Verification Protocol</strong> — Initial verification, annual renewal, and post-modification review.</li>
-        <li><strong>Documentation &amp; Recordkeeping</strong> — Verification records, change logs, cleaning logs, and identification plans.</li>
-        <li><strong>Use of Mark &amp; Incident Response</strong> — When the “DraftVerify Certified” mark may be used, and how to respond to issues.</li>
-        <li><strong>Registry &amp; Tag Serialization</strong> — How DV-SITE-YYYY-##### style tags are issued, tracked, and referenced.</li>
-        <li><strong>Revision Policy</strong> — How and when the standard is reviewed and updated.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- WHERE IT APPLIES -->
-<section class="section" id="applications">
-  <div class="container">
-    <div class="kicker center">Where It Applies</div>
-    <h2 class="h2 center">Built for Non-Alcoholic Draft Across Categories</h2>
-
-    <div class="grid cols-3" style="margin-top:22px">
-      <div class="card reveal">
-        <h3>Non-Alcoholic Beer</h3>
-        <p>The core use case — keeping NA and alcoholic beer lines clearly separated and correctly identified.</p>
-      </div>
-      <div class="card reveal">
-        <h3>Kombucha</h3>
-        <p>Applies the same identification and traceability principles to live and fermented beverages on draft.</p>
-      </div>
-      <div class="card reveal">
-        <h3>Nitro Coffee</h3>
-        <p>Brings clarity and consistency to nitrogen-driven NA systems in cafés, taprooms, and hybrid venues.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- WHO IT'S FOR -->
-<section class="section center" id="audiences" style="background:#f7f9fc">
-  <div class="container">
-    <div class="kicker center">Who It’s For</div>
-    <h2 class="h2 center">From Single Venues to National Groups</h2>
-
-    <div class="grid cols-3" style="margin-top:22px">
-      <div class="card reveal">
-        <h3>Bars &amp; Restaurants</h3>
-        <p>Make NA taps easy to locate, explain, and trust — even with frequent staff turnover.</p>
-      </div>
-      <div class="card reveal">
-        <h3>Breweries &amp; Taprooms</h3>
-        <p>Protect NA brands with a clear, repeatable standard for how they’re poured on site and in partner venues.</p>
-      </div>
-      <div class="card reveal">
-        <h3>Distributors &amp; Groups</h3>
-        <p>Roll out a recognizable, traceable system for NA draft across multiple sites and operators.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- CTA -->
 <section class="section-sm">
   <div class="container">
-    <div class="cta-band reveal">
+    <div class="cta-band">
       <div>
-        <div class="kicker">Get Started</div>
-        <h3 style="margin:.3rem 0 0;">Bring the DraftVerify Standard to your venues.</h3>
+        <div class="kicker">Put the Standard to Work</div>
+        <h3 style="margin:.3rem 0 0;">Bring DraftVerify to your breweries, routes, and venues.</h3>
       </div>
       <div>
         <a class="btn primary" href="{{ '/onboarding/' | relative_url }}">Start Onboarding</a>
-        <a class="btn ghost" href="{{ '/pricing/' | relative_url }}" style="margin-left:10px;">View Pricing</a>
+        <a class="btn ghost" href="{{ '/pricing/' | relative_url }}" style="margin-left:8px;">View Pricing</a>
       </div>
     </div>
   </div>
