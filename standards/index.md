@@ -6,14 +6,14 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
 ---
 
 <style>
-  /* ===== Simple, calm Standards page ===== */
+  /* Simple, calm Standards page */
 
   .std-hero{
     max-width:880px;
     margin:0 auto 40px;
     padding:32px 24px 30px;
     border-radius:24px;
-    background:linear-gradient(150deg,#0d1b2a 0%,#020617 70%);
+    background:linear-gradient(145deg,#0d1b2a 0%,#020617 70%);
     color:#e5e7eb;
     box-shadow:0 26px 70px rgba(15,23,42,.55);
   }
@@ -21,8 +21,8 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     font-size:0.78rem;
     letter-spacing:.08em;
     text-transform:uppercase;
-    opacity:.7;
-    margin-bottom:8px;
+    opacity:.75;
+    margin-bottom:6px;
   }
   .std-hero h1{
     margin:0 0 10px;
@@ -36,7 +36,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     color:#e5e7eb;
   }
   .std-hero ul{
-    margin:0 0 18px 18px;
+    margin:0 0 16px 18px;
     padding:0;
     font-size:0.9rem;
     color:#e5e7eb;
@@ -44,24 +44,17 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   .std-hero ul li{
     margin-bottom:4px;
   }
-  .std-hero-actions{
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-    align-items:center;
-    margin-top:8px;
-  }
   .std-hero-note{
-    margin-top:14px;
+    margin-top:10px;
     font-size:0.82rem;
     color:#cbd5f5;
   }
 
   .std-section-intro{
     max-width:760px;
-    margin:0 auto 18px;
+    margin:0 auto 10px;
     text-align:center;
-    font-size:0.96rem;
+    font-size:0.95rem;
     color:#4b5563;
   }
 
@@ -69,12 +62,12 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
     gap:22px;
-    margin-top:26px;
+    margin-top:22px;
   }
   .std-series-card{
     background:#ffffff;
-    border-radius:14px;
-    padding:18px 18px 16px;
+    border-radius:16px;
+    padding:20px 18px 18px;
     box-shadow:0 10px 30px rgba(15,23,42,.06);
   }
   .std-series-label{
@@ -86,7 +79,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   }
   .std-series-card h3{
     margin:0 0 6px;
-    font-size:1.02rem;
+    font-size:1.08rem;
     color:#111827;
   }
   .std-series-card p{
@@ -97,10 +90,11 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   .std-series-card ul{
     margin:0;
     padding-left:16px;
-    font-size:0.85rem;
+    font-size:0.86rem;
+    color:#4b5563;
   }
   .std-series-card ul li{
-    margin-bottom:2px;
+    margin-bottom:3px;
   }
 
   .std-index details{
@@ -158,10 +152,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
         <li>Published as the F-1–F-40 DraftVerify Standards Library.</li>
       </ul>
 
-      <div class="std-hero-actions">
-        <a class="btn gold" href="#how-it-works">See How the Standard Works</a>
-        <a class="btn ghost" href="#library">Browse the Library</a>
-      </div>
+      <a class="btn gold" href="#how-it-works">See How the Standard Works</a>
 
       <div class="std-hero-note">
         Formal PDFs are available in English and German. Web pages below mirror the same v1.0 content.
@@ -186,32 +177,32 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   </div>
 </section>
 
-<!-- WHAT IT IS / HOW IT WORKS -->
+<!-- WHAT IT DOES -->
 <section class="section" id="how-it-works">
   <div class="container">
     <h2 class="h2 center">What the Standard Actually Does</h2>
     <p class="std-section-intro">
-      DraftVerify defines a simple idea: <strong>if a tap is sold as non-alcoholic, it should always be
-      non-alcoholic</strong>. The standard turns that into practical rules for hardware, records, and checks.
+      DraftVerify takes a simple idea — <strong>if a tap is sold as non-alcoholic, it should always be
+      non-alcoholic</strong> — and turns it into practical rules for hardware, records, and checks.
     </p>
 
     <div class="grid cols-3" style="margin-top:22px">
       <div class="card">
-        <h3>1. Physical Identification</h3>
+        <h3>Physical Identification</h3>
         <p>
           Kegs, couplers, lines, and faucets used for NA products are clearly marked so anyone can follow
           the NA path from cooler to tap without guesswork.
         </p>
       </div>
       <div class="card">
-        <h3>2. Digital Activation</h3>
+        <h3>Digital Activation</h3>
         <p>
           Each NA connection point receives a serialized DraftVerify tag and is recorded in the DraftVerify
           Registry as part of a specific keg → line → faucet path.
         </p>
       </div>
       <div class="card">
-        <h3>3. Ongoing Verification</h3>
+        <h3>Ongoing Verification</h3>
         <p>
           Simple checklists and logs keep NA lines separated from alcoholic lines over time, with records
           available for audits, complaints, or insurance.
@@ -226,8 +217,8 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   <div class="container">
     <h2 class="h2 center">The F-Series Library at a Glance</h2>
     <p class="std-section-intro">
-      The standard is published as <strong>F-1–F-40</strong>. You don’t have to read all of it.
-      Most people only need the series that matches their role.
+      The standard is published as <strong>F-1–F-40</strong>. Most people only need the series that matches
+      their role — the rest is there when you need more depth.
     </p>
 
     <div class="std-series-grid">
@@ -300,7 +291,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
 
     </div>
 
-    <!-- Full index collapsed so it doesn't clutter the page -->
+    <!-- Full index kept collapsed so it doesn’t clutter -->
     <div class="std-index">
       <details>
         <summary>View full F-1–F-40 document index</summary>
