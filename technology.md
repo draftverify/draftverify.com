@@ -6,437 +6,339 @@ description: "Inside DraftVerify: the NFC identity layer, registry, and verifica
 ---
 
 <style>
-/* ===========================
-   Modern SaaS Technology Page
-   Clean • Minimal • Premium
-=========================== */
+  /* Simple, calm technology page */
 
-/* HERO */
-.tech-hero {
-  max-width: 960px;
-  margin: 0 auto 60px;
-  padding: 56px 48px;
-  border-radius: 28px;
-  background: linear-gradient(155deg, #0d1b2a 0%, #0a0f1a 100%);
-  color: #e6e9ef;
-  box-shadow: 0 40px 120px rgba(0,0,0,0.45);
-  position: relative;
-  overflow: hidden;
-}
-.tech-hero::after {
-  content: "";
-  position: absolute;
-  right: -60px;
-  bottom: -60px;
-  width: 240px;
-  height: 240px;
-  background: radial-gradient(circle, #22c55e33 0%, transparent 70%);
-}
-.tech-hero-meta {
-  font-size: 0.78rem;
-  letter-spacing: .04em;
-  opacity: .75;
-  margin-bottom: 14px;
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  text-transform: uppercase;
-}
-.tech-hero h1 {
-  margin: 0 0 16px;
-  font-size: 2.4rem;
-  font-weight: 650;
-  line-height: 1.2;
-  color: #f9fafb;
-}
-.tech-hero p.lead {
-  font-size: 1.08rem;
-  line-height: 1.7;
-  max-width: 720px;
-  color: #d1d5db;
-  margin-bottom: 28px;
-}
+  .tech-hero{
+    max-width:860px;
+    margin:0 auto 40px;
+    padding:32px 24px 30px;
+    border-radius:24px;
+    background:linear-gradient(145deg,#0d1b2a 0%,#020617 70%);
+    color:#e5e7eb;
+    box-shadow:0 26px 70px rgba(15,23,42,.55);
+  }
+  .tech-hero-eyebrow{
+    font-size:0.78rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    opacity:.75;
+    margin-bottom:6px;
+  }
+  .tech-hero h1{
+    margin:0 0 10px;
+    font-size:2rem;
+    color:#f9fafb;
+  }
+  .tech-hero p.lead{
+    margin:0 0 14px;
+    font-size:0.98rem;
+    line-height:1.7;
+    color:#e5e7eb;
+  }
+  .tech-hero-list{
+    margin:0 0 14px 18px;
+    padding:0;
+    font-size:0.9rem;
+    color:#e5e7eb;
+  }
+  .tech-hero-list li{
+    margin-bottom:4px;
+  }
+  .tech-hero-note{
+    margin-top:10px;
+    font-size:0.82rem;
+    color:#cbd5f5;
+  }
 
-/* TAG ROW */
-.tech-pill-row {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 32px;
-}
-.tech-pill {
-  padding: 6px 16px;
-  border-radius: 999px;
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.12);
-  font-size: 0.78rem;
-  color: #e5e7eb;
-  backdrop-filter: blur(4px);
-}
+  .tech-section-intro{
+    max-width:760px;
+    margin:0 auto 10px;
+    text-align:center;
+    font-size:0.95rem;
+    color:#4b5563;
+  }
 
-/* CTA ROW */
-.tech-cta-row {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-.tech-btn-primary {
-  background: #facc15;
-  color: #111827;
-  padding: 12px 22px;
-  border-radius: 10px;
-  font-weight: 600;
-  border: none;
-}
-.tech-btn-secondary {
-  background: transparent;
-  border: 1px solid rgba(255,255,255,0.22);
-  color: #e5e7eb;
-  padding: 12px 22px;
-  border-radius: 10px;
-  font-weight: 500;
-}
+  .tech-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:22px;
+    margin-top:22px;
+  }
+  .tech-card{
+    background:#ffffff;
+    border-radius:16px;
+    padding:20px 18px 18px;
+    box-shadow:0 10px 30px rgba(15,23,42,.06);
+  }
+  .tech-card h3{
+    margin:0 0 6px;
+    font-size:1.08rem;
+    color:#111827;
+  }
+  .tech-card p{
+    margin:0;
+    font-size:0.9rem;
+    color:#4b5563;
+  }
+  .tech-card ul{
+    margin:8px 0 0 16px;
+    padding:0;
+    font-size:0.86rem;
+    color:#4b5563;
+  }
+  .tech-card ul li{
+    margin-bottom:3px;
+  }
 
-/* SECTION HEADINGS */
-.section-title {
-  text-align: center;
-  margin-bottom: 8px;
-}
-.section-subtext {
-  text-align: center;
-  max-width: 760px;
-  margin: 0 auto 26px;
-  opacity: .85;
-}
+  .tech-steps{
+    max-width:860px;
+    margin:18px auto 0;
+    padding:18px 18px 16px;
+    border-radius:16px;
+    background:#0f172a;
+    color:#e5e7eb;
+    border:1px solid rgba(15,23,42,.5);
+  }
+  .tech-steps-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:16px;
+    margin-top:10px;
+  }
+  .tech-steps-item h4{
+    margin:0 0 4px;
+    font-size:0.95rem;
+    color:#facc15;
+  }
+  .tech-steps-item p{
+    margin:0;
+    font-size:0.86rem;
+    color:#e5e7eb;
+  }
 
-/* DIAGRAM BLOCK */
-.dv-diagram {
-  max-width: 900px;
-  margin: 0 auto 40px;
-  padding: 24px;
-  border-radius: 20px;
-  background: #0f172a;
-  border: 1px solid rgba(255,255,255,0.08);
-  color: #e2e8f0;
-}
-.dv-diagram-cols {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  gap: 24px;
-  margin-top: 12px;
-}
-.dv-diagram-col h4 {
-  margin: 0 0 6px;
-  font-size: 1rem;
-  color: #facc15;
-}
-.dv-diagram-col p {
-  margin: 0;
-  opacity: .88;
-  font-size: 0.95rem;
-}
-
-/* SIMPLE FEATURE GRID */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-  gap: 28px;
-  margin-top: 34px;
-}
-.feature-card {
-  background: white;
-  padding: 26px;
-  border-radius: 16px;
-  box-shadow: 0 14px 40px rgba(0,0,0,0.05);
-}
-.feature-card h3 {
-  margin-top: 0;
-  font-size: 1.2rem;
-}
-.feature-card p {
-  font-size: 0.95rem;
-  color: #374151;
-}
-
+  @media (max-width:768px){
+    .tech-hero{
+      padding:24px 18px 22px;
+      border-radius:18px;
+    }
+    .tech-hero h1{font-size:1.7rem;}
+  }
 </style>
 
-<!-- ===========================
-        HERO SECTION
-=========================== -->
-<section class="hero hero-simple">
+<!-- HERO -->
+<section class="section">
   <div class="container">
-    
     <div class="tech-hero">
-
-      <div class="tech-hero-meta">
-        <span>DraftVerify Technology</span>
-        <span>•</span>
-        <span>NFC Identity Layer</span>
-        <span>•</span>
-        <span>Registry & Verification Engine</span>
+      <div class="tech-hero-eyebrow">
+        DraftVerify Technology · NFC Identity Layer & Registry
       </div>
 
       <h1>The Technology Behind DraftVerify</h1>
 
       <p class="lead">
-        DraftVerify links <strong>NFC-tagged hardware</strong> (kegs, couplers & faucets) with a 
-        <strong>cloud registry</strong> and <strong>verification engine</strong> that ensures non-alcoholic 
-        draft lines are correctly identified, separated, and provable — across breweries, distributors, and venues.
+        DraftVerify links <strong>NFC tags on real hardware</strong> with a
+        <strong>cloud registry</strong> and <strong>verification engine</strong>, so every
+        non-alcoholic draft tap can be identified, checked, and proven over time.
       </p>
 
-      <div class="tech-pill-row">
-        <span class="tech-pill">NFC identity on hardware</span>
-        <span class="tech-pill">DraftVerify Registry</span>
-        <span class="tech-pill">Verification logs</span>
-        <span class="tech-pill">Multi-venue visibility</span>
-      </div>
+      <ul class="tech-hero-list">
+        <li>NFC identity for kegs, couplers, and faucets.</li>
+        <li>Registry that understands sites, taps, and tags.</li>
+        <li>Verification events that create an audit trail.</li>
+      </ul>
 
-      <div class="tech-cta-row">
-        <a href="#architecture" class="tech-btn-primary">See the Architecture</a>
-        <a href="#components" class="tech-btn-secondary">Explore Components</a>
-      </div>
+      <a class="btn gold" href="#architecture">See How It Fits Together</a>
 
-    </div>
-
-  </div>
-</section>
-
-<!-- ===========================
-        QUICK NAV
-=========================== -->
-<section class="section-sm">
-  <div class="container">
-    <div class="card" style="max-width:900px;margin:0 auto;padding:18px 24px;border-radius:14px;">
-      <div style="font-size:0.8rem;color:#6b7280;margin-bottom:6px;text-transform:uppercase;letter-spacing:.08em;">
-        On this page
-      </div>
-      <div style="display:flex;flex-wrap:wrap;gap:10px;">
-        <a href="#architecture" class="pill">Architecture Overview</a>
-        <a href="#components" class="pill">Core Components</a>
-        <a href="#data-model" class="pill">Data Model</a>
-        <a href="#workflows" class="pill">Workflows</a>
-        <a href="#teams" class="pill">For Breweries & Venues</a>
-        <a href="#trust" class="pill">Security & Trust</a>
+      <div class="tech-hero-note">
+        The technology follows the same rules described in the F-Series Standards Library — it’s the
+        implementation layer for what’s written down on paper.
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===========================
-       ARCHITECTURE
-=========================== -->
-<section class="section" id="architecture">
+<!-- AT A GLANCE -->
+<section class="section" id="overview">
   <div class="container">
-
-    <h2 class="section-title">Architecture Overview</h2>
-    <p class="section-subtext">
-      NFC tags connect real-world draft hardware to a structured cloud registry.  
-      Every keg, coupler, line, faucet, and venue becomes a first-class object.
+    <h2 class="h2 center">At a Glance</h2>
+    <p class="tech-section-intro">
+      Three building blocks work together: identity on hardware, a registry in the cloud, and simple
+      verification workflows for people who touch the taps.
     </p>
 
-    <div class="dv-diagram">
-      <strong>System Flow</strong>
-
-      <div class="dv-diagram-cols">
-
-        <div class="dv-diagram-col">
-          <h4>1. Tag & Encode</h4>
-          <p>Breweries attach NFC tags to NA kegs and couplers and link IDs to registry objects.</p>
-        </div>
-
-        <div class="dv-diagram-col">
-          <h4>2. Register</h4>
-          <p>Tags are activated in the DraftVerify Registry and assigned to lines, faucets, and venues.</p>
-        </div>
-
-        <div class="dv-diagram-col">
-          <h4>3. Scan & Verify</h4>
-          <p>Staff scan tags during connection, checks, and cleaning. Each scan becomes a verifiable event.</p>
-        </div>
-
-        <div class="dv-diagram-col">
-          <h4>4. Audit</h4>
-          <p>Breweries and groups export compliance logs, incident history, and tap-level snapshots.</p>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ===========================
-       COMPONENTS
-=========================== -->
-<section class="section" id="components" style="background:#f8fafc;">
-  <div class="container">
-
-    <h2 class="section-title">Core Components</h2>
-    <p class="section-subtext">
-      DraftVerify is built as a layered system: identity on hardware → registry → verification engine.
-    </p>
-
-    <div class="feature-grid">
-
-      <div class="feature-card">
-        <h3>NFC Identity Layer</h3>
-        <p>Industrial-grade NFC tags for kegs, couplers, and faucets. Each tag is uniquely mapped to registry objects.</p>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h3>NFC Tags on Hardware</h3>
+        <p>
+          Industrial-grade NFC tags attached to kegs, couplers, and (where needed) faucets.
+          Each tag is unique and linked to one place in the system.
+        </p>
+        <ul>
+          <li>Cold-room and moisture compatible</li>
+          <li>Scannable with standard NFC devices</li>
+          <li>Mapped directly to DraftVerify IDs</li>
+        </ul>
       </div>
 
-      <div class="feature-card">
+      <div class="tech-card">
         <h3>DraftVerify Registry</h3>
-        <p>The cloud platform that understands sites, taps, identity structures, and verification events.</p>
+        <p>
+          A cloud registry that understands sites, taps, tags, and events. It’s the
+          single source of truth for what “NA” means on each tap.
+        </p>
+        <ul>
+          <li>Site & tap configuration</li>
+          <li>Tag lifecycle and status</li>
+          <li>Exportable logs for QA / legal</li>
+        </ul>
       </div>
 
-      <div class="feature-card">
+      <div class="tech-card">
         <h3>Verification Engine</h3>
-        <p>Every scan becomes an immutable event tied to timestamps, assets, and personnel.</p>
+        <p>
+          Each scan and checklist becomes an event with a timestamp, location, and person attached.
+          That event history is what makes the system defensible.
+        </p>
+        <ul>
+          <li>Verification, change, and cleaning events</li>
+          <li>Incident recording where needed</li>
+          <li>Append-only history for audits</li>
+        </ul>
       </div>
     </div>
-
   </div>
 </section>
 
-<!-- ===========================
-       DATA MODEL
-=========================== -->
-<section class="section" id="data-model">
+<!-- HOW IT FITS TOGETHER -->
+<section class="section" id="architecture" style="background:#f8fafc;">
   <div class="container">
-
-    <h2 class="section-title">Data Model</h2>
-    <p class="section-subtext">
-      Every object in a draft system — venue, tower, tap, keg, coupler — has a structured identity.
+    <h2 class="h2 center">How It Fits Together</h2>
+    <p class="tech-section-intro">
+      From the brewery’s packaging line to the tap handle at a venue, DraftVerify follows the same simple
+      pattern: tag it, register it, connect it, and keep a record.
     </p>
 
-    <div class="feature-grid">
-
-      <div class="feature-card">
-        <h3>Sites & Taps</h3>
-        <p>Venues become Sites with fully mapped tap configurations and NA-only line assignment.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Tags & IDs</h3>
-        <p>DraftVerify IDs link NFC tags to physical objects and lifecycle history.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Events & Logs</h3>
-        <p>Verification events record who did what, where, when — and why.</p>
+    <div class="tech-steps">
+      <strong style="font-size:0.9rem;">End-to-end flow</strong>
+      <div class="tech-steps-list">
+        <div class="tech-steps-item">
+          <h4>1. Tag & Encode</h4>
+          <p>Breweries tag NA kegs and couplers and link each tag to the correct product and asset.</p>
+        </div>
+        <div class="tech-steps-item">
+          <h4>2. Register</h4>
+          <p>Tags are activated in the DraftVerify Registry and assigned to lines, faucets, and sites.</p>
+        </div>
+        <div class="tech-steps-item">
+          <h4>3. Scan & Check</h4>
+          <p>Distributors and venues scan tags when connecting kegs, doing checks, or cleaning lines.</p>
+        </div>
+        <div class="tech-steps-item">
+          <h4>4. Prove & Improve</h4>
+          <p>Breweries and groups pull reports to show how NA taps were handled and where to improve.</p>
+        </div>
       </div>
     </div>
-
   </div>
 </section>
 
-<!-- ===========================
-       WORKFLOWS
-=========================== -->
-<section class="section" id="workflows" style="background:#f8fafc;">
-  <div class="container">
-
-    <h2 class="section-title">Workflows</h2>
-    <p class="section-subtext">Clean, simple flows for breweries, distributors, and venues.</p>
-
-    <div class="feature-grid">
-      
-      <div class="feature-card">
-        <h3>Brewery Workflow</h3>
-        <p>Tag kegs → encode → activate → push to distributor or venue footprint.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Distributor Workflow</h3>
-        <p>Scan at intake, storage, and loading to prove NA-only pathways.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Venue Workflow</h3>
-        <p>Scan before connecting a keg, complete checklists, verify cleaning events.</p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- ===========================
-       TEAMS
-=========================== -->
+<!-- WHO USES THE TECH -->
 <section class="section" id="teams">
   <div class="container">
-
-    <h2 class="section-title">Built for Breweries, Distributors & Venues</h2>
-    <p class="section-subtext">Different roles, one unified source of truth.</p>
-
-    <div class="feature-grid">
-
-      <div class="feature-card">
-        <h3>Breweries</h3>
-        <p>Know exactly where your NA kegs are and how they were handled, poured, and maintained.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Distributors</h3>
-        <p>Demonstrate correct storage, transport, and segregation from alcoholic stock.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Venues</h3>
-        <p>Make NA taps foolproof for staff with clear identity, checklists, and verifiable steps.</p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- ===========================
-       TRUST
-=========================== -->
-<section class="section" id="trust" style="background:#f8fafc;">
-  <div class="container">
-
-    <h2 class="section-title">Security & Trust</h2>
-    <p class="section-subtext">
-      DraftVerify is designed for long-term compliance and audit readiness.
+    <h2 class="h2 center">Who Uses the Technology</h2>
+    <p class="tech-section-intro">
+      DraftVerify is designed so breweries, distributors, and venues all see the same truth — just from
+      their own angle.
     </p>
 
-    <div class="feature-grid">
-
-      <div class="feature-card">
-        <h3>Immutable Logs</h3>
-        <p>Events are append-only, providing defensible compliance records for years.</p>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h3>Breweries</h3>
+        <p>
+          See where NA kegs are, which taps are verified, and how often they’re being checked and cleaned.
+        </p>
+        <ul>
+          <li>Footprint of verified NA taps</li>
+          <li>Tap-level event history</li>
+          <li>Evidence for QA and brand teams</li>
+        </ul>
       </div>
 
-      <div class="feature-card">
-        <h3>Access Control</h3>
-        <p>Brewery, distributor, venue, and group views are permission-scoped.</p>
+      <div class="tech-card">
+        <h3>Distributors</h3>
+        <p>
+          Prove that NA draft was kept separate from alcoholic stock through the warehouse and on the truck.
+        </p>
+        <ul>
+          <li>Warehouse and route checkpoints</li>
+          <li>Exception & incident logging</li>
+          <li>Support for SLAs and contracts</li>
+        </ul>
       </div>
 
-      <div class="feature-card">
-        <h3>Standards-Aligned</h3>
-        <p>Every field maps directly to the F-Series Standards Library.</p>
+      <div class="tech-card">
+        <h3>Venues & Groups</h3>
+        <p>
+          Make NA taps easy to identify and run day-to-day, even with staff turnover and multiple locations.
+        </p>
+        <ul>
+          <li>Clear “this tap is NA” identity</li>
+          <li>Simple checklists instead of manuals</li>
+          <li>Multi-venue snapshots for operators</li>
+        </ul>
       </div>
-
     </div>
-
   </div>
 </section>
 
-<!-- ===========================
-       CTA
-=========================== -->
+<!-- WHY IT MATTERS -->
+<section class="section" id="trust" style="background:#f8fafc;">
+  <div class="container">
+    <h2 class="h2 center">Why the Technology Matters</h2>
+    <p class="tech-section-intro">
+      The goal isn’t just “an app”. It’s a clean, long-term record of how non-alcoholic taps were handled,
+      in case anyone ever asks.
+    </p>
+
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h3>Less Guesswork</h3>
+        <p>
+          When a complaint or question comes in, you can follow the data instead of relying on memory or
+          handwritten notes.
+        </p>
+      </div>
+
+      <div class="tech-card">
+        <h3>Proof on Demand</h3>
+        <p>
+          Exportable logs and snapshots make it easier to talk to insurers, regulators, or large accounts
+          about NA draft safety.
+        </p>
+      </div>
+
+      <div class="tech-card">
+        <h3>Same Story Everywhere</h3>
+        <p>
+          The registry, tags, and standards library all use the same language, so everyone is working from
+          one shared definition of “NA draft done right”.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
 <section class="section-sm">
   <div class="container">
-    <div class="cta-band reveal">
+    <div class="cta-band">
       <div>
-        <div class="kicker">See DraftVerify in Action</div>
-        <h3 style="margin:.3rem 0;">Bring clarity, ownership & proof to your NA taps.</h3>
+        <div class="kicker">See It in Your World</div>
+        <h3 style="margin:.3rem 0 0;">Plug DraftVerify into your NA taps, routes, and venues.</h3>
       </div>
       <div>
-        <a class="btn primary" href="/onboarding/">Start Onboarding</a>
-        <a class="btn ghost" href="/pricing/" style="margin-left:10px;">View Pricing</a>
+        <a class="btn primary" href="{{ '/onboarding/' | relative_url }}">Start Onboarding</a>
+        <a class="btn ghost" href="{{ '/pricing/' | relative_url }}" style="margin-left:8px;">View Pricing</a>
       </div>
     </div>
   </div>
