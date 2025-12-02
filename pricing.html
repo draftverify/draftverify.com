@@ -1,537 +1,369 @@
 ---
-title: Pricing
-description: Transparent, standardized pricing for venues, distributors, and breweries adopting the DraftVerify standard.
-permalink: /pricing/
 layout: default
+title: "DraftVerify Standard v1.0 — Non-Alcoholic Draft Systems"
+permalink: /standards/
+description: "The official DraftVerify Standard v1.0 — a combined physical and digital framework for identifying, separating, and verifying non-alcoholic draft systems from keg to faucet."
 ---
 
+<style>
+  /* ===== Simple, calm Standards page ===== */
+
+  .std-hero{
+    max-width:880px;
+    margin:0 auto 40px;
+    padding:32px 24px 30px;
+    border-radius:24px;
+    background:linear-gradient(150deg,#0d1b2a 0%,#020617 70%);
+    color:#e5e7eb;
+    box-shadow:0 26px 70px rgba(15,23,42,.55);
+  }
+  .std-hero-eyebrow{
+    font-size:0.78rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    opacity:.7;
+    margin-bottom:8px;
+  }
+  .std-hero h1{
+    margin:0 0 10px;
+    font-size:2rem;
+    color:#f9fafb;
+  }
+  .std-hero p.lead{
+    margin:0 0 14px;
+    font-size:0.98rem;
+    line-height:1.7;
+    color:#e5e7eb;
+  }
+  .std-hero ul{
+    margin:0 0 18px 18px;
+    padding:0;
+    font-size:0.9rem;
+    color:#e5e7eb;
+  }
+  .std-hero ul li{
+    margin-bottom:4px;
+  }
+  .std-hero-actions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+    margin-top:8px;
+  }
+  .std-hero-note{
+    margin-top:14px;
+    font-size:0.82rem;
+    color:#cbd5f5;
+  }
+
+  .std-section-intro{
+    max-width:760px;
+    margin:0 auto 18px;
+    text-align:center;
+    font-size:0.96rem;
+    color:#4b5563;
+  }
+
+  .std-series-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:22px;
+    margin-top:26px;
+  }
+  .std-series-card{
+    background:#ffffff;
+    border-radius:14px;
+    padding:18px 18px 16px;
+    box-shadow:0 10px 30px rgba(15,23,42,.06);
+  }
+  .std-series-label{
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    color:#6b7280;
+    margin-bottom:4px;
+  }
+  .std-series-card h3{
+    margin:0 0 6px;
+    font-size:1.02rem;
+    color:#111827;
+  }
+  .std-series-card p{
+    margin:0 0 8px;
+    font-size:0.9rem;
+    color:#4b5563;
+  }
+  .std-series-card ul{
+    margin:0;
+    padding-left:16px;
+    font-size:0.85rem;
+  }
+  .std-series-card ul li{
+    margin-bottom:2px;
+  }
+
+  .std-index details{
+    max-width:860px;
+    margin:28px auto 0;
+    font-size:0.9rem;
+  }
+  .std-index summary{
+    cursor:pointer;
+    font-weight:600;
+    list-style:none;
+  }
+  .std-index summary::-webkit-details-marker{display:none;}
+  .std-index-list{
+    margin-top:10px;
+    padding-left:18px;
+    columns:2;
+    column-gap:26px;
+  }
+  .std-index-list li{
+    margin-bottom:4px;
+    break-inside:avoid;
+  }
+
+  @media (max-width:768px){
+    .std-hero{
+      padding:24px 18px 22px;
+      border-radius:18px;
+    }
+    .std-hero h1{font-size:1.7rem;}
+    .std-index-list{columns:1;}
+  }
+</style>
+
+<!-- HERO -->
 <section class="section">
   <div class="container">
+    <div class="std-hero">
+      <div class="std-hero-eyebrow">
+        DraftVerify Standard v1.0 · NA Draft Systems · F-1–F-40 Library
+      </div>
 
-    <!-- HERO / SAAS STYLE -->
-    <div class="hero-card" style="max-width:960px;margin:0 auto 40px;padding:32px 32px 28px;border-radius:18px;
-      background:radial-gradient(circle at top left,#0d3b66 0,#020617 55%,#020617 100%);
-      color:#e5e7eb;box-shadow:0 22px 60px rgba(15,23,42,.55);position:relative;overflow:hidden;">
-      
-      <div style="position:absolute;inset:auto -80px -80px auto;opacity:.18;
-        background:radial-gradient(circle,#22c55e 0,transparent 60%);width:260px;height:260px;pointer-events:none;"></div>
+      <h1>DraftVerify Standard v1.0</h1>
 
-      <div class="kicker" style="color:#e5e7eb;opacity:.8;">Pricing</div>
-      <h1 class="h2" style="margin-bottom:10px;color:#f9fafb;">
-        Clear, Productized Pricing for NA Draft Integrity
-      </h1>
-
-      <p style="max-width:720px;margin:0 0 18px;font-size:0.98rem;line-height:1.7;color:#e5e7eb;">
-        DraftVerify turns non-alcoholic draft verification into a <strong>repeatable system</strong>: NFC tags, 
-        registry, SOPs, and audits. Pricing is structured like a SaaS platform, so a single venue, 
-        distributor, or global brewery can all plug into the same standard.
+      <p class="lead">
+        The global standard for <strong>non-alcoholic draft integrity</strong> — a combined
+        <strong>physical identification system</strong> and <strong>digital traceability layer</strong>
+        that keeps NA draft lines clearly marked, separated, and verifiable from
+        <strong>keg → line → faucet</strong>.
       </p>
 
-      <!-- HERO TAGS -->
-      <div style="display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 18px;font-size:0.8rem;">
-        <span class="pill" style="background:rgba(15,23,42,.85);border:1px solid rgba(148,163,184,.5);color:#e5e7eb;">
-          NFC Identity Layer
-        </span>
-        <span class="pill" style="background:rgba(15,23,42,.85);border:1px solid rgba(148,163,184,.5);color:#e5e7eb;">
-          DraftVerify Registry
-        </span>
-        <span class="pill" style="background:rgba(15,23,42,.85);border:1px solid rgba(148,163,184,.5);color:#e5e7eb;">
-          Playbooks & Training
-        </span>
+      <ul>
+        <li>Defines how NA draft must be identified and separated from alcoholic lines.</li>
+        <li>Backed by a digital registry for tags, taps, and verification events.</li>
+        <li>Published as the F-1–F-40 DraftVerify Standards Library.</li>
+      </ul>
+
+      <div class="std-hero-actions">
+        <a class="btn gold" href="#how-it-works">See How the Standard Works</a>
+        <a class="btn ghost" href="#library">Browse the Library</a>
       </div>
 
-      <!-- BILLING TOGGLE (SaaS vibe, informational only) -->
-      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-bottom:18px;">
-        <div style="display:inline-flex;padding:4px;border-radius:999px;background:rgba(15,23,42,.85);
-          border:1px solid rgba(148,163,184,.55);">
-          <button type="button" style="border:none;outline:none;background:#f9fafb;color:#020617;
-            font-size:0.8rem;font-weight:600;border-radius:999px;padding:6px 14px;cursor:default;">
-            Annual billing (shown)
-          </button>
-          <button type="button" style="border:none;outline:none;background:transparent;color:#9ca3af;
-            font-size:0.8rem;font-weight:500;border-radius:999px;padding:6px 12px;cursor:not-allowed;">
-            Monthly (available on request)
-          </button>
-        </div>
-        <span style="font-size:0.8rem;color:#e5e7eb;opacity:.85;">
-          Most partners opt for annual contracts aligned to fiscal year.
-        </span>
-      </div>
-
-      <!-- HERO CTAS -->
-      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:4px;z-index:1;position:relative;">
-        <a class="btn primary" href="/onboarding/" 
-           style="background:#facc15;color:#111827;border:none;">
-          Start Onboarding
-        </a>
-        <a class="btn" href="#compare-tiers"
-           style="background:rgba(15,23,42,.85);border:1px solid rgba(148,163,184,.8);
-           color:#e5e7eb;font-weight:500;">
-          Compare Plans
-        </a>
-      </div>
-
-      <p style="font-size:0.8rem;color:#e5e7eb;opacity:.8;margin-top:16px;">
-        All prices in USD. Custom scopes, pilots, and multi-year agreements available on request.
-      </p>
-    </div>
-
-    <!-- QUICK NAV -->
-    <div class="card" style="max-width:960px;margin:0 auto 40px;padding:14px 20px;border-radius:14px;">
-      <div style="font-size:0.8rem;text-transform:uppercase;letter-spacing:.08em;color:#6b7280;margin-bottom:8px;">
-        Plans by customer type
-      </div>
-      <div style="display:flex;flex-wrap:wrap;gap:8px;">
-        <a href="#venues" class="pill">Venues</a>
-        <a href="#groups" class="pill">Multi-Venue Groups</a>
-        <a href="#distributors" class="pill">Distributors</a>
-        <a href="#breweries" class="pill">Breweries</a>
-        <a href="#global" class="pill">Global Beverage Groups</a>
+      <div class="std-hero-note">
+        Formal PDFs are available in English and German. Web pages below mirror the same v1.0 content.
       </div>
     </div>
+  </div>
+</section>
 
-    <!-- ===================================== -->
-    <!-- VENUES -->
-    <!-- ===================================== -->
-    <section id="venues" class="pricing-section" style="margin-top:40px;">
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;">
-        <div>
-          <h2 class="h3" style="margin-bottom:4px;">Venues</h2>
-          <p style="max-width:600px;margin:0;">
-            For bars, restaurants, taprooms, hotels, stadiums, and any venue serving non-alcoholic draft.
-            Simple annual plans that ship with NFC assets, signage, and staff training.
-          </p>
-        </div>
-        <p style="font-size:0.85rem;color:#6b7280;margin:0;">
-          Typical footprint: 1–4 NA taps per venue.
+<!-- DOWNLOADS -->
+<section class="section-sm" id="downloads">
+  <div class="container center">
+    <h2 class="h2">Download the Formal PDFs</h2>
+    <p class="std-section-intro">
+      Use these for contracts, legal review, or internal policies. They contain the canonical wording of
+      DraftVerify Standard v1.0.
+    </p>
+
+    <p>
+      <a class="btn primary" href="{{ '/standard-en.pdf' | relative_url }}">English PDF</a>
+      <a class="btn ghost" href="{{ '/standard-de.pdf' | relative_url }}" style="margin-left:8px;">German PDF</a>
+    </p>
+  </div>
+</section>
+
+<!-- WHAT IT IS / HOW IT WORKS -->
+<section class="section" id="how-it-works">
+  <div class="container">
+    <h2 class="h2 center">What the Standard Actually Does</h2>
+    <p class="std-section-intro">
+      DraftVerify defines a simple idea: <strong>if a tap is sold as non-alcoholic, it should always be
+      non-alcoholic</strong>. The standard turns that into practical rules for hardware, records, and checks.
+    </p>
+
+    <div class="grid cols-3" style="margin-top:22px">
+      <div class="card">
+        <h3>1. Physical Identification</h3>
+        <p>
+          Kegs, couplers, lines, and faucets used for NA products are clearly marked so anyone can follow
+          the NA path from cooler to tap without guesswork.
         </p>
       </div>
-
-      <div class="grid" style="display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:24px;">
-        
-        <!-- Single Venue -->
-        <div class="card" style="padding:26px 22px;position:relative;border-radius:16px;">
-          <div class="pill" style="position:absolute;top:18px;right:18px;font-size:0.75rem;">Entry</div>
-          <h3 style="margin:6px 0 4px;">Single Venue Verification</h3>
-          <p class="price" style="font-size:28px;font-weight:650;margin:0 0 10px;">
-            $499 <span style="font-size:0.9rem;font-weight:400;">/ year</span>
-          </p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:12px;">
-            Everything a single bar or restaurant needs to run NA draft correctly.
-          </p>
-          <ul style="padding-left:18px;margin:0 0 16px;font-size:0.95rem;">
-            <li>Official DraftVerify Certification</li>
-            <li>Pre-programmed NFC coupler tags</li>
-            <li>Verified Tap™ decal kit</li>
-            <li>Staff training module</li>
-            <li>DraftVerify Registry listing</li>
-            <li>Annual re-verification</li>
-          </ul>
-          <a href="/onboarding/" class="btn" 
-             style="width:100%;text-align:center;border-radius:999px;
-             border:1px solid #d1d5db;background:#ffffff;color:#111827;">
-            Start with 1 Venue
-          </a>
-        </div>
-
-        <!-- Venue Pro (Featured) -->
-        <div class="card" style="padding:30px 24px;border-radius:18px;
-          border:1px solid var(--gold,#eab308);box-shadow:0 22px 60px rgba(15,23,42,.18);
-          position:relative;transform:translateY(-4px);background:#0b1120;color:#e5e7eb;">
-          <div class="pill" style="position:absolute;top:18px;right:18px;
-            background:var(--gold,#eab308);color:#111827;font-weight:600;font-size:0.75rem;">
-            Most Popular
-          </div>
-          <h3 style="margin:6px 0 4px;">Venue Pro</h3>
-          <p class="price" style="font-size:30px;font-weight:700;margin:0 0 10px;">
-            $1,250 <span style="font-size:0.9rem;font-weight:400;">/ year</span>
-          </p>
-          <p style="font-size:0.9rem;color:#e5e7eb;margin-bottom:12px;">
-            For venues that treat NA draft as a core part of their program, not an afterthought.
-          </p>
-          <ul style="padding-left:18px;margin:0 0 18px;font-size:0.95rem;">
-            <li>Everything in Single Venue</li>
-            <li>Priority verification support</li>
-            <li>Additional NFC tags included</li>
-            <li>Verification Report (Insurance + QA)</li>
-            <li>Staff retraining modules</li>
-            <li>DraftVerify Pro Venue badge</li>
-          </ul>
-          <a href="/onboarding/" class="btn primary" 
-             style="width:100%;text-align:center;border-radius:999px;
-             background:#facc15;color:#111827;border:none;">
-            Upgrade to Venue Pro
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ===================================== -->
-    <!-- MULTI-VENUE GROUPS -->
-    <!-- ===================================== -->
-    <section id="groups" class="pricing-section" style="margin-top:64px;">
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;">
-        <div>
-          <h2 class="h3" style="margin-bottom:4px;">Multi-Venue Groups</h2>
-          <p style="max-width:600px;margin:0;">
-            For restaurant groups, airports, casinos, and foodservice operators that want NA draft handled 
-            the same way across every outlet.
-          </p>
-        </div>
-        <p style="font-size:0.85rem;color:#6b7280;margin:0;">
-          Rollout playbooks, templates, and shared SOPs included.
+      <div class="card">
+        <h3>2. Digital Activation</h3>
+        <p>
+          Each NA connection point receives a serialized DraftVerify tag and is recorded in the DraftVerify
+          Registry as part of a specific keg → line → faucet path.
         </p>
       </div>
-
-      <div class="grid" style="display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:24px;">
-        
-        <div class="card" style="padding:26px 22px;border-radius:16px;">
-          <h3 style="margin:4px 0 4px;">3–9 Locations</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
-            $4,900 / year
-          </p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
-            For early adopters standardizing a small footprint.
-          </p>
-          <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
-            <li>Group-wide DraftVerify rollout</li>
-            <li>Centralized training</li>
-            <li>Quarterly compliance checks</li>
-            <li>Group dashboard access</li>
-            <li>Verified Tap kits for all locations</li>
-          </ul>
-        </div>
-
-        <div class="card" style="padding:26px 22px;border-radius:16px;">
-          <h3 style="margin:4px 0 4px;">10–25 Locations</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
-            $9,900 / year
-          </p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
-            For established groups with multiple regions and bar teams.
-          </p>
-          <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
-            <li>Everything in previous tier</li>
-            <li>Expanded training coverage</li>
-            <li>Distributor handoff SOPs</li>
-            <li>Multi-location QA reports</li>
-          </ul>
-        </div>
-
-        <div class="card" style="padding:26px 22px;border-radius:16px;">
-          <h3 style="margin:4px 0 4px;">25–100 Locations</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
-            $24,000 / year
-          </p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
-            Ready for national or cross-country NA draft programs.
-          </p>
-          <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
-            <li>National rollout readiness</li>
-            <li>Custom group SOP</li>
-            <li>Annual national audit</li>
-            <li>Priority support</li>
-          </ul>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ===================================== -->
-    <!-- DISTRIBUTORS -->
-    <!-- ===================================== -->
-    <section id="distributors" class="pricing-section" style="margin-top:64px;">
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;">
-        <div>
-          <h2 class="h3" style="margin-bottom:4px;">Distributors</h2>
-          <p style="max-width:600px;margin:0;">
-            For draft distributors handling non-alcoholic kegs. Close the gap between 
-            brewery intent and what actually pours at the tap handle.
-          </p>
-        </div>
-        <p style="font-size:0.85rem;color:#6b7280;margin:0;">
-          Includes warehouse SOPs, staff training, and registry integration.
+      <div class="card">
+        <h3>3. Ongoing Verification</h3>
+        <p>
+          Simple checklists and logs keep NA lines separated from alcoholic lines over time, with records
+          available for audits, complaints, or insurance.
         </p>
       </div>
+    </div>
+  </div>
+</section>
 
-      <div class="grid" style="display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:24px;">
-        
-        <div class="card" style="padding:26px 22px;border-radius:16px;">
-          <h3 style="margin:4px 0 4px;">Distributor Basic</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
-            $12,500 / year
-          </p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
-            For distributors beginning to standardize NA draft handling.
-          </p>
-          <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
-            <li>Distributor Verification</li>
-            <li>DraftVerify Handling SOP</li>
-            <li>Warehouse staff training</li>
-            <li>NFC tagging instructions</li>
-          </ul>
-        </div>
+<!-- LIBRARY OVERVIEW -->
+<section class="section" id="library" style="background:#f7f9fc;">
+  <div class="container">
+    <h2 class="h2 center">The F-Series Library at a Glance</h2>
+    <p class="std-section-intro">
+      The standard is published as <strong>F-1–F-40</strong>. You don’t have to read all of it.
+      Most people only need the series that matches their role.
+    </p>
 
-        <div class="card" style="padding:26px 22px;border-radius:16px;
-          border:1px solid var(--gold,#eab308);box-shadow:0 14px 40px rgba(15,23,42,.14);position:relative;">
-          <div class="pill" style="position:absolute;top:18px;right:18px;font-size:0.75rem;">Recommended</div>
-          <h3 style="margin:4px 0 4px;">Distributor Pro</h3>
-          <p class="price" style="font-size:24px;font-weight:700;margin:0 0 8px;">
-            $28,000 / year
-          </p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
-            Dashboards, escalation paths, and deeper oversight for regional NA programs.
-          </p>
-          <ul style="padding-left:18px;margin:0 0 16px;font-size:0.95rem;">
-            <li>Everything in Basic</li>
-            <li>Regional compliance dashboard</li>
-            <li>Issue reporting system</li>
-            <li>Annual site audit</li>
-          </ul>
-          <a href="/onboarding/" class="btn primary" 
-             style="width:100%;text-align:center;border-radius:999px;
-             background:#0f172a;color:#f9fafb;border:1px solid #020617;">
-            Talk to Sales
-          </a>
-        </div>
+    <div class="std-series-grid">
 
-        <div class="card" style="padding:26px 22px;border-radius:16px;">
-          <h3 style="margin:4px 0 4px;">Distributor Enterprise</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
-            $55,000 / year
-          </p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
-            For large, multi-warehouse distributors operating across wide territories.
-          </p>
-          <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
-            <li>Nationwide training</li>
-            <li>Multi-warehouse rollout</li>
-            <li>Enterprise compliance reports</li>
-          </ul>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ===================================== -->
-    <!-- BREWERIES -->
-    <!-- ===================================== -->
-    <section id="breweries" class="pricing-section" style="margin-top:64px;">
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;">
-        <div>
-          <h2 class="h3" style="margin-bottom:4px;">Breweries</h2>
-          <p style="max-width:600px;margin:0;">
-            Pricing aligned to production scale and NA portfolio. Breweries use DraftVerify to 
-            protect NA brands, align distributors, and standardize keg handling from packaging line to venue.
-          </p>
-        </div>
-        <p style="font-size:0.85rem;color:#6b7280;margin:0;">
-          Most breweries recover their investment through reduced mis-serve, fewer complaints, and stronger brand trust.
-        </p>
-      </div>
-
-      <div class="grid" style="display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:24px;">
-        
-        <div class="card" style="padding:26px 22px;border-radius:16px;">
-          <h3 style="margin:4px 0 4px;">Micro Brewery</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
-            $18,500 / year
-          </p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
-            For small producers with focused NA draft programs.
-          </p>
-          <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
-            <li>Unlimited NFC tags (pre-programmed)</li>
-            <li>Brewery Verification</li>
-            <li>Keg line SOP</li>
-            <li>Distributor instructions</li>
-            <li>Verified Brew Marketing Badge</li>
-          </ul>
-        </div>
-
-        <div class="card" style="padding:26px 22px;border-radius:16px;">
-          <h3 style="margin:4px 0 4px;">Regional Brewery</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
-            $65,000 / year
-          </p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
-            For breweries with multiple facilities and regional NA distribution.
-          </p>
-          <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
-            <li>Everything in Micro</li>
-            <li>Multi-facility support</li>
-            <li>Distributor integration workflow</li>
-            <li>Regional compliance dashboard</li>
-            <li>Quarterly audit</li>
-          </ul>
-        </div>
-
-        <div class="card" style="padding:26px 22px;border-radius:16px;">
-          <h3 style="margin:4px 0 4px;">Large Brewery</h3>
-          <p class="price" style="font-size:24px;font-weight:650;margin:0 0 8px;">
-            $150,000 / year
-          </p>
-          <p style="font-size:0.9rem;color:#6b7280;margin-bottom:10px;">
-            For large NA portfolios and national draft distribution.
-          </p>
-          <ul style="padding-left:18px;margin:0;font-size:0.95rem;">
-            <li>National distributor integration</li>
-            <li>Multi-SKU identity protection</li>
-            <li>National compliance reporting</li>
-            <li>Full training for brewery staff</li>
-          </ul>
-        </div>
-
-        <div class="card" style="padding:26px 22px;border-radius:18px;
-          border:1px solid var(--gold,#eab308);box-shadow:0 18px 50px rgba(15,23,42,.25);position:relative;background:#020617;color:#e5e7eb;">
-          <div class="pill" style="position:absolute;top:18px;right:18px;font-size:0.75rem;">Top Tier</div>
-          <h3 style="margin:4px 0 4px;">Macro Enterprise Brewery</h3>
-          <p class="price" style="font-size:24px;font-weight:700;margin:0 0 8px;">
-            $500,000 / country / year
-          </p>
-          <p style="font-size:0.9rem;color:#e5e7eb;margin-bottom:10px;">
-            For global players standardizing NA draft integrity across entire countries.
-          </p>
-          <ul style="padding-left:18px;margin:0 0 16px;font-size:0.95rem;">
-            <li>Unlimited NFC assets for all NA SKUs</li>
-            <li>Nationwide distributor integration</li>
-            <li>Multi-facility onboarding</li>
-            <li>National Verified Brew Certification</li>
-            <li>Custom digital registry portal</li>
-            <li>Full support + priority access</li>
-          </ul>
-          <a href="/onboarding/" class="btn primary" 
-             style="width:100%;text-align:center;border-radius:999px;
-             background:#facc15;color:#111827;border:none;">
-            Book an Enterprise Call
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ===================================== -->
-    <!-- GLOBAL LICENSE -->
-    <!-- ===================================== -->
-    <section id="global" class="pricing-section" style="margin-top:64px;">
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;">
-        <div>
-          <h2 class="h3" style="margin-bottom:4px;">Global Beverage Groups</h2>
-          <p style="max-width:600px;margin:0;">
-            For organizations operating across multiple continents and managing large NA draft portfolios. 
-            Includes worldwide verification rights, governance, and registry access.
-          </p>
-        </div>
-        <p style="font-size:0.85rem;color:#6b7280;margin:0;">
-          Ideal for holding companies and global beverage groups.
-        </p>
-      </div>
-
-      <div class="card" style="padding:28px 24px;max-width:520px;margin-top:24px;border-radius:18px;">
-        <h3 style="margin:4px 0 6px;">Global License</h3>
-        <p class="price" style="font-size:24px;font-weight:700;margin:0 0 8px;">
-          $1.2M–$2.5M / year
-        </p>
-        <p style="font-size:0.95rem;color:#4b5563;margin-bottom:12px;">
-          A global framework and rights package for groups that want NA draft integrity standardized across every market they operate in.
-        </p>
-        <ul style="padding-left:18px;margin:0 0 16px;font-size:0.95rem;">
-          <li>Global DraftVerify standard rights</li>
-          <li>Worldwide registry integration</li>
-          <li>Global distributor compliance</li>
-          <li>Training across all territories</li>
-          <li>Dedicated global support team</li>
+      <div class="std-series-card">
+        <div class="std-series-label">F-1–F-5 · Foundation</div>
+        <h3>What DraftVerify Is &amp; Why It Exists</h3>
+        <p>Core standard, definitions, risk profile, and legal / compliance basis.</p>
+        <ul>
+          <li><a href="/docs/standard-v1/">F-1 DraftVerify Standard v1.0</a></li>
+          <li><a href="/docs/definitions/">F-2 Definitions &amp; Scope</a></li>
+          <li><a href="/docs/risk-profile/">F-4 NA Draft Risk Profile</a></li>
         </ul>
-        <a href="/onboarding/" class="btn primary"
-           style="border-radius:999px;">
-          Discuss Global Scope
-        </a>
-      </div>
-    </section>
-
-    <!-- ===================================== -->
-    <!-- SIMPLE COMPARISON + FOOTER CTA -->
-    <!-- ===================================== -->
-    <section id="compare-tiers" class="pricing-section" style="margin-top:72px;">
-      <div class="card" style="padding:24px 22px;max-width:960px;margin:0 auto 16px;border-radius:18px;">
-        <h2 class="h4" style="margin:0 0 8px;">At a Glance</h2>
-        <p style="font-size:0.9rem;color:#6b7280;margin:0 0 12px;">
-          Every plan includes <strong>NA draft identity standards</strong>, <strong>NFC-ready workflows</strong>, 
-          and <strong>access to the DraftVerify Registry</strong>. Higher tiers add dashboards, governance, and scaled rollout.
-        </p>
-        <div style="display:flex;flex-wrap:wrap;gap:16px;font-size:0.9rem;">
-          <div style="flex:1 1 160px;min-width:140px;">
-            <strong>Venues</strong><br>
-            &mdash; 1–2 taps, pilots, flagship sites.
-          </div>
-          <div style="flex:1 1 160px;min-width:140px;">
-            <strong>Groups</strong><br>
-            &mdash; Multi-venue operators needing consistency.
-          </div>
-          <div style="flex:1 1 160px;min-width:140px;">
-            <strong>Distributors</strong><br>
-            &mdash; Warehouses and draft logistics.
-          </div>
-          <div style="flex:1 1 160px;min-width:140px;">
-            <strong>Breweries &amp; Global</strong><br>
-            &mdash; Brand owners standardizing NA draft at scale.
-          </div>
-        </div>
       </div>
 
-      <!-- FAQ (SaaS style) -->
-      <div class="card" style="padding:24px 22px;max-width:960px;margin:24px auto 8px;border-radius:18px;">
-        <h3 style="margin:0 0 10px;">FAQ</h3>
-        <details style="margin-bottom:8px;">
-          <summary style="cursor:pointer;font-size:0.95rem;font-weight:500;">
-            Do these prices include the physical NFC tags and decals?
-          </summary>
-          <p style="font-size:0.9rem;color:#4b5563;margin-top:6px;">
-            Yes. Each plan includes the NFC assets, decals, and setup guides required to bring your NA draft program
-            into alignment with the DraftVerify standard. Larger tiers include more tags and replenishment options.
-          </p>
-        </details>
-        <details style="margin-bottom:8px;">
-          <summary style="cursor:pointer;font-size:0.95rem;font-weight:500;">
-            Can we start with a pilot before rolling out across all venues?
-          </summary>
-          <p style="font-size:0.9rem;color:#4b5563;margin-top:6px;">
-            Absolutely. Many partners start with one flagship venue or a small group, then expand once internal teams
-            and distributors are comfortable with the workflow.
-          </p>
-        </details>
-        <details style="margin-bottom:8px;">
-          <summary style="cursor:pointer;font-size:0.95rem;font-weight:500;">
-            Do you support both non-alcoholic and alcoholic draft lines?
-          </summary>
-          <p style="font-size:0.9rem;color:#4b5563;margin-top:6px;">
-            DraftVerify is built around non-alcoholic risk first, but the registry and tagging model can extend to
-            alcoholic SKUs where financial, brand, or regulatory risk justify tighter controls.
-          </p>
-        </details>
-        <details>
-          <summary style="cursor:pointer;font-size:0.95rem;font-weight:500;">
-            What if our footprint doesn’t fit neatly into one tier?
-          </summary>
-          <p style="font-size:0.9rem;color:#4b5563;margin-top:6px;">
-            That’s common. Use the onboarding form to outline your breweries, distributors, and venues and we’ll scope
-            a plan that matches your real draft footprint.
-          </p>
-        </details>
+      <div class="std-series-card">
+        <div class="std-series-label">F-6–F-10 · Identification</div>
+        <h3>What NA Looks Like on Hardware</h3>
+        <p>How to physically mark kegs, couplers, lines, and faucets for NA use.</p>
+        <ul>
+          <li><a href="/docs/keg-id/">F-6 Keg Identification</a></li>
+          <li><a href="/docs/coupler-tags/">F-7 Coupler Tags</a></li>
+          <li><a href="/docs/line-id/">F-8 Line Identification</a></li>
+        </ul>
       </div>
 
-      <div style="text-align:center;margin-top:24px;">
-        <p style="font-size:0.95rem;color:#6b7280;margin-bottom:16px;">
-          Not sure where to slot your draft footprint? Send us your venues and distributors and we’ll build a simple, 
-          phased rollout plan around your reality.
-        </p>
-        <a href="/onboarding/" class="btn primary"
-           style="border-radius:999px;">
-          Tell Us About Your Draft Program
-        </a>
+      <div class="std-series-card">
+        <div class="std-series-label">F-11–F-17 · Breweries &amp; Distributors</div>
+        <h3>Preparing &amp; Moving NA Kegs</h3>
+        <p>Tagging, activation, records, and chain-of-custody requirements.</p>
+        <ul>
+          <li><a href="/docs/brewery-implementation/">F-11 Brewery Implementation Guide</a></li>
+          <li><a href="/docs/brewery-serialization/">F-12 Serialization SOP</a></li>
+          <li><a href="/docs/distributor-protocol/">F-15 Distributor Protocol</a></li>
+        </ul>
       </div>
-    </section>
 
+      <div class="std-series-card">
+        <div class="std-series-label">F-18–F-23 · Venues</div>
+        <h3>Running NA Draft Day-to-Day</h3>
+        <p>Setup, daily checks, cleaning, change logs, and incident response.</p>
+        <ul>
+          <li><a href="/docs/venue-setup/">F-18 Venue Setup</a></li>
+          <li><a href="/docs/venue-checklist/">F-19 Verification Checklist</a></li>
+          <li><a href="/docs/incident-response/">F-22 Incident Response</a></li>
+        </ul>
+      </div>
+
+      <div class="std-series-card">
+        <div class="std-series-label">F-24–F-31 · System &amp; Digital</div>
+        <h3>System Design &amp; Registry</h3>
+        <p>Tower sharing, gas management, and the DraftVerify Registry specification.</p>
+        <ul>
+          <li><a href="/docs/system-design/">F-24 System Design</a></li>
+          <li><a href="/docs/tower-sharing/">F-25 Tower Sharing</a></li>
+          <li><a href="/docs/registry-spec/">F-28 Registry Spec</a></li>
+        </ul>
+      </div>
+
+      <div class="std-series-card">
+        <div class="std-series-label">F-32–F-40 · Programs &amp; Governance</div>
+        <h3>Marks, Audits &amp; Long-Term Care</h3>
+        <p>Use of mark, audits, multi-venue programs, education, and governance.</p>
+        <ul>
+          <li><a href="/docs/certification-policy/">F-32 Certification Policy</a></li>
+          <li><a href="/docs/compliance-audit/">F-33 Compliance Audit</a></li>
+          <li><a href="/docs/governance-policy/">F-40 Governance Policy</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Full index collapsed so it doesn't clutter the page -->
+    <div class="std-index">
+      <details>
+        <summary>View full F-1–F-40 document index</summary>
+        <ol class="std-index-list">
+          <li><a href="/docs/standard-v1/">F-1 — DraftVerify Standard v1.0</a></li>
+          <li><a href="/docs/definitions/">F-2 — Definitions, Scope &amp; Terminology</a></li>
+          <li><a href="/docs/identity-architecture/">F-3 — Identity Architecture Overview</a></li>
+          <li><a href="/docs/risk-profile/">F-4 — NA Draft Risk Profile &amp; Rationale</a></li>
+          <li><a href="/docs/legal-basis/">F-5 — Legal &amp; Compliance Basis for NA Separation</a></li>
+          <li><a href="/docs/keg-id/">F-6 — Keg Identification Standard</a></li>
+          <li><a href="/docs/coupler-tags/">F-7 — Coupler Tag Standard</a></li>
+          <li><a href="/docs/line-id/">F-8 — Beer Line Identification Standard</a></li>
+          <li><a href="/docs/faucet-id/">F-9 — Faucet Identification Standard</a></li>
+          <li><a href="/docs/visual-lexicon/">F-10 — Visual Lexicon: Colors, Shapes, Symbols</a></li>
+          <li><a href="/docs/brewery-implementation/">F-11 — Brewery Implementation Guide</a></li>
+          <li><a href="/docs/brewery-serialization/">F-12 — Brewery NFC Tag Serialization SOP</a></li>
+          <li><a href="/docs/brewery-activation/">F-13 — Brewery Activation Workflow</a></li>
+          <li><a href="/docs/brewery-records/">F-14 — Brewery Documentation &amp; Records</a></li>
+          <li><a href="/docs/distributor-protocol/">F-15 — Distributor Protocol</a></li>
+          <li><a href="/docs/distributor-transport/">F-16 — Distributor Transport &amp; Storage Requirements</a></li>
+          <li><a href="/docs/distributor-logs/">F-17 — Distributor Verification &amp; Reconciliation Logs</a></li>
+          <li><a href="/docs/venue-setup/">F-18 — Venue Setup &amp; Verification Protocol</a></li>
+          <li><a href="/docs/venue-checklist/">F-19 — Daily / Weekly Verification Checklist</a></li>
+          <li><a href="/docs/change-log/">F-20 — Change Log SOP</a></li>
+          <li><a href="/docs/cleaning-log/">F-21 — Cleaning Log SOP</a></li>
+          <li><a href="/docs/incident-response/">F-22 — Incident Response &amp; Mis-Serve Procedure</a></li>
+          <li><a href="/docs/staff-training/">F-23 — NA Draft Staff Training Manual</a></li>
+          <li><a href="/docs/system-design/">F-24 — System Design Requirements</a></li>
+          <li><a href="/docs/tower-sharing/">F-25 — Tower Sharing Standards</a></li>
+          <li><a href="/docs/gas-management/">F-26 — Gas Management &amp; Pressure Safety</a></li>
+          <li><a href="/docs/system-modification/">F-27 — System Modification Protocol</a></li>
+          <li><a href="/docs/registry-spec/">F-28 — DraftVerify Registry Specification</a></li>
+          <li><a href="/docs/tag-activation/">F-29 — Tag Activation Rules</a></li>
+          <li><a href="/docs/verification-events/">F-30 — Verification Event Specification</a></li>
+          <li><a href="/docs/audit-log/">F-31 — Audit Log &amp; Traceability Framework</a></li>
+          <li><a href="/docs/certification-policy/">F-32 — Use of Mark &amp; Certification Policy</a></li>
+          <li><a href="/docs/compliance-audit/">F-33 — Compliance Audit Framework</a></li>
+          <li><a href="/docs/multi-venue/">F-34 — Multi-Venue Program Requirements</a></li>
+          <li><a href="/docs/contamination-report/">F-35 — NA Draft Safety &amp; Contamination Report</a></li>
+          <li><a href="/docs/failure-modes/">F-36 — NA Draft System Failure Modes Guide</a></li>
+          <li><a href="/docs/audit-handbook/">F-37 — Field Audit Handbook</a></li>
+          <li><a href="/docs/education-handbook/">F-38 — Distributor &amp; Venue Education Handbook</a></li>
+          <li><a href="/docs/product-switching/">F-39 — Product Switching &amp; Line Reuse Protocol</a></li>
+          <li><a href="/docs/governance-policy/">F-40 — Revision &amp; Governance Policy</a></li>
+        </ol>
+      </details>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-sm">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <div class="kicker">Put the Standard to Work</div>
+        <h3 style="margin:.3rem 0 0;">Bring DraftVerify to your breweries, routes, and venues.</h3>
+      </div>
+      <div>
+        <a class="btn primary" href="{{ '/onboarding/' | relative_url }}">Start Onboarding</a>
+        <a class="btn ghost" href="{{ '/pricing/' | relative_url }}" style="margin-left:8px;">View Pricing</a>
+      </div>
+    </div>
   </div>
 </section>
