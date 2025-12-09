@@ -141,21 +141,22 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
 
       <p class="lead">
         The global standard for <strong>non-alcoholic draft integrity</strong> — a combined
-        <strong>physical identification system</strong> and <strong>digital traceability layer</strong>
+        <strong>physical identification system</strong> and <strong>digital traceability framework</strong>
         that keeps NA draft lines clearly marked, separated, and verifiable from
         <strong>keg → line → faucet</strong>.
       </p>
 
       <ul>
-        <li>Defines how NA draft must be identified and separated from alcoholic lines.</li>
-        <li>Backed by a digital registry for tags, taps, and verification events.</li>
-        <li>Published as the F-1–F-40 DraftVerify Standards Library.</li>
+        <li>Specifies how NA draft must be identified, separated, and documented alongside alcoholic lines.</li>
+        <li>Backed by the DraftVerify Registry for tags, taps, and verification events.</li>
+        <li>Maintained as the F-1–F-40 DraftVerify Standards Library.</li>
       </ul>
 
       <a class="btn gold" href="#how-it-works">See How the Standard Works</a>
 
       <div class="std-hero-note">
-        Formal PDFs are available in English and German. Web pages below mirror the same v1.0 content.
+        Formal PDFs are available in English and German. Web pages below mirror the same v1.0 content. 
+        Where wording differs, the PDF text is canonical.
       </div>
     </div>
   </div>
@@ -180,10 +181,11 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
 <!-- WHAT IT DOES -->
 <section class="section" id="how-it-works">
   <div class="container">
-    <h2 class="h2 center">What the Standard Actually Does</h2>
+    <h2 class="h2 center">What the Standard Covers</h2>
     <p class="std-section-intro">
-      DraftVerify takes a simple idea — <strong>if a tap is sold as non-alcoholic, it should always be
-      non-alcoholic</strong> — and turns it into practical rules for hardware, records, and checks.
+      DraftVerify takes a simple obligation — <strong>if a tap is sold as non-alcoholic, it must always be
+      non-alcoholic</strong> — and turns it into enforceable requirements for hardware, records, and checks
+      across the draft system.
     </p>
 
     <div class="grid cols-3" style="margin-top:22px">
@@ -205,7 +207,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
         <h3>Ongoing Verification</h3>
         <p>
           Simple checklists and logs keep NA lines separated from alcoholic lines over time, with records
-          available for audits, complaints, or insurance.
+          available for audits, complaints, incident reviews, or insurance.
         </p>
       </div>
     </div>
@@ -217,8 +219,8 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   <div class="container">
     <h2 class="h2 center">The F-Series Library at a Glance</h2>
     <p class="std-section-intro">
-      The standard is published as <strong>F-1–F-40</strong>. Most people only need the series that matches
-      their role — the rest is there when you need more depth.
+      The standard is published as <strong>F-1–F-40</strong>. Most stakeholders only need the series that
+      matches their role — the rest is available when deeper technical detail is required.
     </p>
 
     <div class="std-series-grid">
@@ -226,7 +228,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
       <div class="std-series-card">
         <div class="std-series-label">F-1–F-5 · Foundation</div>
         <h3>What DraftVerify Is &amp; Why It Exists</h3>
-        <p>Core standard, definitions, risk profile, and legal / compliance basis.</p>
+        <p>Core standard, definitions, risk profile, and legal / compliance basis for NA draft separation.</p>
         <ul>
           <li><a href="/docs/standard-v1/">F-1 DraftVerify Standard v1.0</a></li>
           <li><a href="/docs/definitions/">F-2 Definitions &amp; Scope</a></li>
@@ -294,7 +296,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     <!-- Full index kept collapsed so it doesn’t clutter -->
     <div class="std-index">
       <details>
-        <summary>View full F-1–F-40 document index</summary>
+        <summary>View full F-1–F-40 document index (v1.0)</summary>
         <ol class="std-index-list">
           <li><a href="/docs/standard-v1/">F-1 — DraftVerify Standard v1.0</a></li>
           <li><a href="/docs/definitions/">F-2 — Definitions, Scope &amp; Terminology</a></li>
@@ -349,7 +351,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     <div class="cta-band">
       <div>
         <div class="kicker">Put the Standard to Work</div>
-        <h3 style="margin:.3rem 0 0;">Bring DraftVerify to your breweries, routes, and venues.</h3>
+        <h3 style="margin:.3rem 0 0;">Implement DraftVerify Standard v1.0 across breweries, routes, and venues.</h3>
       </div>
       <div>
         <a class="btn primary" href="{{ '/onboarding/' | relative_url }}">Start Onboarding</a>
