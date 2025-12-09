@@ -27,7 +27,6 @@ description: "The world’s first complete identity, verification, and traceabil
 </style>
 
 
-
 <!-- HERO -->
 <section style="padding:60px 0 40px;background:#ffffff;">
   <div class="container" style="max-width:760px;margin:0 auto;text-align:center;">
@@ -37,10 +36,9 @@ description: "The world’s first complete identity, verification, and traceabil
     </h1>
 
     <p style="font-size:1rem;color:#444;line-height:1.55;margin-bottom:32px;">
-      DraftVerify defines the world’s first complete identity, verification, and traceability 
-      system for non-alcoholic draft — combining <strong>Keg Tags</strong>, 
-      <strong>NFC-enabled Coupler Tags</strong>, and the <strong>DraftVerify Registry</strong> to ensure 
-      NA beverages are always correctly connected and confidently served.
+      Alcoholic draft has followed strict standards for decades. Non-alcoholic draft has none — and 
+      mix-ups happen every day. DraftVerify establishes the world’s first identity and verification 
+      system for NA draft, ensuring every keg is correctly connected and confidently served.
     </p>
 
     <!-- Clean Buttons -->
@@ -72,7 +70,6 @@ description: "The world’s first complete identity, verification, and traceabil
 
 
 
-
 <!-- WHY IT EXISTS -->
 <section class="section center">
   <div class="container">
@@ -81,7 +78,8 @@ description: "The world’s first complete identity, verification, and traceabil
 
     <p style="max-width:820px;margin:0 auto;">
       NA beverages now sit on draft towers everywhere — but coolers, lines, and couplers were never 
-      designed to keep NA identity clear. Mix-ups happen at the connection point, not at the faucet.
+      designed to keep NA identity clear. The #1 cause of NA draft mix-ups occurs at the coupler 
+      connection, long before anyone pulls a handle. 
     </p>
 
     <!-- IMAGE 2: crowded cooler / keg stack (2.png) -->
@@ -100,12 +98,16 @@ description: "The world’s first complete identity, verification, and traceabil
 
 
 
-
 <!-- 3 PILLARS -->
 <section class="section" style="background:#f7f9fc;">
   <div class="container center">
     <div class="kicker">The System</div>
     <h2 class="h2">The Three Pillars of DraftVerify</h2>
+
+    <p style="max-width:780px;margin:0 auto 24px;">
+      DraftVerify defines the minimum identification and verification requirements for any venue 
+      serving non-alcoholic draft — creating clarity, consistency, and traceability across operations.
+    </p>
 
     <div class="grid cols-3" style="margin-top:32px;">
 
@@ -152,7 +154,6 @@ description: "The world’s first complete identity, verification, and traceabil
 
 
 
-
 <!-- HOW IT WORKS -->
 <section class="section">
   <div class="container">
@@ -160,9 +161,9 @@ description: "The world’s first complete identity, verification, and traceabil
     <h2 class="h2">Identity That Follows the Entire Pathway</h2>
 
     <p>
-      Once a keg is tagged and verified with DraftVerify, its identity isn’t just written on a handle 
-      — it follows the entire system. Staff can trace the route and confirm the tap using a simple, 
-      repeatable routine:
+      This procedure is designed to be performed in under 10 seconds on a busy night. Once a keg is 
+      tagged and verified, its identity doesn’t rely on memory or handwriting — it follows the entire 
+      system, end-to-end, through a consistent, repeatable routine:
     </p>
 
     <ol style="margin-top:20px;">
@@ -182,14 +183,13 @@ description: "The world’s first complete identity, verification, and traceabil
 
 
 
-
 <!-- CTA -->
 <section class="section-sm">
   <div class="container">
     <div class="cta-band reveal">
       <div>
         <div class="kicker">Get Started</div>
-        <h3 style="margin:.3rem 0 0;">Bring DraftVerify to your venue or group.</h3>
+        <h3 style="margin:.3rem 0 0;">Equip your venue with the world’s first NA draft standard.</h3>
       </div>
       <div>
         <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
