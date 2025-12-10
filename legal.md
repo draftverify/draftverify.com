@@ -129,6 +129,50 @@ permalink: /legal/
         reproductions of DraftVerify content or structure where the underlying source is materially
         derived from DraftVerify materials.
       </p>
+
+      <p>
+        Any attempt to copy, imitate, replicate, reverse-engineer, paraphrase, restate, summarize,
+        restructure, reorganize, repackage, rebrand, or create any derivative work based on
+        DraftVerify™ materials is strictly prohibited. This includes — but is not limited to — all
+        written standards, terminology, naming conventions, workflow structures, identity-layer
+        architectures, diagrams, protocols, compliance frameworks, and document organization used
+        across the DraftVerify Standards Library.
+      </p>
+
+      <p>Prohibited actions expressly include, without limitation:</p>
+      <ul>
+        <li>Using AI tools to generate rewritten or “inspired” versions of DraftVerify materials</li>
+        <li>Producing documents that mirror the structure, sequence, or logic of DraftVerify</li>
+        <li>
+          Creating a competing “standard,” “program,” or “compliance framework” that is inspired by,
+          derived from, or substantially similar to DraftVerify in structure, scope, or terminology
+        </li>
+        <li>
+          Replacing DraftVerify terminology with synonyms in an attempt to circumvent copyright,
+          trade dress, or other protections
+        </li>
+        <li>
+          Copying or emulating the DraftVerify concept of identity tagging, verification events,
+          coupler labeling, line separation frameworks, or registry interaction models in a way that
+          is materially based on DraftVerify documentation
+        </li>
+      </ul>
+
+      <p>
+        “Substantial similarity” — including conceptual, structural, organizational, or architectural
+        similarity — may constitute infringement even where text has been modified, paraphrased, or
+        restyled. Independent creation is not a defense where the resulting materials reasonably
+        resemble DraftVerify’s protected works, terminology, or identity architecture.
+      </p>
+
+      <p>
+        Any party attempting to fork, clone, emulate, or build upon the DraftVerify Standard — in
+        full or in part — without written authorization may be subject to immediate enforcement
+        action, including cease-and-desist demands, removal notices, DMCA or equivalent filings,
+        claims for statutory damages, injunctive relief, and recovery of legal fees where permitted
+        by law. DraftVerify™ reserves all rights, including the right to determine what constitutes
+        derivative, competitive, or infringing use.
+      </p>
     </div>
 
     <div class="legal-section" id="trademarks">
