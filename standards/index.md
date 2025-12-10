@@ -10,7 +10,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
 
   .std-hero{
     max-width:880px;
-    margin:0 auto 40px;
+    margin:0 auto 24px;
     padding:32px 24px 30px;
     border-radius:24px;
     background:linear-gradient(145deg,#0d1b2a 0%,#020617 70%);
@@ -48,6 +48,42 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     margin-top:10px;
     font-size:0.82rem;
     color:#cbd5f5;
+  }
+
+  /* Local sub-nav for this page */
+  .std-subnav{
+    max-width:880px;
+    margin:0 auto 32px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    font-size:0.82rem;
+  }
+  .std-subnav a{
+    display:inline-flex;
+    align-items:center;
+    padding:6px 10px;
+    border-radius:999px;
+    border:1px solid rgba(148,163,184,.6);
+    color:#4b5563;
+    text-decoration:none;
+    background:#ffffff;
+    transition:background .15s ease, border-color .15s ease, color .15s ease;
+  }
+  .std-subnav a span{
+    font-size:0.7rem;
+    opacity:.7;
+    margin-right:4px;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+  }
+  .std-subnav a strong{
+    font-weight:500;
+  }
+  .std-subnav a:hover{
+    background:#0f172a;
+    color:#e5e7eb;
+    border-color:#0f172a;
   }
 
   .std-section-intro{
@@ -97,15 +133,35 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     margin-bottom:3px;
   }
 
+  .std-index-block{
+    max-width:960px;
+    margin:0 auto;
+    padding:22px 18px 20px;
+    background:#ffffff;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(15,23,42,.04);
+  }
   .std-index details{
-    max-width:860px;
-    margin:28px auto 0;
+    max-width:100%;
+    margin:10px auto 0;
     font-size:0.9rem;
   }
   .std-index summary{
     cursor:pointer;
     font-weight:600;
     list-style:none;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .std-index summary::before{
+    content:"+";
+    font-weight:700;
+    font-size:1rem;
+    color:#4b5563;
+  }
+  .std-index details[open] summary::before{
+    content:"–";
   }
   .std-index summary::-webkit-details-marker{display:none;}
   .std-index-list{
@@ -125,6 +181,9 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
       border-radius:18px;
     }
     .std-hero h1{font-size:1.7rem;}
+    .std-subnav{
+      justify-content:flex-start;
+    }
     .std-index-list{columns:1;}
   }
 </style>
@@ -159,12 +218,22 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
         Where wording differs, the PDF text is canonical.
       </div>
     </div>
+
+    <!-- LOCAL SUBNAV -->
+    <nav class="std-subnav" aria-label="DraftVerify Standard navigation">
+      <a href="#downloads"><span>01</span><strong>Downloads</strong></a>
+      <a href="#how-it-works"><span>02</span><strong>What It Covers</strong></a>
+      <a href="#library"><span>03</span><strong>F-Series Library</strong></a>
+      <a href="#full-index"><span>04</span><strong>Full Index</strong></a>
+      <a href="#governance"><span>05</span><strong>Governance</strong></a>
+    </nav>
   </div>
 </section>
 
 <!-- DOWNLOADS -->
 <section class="section-sm" id="downloads">
   <div class="container center">
+    <div class="kicker">Formal Publication</div>
     <h2 class="h2">Download the Formal PDFs</h2>
     <p class="std-section-intro">
       Use these for contracts, legal review, or internal policies. They contain the canonical wording of
@@ -181,6 +250,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
 <!-- WHAT IT DOES -->
 <section class="section" id="how-it-works">
   <div class="container">
+    <div class="kicker">High-Level Overview</div>
     <h2 class="h2 center">What the Standard Covers</h2>
     <p class="std-section-intro">
       DraftVerify takes a simple obligation — <strong>if a tap is sold as non-alcoholic, it must always be
@@ -217,6 +287,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
 <!-- LIBRARY OVERVIEW -->
 <section class="section" id="library" style="background:#f7f9fc;">
   <div class="container">
+    <div class="kicker">F-1–F-40 Structure</div>
     <h2 class="h2 center">The F-Series Library at a Glance</h2>
     <p class="std-section-intro">
       The standard is published as <strong>F-1–F-40</strong>. Most stakeholders only need the series that
@@ -281,7 +352,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
       </div>
 
       <div class="std-series-card">
-        <div .class="std-series-label">F-32–F-40 · Programs &amp; Governance</div>
+        <div class="std-series-label">F-32–F-40 · Programs &amp; Governance</div>
         <h3>Marks, Audits &amp; Long-Term Care</h3>
         <p>Use of mark, audits, multi-venue programs, education, and governance.</p>
         <ul>
@@ -292,62 +363,75 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
       </div>
 
     </div>
+  </div>
+</section>
 
-    <!-- Full index kept collapsed so it doesn’t clutter -->
-    <div class="std-index">
-      <details>
-        <summary>View full F-1–F-40 document index (v1.0)</summary>
-        <ol class="std-index-list">
-          <li><a href="/docs/standard-v1/">F-1 — DraftVerify Standard v1.0</a></li>
-          <li><a href="/docs/definitions/">F-2 — Definitions, Scope &amp; Terminology</a></li>
-          <li><a href="/docs/identity-architecture/">F-3 — Identity Architecture Overview</a></li>
-          <li><a href="/docs/risk-profile/">F-4 — NA Draft Risk Profile &amp; Rationale</a></li>
-          <li><a href="/docs/legal-basis/">F-5 — Legal &amp; Compliance Basis for NA Separation</a></li>
-          <li><a href="/docs/keg-id/">F-6 — Keg Identification Standard</a></li>
-          <li><a href="/docs/coupler-tags/">F-7 — Coupler Tag Standard</a></li>
-          <li><a href="/docs/line-id/">F-8 — Beer Line Identification Standard</a></li>
-          <li><a href="/docs/faucet-id/">F-9 — Faucet Identification Standard</a></li>
-          <li><a href="/docs/visual-lexicon/">F-10 — Visual Lexicon: Colors, Shapes, Symbols</a></li>
-          <li><a href="/docs/brewery-implementation/">F-11 — Brewery Implementation Guide</a></li>
-          <li><a href="/docs/brewery-serialization/">F-12 — Brewery NFC Tag Serialization SOP</a></li>
-          <li><a href="/docs/brewery-activation/">F-13 — Brewery Activation Workflow</a></li>
-          <li><a href="/docs/brewery-records/">F-14 — Brewery Documentation &amp; Records</a></li>
-          <li><a href="/docs/distributor-protocol/">F-15 — Distributor Protocol</a></li>
-          <li><a href="/docs/distributor-transport/">F-16 — Distributor Transport &amp; Storage Requirements</a></li>
-          <li><a href="/docs/distributor-logs/">F-17 — Distributor Verification &amp; Reconciliation Logs</a></li>
-          <li><a href="/docs/venue-setup/">F-18 — Venue Setup &amp; Verification Protocol</a></li>
-          <li><a href="/docs/venue-checklist/">F-19 — Daily / Weekly Verification Checklist</a></li>
-          <li><a href="/docs/change-log/">F-20 — Change Log SOP</a></li>
-          <li><a href="/docs/cleaning-log/">F-21 — Cleaning Log SOP</a></li>
-          <li><a href="/docs/incident-response/">F-22 — Incident Response &amp; Mis-Serve Procedure</a></li>
-          <li><a href="/docs/staff-training/">F-23 — NA Draft Staff Training Manual</a></li>
-          <li><a href="/docs/system-design/">F-24 — System Design Requirements</a></li>
-          <li><a href="/docs/tower-sharing/">F-25 — Tower Sharing Standards</a></li>
-          <li><a href="/docs/gas-management/">F-26 — Gas Management &amp; Pressure Safety</a></li>
-          <li><a href="/docs/system-modification/">F-27 — System Modification Protocol</a></li>
-          <li><a href="/docs/registry-spec/">F-28 — DraftVerify Registry Specification</a></li>
-          <li><a href="/docs/tag-activation/">F-29 — Tag Activation Rules</a></li>
-          <li><a href="/docs/verification-events/">F-30 — Verification Event Specification</a></li>
-          <li><a href="/docs/audit-log/">F-31 — Audit Log &amp; Traceability Framework</a></li>
-          <li><a href="/docs/certification-policy/">F-32 — Use of Mark &amp; Certification Policy</a></li>
-          <li><a href="/docs/compliance-audit/">F-33 — Compliance Audit Framework</a></li>
-          <li><a href="/docs/multi-venue/">F-34 — Multi-Venue Program Requirements</a></li>
-          <li><a href="/docs/contamination-report/">F-35 — NA Draft Safety &amp; Contamination Report</a></li>
-          <li><a href="/docs/failure-modes/">F-36 — NA Draft System Failure Modes Guide</a></li>
-          <li><a href="/docs/audit-handbook/">F-37 — Field Audit Handbook</a></li>
-          <li><a href="/docs/education-handbook/">F-38 — Distributor &amp; Venue Education Handbook</a></li>
-          <li><a href="/docs/product-switching/">F-39 — Product Switching &amp; Line Reuse Protocol</a></li>
-          <li><a href="/docs/governance-policy/">F-40 — Revision &amp; Governance Policy</a></li>
-        </ol>
-      </details>
+<!-- FULL INDEX -->
+<section class="section" id="full-index">
+  <div class="container">
+    <div class="kicker">Full Document Index</div>
+    <h2 class="h2 center">F-1–F-40 Detailed Index</h2>
+    <p class="std-section-intro">
+      The full index below is provided for technical teams, auditors, and compliance leads who need direct
+      access to every supporting document in the DraftVerify Standards Library.
+    </p>
+
+    <div class="std-index-block">
+      <div class="std-index">
+        <details>
+          <summary>Expand to view all F-series documents (v1.0)</summary>
+          <ol class="std-index-list">
+            <li><a href="/docs/standard-v1/">F-1 — DraftVerify Standard v1.0</a></li>
+            <li><a href="/docs/definitions/">F-2 — Definitions, Scope &amp; Terminology</a></li>
+            <li><a href="/docs/identity-architecture/">F-3 — Identity Architecture Overview</a></li>
+            <li><a href="/docs/risk-profile/">F-4 — NA Draft Risk Profile &amp; Rationale</a></li>
+            <li><a href="/docs/legal-basis/">F-5 — Legal &amp; Compliance Basis for NA Separation</a></li>
+            <li><a href="/docs/keg-id/">F-6 — Keg Identification Standard</a></li>
+            <li><a href="/docs/coupler-tags/">F-7 — Coupler Tag Standard</a></li>
+            <li><a href="/docs/line-id/">F-8 — Beer Line Identification Standard</a></li>
+            <li><a href="/docs/faucet-id/">F-9 — Faucet Identification Standard</a></li>
+            <li><a href="/docs/visual-lexicon/">F-10 — Visual Lexicon: Colors, Shapes, Symbols</a></li>
+            <li><a href="/docs/brewery-implementation/">F-11 — Brewery Implementation Guide</a></li>
+            <li><a href="/docs/brewery-serialization/">F-12 — Brewery NFC Tag Serialization SOP</a></li>
+            <li><a href="/docs/brewery-activation/">F-13 — Brewery Activation Workflow</a></li>
+            <li><a href="/docs/brewery-records/">F-14 — Brewery Documentation &amp; Records</a></li>
+            <li><a href="/docs/distributor-protocol/">F-15 — Distributor Protocol</a></li>
+            <li><a href="/docs/distributor-transport/">F-16 — Distributor Transport &amp; Storage Requirements</a></li>
+            <li><a href="/docs/distributor-logs/">F-17 — Distributor Verification &amp; Reconciliation Logs</a></li>
+            <li><a href="/docs/venue-setup/">F-18 — Venue Setup &amp; Verification Protocol</a></li>
+            <li><a href="/docs/venue-checklist/">F-19 — Daily / Weekly Verification Checklist</a></li>
+            <li><a href="/docs/change-log/">F-20 — Change Log SOP</a></li>
+            <li><a href="/docs/cleaning-log/">F-21 — Cleaning Log SOP</a></li>
+            <li><a href="/docs/incident-response/">F-22 — Incident Response &amp; Mis-Serve Procedure</a></li>
+            <li><a href="/docs/staff-training/">F-23 — NA Draft Staff Training Manual</a></li>
+            <li><a href="/docs/system-design/">F-24 — System Design Requirements</a></li>
+            <li><a href="/docs/tower-sharing/">F-25 — Tower Sharing Standards</a></li>
+            <li><a href="/docs/gas-management/">F-26 — Gas Management &amp; Pressure Safety</a></li>
+            <li><a href="/docs/system-modification/">F-27 — System Modification Protocol</a></li>
+            <li><a href="/docs/registry-spec/">F-28 — DraftVerify Registry Specification</a></li>
+            <li><a href="/docs/tag-activation/">F-29 — Tag Activation Rules</a></li>
+            <li><a href="/docs/verification-events/">F-30 — Verification Event Specification</a></li>
+            <li><a href="/docs/audit-log/">F-31 — Audit Log &amp; Traceability Framework</a></li>
+            <li><a href="/docs/certification-policy/">F-32 — Use of Mark &amp; Certification Policy</a></li>
+            <li><a href="/docs/compliance-audit/">F-33 — Compliance Audit Framework</a></li>
+            <li><a href="/docs/multi-venue/">F-34 — Multi-Venue Program Requirements</a></li>
+            <li><a href="/docs/contamination-report/">F-35 — NA Draft Safety &amp; Contamination Report</a></li>
+            <li><a href="/docs/failure-modes/">F-36 — NA Draft System Failure Modes Guide</a></li>
+            <li><a href="/docs/audit-handbook/">F-37 — Field Audit Handbook</a></li>
+            <li><a href="/docs/education-handbook/">F-38 — Distributor &amp; Venue Education Handbook</a></li>
+            <li><a href="/docs/product-switching/">F-39 — Product Switching &amp; Line Reuse Protocol</a></li>
+            <li><a href="/docs/governance-policy/">F-40 — Revision &amp; Governance Policy</a></li>
+          </ol>
+        </details>
+      </div>
     </div>
-
   </div>
 </section>
 
 <!-- GOVERNANCE -->
 <section class="section" id="governance">
   <div class="container">
+    <div class="kicker">How the Standard Is Maintained</div>
     <h2 class="h2 center">Governance of the DraftVerify Standard</h2>
 
     <p class="std-section-intro">
