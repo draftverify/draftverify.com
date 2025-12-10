@@ -281,7 +281,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
       </div>
 
       <div class="std-series-card">
-        <div class="std-series-label">F-32–F-40 · Programs &amp; Governance</div>
+        <div .class="std-series-label">F-32–F-40 · Programs &amp; Governance</div>
         <h3>Marks, Audits &amp; Long-Term Care</h3>
         <p>Use of mark, audits, multi-venue programs, education, and governance.</p>
         <ul>
@@ -342,6 +342,78 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
       </details>
     </div>
 
+  </div>
+</section>
+
+<!-- GOVERNANCE -->
+<section class="section" id="governance">
+  <div class="container">
+    <h2 class="h2 center">Governance of the DraftVerify Standard</h2>
+
+    <p class="std-section-intro">
+      DraftVerify Standard v1.0 is maintained through a structured governance model to ensure that 
+      requirements remain accurate, neutral, and aligned with the evolving needs of breweries, 
+      distributors, draft technicians, and venues operating non-alcoholic draft systems.
+    </p>
+
+    <div class="std-series-grid">
+
+      <div class="std-series-card">
+        <div class="std-series-label">Standards Council</div>
+        <h3>Oversight &amp; Stewardship</h3>
+        <p>
+          The Standards Council provides ongoing oversight for DraftVerify v1.0, including revision 
+          cycles, interpretation of requirements, and approval of changes to formal documents and 
+          procedures. The Council ensures the standard remains consistent, implementable, and 
+          technically sound.
+        </p>
+      </div>
+
+      <div class="std-series-card">
+        <div class="std-series-label">Advisory Panels</div>
+        <h3>Technical &amp; Stakeholder Input</h3>
+        <p>
+          Advisory Panels contribute domain-specific input across brewery operations, draft system 
+          engineering, traceability, contamination prevention, and venue operations. These panels 
+          provide recommendations but do not set requirements independently.
+        </p>
+        <ul>
+          <li>Brewery Advisory Panel</li>
+          <li>Draft Systems Advisory Panel</li>
+          <li>Traceability &amp; Metadata Panel</li>
+          <li>Health &amp; Safety Panel</li>
+        </ul>
+      </div>
+
+      <div class="std-series-card">
+        <div class="std-series-label">Revision Cycle</div>
+        <h3>Versioning &amp; Updates</h3>
+        <p>
+          The DraftVerify Standard follows a structured multi-year revision cycle. Minor updates 
+          (v1.1, v1.2) address clarifications or implementation notes; major revisions (v2.0, v3.0) 
+          expand scope or incorporate new verification technologies and beverage categories.
+        </p>
+        <ul>
+          <li>v1.0 — Initial publication</li>
+          <li>v1.1 — Scheduled minor update</li>
+          <li>v2.0 — Scheduled major update</li>
+        </ul>
+      </div>
+
+      <div class="std-series-card">
+        <div class="std-series-label">Public Input</div>
+        <h3>Feedback &amp; Comment Process</h3>
+        <p>
+          Stakeholders may submit comments on DraftVerify Standard v1.0 or propose revisions during 
+          open comment windows. Submitted feedback is reviewed by the Standards Council and, where 
+          appropriate, incorporated into future versions.
+        </p>
+        <p style="margin-top:6px;font-size:0.85rem;color:#6b7280;">
+          Comments may be submitted to: <strong>standards@draftverify.com</strong>
+        </p>
+      </div>
+
+    </div>
   </div>
 </section>
 
