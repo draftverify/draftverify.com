@@ -13,9 +13,12 @@ description: "Official activation rules governing how DraftVerify Coupler Tags (
 # Tag Activation Rules
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Activation Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity. External law, equipment requirements, and qualified technical instructions remain controlling external obligations. Public access grants no certification or mark licence.
+
 
 This document defines the **official rules for activating DraftVerify Coupler Tags (DTIs)**, binding them to brewery products, and ensuring they enter circulation in a **secure, validated, and tamper-resistant** state.
 
@@ -49,23 +52,23 @@ These rules apply to:
 - All activation workflows (manual, app-based, or automated)  
 - All future DTI versions  
 
-Activation must occur **before kegs leave the brewery**.
+Activation shall occur **before kegs leave the brewery**.
 
 ---
 
 ## 3. Activation Prerequisites
 
-Before a tag can be activated, the following must be complete:
+Before a tag can be activated, the following shall be complete:
 
 ### 3.1 Brewery Verification  
-Brewery must be validated in the Registry:
+Brewery shall be validated in the Registry:
 
 - Approved Brewery ID  
 - Authorized activation personnel  
 - Trained in F-12 and F-13 workflows  
 
 ### 3.2 Product Registration  
-Product must exist in the Registry with:
+Product shall exist in the Registry with:
 
 - Product ID  
 - Style  
@@ -73,14 +76,14 @@ Product must exist in the Registry with:
 - Visual identity  
 
 ### 3.3 Physical Tag Inspection  
-Activation personnel must confirm:
+Activation personnel shall confirm:
 
 - Correct DraftVerify NA banding  
 - DTI printed clearly and scannable  
 - No damage, bends, or adhesive problems  
 - NFC chip functioning (test scan required)  
 
-If the physical tag fails inspection → **tag must be retired**.
+If the physical tag fails inspection → **tag shall be retired**.
 
 ---
 
@@ -107,7 +110,7 @@ System displays:
 - NFC UID  
 - Activation technician ID  
 
-Technician must confirm all are correct.
+Technician shall confirm all are correct.
 
 ### Step 4 — Activate Tag  
 Registry transitions tag from:
@@ -122,13 +125,13 @@ Once activated:
 - Tag becomes part of compliance framework  
 
 ### Step 5 — Affix Tag to Keg  
-Tag must be zip-tied to the coupler flange following:
+Tag shall be zip-tied to the coupler flange following:
 
 - F-7 Coupler Tag Standard  
 - Brewery SOP for placement  
 - Tamper-resistant fastening  
 
-Tag must not spin freely or be placed on moving components.
+Tag shall not spin freely or be placed on moving components.
 
 ---
 
@@ -175,7 +178,7 @@ The Registry automatically sets a tag to **Error** if:
 - Verification loop inconsistency  
 - Improper activation sequence detected  
 
-Tags in Error state must be:
+Tags in Error state shall be:
 
 1. Quarantined  
 2. Investigated  
@@ -187,7 +190,7 @@ Never reassigned.
 
 ## 8. Activation Logging Requirements
 
-Registry must store:
+Registry shall store:
 
 - DTI  
 - Brewery ID  
@@ -204,7 +207,7 @@ Activation logs are immutable.
 
 ## 9. Activation Audit Requirements
 
-Breweries must maintain:
+Breweries shall maintain:
 
 - Weekly activation logs  
 - Tag usage counts  
@@ -233,7 +236,7 @@ Correct activation ensures:
 - Predictable compliance outcomes  
 - Protection against mis-serve and liability  
 
-Once activated, a DTI becomes a permanent, auditable identity that must remain intact for the full lifecycle of the keg.
+Once activated, a DTI becomes a permanent, auditable identity that shall remain intact for the full lifecycle of the keg.
 
 </div>
 </section>

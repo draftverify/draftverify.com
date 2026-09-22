@@ -13,13 +13,16 @@ description: "Standard operating procedure for documenting and verifying draft s
 # Cleaning Log SOP
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Records Procedure.** **Shall** indicates a requirement for applicable DraftVerify conformity. External law, equipment requirements, and qualified technical instructions remain controlling external obligations. Public access grants no certification or mark licence.
+
 
 The Cleaning Log SOP defines mandatory documentation procedures for cleaning, sanitizing, and maintaining draft beverage systems serving **non-alcoholic (NA)** and alcoholic products under the DraftVerify Standard.
 
-While DraftVerify does not define *how* to clean lines (regional regulations apply), it defines *how cleaning must be recorded* to ensure identity integrity, NA separation, and audit readiness.
+While DraftVerify does not define *how* to clean lines (regional regulations apply), it defines *how cleaning shall be recorded* to ensure identity integrity, NA separation, and audit readiness.
 
 ---
 
@@ -67,7 +70,7 @@ Does **not** cover:
 
 ## 3. Cleaning Schedule Requirements
 
-Each venue must follow:
+Each venue shall follow:
 
 ### 3.1 Regional Cleaning Regulations  
 If local health authorities mandate a frequency (e.g., every 2 weeks), that requirement supersedes.
@@ -81,7 +84,7 @@ If no regulations exist:
 - **Every 90 days** — Gas system hygiene check  
 
 ### 3.3 NA Priority  
-Lines dedicated to NA draft must receive:
+Lines dedicated to NA draft shall receive:
 
 - Equal or higher cleaning frequency  
 - Documented confirmation of NA-only line status  
@@ -90,7 +93,7 @@ Lines dedicated to NA draft must receive:
 
 ## 4. Required Cleaning Log Fields
 
-Each entry must include:
+Each entry shall include:
 
 | Field | Description |
 |-------|-------------|
@@ -107,7 +110,7 @@ Each entry must include:
 | **Technician Signature** | Required |
 | **Manager Approval** | Required |
 
-Logs may be digital or paper but must be legible and retrievable.
+Logs may be digital or paper but shall be legible and retrievable.
 
 ---
 
@@ -147,7 +150,7 @@ Supervisor or manager signs the log.
 ## 6. NA-Specific Cleaning Rules
 
 ### 6.1 NA-Only Lines
-Lines dedicated to NA beverages must:
+Lines dedicated to NA beverages shall:
 
 - Be marked with NA Gold in accordance with **F-8**  
 - Never be temporarily used for alcoholic products  
@@ -156,29 +159,29 @@ Lines dedicated to NA beverages must:
 ### 6.2 Mixed Towers
 If NA and alcoholic products share a tower:
 
-- NA faucet must be cleaned first  
-- Tools must be sanitized between products  
-- Technician must verify all identity labels remain intact  
+- NA faucet shall be cleaned first  
+- Tools shall be sanitized between products  
+- Technician shall verify all identity labels remain intact  
 
 ### 6.3 Product Switching
 If a line switches products:
 
-- A cleaning log must be completed  
-- A change log entry must be created (see F-20)  
+- A cleaning log shall be completed  
+- A change log entry shall be created (see F-20)  
 
 ---
 
 ## 7. Record Storage & Retention
 
-Venues must retain cleaning logs for **minimum 12 months**, stored:
+Venues shall retain cleaning logs for **minimum 12 months**, stored:
 
 - Digitally (preferred)  
 - In a dedicated binder  
 - In any audit-ready format  
 
-Multi-venue operations (F-34) must store records for **24–36 months**.
+Multi-venue operations (F-34) shall store records for **24–36 months**.
 
-Logs must be:
+Logs shall be:
 
 - Readable  
 - Complete  

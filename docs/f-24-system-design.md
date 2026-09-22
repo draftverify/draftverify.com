@@ -1,324 +1,113 @@
 ---
 layout: default
-title: "F-24 — System Design Requirements"
+title: "F-24 — Draft System Identity Design Requirements"
 permalink: /docs/system-design/
-description: "Physical, technical, and operational design requirements for draft systems serving non-alcoholic products under the DraftVerify Standard."
+description: "DraftVerify v2.0 requirements for designing an NA draft pathway that can be identified, verified, serviced, and controlled."
 ---
 
 <section class="section">
 <div class="container" style="max-width:820px" markdown="1">
 
-<div class="kicker">DraftVerify Standards Library · F-24</div>
+<div class="kicker">DraftVerify Standards Library · F-24 · Normative Technical Requirement</div>
 
-# System Design Requirements
+# Draft System Identity Design Requirements
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>Document ID: DV-F-24-v2.0  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-This document defines the **engineering, layout, and operational design requirements** for draft beverage systems serving **non-alcoholic (NA)** products under the DraftVerify Standard.
-
-NA draft introduces unique identity, contamination, and compliance risks.  
-These requirements ensure that system design supports:
-
-- Correct product identity  
-- NA separation  
-- Cleaning accessibility  
-- Safe operational conditions  
-- Compatibility with the DraftVerify identity chain  
-
-F-24 does **not** replace local engineering or safety codes — it supplements them with NA-specific identity and operational safeguards.
-
----
+> **Boundary of this document.** F-24 governs DraftVerify identity, access, traceability, and change-control requirements. It does not replace draft-system engineering, food-safety procedures, pressure-system requirements, manufacturer instructions, or applicable codes.
 
 ## 1. Purpose
 
-The purpose of this standard is to:
+An in-scope NA draft system shall be arranged so that its intended identity pathway can be physically followed, verified before service, maintained during normal operations, and reconstructed from records after a change or incident.
 
-- Establish uniform design expectations for NA draft service  
-- Ensure system layouts support DraftVerify tagging and verification  
-- Prevent cross-connection or accidental NA ↔ alcoholic mixing  
-- Reduce mis-serve risk through physical and operational design  
-- Improve auditability and traceability throughout the system  
-- Support maintenance, cleaning, and line switching protocols  
+## 2. Defined pathway
 
----
+The organization shall document the in-scope path:
 
-## 2. Scope
+**Keg → Coupler → Beverage Line → Tower/Distribution Point → Faucet**
 
-Applies to:
+Each controlled point shall have the identifier required by the applicable F-Series document.
 
-- Bars, restaurants, taprooms  
-- Stadiums and high-volume venues  
-- Breweries with service systems  
-- Multi-venue chains  
-- Draft system installers and technicians  
+## 3. Access and visibility
 
-Covers:
+The system shall provide sufficient access for authorized personnel to:
 
-- Cooler layout & kegroom organization  
-- Line routing & identification  
-- Tower design requirements  
-- Hardware compatibility  
-- Gas system configuration  
-- Workflow and access considerations  
-- Identity support infrastructure (tags, labels, signage)  
+- inspect the keg identifier;
+- verify the connection-point identifier;
+- inspect or trace the line identifier;
+- verify the point-of-service identifier;
+- perform required scans or registry checks; and
+- conduct qualified service without destroying required identifiers unless replacement is part of the documented service procedure.
 
----
+## 4. Separation and differentiation
 
-## 3. System Architecture Requirements
+NA identity shall remain distinguishable from alcoholic identity in the in-scope area.
 
-### 3.1 Dedicated NA Pathway  
-Every NA draft system must maintain a **clearly defined pathway**:
+DraftVerify does not prescribe a universal physical distance, rack type, gas architecture, or cooler geometry unless a specific certification profile expressly does so.
 
-**Keg → Coupler → Beverage Line → Tower → Faucet**
+Where alcoholic and NA products share a room, tower, trunk, chase, gas source, or service area, the organization shall document controls sufficient to prevent identity ambiguity.
 
-At no point may the NA pathway be temporarily or permanently connected to:
+## 5. Line routing and mapping
 
-- Alcoholic product  
-- Cleaning reservoir without proper sanitization  
-- Reassigned lines without documentation (see F-39)
+Each in-scope line shall:
 
-### 3.2 Physical Layout  
-System design must allow:
+- have a unique controlled identifier;
+- be mapped to its current point of service;
+- be traceable from connection point to faucet or dispensing point;
+- have changes controlled under F-27; and
+- have product-switching events controlled under F-39.
 
-- Clear visibility of keg collars  
-- Easy access to coupler tags for NFC scanning  
-- Stable positioning that prevents tag damage  
+## 6. Tower and point-of-service design
 
-### 3.3 Technician Access  
-Installers must ensure:
+Point-of-service identity shall remain visible under normal service conditions.
 
-- Full access to couplers for scanning  
-- Safe access to line tags  
-- Service clearance for faucet disassembly  
-- Adequate lighting in the kegroom  
+A shared tower may be used where F-25 requirements are satisfied.
 
----
+The visual system shall not imply that DraftVerify certifies beverage quality, legal alcohol classification, health effects, or regulatory compliance beyond the stated certificate scope.
 
-## 4. Cooler & Kegroom Requirements
+## 7. Equipment compatibility
 
-### 4.1 NA Separation Zone  
-Kegs must be stored in:
+Equipment used in an in-scope DraftVerify implementation shall be compatible with the required physical identifiers and verification workflow.
 
-- A dedicated NA-only rack **or**  
-- A physically separated zone with signage  
+DraftVerify conformity does not itself certify mechanical, electrical, pressure, sanitation, or food-contact suitability of equipment.
 
-Mixed stacking with alcoholic kegs is **not permitted**.
+## 8. Gas and pressure interface
 
-### 4.2 Identity Visibility  
-The following must remain visible:
+Gas type, blend, pressure, regulator selection, cylinder handling, and related safety settings shall follow:
 
-- Keg collar  
-- Coupler tag  
-- Sidewall band (if used)
+1. product and brewery specifications;
+2. equipment manufacturer instructions;
+3. qualified draft-system practice; and
+4. applicable safety law and code.
 
-### 4.3 Environmental Requirements  
-Design must support:
+F-26 defines DraftVerify documentation and identity controls at this interface.
 
-- Temperatures safe for NFC tag durability  
-- Dry, non-abrasive surfaces preventing tag wear  
-- Clean floors free from corrosive chemicals  
+## 9. Cleaning and sanitation interface
 
----
+Cleaning chemistry, concentration, temperature, cycle time, rinse requirements, and frequency shall follow applicable manufacturer, product, professional, and legal requirements.
 
-## 5. Line Routing Requirements
+DraftVerify shall require records and identity control under F-21 and F-39 where cleaning affects an in-scope pathway.
 
-### 5.1 Consistency  
-Each line must have:
+## 10. Design evidence
 
-- A clear, uninterrupted route  
-- No unnecessary loops or crossings  
-- Secure mounting that prevents abrasion  
+The organization shall maintain a current record sufficient to identify:
 
-### 5.2 Line Tag Placement  
-Must follow F-8:
+- in-scope lines;
+- connection points;
+- points of service;
+- current product assignment;
+- applicable identifiers; and
+- material modifications.
 
-- Within first 30–45 cm (12–18 in.) from coupler  
-- Readable orientation  
-- Clear, fixed attachment  
+## 11. Certification effect
 
-### 5.3 NA Line Differentiation  
-NA lines must use:
+Failure to maintain a verifiable identity pathway is a nonconformity.
 
-- Gold identity color  
-- Unique alphanumeric identifier  
-- Matching documentation in F-18 venue map  
-
----
-
-## 6. Tower & Faucet Requirements
-
-### 6.1 Faucet Identification  
-Faucets serving NA must:
-
-- Be clearly labeled  
-- Use optional DraftVerify tower markers where needed  
-- Match the identity chain (keg → line → faucet)
-
-### 6.2 Tower Design  
-Must support:
-
-- Adequate spacing to differentiate NA taps  
-- Easy visibility of faucet ID  
-- No obstruction during service  
-
-### 6.3 High-Volume Venues  
-Stadiums or festivals may require:
-
-- Additional signage  
-- Redundant labeling  
-- Dedicated NA-only towers  
-
----
-
-## 7. Coupler Requirements
-
-System must allow:
-
-- Secure zip-tie attachment of coupler tags  
-- NFC scanning before connection  
-- No obstruction from system hardware  
-- No rotation or interference caused by coupler design  
-
-Couplers must be compatible with the DraftVerify coupler tag geometry.
-
----
-
-## 8. Gas System Requirements
-
-### 8.1 Pressure Safety  
-CO₂ or blended gas systems must:
-
-- Meet regional pressure vessel standards  
-- Be equipped with functional regulators  
-- Be maintained according to safety guidelines
-
-### 8.2 NA Compatibility  
-Gas systems must not:
-
-- Introduce off-flavors  
-- Cross-feed between NA and alcoholic lines  
-- Use contaminated or oil-lubricated regulators  
-
-### 8.3 Documentation  
-Technicians must record gas system checks in:
-
-- Cleaning Logs (F-21)  
-- Service Logs (part of F-18)  
-
----
-
-## 9. Cleaning System Compatibility
-
-### 9.1 Access for Chemical Cleaning  
-System layout must allow:
-
-- Full recirculation cleaning  
-- Faucet disassembly  
-- Coupler cleaning without removing identity tags  
-
-### 9.2 NA Safety  
-Cleaning equipment must:
-
-- Prevent accidental chemical residue in NA lines  
-- Indicate clearly which reservoir feeds which lines  
-
-### 9.3 Post-Cleaning Verification  
-After cleaning, identity tags must still be:
-
-- Visible  
-- Secure  
-- Undamaged  
-
----
-
-## 10. Identity Infrastructure Requirements
-
-### 10.1 NFC Scan Zones  
-Design must ensure staff can:
-
-- Access coupler tags without twisting or bending  
-- Scan tags in tight cooler spaces  
-
-### 10.2 Signage  
-Venues must include:
-
-- NA zone signage  
-- NA-only line identification  
-- Staff reminders for verification workflow  
-
-### 10.3 Redundant Identity Support  
-Optional but recommended:
-
-- Sidewall bands  
-- Tower markers  
-- Cooler maps  
-
----
-
-## 11. System Documentation Requirements
-
-Installers must provide:
-
-### 11.1 Line Map (Required)
-Document showing:
-
-- Every line’s identity  
-- NA vs alcoholic designation  
-- Coupler position  
-- Tower position  
-
-### 11.2 Installation Report
-Includes:
-
-- Date of installation  
-- Technician name  
-- Components installed  
-- Pressure system settings  
-- Any custom modifications  
-
-### 11.3 Venue Identity Packet
-Delivered to managers and staff:
-
-- Product map  
-- Line map  
-- Verification workflow  
-- Coupler tag overview  
-
----
-
-## 12. Compliance Requirements
-
-A system is DraftVerify-compliant when:
-
-- NA lines are physically separated  
-- Identity chain supports scanning & visibility  
-- Cleaning is compatible with tag retention  
-- Tower design avoids mis-identification  
-- Documentation is complete  
-- Staff can follow verification workflow without obstruction  
-
-Non-compliant system design may:
-
-- Fail DraftVerify audits  
-- Trigger reinstallation requirements  
-- Increase mis-serve risk  
-
----
-
-## 13. Summary
-
-The System Design Requirements ensure:
-
-- Safe, reliable NA draft service  
-- Physical and visual identity integrity  
-- Compliance with DraftVerify verification workflows  
-- Reduced risk of cross-contamination  
-- Clear lines, clean layouts, and predictable operation  
-
-System design is the foundation of NA draft safety — and the DraftVerify Standard provides the structure for doing it right.
+A condition that makes the actual product-to-faucet path uncertain is a **critical nonconformity** until the pathway is isolated, corrected, and re-verified.
 
 </div>
 </section>

@@ -13,9 +13,12 @@ description: "The formal specification defining how DraftVerify verification eve
 # Verification Event Specification
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Event Specification.** **Shall** indicates a requirement for applicable DraftVerify conformity. External law, equipment requirements, and qualified technical instructions remain controlling external obligations. Public access grants no certification or mark licence.
+
 
 This document defines the **structure, purpose, and processing rules** for all verification events within the DraftVerify ecosystem.
 
@@ -80,7 +83,7 @@ Generated automatically when internal systems confirm data consistency.
 
 ## 4. Event Data Structure
 
-Every Verification Event must include the following fields:
+Every Verification Event shall include the following fields:
 
 ### 4.1 Required Fields
 
@@ -189,7 +192,7 @@ Auditor scans any keg to confirm:
 ## 7. Event Retention & Security
 
 ### 7.1 Retention  
-Events must be stored **for a minimum of 5 years**.
+Events shall be stored **for a minimum of 5 years**.
 
 ### 7.2 Security Controls
 - Encryption in transit  
@@ -205,7 +208,7 @@ Geolocation is coarse and optional.
 
 ## 8. Event Integrity Rules
 
-Verification events must not be:
+Verification events shall not be:
 
 - Edited  
 - Overwritten  
@@ -213,7 +216,7 @@ Verification events must not be:
 - Backdated  
 - Reordered  
 
-Any attempt to alter historical events must generate a **system alert**.
+Any attempt to alter historical events shall generate a **system alert**.
 
 ---
 

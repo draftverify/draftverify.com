@@ -2,304 +2,149 @@
 layout: default
 title: "F-28 — DraftVerify Registry Specification"
 permalink: /docs/registry-spec/
-description: "Technical specification defining the data model, event handling, state transitions, and security rules for the DraftVerify Identity Registry."
+description: "DraftVerify v2.0 technical specification for controlled identity, certificate status, verification events, state transitions, and registry integrity."
 ---
 
 <section class="section">
 <div class="container" style="max-width:820px" markdown="1">
 
-<div class="kicker">DraftVerify Standards Library · F-28</div>
+<div class="kicker">DraftVerify Standards Library · F-28 · Normative Registry Specification</div>
 
 # DraftVerify Registry Specification
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>Document ID: DV-F-28-v2.0  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-The DraftVerify Registry is the **authoritative source of truth** for keg identity, coupler tag state, verification events, and product mapping.  
-This specification defines the data structures, allowed state transitions, validation rules, and security requirements.
+> **Authority.** The DraftVerify Registry is the controlling DraftVerify record for identifiers, applicable verification events, mappings, and certificate status. This does not make the Registry a government record or public regulatory database.
 
-The Registry exists to ensure every NA draft pour traces back to a verifiable, tamper-resistant identity.
+## 1. Core object classes
 
----
+The Registry shall support controlled records for, as applicable:
 
-## 1. Purpose of the Registry
+- organizations;
+- sites;
+- products;
+- kegs or containers;
+- DraftVerify identifiers;
+- lines and points of service;
+- verification events;
+- change events;
+- incidents;
+- certificates; and
+- certificate status history.
 
-The DraftVerify Registry provides:
+## 2. Identifier integrity
 
-- A single, canonical identity system for NA draft  
-- Validation of all Coupler Tag scans  
-- Tracking of keg → coupler → line → faucet mapping  
-- Immutable logging of verification events  
-- Manufacturer and distributor accountability  
-- Security against mislabeling or tampering  
+Each DraftVerify-controlled identifier shall be unique within its namespace.
 
-The Registry enforces the DraftVerify Standard and underpins all compliance workflows.
+The Registry shall prevent or detect:
 
----
+- duplicate active identifier assignment;
+- conflicting active product assignment;
+- unauthorized reassignment;
+- invalid state transitions; and
+- use of a retired or revoked identifier where prohibited.
 
-## 2. Core Data Objects
+## 3. Required states
 
-The Registry contains four primary object classes:
+Identifier and certificate objects shall use defined states.
 
----
+At minimum, certificate states shall include:
 
-### 2.1 Brewery Object
+- **Pending**;
+- **Active**;
+- **Suspended**;
+- **Withdrawn**;
+- **Expired**.
 
-**Fields:**
+A public certification claim is valid only while the applicable certificate state is **Active**, unless a written program rule expressly permits another status representation.
 
-- Brewery ID  
-- Brewery name  
-- Product catalog  
-- Activation permissions  
-- Contact & compliance info  
+## 4. Certificate object
 
----
+A certificate record shall include:
 
-### 2.2 Product Object
+- certificate ID;
+- holder;
+- scope;
+- applicable Standard version;
+- issue date;
+- expiry or review date where applicable;
+- current status;
+- status effective timestamp; and
+- link to the decision record or controlled internal reference.
 
-**Fields:**
+## 5. Verification event
 
-- Product ID  
-- Brewery ID  
-- Product name  
-- Style  
-- NA classification  
-- Verification settings  
+A verification event shall include, where applicable:
 
----
+- unique event ID;
+- timestamp;
+- identifier;
+- expected identity;
+- observed identity;
+- result;
+- site or system context;
+- actor or device reference; and
+- exception or mismatch information.
 
-### 2.3 Keg Object
+## 6. Change history
 
-Each keg registered in DraftVerify must include:
+Material changes to controlled identity, mapping, or certificate status shall create a durable history entry.
 
-**Fields:**
+The system shall not silently overwrite historical status evidence needed to reconstruct a material event.
 
-- Keg ID  
-- Brewery ID  
-- Product ID  
-- Packaging date  
-- Activation date  
-- Coupler Tag (DTI)  
-- Verification history  
+## 7. Access control
 
----
+Permissions shall be role-based.
 
-### 2.4 Coupler Tag Object (DTI)
+Administrative functions capable of changing identity, mappings, certificate status, or evidence records shall be restricted to authorized roles.
 
-Identity fields:
+## 8. Security controls
 
-- DTI (DraftVerify Tag ID)  
-- Assigned Product ID  
-- Assigned Brewery  
-- NFC UID  
-- Tag state (Active / Inactive / Retired / Error)  
-- Last verification timestamp  
-- Coupler Tag version  
+The Registry shall implement controls appropriate to its risk, including:
 
----
+- authentication for privileged actions;
+- authorization checks;
+- protection against identifier enumeration or abuse where appropriate;
+- logging of privileged changes;
+- backup and recovery controls;
+- reasonable rate limiting or abuse detection; and
+- protection of secrets and credentials.
 
-### 2.5 Line Mapping Object
+The public F-Series does not disclose security-sensitive implementation details that would materially weaken the Registry.
 
-Maps keg identity through the draft system.
+## 9. Evidence integrity
 
-Fields:
+Where a Registry record is used as certification evidence:
 
-- Venue ID  
-- Line ID  
-- Faucet ID  
-- Product ID  
-- Active DTI  
-- Last modification timestamp  
+- the source shall be identifiable;
+- material edits shall be attributable;
+- the time basis shall be recorded;
+- correction shall preserve the original material history where feasible; and
+- unauthorized alteration shall be investigated.
 
----
+## 10. Privacy and data minimization
 
-## 3. Tag States & Rules
+The Registry shall collect and expose only information reasonably necessary for its stated operational and certification purposes.
 
-DraftVerify tags may exist in the following states:
+Public certificate validation should disclose sufficient information to validate certificate identity, scope, version, and status without unnecessarily disclosing confidential operational information.
 
-### **Active**  
-- Valid  
-- Assigned to a product  
-- Ready for verification scans  
+## 11. Interface versioning
 
-### **Inactive**  
-- Encoded but not yet activated  
-- Cannot be used at a venue  
+Machine-readable interfaces shall be versioned.
 
-### **Retired**  
-- Permanently invalid  
-- Cannot re-enter circulation  
+A breaking interface change shall not silently change the meaning of an existing identifier, status, or verification result.
 
-### **Error**  
-Triggered when:
+## 12. Controlling status
 
-- Mismatched product identity  
-- Duplicate NFC UID detected  
-- Attempted reuse of tag  
-- Assignment conflict  
+If a printed certificate, badge, screenshot, exported report, or third-party record conflicts with the current DraftVerify Registry certificate status, the Registry status controls for DraftVerify purposes.
 
----
+## 13. Proprietary implementation
 
-## 4. Allowed State Transitions
-
-| From | To | Allowed? | Notes |
-|------|----|----------|-------|
-| Inactive | Active | ✔ | Upon brewery activation |
-| Active | Retired | ✔ | Tag damaged or taken out of service |
-| Active | Error | ✔ | Auto-trigger on conflict |
-| Error | Retired | ✔ | Required after investigation |
-| Retired | Active | ❌ | Never allowed |
-| Retired | Inactive | ❌ | Never allowed |
-
-Tags never return to circulation after retirement.
-
----
-
-## 5. Verification Event Structure
-
-Every NFC scan creates a **Verification Event** stored in the Registry.
-
-### Fields:
-
-- Event ID  
-- Timestamp  
-- DTI  
-- Brewery ID  
-- Product ID  
-- Venue ID (if provided)  
-- Device type (iOS, Android)  
-- Result (Match / Mismatch / Error)  
-
-Events must be immutable for compliance reasons.
-
----
-
-## 6. Product Assignment Rules
-
-A Coupler Tag (DTI):
-
-- **Must** be assigned to exactly one product  
-- **Must not** be reused  
-- **Cannot** be reassigned after retirement  
-- **Cannot** be shared between SKUs  
-
-Brewery must initiate activation through:
-
-- F-13 Activation Workflow  
-- Secure activation API (future version)  
-
----
-
-## 7. Line Mapping Rules
-
-Line Mapping ensures product identity integrity from keg → faucet.
-
-Rules:
-
-- Each line may be mapped to **one** active product  
-- Reassignment requires F-27 System Modification Protocol  
-- Mapping must match Line Tag physical identifiers  
-- Registry must log all changes with timestamp + technician information  
-
-Mapping violations trigger an **Error** state.
-
----
-
-## 8. Security Requirements
-
-The Registry must enforce:
-
-### 8.1 NFC UID Matching  
-NFC UID must match the encoded DTI record.
-
-### 8.2 Immutable Logs  
-All events and mappings must be append-only.
-
-### 8.3 Role-Based Permissions  
-Only authorized roles may:
-
-- Activate tags  
-- Reassign lines  
-- Modify product identity  
-
-### 8.4 Duplicate Detection  
-Registry must automatically detect:
-
-- Duplicate DTIs  
-- Duplicate NFC UIDs  
-- Conflicting product assignments  
-
-### 8.5 Rate Limiting  
-Prevents brute-force scanning or automated misuse.
-
----
-
-## 9. Error Handling & Alerts
-
-System must trigger alerts when:
-
-- Scan identity mismatch  
-- Tag in Error state is scanned  
-- Mapping does not match venue configuration  
-- Unassigned tag is used at a venue  
-- NFC UID conflict detected  
-
-Responses may include:
-
-- Quarantine recommendation  
-- Required brewery/distributor investigation  
-- Temporary suspension of compliance status  
-
----
-
-## 10. API Structure (Version 1.0 — Read-Only)
-
-The DraftVerify Registry provides:
-
-### `/registry/v1/tags/{DTI}`  
-Returns tag identity & product mapping.
-
-### `/registry/v1/products/{ProductID}`  
-Returns product metadata.
-
-### `/registry/v1/verify/{DTI}`  
-Records a verification event + returns result.
-
-Write-access endpoints planned for v2.
-
----
-
-## 11. Audit Requirements
-
-Registry maintains:
-
-- Full verification event logs  
-- Mapping history  
-- Activation & retirement logs  
-- Discrepancy reports  
-
-Must be available during:
-
-- Compliance audits (F-33)  
-- Contamination investigations (F-35)  
-- Field inspections (F-37)  
-
----
-
-## 12. Summary
-
-The DraftVerify Registry is the backbone of NA draft identity.  
-It ensures:
-
-- Trustworthy verification  
-- Secure product identity  
-- Full system traceability  
-- Accurate mapping in every venue  
-- Reliable compliance enforcement  
-
-Without the Registry, NA draft identity cannot be guaranteed.
+This document publishes functional requirements necessary to understand DraftVerify conformity. It does not require DraftVerify to publish source code, security secrets, fraud-detection logic, private audit logic, credentials, or other confidential implementation details.
 
 </div>
 </section>

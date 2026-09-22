@@ -13,9 +13,12 @@ description: "Training curriculum, responsibilities, and verification routines r
 # NA Draft Staff Training Manual
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Personnel Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity. External law, equipment requirements, and qualified technical instructions remain controlling external obligations. Public access grants no certification or mark licence.
+
 
 This manual provides the **required training framework** for all staff handling **non-alcoholic (NA)** draft beverages under the DraftVerify Standard.  
 It ensures that every employee understands:
@@ -68,7 +71,7 @@ Recommended for:
 
 ## 3. Core Training Topics
 
-Employees must demonstrate understanding of the following topics.
+Employees shall demonstrate understanding of the following topics.
 
 ---
 
@@ -80,7 +83,7 @@ Non-alcoholic draft carries unique risks because:
 - Mis-serving alcoholic beer can cause legal and health issues  
 - NA customers include minors, designated drivers, pregnant individuals, and medically restricted guests  
 
-Staff must understand:
+Staff shall understand:
 
 - NA draft is NOT the same as alcoholic draft  
 - Verification prevents dangerous and costly mistakes  
@@ -89,7 +92,7 @@ Staff must understand:
 
 ## 3.2 DraftVerify Identity System Overview
 
-Staff must be familiar with:
+Staff shall be familiar with:
 
 ### **Keg Collar**
 Displays product, color band, and NA markings.
@@ -103,7 +106,7 @@ Identifies the beverage line in the cooler.
 ### **Tower/Faucet ID**  
 Optional, but useful for high-volume venues.
 
-The identity chain must always match:
+The identity chain shall always match:
 
 **Keg → Coupler Tag → Line Tag → Faucet**
 
@@ -112,7 +115,7 @@ The identity chain must always match:
 ## 4. Staff Responsibilities
 
 ### 4.1 Before Tapping a Keg
-Staff must:
+Staff shall:
 
 1. Locate the correct Line Tag  
 2. Verify the Coupler Tag using NFC  
@@ -121,7 +124,7 @@ Staff must:
 5. Connect only after verification  
 
 ### 4.2 During Service
-Staff must:
+Staff shall:
 
 - Monitor that taps remain labeled correctly  
 - Ensure no one alters line tags  
@@ -129,7 +132,7 @@ Staff must:
 - Avoid temporary product substitutions without manager approval  
 
 ### 4.3 After Service
-Staff must:
+Staff shall:
 
 - Disconnect kegs properly  
 - Replace empty kegs only with verified ones  
@@ -139,7 +142,7 @@ Staff must:
 
 ## 5. Daily Verification Routine
 
-Each shift must complete the following:
+Each shift shall complete the following:
 
 ### 5.1 Opening Checks
 - Ensure all NA faucets are labeled  
@@ -190,7 +193,7 @@ If anything does not match → **STOP** and escalate.
 ## 7. Mis-Serve Prevention Rules
 
 A mis-serve is **ANY** instance where alcoholic beer is served when NA was requested.  
-Staff must follow:
+Staff shall follow:
 
 ### 7.1 Zero-Assumption Policy  
 Never assume a keg is correct just because:
@@ -200,10 +203,10 @@ Never assume a keg is correct just because:
 - The handle “should” match  
 
 ### 7.2 Mandatory Verification  
-If it wasn’t scanned this shift, it must be verified.
+If it wasn’t scanned this shift, it shall be verified.
 
 ### 7.3 No Cross-Use of Lines  
-NA lines must remain NA-only.
+NA lines shall remain NA-only.
 
 ### 7.4 Immediate Escalation  
 If in doubt → do not pour → call manager.
@@ -212,14 +215,14 @@ If in doubt → do not pour → call manager.
 
 ## 8. Escalation Protocol (When Something Looks Wrong)
 
-### Staff must notify a manager immediately if:
+### Staff shall notify a manager immediately if:
 - NFC scan is incorrect  
 - Tag appears tampered  
 - The keg tastes wrong  
 - The line map doesn’t match what’s connected  
 - A tag is missing  
 
-### Manager must:
+### Manager shall:
 - Stop service from the affected faucet  
 - Follow F-22 Incident Response Procedure  
 - Document the issue  
@@ -228,7 +231,7 @@ If in doubt → do not pour → call manager.
 
 ## 9. Training Assessment
 
-Each staff member must pass:
+Each staff member shall pass:
 
 ### 9.1 Written Assessment (or digital)
 Covers:
@@ -239,7 +242,7 @@ Covers:
 - Escalation steps  
 
 ### 9.2 Practical Assessment
-Employee must:
+Employee shall:
 
 - Correctly identify line tags  
 - Perform NFC scan  
@@ -255,13 +258,13 @@ Re-certification required **annually** or after any major system update.
 
 ## 10. Documentation Requirements
 
-All venues must maintain:
+All venues shall maintain:
 
 - Staff training logs  
 - Assessment records  
 - Certification status per employee  
 
-Documents must be available during DraftVerify audits.
+Documents shall be available during DraftVerify audits.
 
 ---
 

@@ -13,9 +13,12 @@ description: "Standards for safely and correctly serving non-alcoholic draft pro
 # Tower Sharing Standards
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Shared-Tower Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity. External law, equipment requirements, and qualified technical instructions remain controlling external obligations. Public access grants no certification or mark licence.
+
 
 This document establishes the **requirements and restrictions** for serving **non-alcoholic (NA)** draft products on a tower that also dispenses alcoholic beverages ("shared towers").
 
@@ -81,21 +84,21 @@ Failure to meet these principles = **tower cannot be shared**.
 ## 4. Identity Requirements for Shared Towers
 
 ### 4.1 Faucet Identification (Mandatory)
-The NA faucet must include:
+The NA faucet shall include:
 
 - A DraftVerify NA identity marker  
 - Gold category color  
 - Clear text: **NON-ALCOHOLIC** or **0.0%**  
 
 ### 4.2 Tower Marker Placement
-Markers must be:
+Markers shall be:
 
 - On the faucet collar **or**  
 - On tower face directly behind faucet  
 - In a fixed, tamper-resistant position  
 
 ### 4.3 Line Tag Consistency
-Line tags must match:
+Line tags shall match:
 
 - Coupler tag identity  
 - Verification results  
@@ -112,7 +115,7 @@ DraftVerify recommends:
 ## 5. Physical Separation Rules
 
 ### 5.1 Spatial Separation
-NA faucets must not be placed:
+NA faucets shall not be placed:
 
 - Between two alcoholic taps  
 - In clusters that obscure identification  
@@ -123,7 +126,7 @@ Preferred placement:
 - **Distinct vertical spacing**  
 
 ### 5.2 Visual Separation
-At least one form of NA emphasis must be present:
+At least one form of NA emphasis shall be present:
 
 - Colored handle  
 - Colored faucet marker  
@@ -144,21 +147,21 @@ These situations require elevated control.
 ## 6. Line Routing Requirements
 
 ### 6.1 Unique Routing Path
-NA lines must:
+NA lines shall:
 
 - Follow a clearly identifiable route  
 - Never cross-connect with alcoholic lines  
 - Be marked with NA Gold in cooler  
 
 ### 6.2 Accessibility
-ALL NA identity components must be accessible:
+ALL NA identity components shall be accessible:
 
 - Line tag (F-8)  
 - Coupler tag (F-7)  
 - Keg collar (F-6)  
 
 ### 6.3 Documentation
-Routing must be recorded in the Venue Setup Map (F-18).
+Routing shall be recorded in the Venue Setup Map (F-18).
 
 ---
 
@@ -178,7 +181,7 @@ Must display:
 - Active tag status  
 
 ### Step 3 — Confirm Faucet  
-The faucet identity must match the product verified.
+The faucet identity shall match the product verified.
 
 ### Step 4 — Connect Keg  
 Only after visual + digital confirmation.

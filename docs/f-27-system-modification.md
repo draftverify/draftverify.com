@@ -13,9 +13,12 @@ description: "Standards governing any modification, adjustment, expansion, or re
 # System Modification Protocol
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Change-Control Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity. External law, equipment requirements, and qualified technical instructions remain controlling external obligations. Public access grants no certification or mark licence.
+
 
 This protocol governs how draft systems may be **modified, expanded, repurposed, or updated** when serving non-alcoholic (NA) products under the DraftVerify Standard.
 
@@ -133,13 +136,13 @@ Examples:
 
 ## 5. Modification Workflow
 
-Every modification must follow this workflow:
+Every modification shall follow this workflow:
 
 ---
 
 ### Step 1 — Pre-Modification Assessment
 
-Technician must record:
+Technician shall record:
 
 - Current faucet → line → coupler → keg mapping  
 - Current gas settings  
@@ -152,7 +155,7 @@ If NA lines are mixed with alcoholic lines → flag for required separation.
 
 ### Step 2 — Perform Modification Safely
 
-All work must:
+All work shall:
 
 - Follow manufacturer specs  
 - Avoid damaging coupler tags  
@@ -164,7 +167,7 @@ All work must:
 
 ### Step 3 — Update DraftVerify Physical Identifiers
 
-If anything changes, the technician must:
+If anything changes, the technician shall:
 
 - Replace Line ID Tags if product identity changes  
 - Confirm Coupler Tag zip tie integrity  
@@ -176,7 +179,7 @@ Any broken or removed tag requires replacement.
 
 ### Step 4 — Update DraftVerify Registry Mapping
 
-Technician must update:
+Technician shall update:
 
 - Faucet mapping  
 - Line assignment  
@@ -189,7 +192,7 @@ Incorrect digital mapping is considered the same as mis-labeling a keg.
 
 ### Step 5 — Verification Scan (Mandatory)
 
-Each coupler tag must be scanned to confirm:
+Each coupler tag shall be scanned to confirm:
 
 - Correct product  
 - Correct NA category  
@@ -214,14 +217,14 @@ Perform:
 
 ### Step 7 — Documentation & Sign-off
 
-Technician must finalize:
+Technician shall finalize:
 
 - Modification report  
 - Updated system map  
 - Updated registry entries  
 - Photos of line tags, couplers, and tower  
 
-Venue manager must sign off that:
+Venue manager shall sign off that:
 
 - System is operational  
 - Identity mapping is correct  
@@ -247,7 +250,7 @@ Violations result in immediate loss of DraftVerify compliance.
 
 ## 7. Reporting Requirements
 
-After modification, technician must record:
+After modification, technician shall record:
 
 - Date of modification  
 - Technician name & certification  
@@ -257,7 +260,7 @@ After modification, technician must record:
 - Verification scan results  
 - Any issues discovered  
 
-Reports must be kept for **12 months** and provided during audits.
+Reports shall be kept for **12 months** and provided during audits.
 
 ---
 
@@ -273,8 +276,8 @@ A venue is compliant only if:
 
 If any modification fails compliance:
 
-- System must not serve NA draft  
-- Corrective action must be taken  
+- System shall not serve NA draft  
+- Corrective action shall be taken  
 - DraftVerify may require inspection  
 
 ---

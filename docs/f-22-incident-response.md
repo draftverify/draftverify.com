@@ -13,9 +13,12 @@ description: "Standardized response protocol for handling mis-serves, contaminat
 # Incident Response & Mis-Serve Procedure
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Incident Procedure.** **Shall** indicates a requirement for applicable DraftVerify conformity. External law, equipment requirements, and qualified technical instructions remain controlling external obligations. Public access grants no certification or mark licence.
+
 
 This document defines the **mandatory response protocol** for all incidents involving:
 
@@ -41,7 +44,7 @@ The goal of this protocol is to:
 - Support breweries and distributors in root-cause analysis  
 - Strengthen the identity chain and prevent repeat events  
 
-Incidents must never be ignored or handled informally.
+Incidents shall never be ignored or handled informally.
 
 ---
 
@@ -90,7 +93,7 @@ Taste anomalies, suspicion of wrong product, or illness.
 
 ## 4. Immediate Response Protocol (All Incidents)
 
-Every incident must follow these **seven steps**:
+Every incident shall follow these **seven steps**:
 
 ### **Step 1 — Stop Service Immediately**
 - Cease pouring from the affected tap.  
@@ -109,7 +112,7 @@ Do NOT clean:
 - Line  
 - Keg exterior  
 
-Evidence must remain intact for troubleshooting.
+Evidence shall remain intact for troubleshooting.
 
 ### **Step 4 — Document the Situation**
 Record:
@@ -153,7 +156,7 @@ When alcoholic beer has been served as NA:
 - Never downplay the situation.
 
 ### **5.2 Notify Management**
-Customer must not leave before documentation is complete.
+Customer shall not leave before documentation is complete.
 
 ### **5.3 Determine Exposure**
 Assess:
@@ -190,7 +193,7 @@ Triggers:
 - Notify brewery for registry correction  
 - Document the tag failure event  
 
-Identity failures must NEVER be bypassed.
+Identity failures shall NEVER be bypassed.
 
 ---
 
@@ -275,13 +278,13 @@ Required:
 - Supervisor  
 - Venue manager  
 
-Multi-venue operators must also have regional manager approval.
+Multi-venue operators shall also have regional manager approval.
 
 ---
 
 ## 11. Root Cause Analysis (RCA)
 
-RCA must answer:
+RCA shall answer:
 
 - What caused the incident?  
 - Why did identity checks fail?  
@@ -294,7 +297,7 @@ This RCA becomes part of the DraftVerify audit history.
 
 ## 12. Preventive Actions
 
-Following an incident, venues must implement:
+Following an incident, venues shall implement:
 
 - Staff retraining  
 - Updated line maps  
@@ -332,7 +335,7 @@ The Incident Response & Mis-Serve Procedure ensures:
 - Accurate investigation & documentation  
 - Rapid correction and prevention  
 
-Every incident — major or minor — must be handled with structure, transparency, and urgency.
+Every incident — major or minor — shall be handled with structure, transparency, and urgency.
 
 </div>
 </section>
