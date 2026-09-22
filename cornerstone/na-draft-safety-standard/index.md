@@ -199,8 +199,7 @@ description: "The foundational safety standard for non-alcoholic draft systems, 
     </ol>
 
     <p>
-      During investigation, use of the “DraftVerify Certified” mark for that line is considered 
-      temporarily suspended.
+      During investigation, the affected line should be treated as unverified until the issue is resolved and the pathway is checked again.
     </p>
   </div>
 </section>

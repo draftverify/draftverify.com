@@ -226,8 +226,7 @@ description: "Comprehensive guidance on preventing cross-contact and contaminati
     </ol>
 
     <p>
-      During this process, “DraftVerify Certified” status for the affected line is considered 
-      temporarily suspended until corrective action is complete.
+      During this process, the affected line should be treated as unverified until the investigation and corrective steps are complete.
     </p>
   </div>
 </section>

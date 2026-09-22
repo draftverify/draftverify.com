@@ -234,7 +234,7 @@ description: "How DraftVerify serves venues, breweries, chains, and distributors
 
       <div class="std-series-card">
         <div class="std-series-label">Outcome</div>
-        <h3>Safer, More Defensible NA Draft</h3>
+        <h3>More Traceable NA Draft</h3>
         <p>
           Breweries can say “yes” to NA draft with greater confidence, knowing that a defined standard is
           supporting their product in the field.
@@ -242,7 +242,7 @@ description: "How DraftVerify serves venues, breweries, chains, and distributors
         <ul>
           <li>Better protection for the brewery’s name on tap badges.</li>
           <li>Clearer expectations for distributors and venues.</li>
-          <li>A foundation for formal NA draft programs or certifications.</li>
+          <li>A foundation for documented NA draft programs and internal operating requirements.</li>
         </ul>
       </div>
     </div>

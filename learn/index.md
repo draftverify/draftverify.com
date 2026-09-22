@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Learn — DraftVerify Knowledge Hub"
-description: "Explore the core journey pages, implementation resources, and cornerstone guides behind the global standard for non-alcoholic draft: safety, identification, contamination prevention, and traceability best practices."
+description: "Explore the core journey pages, implementation resources, and cornerstone guides for the DraftVerify non-alcoholic draft standard: safety, identification, contamination prevention, and traceability best practices."
 ---
 
 <style>
