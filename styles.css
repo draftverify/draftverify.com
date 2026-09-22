@@ -497,3 +497,17 @@ h2,.h2{letter-spacing:-.035em}
   .std-index-list{columns:1}
   .photo-stack{min-height:360px}
 }
+
+/* Pricing v2 */
+.realistic-pricing{align-items:stretch}
+.realistic-pricing .price-card{display:flex;flex-direction:column;padding:30px}
+.realistic-pricing .price-card ul{flex:1;margin-bottom:24px}
+.realistic-pricing .price-card .btn{align-self:flex-start}
+.renewal-price{margin:-8px 0 22px;color:var(--muted);font-weight:650;font-size:.9rem}
+.featured-price{border:2px solid var(--accent)!important;position:relative}
+.featured-price:before{content:"Core program";position:absolute;top:14px;right:14px;font:700 .62rem/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;background:var(--accent-soft);padding:7px 9px;border-radius:999px;color:#6f5420}
+.pricing-panel h2{font-size:clamp(2rem,3.2vw,3.3rem)}
+.pricing-panel p{font-size:1.05rem}
+.pricing-note{opacity:.72;font-size:.9rem!important;margin-top:28px}
+.service-pricing strong{font-size:1.35rem}
+@media(max-width:980px){.realistic-pricing{grid-template-columns:1fr}}
