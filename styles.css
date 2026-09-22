@@ -118,11 +118,11 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
   border-radius:2px;font-weight:700;font-size:.82rem;letter-spacing:.025em;
   transition:background .12s ease,color .12s ease,border-color .12s ease
 }
-.btn.primary{background:var(--ink);color:#fff}
-.btn.primary:hover{background:var(--blue-dark);border-color:var(--blue-dark)}
-.btn.ghost{background:transparent;color:var(--ink)}
-.btn.ghost:hover{background:#fff}
-.btn.gold{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.primary{background:var(--ink)!important;color:#fff!important;border-color:var(--ink)!important}
+.btn.primary:hover{background:var(--blue-dark)!important;border-color:var(--blue-dark)!important}
+.btn.ghost{background:transparent!important;color:var(--ink)!important}
+.btn.ghost:hover{background:#fff!important}
+.btn.gold{background:var(--ink)!important;color:#fff!important;border-color:var(--ink)!important}
 .text-link{font-weight:700;color:var(--blue);text-decoration:underline;text-underline-offset:3px}
 .text-link:hover{color:var(--ink)}
 
@@ -234,7 +234,7 @@ body.nav-open .backdrop{opacity:1;pointer-events:auto}
 .dv-onboarding-form input,.dv-onboarding-form textarea,.dv-onboarding-form select,
 input,textarea,select{
   width:100%;margin-top:7px;padding:11px 12px;border:1px solid var(--line-dark);
-  border-radius:2px;background:#fff;color:var(--ink);box-shadow:none
+  border-radius:2px!important;background:#fff;color:var(--ink);box-shadow:none
 }
 input:focus,textarea:focus,select:focus{outline:2px solid #89a8bf;outline-offset:1px}
 
