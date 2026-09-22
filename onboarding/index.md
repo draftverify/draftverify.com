@@ -231,7 +231,18 @@ layout: default
           <textarea name="notes" rows="4"></textarea>
         </label>
 
-        <button type="submit" class="btn gold">Submit Onboarding</button>
+        <div class="card" style="padding:18px;margin-top:8px;">
+          <label style="display:flex;gap:12px;align-items:flex-start;font-weight:500;">
+            <input type="checkbox" name="program_terms_acknowledged" value="Yes" required
+                   style="width:auto;margin-top:4px;flex:0 0 auto;">
+            <span>
+              I have read and agree to the <a href="{{ '/certification/terms/' | relative_url }}" target="_blank" rel="noopener" style="text-decoration:underline;">DraftVerify Certification Program Terms</a>.
+              I understand that submitting this application does not create certification, approval, or a licence to use DraftVerify certification marks, and that those rights arise only through an active written DraftVerify certification decision and applicable mark licence.
+            </span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn gold">Submit Certification Application</button>
       </form>
     </div>
   </div>
