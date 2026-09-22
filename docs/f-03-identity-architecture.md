@@ -13,9 +13,12 @@ description: "High-level architecture of the DraftVerify Identity Stack, includi
 # Identity Architecture Overview
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Technical Specification.** Requirements expressed using **shall** are mandatory where applicable to a claim of DraftVerify conformity. **Should** indicates a recommendation; **may** permission; **can** capability or possibility. DraftVerify is a private, voluntary standard and certification program. It is not legislation, government approval, or regulatory accreditation. Public access to this document grants no licence to use DraftVerify marks or to reproduce, adapt, redistribute, translate, or commercially incorporate substantial protected expression except as permitted by law or written licence.
+
 
 The **Identity Architecture** defines how all DraftVerify identity objects—kegs, couplers, lines, faucets, NFC tags, and Registry entries—connect into a unified identity system.  
 It ensures that any operator at any stage can confirm **what product is being served**, **where it came from**, and **whether it is non-alcoholic**.
@@ -199,7 +202,7 @@ Operators receive:
 - identity matches  
 - mismatch warnings  
 
-Verification must occur **before connection**.
+Verification shall occur **before connection**.
 
 ---
 
@@ -253,7 +256,7 @@ This color language is referenced in:
 - venue diagrams  
 - digital tools  
 
-Gold must always indicate NA.
+Gold shall always indicate NA.
 
 ---
 
@@ -293,7 +296,7 @@ The identity architecture is referenced by:
 - **F-32–F-40** Certification & Governance  
 
 F-3 defines *how everything connects*.  
-Other documents define *how everything must operate*.
+Other documents define *how everything shall operate*.
 
 ---
 

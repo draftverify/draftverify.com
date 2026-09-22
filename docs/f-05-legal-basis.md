@@ -1,271 +1,147 @@
 ---
 layout: default
-title: "F-5 — Legal & Compliance Basis for NA Separation"
+title: "F-5 — Regulatory Interface, Legal Status & IP"
 permalink: /docs/legal-basis/
-description: "The legal, regulatory, and compliance framework that mandates the separation, identification, and verification of non-alcoholic draft beverages."
+description: "DraftVerify v2.0 rules for regulatory precedence, certification claims, intellectual property, and permitted reference to the Standard."
 ---
 
 <section class="section">
-  <div class="container" style="max-width:820px" markdown="1">
+<div class="container" style="max-width:820px" markdown="1">
 
-<div class="kicker">DraftVerify Standards Library · F-5</div>
+<div class="kicker">DraftVerify Standards Library · F-5 · Legal & Regulatory Interface</div>
 
-# Legal & Compliance Basis for NA Separation
+# Regulatory Interface, Legal Status & Intellectual Property
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>Document ID: DV-F-05-v2.0  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-Non-alcoholic (NA) draft beverages exist at the intersection of **alcohol law**, **consumer protection**, **public safety**, and **truth-in-service requirements**.  
-While the beverage industry has rapidly adopted NA products, most draft systems and venue procedures were never designed to **prevent mis-serve or cross-contamination** with alcoholic beer.
+> **Purpose.** F-5 defines the relationship between DraftVerify requirements, external legal obligations, certification claims, and DraftVerify intellectual property. It is not legal advice and does not declare that DraftVerify is required by law.
 
-This document outlines the legal and compliance foundation that makes NA draft separation and verification not just best practice—but a **legal obligation**.
+## 1. Private and voluntary status
 
----
+DraftVerify is an independent, private standards and certification initiative.
 
-## 1. Purpose
+Adoption of the DraftVerify Standard is voluntary unless a party has separately agreed by contract to comply with it.
 
-The purpose of F-5 is to:
+DraftVerify is not a legislature, regulator, government agency, public health authority, inspection authority, or accredited certification body unless a specific accreditation is expressly identified for a specific scope.
 
-- Identify the **legal requirements** relevant to NA draft service  
-- Define the compliance risks venues and breweries face  
-- Establish why DraftVerify’s standards are necessary to meet legal obligations  
-- Provide the rationale for physical and digital identity systems  
-- Support brewery, distributor, and venue compliance programs  
+## 2. External requirements take precedence
 
-DraftVerify provides a **compliance-ready framework** aligned with alcohol laws, consumer protection standards, and liability expectations.
+Organizations remain responsible for identifying and complying with applicable:
 
----
+- alcohol laws and licensing requirements;
+- food and beverage requirements;
+- consumer-protection law;
+- occupational health and safety requirements;
+- pressure, gas, electrical, building, and fire codes;
+- sanitation and draft-system requirements;
+- manufacturer instructions; and
+- contractual obligations.
 
-## 2. Regulatory Context
+Where an external mandatory requirement conflicts with DraftVerify, the external requirement shall prevail and the conflict shall be documented.
 
-### 2.1 Alcohol Licensing & Service Laws  
-Venues may only serve alcohol:
+## 3. Product classification
 
-- to legal-age individuals  
-- through licensed processes  
-- with accurate product identification  
+DraftVerify does not establish a universal legal definition of “non-alcoholic.”
 
-A mis-serve of alcoholic beer as NA is considered:
+An organization shall determine the lawful classification, labeling, and service requirements applicable to each product in each jurisdiction in which it operates.
 
-- **illegal service of alcohol**  
-- **misleading product representation**  
-- **potential endangerment of a minor**
+## 4. Effect of DraftVerify certification
 
-### 2.2 Truth-in-Service Requirements  
-Consumer protection laws require that:
+DraftVerify Certification means only that DraftVerify has made the conformity decision described by the certificate and its scope.
 
-- products must be accurately represented  
-- alcohol content claims must be truthful  
-- NA beverages cannot be misidentified  
+Certification shall not be represented as:
 
-Serving alcoholic beer to a consumer who requested NA violates truth-in-service statutes.
+- government approval;
+- regulatory compliance certification unless the certificate expressly covers a legally recognized scheme;
+- product-safety approval;
+- medical or health assurance;
+- insurance approval; or
+- accreditation by ISO, IEC, a national standards body, or another organization unless such accreditation has actually been granted.
 
-### 2.3 Labeling & Advertising Laws  
-Many jurisdictions treat NA labeling similarly to food labeling:
+## 5. Copyright
 
-- the product must reflect the actual contents  
-- alcohol content must be accurate  
-- misrepresentation can trigger enforcement  
+Original DraftVerify literary, artistic, software, and other copyright works may include:
 
-Draft lines must therefore be **clearly distinguished**.
+- standards text;
+- diagrams and schematics;
+- training works;
+- forms and handbooks where protectable expression exists;
+- software code;
+- registry interfaces and original graphics; and
+- certificate and publication artwork.
 
----
+Copyright protects original expression. It does not give DraftVerify ownership of facts, general ideas, abstract methods, procedures, or systems merely because DraftVerify describes them.
 
-## 3. Liability Exposure
+Nothing in the F-Series shall be interpreted as claiming copyright over material that applicable law does not protect.
 
-### 3.1 Civil Liability  
-Mis-serving alcoholic beer as NA can result in:
+## 6. Public reference licence
 
-- negligence claims  
-- bodily harm claims  
-- emotional distress claims  
-- damages resulting from alcohol impairment  
+DraftVerify grants the public a limited, non-exclusive, revocable permission to access and read public F-Series documents and to link to them.
 
-Courts expect venues to implement reasonable safety measures.  
-DraftVerify provides **industry-defined due diligence**.
+Unless otherwise permitted by law or written licence, public access does not authorize:
 
-### 3.2 License Risk  
-Regulators may impose:
+- reproduction or redistribution of substantial protected text;
+- publication of adapted or translated editions;
+- commercial repackaging of DraftVerify publications;
+- inclusion of substantial protected DraftVerify content in paid training, software, consulting products, or competing standards publications;
+- removal of copyright, version, or source notices; or
+- use of DraftVerify marks in a manner implying authorization, affiliation, or certification.
 
-- fines  
-- suspensions  
-- increased inspections  
-- permanent license removal  
+## 7. Factual reference
 
-A mis-serve incident is considered serious non-compliance.
+A third party may make accurate factual reference to DraftVerify, subject to applicable law.
 
-### 3.3 Insurance Risk  
-Insurance carriers may require:
+Examples include:
 
-- documented procedures  
-- identification systems  
-- verification steps  
-- incident reporting  
+- linking to the official DraftVerify Standard;
+- identifying DraftVerify as a source;
+- stating that internal procedures were informed by or mapped against specified DraftVerify requirements.
 
-Failure to follow NA verification standards may invalidate coverage.
+Such reference shall not imply that DraftVerify certified, approved, audited, sponsored, or endorsed the third party unless that status is active and authorized.
 
----
+## 8. Marks and certification claims
 
-## 4. NA-Specific Compliance Challenges
+DraftVerify™, DraftVerify Standard™, DraftVerify Certified™, DraftVerify Verified™, associated logos, certification badges, seals, certificate designs, and other designated marks are controlled DraftVerify identifiers to the extent protected by applicable trademark, certification-mark, passing-off, unfair-competition, contract, and related law.
 
-### 4.1 Mixed Draft Systems  
-Most real-world draft setups mix:
+Registration status varies by jurisdiction. DraftVerify shall not represent an unregistered mark as registered.
 
-- alcoholic beer  
-- non-alcoholic beer  
-- other beverages  
+Use of a DraftVerify certification mark by a certificate holder is governed by F-32 and the applicable written licence.
 
-Without clear identification:
+## 9. Certification licence
 
-- staff errors increase  
-- cross-contamination is likely  
-- mis-serve events become difficult to prevent  
+Certification and mark use are contractual permissions separate from public access to the Standard.
 
-### 4.2 Similar Branding & Packaging  
-NA products often appear nearly identical to their alcoholic counterparts.  
-This increases the burden on:
+A certificate holder receives only the rights expressly granted in its certificate and licence.
 
-- venues  
-- distributors  
-- breweries  
+Suspension, withdrawal, expiry, or termination ends authorization to make certification claims or use controlled certification marks except as expressly permitted for historical recordkeeping.
 
-to ensure clarity and separation at every step.
+## 10. Registry status
 
-### 4.3 High Staff Turnover  
-Frequent turnover in hospitality increases the risk that:
+The DraftVerify Registry is the controlling DraftVerify record of certification status.
 
-- staff are unaware of which lines are NA  
-- procedures become inconsistent  
-- identification is overlooked  
+A copied certificate, screenshot, badge, label, printed document, or third-party database shall not override the current DraftVerify Registry status.
 
-DraftVerify provides standardized systems that do not rely on memory or intuition.
+## 11. Enforcement
 
----
+DraftVerify may take action appropriate to the right involved, including:
 
-## 5. Why DraftVerify is Required for Compliance
+- correction requests;
+- withdrawal of certification or mark licences;
+- contractual remedies;
+- trademark or passing-off claims;
+- copyright claims concerning protected expression;
+- platform or hosting notices where legally available; and
+- other remedies available under applicable law.
 
-DraftVerify enables breweries and venues to demonstrate **reasonable precautions** and **structured verification**, which are essential for compliance.
+DraftVerify shall not characterize independent use of an unprotected idea, fact, method, or system as copyright infringement merely because it resembles a DraftVerify concept.
 
-### 5.1 Physical Identity Systems  
-DraftVerify requires:
+## 12. Permissions
 
-- keg collars  
-- coupler tags  
-- line tags  
-- faucet identifiers  
-- NA color pathways  
-
-These create unambiguous physical separation.
-
-### 5.2 Digital Verification Systems  
-NFC scanning and registry lookup ensure:
-
-- accurate keg identity  
-- confirmation before tapping  
-- logging of verification events  
-- traceability for audits  
-
-This creates accountability and reduces legal exposure.
-
-### 5.3 Operational Discipline  
-Protocols such as:
-
-- F-18 Venue Setup  
-- F-19 Verification Checklists  
-- F-22 Incident Response  
-- F-29 Tag Activation Rules  
-
-ensure consistent, auditable compliance.
-
----
-
-## 6. Case Studies & Legal Failures (Generalized)
-
-*All examples are anonymized and generalized for instructional purposes.*
-
-### Case 1 — Mis-Serve to Pregnant Consumer  
-A venue accidentally served alcoholic beer on an NA line.  
-Consequences:
-
-- human impact  
-- local media coverage  
-- regulatory investigation  
-- insurance review  
-
-DraftVerify systems would have prevented the connection error.
-
-### Case 2 — Minor Served Alcoholic Beer  
-A minor ordered NA but received alcoholic beer.  
-This resulted in:
-
-- immediate inspection  
-- fine  
-- staff retraining  
-- negative publicity  
-
-DraftVerify’s verification step is designed specifically to prevent this.
-
-### Case 3 — Cross-Contamination During Product Switching  
-Improper line switching resulted in alcohol residue being served as NA.  
-Brewery brand damage followed.
-
-DraftVerify requires verified product switching (F-39).
-
----
-
-## 7. Compliance Benefits
-
-DraftVerify helps breweries, venues, and distributors:
-
-- demonstrate duty of care  
-- meet regulatory obligations  
-- reduce liability  
-- avoid mis-serve incidents  
-- protect NA brand integrity  
-- maintain consumer trust  
-
----
-
-## 8. Integration with Other Standards
-
-This document is foundational to:
-
-- **F-6** Keg Identification  
-- **F-7** Coupler Tags  
-- **F-8** Line Identification  
-- **F-9** Faucet ID  
-- **F-22** Incident Response  
-- **F-31** Audit & Traceability  
-- **F-32** Certification Policy  
-
-It should be referenced during every audit or compliance assessment.
-
----
-
-## 9. Revision & Governance
-
-This document is reviewed annually or when:
-
-- new regulations emerge  
-- case law evolves  
-- industry practices change  
-- incident data indicates new risks  
-
-Suggested changes may be submitted to:
-
-📧 **standards@draftverify.com**
-
----
-
-## 10. Copyright
-
-All legal analysis, frameworks, and operational recommendations are the protected intellectual property of:
-
-**DraftVerify™ Standards Initiative**
-
-Unauthorized reproduction in competing programs is prohibited.
+Requests for reproduction, translation, commercial use, certification mark licensing, or other permissions shall be directed to **legal@draftverify.com** or the contact method specified by DraftVerify.
 
 </div>
 </section>

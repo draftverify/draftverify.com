@@ -14,8 +14,11 @@ description: "Official DraftVerify Standard for physical identification requirem
 
 <p style="font-size:0.95rem;color:#6b7280;">
 Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Physical Identity Requirement.** Requirements expressed using **shall** are mandatory where applicable to a claim of DraftVerify conformity. **Should** indicates a recommendation; **may** permission; **can** capability or possibility. DraftVerify is a private, voluntary standard and certification program. It is not legislation, government approval, or regulatory accreditation. Public access to this document grants no licence to use DraftVerify marks or to reproduce, adapt, redistribute, translate, or commercially incorporate substantial protected expression except as permitted by law or written licence.
+
 
 This Standard defines the **mandatory physical identification requirements** for all non-alcoholic (NA) draft kegs served under DraftVerify Standard v1.0.
 
@@ -40,7 +43,7 @@ Keg identification is **mandatory** for DraftVerify compliance.
 
 ## 2. Required Identification Components
 
-Every NA keg must display the following **three** DraftVerify identifiers:
+Every NA keg shall display the following **three** DraftVerify identifiers:
 
 ### 2.1 Keg Collar (Primary Identifier)
 
@@ -60,7 +63,7 @@ The collar is the **primary visual identifier** of NA status.
 
 Affixed to the keg spear or coupler flange.
 
-Coupler tags must include:
+Coupler tags shall include:
 
 - DraftVerify NA band  
 - NFC-enabled UID or serialized tag ID  
@@ -94,12 +97,12 @@ These enhance operational clarity but are not required for compliance.
 
 ### 3.1 Color System (Mandatory)
 
-All NA keg identifiers must use either:
+All NA keg identifiers shall use either:
 
 - **DraftVerify NA Gold Band**, or  
 - **DraftVerify NA Blue Band** (alternate program version)
 
-Colors must meet:
+Colors shall meet:
 
 - high visibility  
 - matte, non-reflective finish  
@@ -111,13 +114,13 @@ This ensures unmistakable NA identification.
 
 ### 3.2 Typography
 
-All NA keg identifiers must use:
+All NA keg identifiers shall use:
 
 - bold sans-serif font  
 - minimum 9 mm text height  
 - uppercase for required NA statements  
 
-Typography must remain readable under condensation and low light.
+Typography shall remain readable under condensation and low light.
 
 ---
 
@@ -137,7 +140,7 @@ No other variations are permitted.
 
 ### 4.1 Keg Collar Placement
 
-The keg collar must be:
+The keg collar shall be:
 
 - fully seated and unobstructed  
 - visible in both upright and stacked positions  
@@ -149,7 +152,7 @@ Torn or obscured collars violate F-6 compliance.
 
 ### 4.2 Coupler Tag Placement
 
-The coupler tag must be attached:
+The coupler tag shall be attached:
 
 - directly adjacent to the spear or coupler flange  
 - in a tamper-resistant position  
@@ -163,7 +166,7 @@ This ensures staff verify identity **during changeover**.
 
 If used:
 
-- must be unbroken and horizontal  
+- shall be unbroken and horizontal  
 - placed in the upper third of the keg  
 - oriented for visibility on racks or pallets  
 
@@ -171,7 +174,7 @@ If used:
 
 ## 5. Durability Requirements
 
-Identification elements must remain intact under:
+Identification elements shall remain intact under:
 
 - condensation  
 - low temperatures  
@@ -188,7 +191,7 @@ DraftVerify may request samples for durability verification.
 
 ## 6. Registry Consistency Requirements
 
-The physical keg ID must match its DraftVerify Registry record, including:
+The physical keg ID shall match its DraftVerify Registry record, including:
 
 - tag ID  
 - brewery  
@@ -196,7 +199,7 @@ The physical keg ID must match its DraftVerify Registry record, including:
 - batch  
 - fill date / activation date  
 
-If the keg is mislabeled or activation does not match the Registry, the keg must be:
+If the keg is mislabeled or activation does not match the Registry, the keg shall be:
 
 1. quarantined  
 2. corrected  
@@ -218,7 +221,7 @@ A keg is considered **non-compliant** if:
 - identifiers are obstructed  
 - tag has not been activated  
 
-Non-compliant kegs must not enter NA draft service.
+Non-compliant kegs shall not enter NA draft service.
 
 ---
 

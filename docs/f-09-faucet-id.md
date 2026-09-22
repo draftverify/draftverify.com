@@ -14,8 +14,11 @@ description: "The visual and optional digital identification standard for draft 
 
 <p style="font-size:0.95rem;color:#6b7280;">
 Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Point-of-Service Requirement.** Requirements expressed using **shall** are mandatory where applicable to a claim of DraftVerify conformity. **Should** indicates a recommendation; **may** permission; **can** capability or possibility. DraftVerify is a private, voluntary standard and certification program. It is not legislation, government approval, or regulatory accreditation. Public access to this document grants no licence to use DraftVerify marks or to reproduce, adapt, redistribute, translate, or commercially incorporate substantial protected expression except as permitted by law or written licence.
+
 
 Faucet identification is the consumer-facing layer of the DraftVerify ecosystem.  
 It ensures that the beverage being poured matches the beverage being advertised — a critical requirement for **non-alcoholic (NA)** products where mis-serve carries safety, legal, and reputational risks.
@@ -94,7 +97,7 @@ Not required for compliance.
 ## 4. Placement Requirements
 
 ### 4.1 Faucet Collar Placement
-The collar or marker must be:
+The collar or marker shall be:
 
 - on the faucet neck, tap handle base, or adjacent collar  
 - visible from the pouring position  
@@ -102,7 +105,7 @@ The collar or marker must be:
 - durable under moisture and cleaning  
 
 ### 4.2 Digital Marker Placement (If Used)
-Digital screens must be:
+Digital screens shall be:
 
 - positioned near the faucet  
 - visible to staff and consumers  
@@ -139,7 +142,7 @@ This ensures identity is preserved from keg → coupler → line → faucet.
 | Seasonal / Rotational | Teal | Optional |
 | House / Staff Lines | Grey | Optional |
 
-Gold must always represent NA at the faucet.
+Gold shall always represent NA at the faucet.
 
 ---
 

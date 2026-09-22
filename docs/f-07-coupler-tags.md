@@ -2,7 +2,7 @@
 layout: default
 title: "F-7 — Coupler Tag Standard"
 permalink: /docs/coupler-tags/
-description: "The global standard for NFC-enabled coupler tagging, ensuring accurate product identification at the exact moment a keg is connected."
+description: "The DraftVerify Standard for NFC-enabled coupler tagging, ensuring accurate product identification at the exact moment a keg is connected."
 ---
 
 <section class="section">
@@ -14,8 +14,11 @@ description: "The global standard for NFC-enabled coupler tagging, ensuring accu
 
 <p style="font-size:0.95rem;color:#6b7280;">
 Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Physical/Digital Identity Requirement.** Requirements expressed using **shall** are mandatory where applicable to a claim of DraftVerify conformity. **Should** indicates a recommendation; **may** permission; **can** capability or possibility. DraftVerify is a private, voluntary standard and certification program. It is not legislation, government approval, or regulatory accreditation. Public access to this document grants no licence to use DraftVerify marks or to reproduce, adapt, redistribute, translate, or commercially incorporate substantial protected expression except as permitted by law or written licence.
+
 
 The coupler is the **single most critical control point** in the entire draft workflow.  
 The Coupler Tag provides a permanent, verifiable, cryptographically unique identity at the **exact moment a keg is connected** — ensuring what is tapped is exactly what it claims to be.
@@ -64,7 +67,7 @@ This Standard defines:
 
 ## 3. Hardware Requirements
 
-Coupler Tags must:
+Coupler Tags shall:
 
 - use NFC-enabled chipsets (NTAG213 or better)  
 - include DraftVerify NA banding for NA products  
@@ -72,13 +75,13 @@ Coupler Tags must:
 - use permanent or tamper-resistant adhesive or rings  
 - remain readable from 1–2 cm  
 
-Tags must meet durability requirements described in **F-6 — Keg Identification Standard**.
+Tags shall meet durability requirements described in **F-6 — Keg Identification Standard**.
 
 ---
 
 ## 4. Placement Requirements
 
-The Coupler Tag must be placed:
+The Coupler Tag shall be placed:
 
 - directly beside the **spear/coupler flange**  
 - within **25 mm** of the engagement point  
@@ -129,7 +132,7 @@ Once assigned:
 
 - a tag cannot be repurposed  
 - a tag cannot be reprogrammed  
-- damaged tags must be retired  
+- damaged tags shall be retired  
 
 ### 6.3 Future Programming Options (Not Included in v1.0)
 
@@ -156,7 +159,7 @@ Using any NFC-enabled smartphone:
 - identity is confirmed instantly  
 
 ### Step 3 — Confirm Identity  
-The verification page must show:
+The verification page shall show:
 
 - brewery  
 - product  

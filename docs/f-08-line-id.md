@@ -14,10 +14,13 @@ description: "The universal standard for identifying and verifying draft beverag
 
 <p style="font-size:0.95rem;color:#6b7280;">
 Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-The Line Identification Standard defines how beverage lines must be labeled, verified, and mapped from the keg in the cooler to the faucet on the tower.  
+> **Document control — DV v2.0 · Normative Physical Identity Requirement.** Requirements expressed using **shall** are mandatory where applicable to a claim of DraftVerify conformity. **Should** indicates a recommendation; **may** permission; **can** capability or possibility. DraftVerify is a private, voluntary standard and certification program. It is not legislation, government approval, or regulatory accreditation. Public access to this document grants no licence to use DraftVerify marks or to reproduce, adapt, redistribute, translate, or commercially incorporate substantial protected expression except as permitted by law or written licence.
+
+
+The Line Identification Standard defines how beverage lines shall be labeled, verified, and mapped from the keg in the cooler to the faucet on the tower.  
 This system eliminates mis-taps, prevents NA cross-contamination, and supports DraftVerify’s digital verification layer.
 
 Line identification protects:
@@ -107,7 +110,7 @@ Tower markers are recommended but not required.
 
 ### 4.1 Line Tag Placement
 
-Line tags must be:
+Line tags shall be:
 
 - attached within 30–45 cm (12–18 in.) of the coupler  
 - facing outward  
@@ -117,7 +120,7 @@ Line tags must be:
 
 ### 4.2 Coupler Tag Placement
 
-The Coupler Tag (F-7 Standard) must be:
+The Coupler Tag (F-7 Standard) shall be:
 
 - on or immediately beside the coupler body  
 - visible before attachment  
@@ -156,7 +159,7 @@ This ensures consistent identity from end to end.
 | Seasonal / Rotational | Teal | Optional |
 | House / Staff | Grey | Optional |
 
-Gold must always represent NA draft lines.
+Gold shall always represent NA draft lines.
 
 ---
 

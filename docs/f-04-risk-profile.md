@@ -13,9 +13,12 @@ description: "A comprehensive analysis of the unique safety, operational, and br
 # NA Draft Risk Profile & Rationale
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Informative Risk Rationale.** Requirements expressed using **shall** are mandatory where applicable to a claim of DraftVerify conformity. **Should** indicates a recommendation; **may** permission; **can** capability or possibility. DraftVerify is a private, voluntary standard and certification program. It is not legislation, government approval, or regulatory accreditation. Public access to this document grants no licence to use DraftVerify marks or to reproduce, adapt, redistribute, translate, or commercially incorporate substantial protected expression except as permitted by law or written licence.
+
 
 This document explains the **unique risks associated with non-alcoholic (NA) draft beverages**, and provides the formal rationale for the DraftVerify Standard.  
 Unlike alcoholic draft, NA draft introduces **distinct safety, legal, operational, and reputational risks** that the industry has never formally addressed—until now.

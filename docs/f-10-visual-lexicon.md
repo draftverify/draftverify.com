@@ -14,8 +14,11 @@ description: "The unified color, shape, and symbol system used across all DraftV
 
 <p style="font-size:0.95rem;color:#6b7280;">
 Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Visual Specification.** Requirements expressed using **shall** are mandatory where applicable to a claim of DraftVerify conformity. **Should** indicates a recommendation; **may** permission; **can** capability or possibility. DraftVerify is a private, voluntary standard and certification program. It is not legislation, government approval, or regulatory accreditation. Public access to this document grants no licence to use DraftVerify marks or to reproduce, adapt, redistribute, translate, or commercially incorporate substantial protected expression except as permitted by law or written licence.
+
 
 The Visual Lexicon defines the **unified design language** that appears across all DraftVerify physical tags, digital screens, documents, and workflow tools.  
 Consistency ensures that staff, auditors, and consumers instantly understand what category a product belongs to, whether it is verified, and what actions are required.
@@ -59,7 +62,7 @@ This Standard applies to:
 - training materials  
 - venue setup guides  
 
-Anything representing DraftVerify identity must conform to this lexicon.
+Anything representing DraftVerify identity shall conform to this lexicon.
 
 ---
 
@@ -95,8 +98,8 @@ Shapes provide instant category signaling.
 ### 4.2 Shape Rules
 
 - NA circle shapes may not be used for alcoholic products.  
-- Verification hexagons must appear on all NFC-enabled coupler tags.  
-- Warning triangles must only represent **risk or error conditions**.  
+- Verification hexagons shall appear on all NFC-enabled coupler tags.  
+- Warning triangles shall only represent **risk or error conditions**.  
 
 ---
 
@@ -113,7 +116,7 @@ Shapes provide instant category signaling.
 
 ### 5.2 NA Badge Requirements
 
-The NA Badge must include:
+The NA Badge shall include:
 
 - The letters **NA**  
 - A gold circular or ringed shape  
@@ -142,9 +145,9 @@ The NA Badge is required on:
 
 ### 6.2 Typographic Rules
 
-- All NA statements must be **uppercase**.  
+- All NA statements shall be **uppercase**.  
 - Minimum text height: **9 mm** for physical materials.  
-- Digital screens must use **high-contrast** color combinations.  
+- Digital screens shall use **high-contrast** color combinations.  
 
 ### 6.3 Required NA Wording
 
@@ -162,7 +165,7 @@ No alternate wording permitted unless approved by DraftVerify.
 
 ### 7.1 Physical Tags
 
-Physical materials must include:
+Physical materials shall include:
 
 - Category color (e.g., NA Gold)  
 - Required text  
@@ -172,7 +175,7 @@ Physical materials must include:
 
 ### 7.2 Digital Screens
 
-Digital screens must include:
+Digital screens shall include:
 
 - Verification badge  
 - Category classification  
@@ -188,7 +191,7 @@ DraftVerify identity appears in this hierarchy:
 
 1. **Category Color** (What category is this?)  
 2. **Shape Language** (What type of item is this?)  
-3. **Symbol Layer** (What must be done?)  
+3. **Symbol Layer** (What shall be done?)  
 4. **Text Layer** (Specific identity + details)  
 
 This ensures instant understanding for staff and auditors.
