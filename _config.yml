@@ -1,5 +1,5 @@
 title: DraftVerify
-description: The global standard for non-alcoholic draft system safety and verification.
+description: Independent identification and verification standard for non-alcoholic draft systems.
 url: https://www.draftverify.com
 timezone: America/Toronto
 
@@ -10,7 +10,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Keep the build lean
 exclude:
   - node_modules
   - Gemfile

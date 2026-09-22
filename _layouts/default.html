@@ -6,23 +6,23 @@ layout: nil
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#17212b" />
   <title>{% if page.title %}{{ page.title }} · {% endif %}DraftVerify</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}DraftVerify — the global standard for non-alcoholic draft systems.{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}DraftVerify is an independent identification and verification standard for non-alcoholic draft systems.{% endif %}">
   <link rel="icon" href="{{ '/favicon.png' | relative_url }}" type="image/png" />
   <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
 
-  <!-- Open Graph -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}DraftVerify">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}DraftVerify — the global standard for non-alcoholic draft systems.{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Independent identification and verification standard for non-alcoholic draft systems.{% endif %}">
   <meta property="og:image" content="{{ '/logo-social.png' | relative_url }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta name="twitter:card" content="summary_large_image">
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="{{ '/styles.css?v=15' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/styles.css?v=20' | relative_url }}" />
   {% seo %}
 </head>
 <body>
+  <a class="skip-link" href="#content">Skip to content</a>
   {% include header.html %}
 
   <main id="content">
@@ -31,6 +31,6 @@ layout: nil
 
   {% include footer.html %}
 
-  <script src="{{ '/assets/site.js?v=15' | relative_url }}" defer></script>
+  <script src="{{ '/assets/site.js?v=20' | relative_url }}" defer></script>
 </body>
 </html>

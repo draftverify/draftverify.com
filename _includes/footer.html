@@ -1,15 +1,32 @@
-<!-- =================== FOOTER =================== -->
 <footer class="site-footer">
   <div class="footer-inner">
-    <p style="margin-bottom:8px;font-weight:600;">© {{ 'now' | date: '%Y' }} DraftVerify. All rights reserved.</p>
-    <nav class="footer-nav" style="margin-top:10px;display:flex;flex-wrap:wrap;justify-content:center;gap:18px;font-size:0.95rem;">
-      <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>
-      <a href="{{ '/terms/' | relative_url }}">Terms of Service</a>
-      <a href="{{ '/do-not-sell/' | relative_url }}">Do Not Sell My Information</a>
+    <div class="footer-main">
+      <div>
+        <div class="footer-brand">DraftVerify</div>
+        <p class="footer-statement">
+          Independent identification and verification standard for non-alcoholic draft systems.
+        </p>
+      </div>
+      <div class="footer-meta">
+        <div><span>Current publication</span><strong>Standard v1.0</strong></div>
+        <div><span>Adoption</span><strong>Voluntary</strong></div>
+        <div><span>Status</span><strong>Independent initiative</strong></div>
+      </div>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="{{ '/standards/' | relative_url }}">Standard</a>
+      <a href="{{ '/how-it-works/' | relative_url }}">Implementation</a>
+      <a href="{{ '/faq/' | relative_url }}">FAQ</a>
+      <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <a href="{{ '/terms/' | relative_url }}">Terms</a>
       <a href="{{ '/legal/' | relative_url }}">Legal</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
     </nav>
-    <p style="margin-top:14px;font-size:0.85rem;opacity:0.8;">
-      DraftVerify is the recognized standard for non-alcoholic draft system identification and verification.
-    </p>
+
+    <div class="footer-bottom">
+      <span>© {{ 'now' | date: '%Y' }} DraftVerify. All rights reserved.</span>
+      <span>DraftVerify is not a regulator, public health authority, or government body.</span>
+    </div>
   </div>
 </footer>

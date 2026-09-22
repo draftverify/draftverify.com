@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: Get in touch with DraftVerify to start verification, request training, or ask a question.
+description: Get in touch with DraftVerify to discuss implementation, training, pricing, or the published standard.
 permalink: /contact/
 layout: default
 ---
@@ -9,7 +9,7 @@ layout: default
   <div class="container">
     <div class="kicker">Contact</div>
     <h2 class="h2">Talk to DraftVerify</h2>
-    <p>Tell us about your venue(s), beverage categories, and timelines. We’ll respond quickly with next steps.</p>
+    <p>Tell us about your venue, brewery, distributor network, or multi-site program. We’ll respond with the relevant implementation path and next steps.</p>
 
     <!-- CONTACT FORM CARD -->
     <div class="card" style="max-width:720px;margin:32px auto;padding:32px;">

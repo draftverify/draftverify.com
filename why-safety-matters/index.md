@@ -2,7 +2,7 @@
 layout: default
 title: "Why NA Draft Safety Matters"
 permalink: /why-safety-matters/
-description: "Why non-alcoholic draft requires a higher standard of identification, separation, and verification — and the risks DraftVerify is built to prevent."
+description: "Why non-alcoholic draft benefits from dedicated identification, separation, and verification — and the risks DraftVerify is built to prevent."
 ---
 
 <style>
@@ -117,14 +117,13 @@ description: "Why non-alcoholic draft requires a higher standard of identificati
       <h1>Why NA Draft Safety Matters</h1>
 
       <p class="lead">
-        Non-alcoholic draft looks identical to alcoholic draft at the tower. The difference is in the stakes:
-        a mis-pour or mis-connected line can cause real harm, create liability, and quietly erode trust.
+        Non-alcoholic draft looks identical to alcoholic draft at the tower. A mis-pour or mis-connected line can have consequences for guests, operators, and brand trust.
         DraftVerify exists to remove that ambiguity with a standard for <strong>identification</strong>,
         <strong>separation</strong>, and <strong>verification</strong>.
       </p>
 
       <ul>
-        <li>Prevents accidental alcohol service to guests who explicitly ordered non-alcoholic.</li>
+        <li>Reduces the risk of accidental alcohol service to a guest who ordered non-alcoholic.</li>
         <li>Reduces mis-connections in the cooler when kegs, lines, and taps are rotated.</li>
         <li>Supports better hygiene and handling for NA products with different stability profiles.</li>
         <li>Creates a recordable, auditable process for venues, breweries, and insurers.</li>
@@ -133,7 +132,7 @@ description: "Why non-alcoholic draft requires a higher standard of identificati
       <a class="btn gold" href="{{ '/how-it-works/' | relative_url }}">See How DraftVerify Works</a>
 
       <div class="std-hero-note">
-        This page explains <em>why</em> NA draft safety needs a higher standard. The DraftVerify Standard v1.0
+        This page explains <em>why</em> NA draft benefits from a dedicated identification and verification standard. The DraftVerify Standard v1.0
         defines the formal requirements for identification, records, and verification.
       </div>
     </div>

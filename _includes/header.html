@@ -1,64 +1,41 @@
 <header class="header">
   <div class="header-inner container">
-    <a href="{{ '/' | relative_url }}" class="brand">
-      <img src="/logotran.png" alt="DraftVerify logo" class="logo">
+    <a href="{{ '/' | relative_url }}" class="brand" aria-label="DraftVerify home">
+      <img src="{{ '/logotran.png' | relative_url }}" alt="" class="logo">
       <div class="brand-text">
         <span class="brand-name">DraftVerify</span>
-        <span class="brand-tagline">Trust Every Pour.</span>
+        <span class="brand-tagline">NA Draft Identification Standard</span>
       </div>
     </a>
 
-    <!-- Nav Toggle -->
     <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
-      <svg class="hamb" viewBox="0 0 24 24" width="24" height="24">
+      <svg class="hamb" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
         <line class="top" x1="4" y1="7" x2="20" y2="7" />
         <line class="mid" x1="4" y1="12" x2="20" y2="12" />
         <line class="bot" x1="4" y1="17" x2="20" y2="17" />
       </svg>
     </button>
 
-    <!-- Desktop Nav -->
-    <nav class="nav-desktop">
-      <!-- Buyer Journey -->
-      <a href="{{ '/how-it-works/' | relative_url }}" data-nav="how-it-works">How It Works</a>
-      <a href="{{ '/solutions/' | relative_url }}" data-nav="solutions">Solutions</a>
-      <a href="{{ '/why-safety-matters/' | relative_url }}" data-nav="why-safety-matters">Why Safety Matters</a>
-
-      <!-- Core Product & Standard -->
-      <a href="{{ '/standards/' | relative_url }}" data-nav="standards">Standards</a>
+    <nav class="nav-desktop" aria-label="Primary">
+      <a href="{{ '/standards/' | relative_url }}" data-nav="standards">Standard</a>
+      <a href="{{ '/how-it-works/' | relative_url }}" data-nav="how-it-works">Implementation</a>
       <a href="{{ '/technology/' | relative_url }}" data-nav="technology">Technology</a>
-
-      <!-- Commercial -->
-      <a href="{{ '/pricing/' | relative_url }}" data-nav="pricing">Pricing</a>
-
-      <!-- Resource Hub (FAQ, Training, Tags, Stickers, etc.) -->
+      <a href="{{ '/solutions/' | relative_url }}" data-nav="solutions">Use Cases</a>
       <a href="{{ '/learn/' | relative_url }}" data-nav="resources">Resources</a>
-
-      <!-- Contact -->
-      <a href="{{ '/contact/' | relative_url }}" data-nav="contact">Contact</a>
+      <a href="{{ '/pricing/' | relative_url }}" data-nav="pricing">Pricing</a>
+      <a class="nav-contact" href="{{ '/contact/' | relative_url }}" data-nav="contact">Contact</a>
     </nav>
   </div>
 </header>
 
-<!-- Mobile Drawer -->
 <div id="drawer" class="drawer" aria-hidden="true">
-  <nav class="drawer-nav">
-    <!-- Buyer Journey -->
-    <a href="{{ '/how-it-works/' | relative_url }}" data-nav="how-it-works" class="drawer-link">How It Works</a>
-    <a href="{{ '/solutions/' | relative_url }}" data-nav="solutions" class="drawer-link">Solutions</a>
-    <a href="{{ '/why-safety-matters/' | relative_url }}" data-nav="why-safety-matters" class="drawer-link">Why Safety Matters</a>
-
-    <!-- Core Product & Standard -->
-    <a href="{{ '/standards/' | relative_url }}" data-nav="standards" class="drawer-link">Standards</a>
+  <nav class="drawer-nav" aria-label="Mobile">
+    <a href="{{ '/standards/' | relative_url }}" data-nav="standards" class="drawer-link">Standard</a>
+    <a href="{{ '/how-it-works/' | relative_url }}" data-nav="how-it-works" class="drawer-link">Implementation</a>
     <a href="{{ '/technology/' | relative_url }}" data-nav="technology" class="drawer-link">Technology</a>
-
-    <!-- Commercial -->
-    <a href="{{ '/pricing/' | relative_url }}" data-nav="pricing" class="drawer-link">Pricing</a>
-
-    <!-- Resource Hub (FAQ, Training, Tags, Stickers, etc.) -->
+    <a href="{{ '/solutions/' | relative_url }}" data-nav="solutions" class="drawer-link">Use Cases</a>
     <a href="{{ '/learn/' | relative_url }}" data-nav="resources" class="drawer-link">Resources</a>
-
-    <!-- Contact -->
+    <a href="{{ '/pricing/' | relative_url }}" data-nav="pricing" class="drawer-link">Pricing</a>
     <a href="{{ '/contact/' | relative_url }}" data-nav="contact" class="drawer-link">Contact</a>
   </nav>
 </div>

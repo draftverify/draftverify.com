@@ -1,223 +1,126 @@
 ---
 layout: default
 title: "FAQ & Glossary — DraftVerify"
-description: "Frequently asked questions and a complete glossary of terms for the DraftVerify identification, verification, and traceability standard for non-alcoholic draft."
+description: "Answers to common questions about the DraftVerify Standard, implementation, registry, and terminology."
 ---
 
-<!-- HERO -->
-<section class="hero hero-simple">
+<section class="page-intro">
   <div class="container">
-    <div class="hero-card reveal">
-      <h1>FAQ & Glossary</h1>
-      <p>
-        Clear explanations of how DraftVerify works, why it exists, and the standardized language used 
-        across the system and technology. Designed for breweries, venues, and distributors adopting 
-        the global NA draft identification framework.
-      </p>
+    <div class="kicker">Reference</div>
+    <h1>FAQ & glossary</h1>
+    <p class="lead">
+      Plain-language answers about what DraftVerify is, what it is not, and how the identification
+      and verification system is intended to be used.
+    </p>
+  </div>
+</section>
+
+<section class="section section-rule">
+  <div class="container narrow">
+    <div class="faq-list">
+      <details open>
+        <summary>What is DraftVerify?</summary>
+        <p>
+          DraftVerify is an independent standard for identifying and verifying non-alcoholic draft
+          pathways. It defines physical identification, operating procedures, and recordkeeping from
+          keg through coupler, line, and faucet.
+        </p>
+      </details>
+
+      <details>
+        <summary>Is DraftVerify a law or regulation?</summary>
+        <p>
+          No. DraftVerify is a voluntary industry standard and education initiative. It does not replace
+          applicable laws, alcohol regulation, food-safety requirements, manufacturer instructions, or
+          professional draft-system service.
+        </p>
+      </details>
+
+      <details>
+        <summary>Does DraftVerify certify venues or breweries?</summary>
+        <p>
+          DraftVerify does not currently operate an open public certification program. Implementation
+          support, registry records, or use of the standard do not by themselves authorize a business to
+          claim “DraftVerify Certified,” “DraftVerify Approved,” or similar status. Any public status or
+          mark usage requires a separate written agreement.
+        </p>
+      </details>
+
+      <details>
+        <summary>Is DraftVerify more than visual tagging?</summary>
+        <p>
+          Yes. The physical identity layer is supported by written operating procedures and a digital
+          registry for sites, taps, identifiers, configuration changes, and verification events.
+        </p>
+      </details>
+
+      <details>
+        <summary>Does an existing draft system need to be rebuilt?</summary>
+        <p>
+          Usually not. DraftVerify is designed as an identity and verification layer applied to existing
+          draft infrastructure. Any hardware or sanitation changes should still be determined by qualified
+          draft-system professionals and applicable product requirements.
+        </p>
+      </details>
+
+      <details>
+        <summary>Who is DraftVerify for?</summary>
+        <p>
+          The standard is written for venues, breweries, distributors, technicians, and multi-site
+          operators that need a consistent method for identifying and documenting NA draft pathways.
+        </p>
+      </details>
+
+      <details>
+        <summary>What does the registry record?</summary>
+        <p>
+          Depending on implementation, the registry can associate identifiers with sites and taps and
+          record verification, configuration, change, cleaning, training, or incident-related events.
+        </p>
+      </details>
+
+      <details>
+        <summary>What is the canonical version of the standard?</summary>
+        <p>
+          DraftVerify Standard v1.0 is published as a PDF and supported by the F-Series Standards Library.
+          Where a web summary differs from the canonical publication, the published standard document governs.
+        </p>
+      </details>
     </div>
   </div>
 </section>
 
-<section class="section" id="faq">
-  <div class="container">
-    <div class="kicker center">FAQ</div>
-    <h2 class="h2 center">Frequently Asked Questions</h2>
-
-    <div style="max-width:820px;margin:30px auto 0;line-height:1.7">
-
-      <h3>What is DraftVerify?</h3>
-      <p>
-        DraftVerify is the global identification and contamination-prevention standard for 
-        non-alcoholic draft systems. It links <strong>keg → line → faucet</strong> with a unified 
-        visual system and a complete digital traceability layer.
-      </p>
-
-      <div class="divider"></div>
-
-      <h3>Is DraftVerify more than visual tagging?</h3>
-      <p>
-        Yes. DraftVerify includes a backend platform that tracks tag IDs, verification events, 
-        system changes, cleaning logs, and staff training completion across locations.
-      </p>
-
-      <div class="divider"></div>
-
-      <h3>Why do venues need this?</h3>
-      <p>
-        Non-alcoholic draft is the only category at real risk of misidentification during service. 
-        DraftVerify removes guesswork and provides clarity for teams and confidence for guests.
-      </p>
-
-      <div class="divider"></div>
-
-      <h3>Is DraftVerify required by law?</h3>
-      <p>
-        No — it is an industry standard, not a regulation. Operators adopt it for consistency, 
-        safety, and brand protection.
-      </p>
-
-      <div class="divider"></div>
-
-      <h3>Does DraftVerify work for alcoholic lines?</h3>
-      <p>
-        Yes. Breweries can apply a companion system to alcoholic lines.  
-        DraftVerify’s NA standard remains distinct so the categories are never confused.
-      </p>
-
-      <div class="divider"></div>
-
-      <h3>Is DraftVerify scalable for multi-site groups?</h3>
-      <p>
-        Absolutely. Built-in support includes multi-venue dashboards, distributor modes, and 
-        full verification history across locations.
-      </p>
-
-      <div class="divider"></div>
-
-      <h3>Is training included?</h3>
-      <p>
-        Yes. DraftVerify Academy includes modules on keg handling, line cleaning, contamination 
-        prevention, verification workflows, and compliance tracking.
-      </p>
-
-      <div class="divider"></div>
-
+<section class="section section-rule">
+  <div class="container narrow">
+    <div class="section-heading">
+      <div class="kicker">Glossary</div>
+      <h2>Core terms</h2>
     </div>
+
+    <dl class="glossary">
+      <div><dt>Audit trail</dt><dd>A chronological record of relevant system events and changes.</dd></div>
+      <div><dt>Coupler identity tag</dt><dd>An identifier associated with the keg connection point.</dd></div>
+      <div><dt>Draft identity architecture</dt><dd>The method used to maintain a defined identity from keg to point of service.</dd></div>
+      <div><dt>Identification pathway</dt><dd>The linked keg → coupler → line → faucet path designated for an NA product.</dd></div>
+      <div><dt>Line marker</dt><dd>A physical identifier used to help trace the intended draft line.</dd></div>
+      <div><dt>Non-alcoholic (NA)</dt><dd>A product category defined according to the applicable jurisdiction and product specification.</dd></div>
+      <div><dt>Registry</dt><dd>The digital record layer linking sites, taps, identifiers, and operational events.</dd></div>
+      <div><dt>Serialized identifier</dt><dd>A unique DraftVerify identifier associated with a physical or digital record.</dd></div>
+      <div><dt>Verification event</dt><dd>A recorded check confirming that defined system elements match the intended configuration.</dd></div>
+    </dl>
   </div>
 </section>
 
-<!-- GLOSSARY -->
-<section class="section" id="glossary" style="background:#f7f9fc;">
-  <div class="container">
-    <div class="kicker center">Glossary</div>
-    <h2 class="h2 center">Key Terms & Definitions</h2>
-
-    <div style="max-width:820px;margin:40px auto 0;line-height:1.7">
-
-      <!-- A -->
-      <h3>A</h3>
-      <div class="divider"></div>
-
-      <h4>Audit Trail</h4>
-      <p>The record of tag scans, verification events, system changes, and training completions.</p>
-
-      <h4>ABV (Alcohol by Volume)</h4>
-      <p>Measurement of alcohol content. Non-alcoholic products are ≤ 0.5% ABV.</p>
-
-
-      <!-- C -->
-      <h3 style="margin-top:40px;">C</h3>
-      <div class="divider"></div>
-
-      <h4>Cross-Contact</h4>
-      <p>
-        Unintentional transfer of alcoholic liquid or vapor into an NA draft pathway due to shared 
-        equipment or incorrect procedures.
-      </p>
-
-      <h4>Coupler Tag</h4>
-      <p>The serialized DraftVerify identification tag applied at the keg connection point.</p>
-
-
-      <!-- D -->
-      <h3 style="margin-top:40px;">D</h3>
-      <div class="divider"></div>
-
-      <h4>Digital Traceability Layer</h4>
-      <p>
-        The software component that logs tag IDs, verification history, line activities, and training records.
-      </p>
-
-      <h4>DraftVerify Certified Mark</h4>
-      <p>
-        The designation that a system meets the DraftVerify Standard and maintains active verification status.
-      </p>
-
-
-      <!-- F -->
-      <h3 style="margin-top:40px;">F</h3>
-      <div class="divider"></div>
-
-      <h4>Faucet Sticker</h4>
-      <p>
-        The holographic identification marker placed at the tap faucet — the final point of the 
-        keg → line → faucet system.
-      </p>
-
-
-      <!-- I -->
-      <h3 style="margin-top:40px;">I</h3>
-      <div class="divider"></div>
-
-      <h4>Identification Pathway</h4>
-      <p>
-        The unified system of <strong>keg tag → line marker → faucet sticker</strong> that creates a visual chain.
-      </p>
-
-
-      <!-- L -->
-      <h3 style="margin-top:40px;">L</h3>
-      <div class="divider"></div>
-
-      <h4>Line Marker</h4>
-      <p>
-        The identification marker applied along the beer line used to trace the correct route to the faucet.
-      </p>
-
-
-      <!-- N -->
-      <h3 style="margin-top:40px;">N</h3>
-      <div class="divider"></div>
-
-      <h4>Non-Alcoholic (NA)</h4>
-      <p>Any beverage at or below 0.5% ABV, or local regulatory equivalent.</p>
-
-
-      <!-- S -->
-      <h3 style="margin-top:40px;">S</h3>
-      <div class="divider"></div>
-
-      <h4>Serialized Tag</h4>
-      <p>
-        A unique identifier formatted as <strong>DV-SITE-YYYY-#####</strong>, used for tracking and certification.
-      </p>
-
-      <h4>Separation Standard</h4>
-      <p>
-        The requirement ensuring NA pathways remain isolated from alcoholic pathways at all times.
-      </p>
-
-
-      <!-- V -->
-      <h3 style="margin-top:40px;">V</h3>
-      <div class="divider"></div>
-
-      <h4>Verification</h4>
-      <p>
-        The process of confirming the tagged keg is connected to the correct tagged line and faucet.
-      </p>
-
-      <h4>Verification Log</h4>
-      <p>
-        Timestamped record of verification actions ensuring consistency across shifts and venues.
-      </p>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- CTA -->
 <section class="section-sm">
   <div class="container">
-    <div class="cta-band reveal">
+    <div class="cta-band">
       <div>
-        <div class="kicker">Get Started</div>
-        <h3 style="margin:.3rem 0 0;">Bring DraftVerify to your venue or group.</h3>
+        <div class="kicker">Primary reference</div>
+        <h3>Use Standard v1.0 for formal requirements and definitions.</h3>
       </div>
-      <div>
-        <a class="btn primary" href="{{ '/contact/' | relative_url }}">Request a Starter Kit</a>
-        <a class="btn ghost" href="{{ '/pricing/' | relative_url }}" style="margin-left:10px;">View Pricing</a>
+      <div class="cta-actions">
+        <a class="btn primary" href="{{ '/standards/' | relative_url }}">Open the standard</a>
+        <a class="btn ghost" href="{{ '/contact/' | relative_url }}">Contact DraftVerify</a>
       </div>
     </div>
   </div>

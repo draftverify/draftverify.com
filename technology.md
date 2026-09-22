@@ -2,7 +2,7 @@
 layout: default
 title: "Technology — DraftVerify Registry & NFC Identity Layer"
 permalink: /technology/
-description: "Inside DraftVerify: the NFC identity layer, registry, and verification engine that power non-alcoholic draft compliance from keg to faucet."
+description: "Inside DraftVerify: the NFC identity layer, registry, and verification engine that support non-alcoholic draft identification from keg to faucet."
 ---
 
 <style>
@@ -138,7 +138,7 @@ description: "Inside DraftVerify: the NFC identity layer, registry, and verifica
       <p class="lead">
         DraftVerify links <strong>NFC tags on real hardware</strong> with a
         <strong>cloud registry</strong> and <strong>verification engine</strong>, so every
-        non-alcoholic draft tap can be identified, checked, and proven over time.
+        non-alcoholic draft tap can be identified, checked, and recorded over time.
       </p>
 
       <ul class="tech-hero-list">
@@ -189,7 +189,7 @@ description: "Inside DraftVerify: the NFC identity layer, registry, and verifica
         <ul>
           <li>Site & tap configuration</li>
           <li>Tag lifecycle and status</li>
-          <li>Exportable logs for QA / legal</li>
+          <li>Exportable logs for QA review</li>
         </ul>
       </div>
 
@@ -197,7 +197,7 @@ description: "Inside DraftVerify: the NFC identity layer, registry, and verifica
         <h3>Verification Engine</h3>
         <p>
           Each scan and checklist becomes an event with a timestamp, location, and person attached.
-          That event history is what makes the system defensible.
+          That event history creates a traceable operating record.
         </p>
         <ul>
           <li>Verification, change, and cleaning events</li>

@@ -199,22 +199,22 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
       <h1>DraftVerify Standard v1.0</h1>
 
       <p class="lead">
-        The global standard for <strong>non-alcoholic draft integrity</strong> — a combined
+        An independent standard for <strong>non-alcoholic draft identification and verification</strong> — a combined
         <strong>physical identification system</strong> and <strong>digital traceability framework</strong>
         that keeps NA draft lines clearly marked, separated, and verifiable from
         <strong>keg → line → faucet</strong>.
       </p>
 
       <ul>
-        <li>Specifies how NA draft must be identified, separated, and documented alongside alcoholic lines.</li>
-        <li>Backed by the DraftVerify Registry for tags, taps, and verification events.</li>
+        <li>Specifies a consistent method for identifying, separating, and documenting NA draft alongside alcoholic lines.</li>
+        <li>Supported by the DraftVerify Registry for identifiers, taps, and verification events.</li>
         <li>Maintained as the F-1–F-40 DraftVerify Standards Library.</li>
       </ul>
 
       <a class="btn gold" href="#how-it-works">See How the Standard Works</a>
 
       <div class="std-hero-note">
-        Formal PDFs are available in English and German. Web pages below mirror the same v1.0 content. 
+        Formal PDFs are available in English and German. Web pages below summarize and organize the v1.0 content. 
         Where wording differs, the PDF text is canonical.
       </div>
     </div>
