@@ -13,7 +13,7 @@ permalink: /cornerstone/how-to-serve-na-beer-on-tap/
       <p>
         The operational standard for safely connecting, identifying, verifying, and serving 
         non-alcoholic beverages on draft — including mandatory NFC-enabled Coupler Tags and the 
-        DraftVerify Identification Pathway as defined in the DraftVerify Standard v1.0.
+        DraftVerify Identification Pathway as defined in the DraftVerify Standard v2.0.
       </p>
     </div>
   </div>

@@ -132,7 +132,7 @@ description: "Why non-alcoholic draft benefits from dedicated identification, se
       <a class="btn gold" href="{{ '/how-it-works/' | relative_url }}">See How DraftVerify Works</a>
 
       <div class="std-hero-note">
-        This page explains <em>why</em> NA draft benefits from a dedicated identification and verification standard. The DraftVerify Standard v1.0
+        This page explains <em>why</em> NA draft benefits from a dedicated identification and verification standard. The DraftVerify Standard v2.0
         defines the formal requirements for identification, records, and verification.
       </div>
     </div>

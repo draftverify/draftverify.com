@@ -190,7 +190,7 @@ description: "Explore the core journey pages, implementation resources, and corn
       <a href="{{ '/standards/' | relative_url }}" class="learn-card reveal">
         <div class="learn-card-inner">
           <div class="learn-chip">Standard</div>
-          <h3>DraftVerify Standard v1.0</h3>
+          <h3>DraftVerify Standard v2.0</h3>
           <p>
             The formal F-1–F-40 standard for non-alcoholic draft integrity, covering 
             identification, records, verification, and governance.

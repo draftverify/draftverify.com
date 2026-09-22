@@ -11,7 +11,7 @@ description: "The foundational safety standard for non-alcoholic draft systems, 
       <h1>NA Draft Safety Standard</h1>
       <p>
         The core operational framework for safely storing, handling, identifying, and serving 
-        non-alcoholic beverages on draft — aligned with the DraftVerify Standard v1.0.
+        non-alcoholic beverages on draft — aligned with the DraftVerify Standard v2.0.
       </p>
     </div>
   </div>

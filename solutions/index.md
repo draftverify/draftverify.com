@@ -131,7 +131,7 @@ description: "How DraftVerify serves venues, breweries, chains, and distributors
       <a class="btn gold" href="{{ '/pricing/' | relative_url }}">View Program Options</a>
 
       <div class="std-hero-note">
-        Each role interacts with the same DraftVerify Standard v1.0, but sees a different part of the program:
+        Each role interacts with the same DraftVerify Standard v2.0, but sees a different part of the program:
         installation, verification, oversight, or governance.
       </div>
     </div>
