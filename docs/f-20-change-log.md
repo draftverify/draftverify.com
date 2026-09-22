@@ -13,9 +13,12 @@ description: "Standard operating procedure for documenting, approving, and archi
 # Change Log SOP
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Change-Control Procedure.** **Shall** indicates a requirement for applicable DraftVerify conformity; **should** a recommendation; **may** permission; **can** capability or possibility. External legal and manufacturer obligations take precedence. Public access does not grant certification status, mark rights, or a licence to commercially reproduce substantial protected DraftVerify expression.
+
 
 The Change Log SOP defines uniform procedures for documenting, approving, and archiving **any change that affects the DraftVerify identity chain**, including:
 
@@ -73,7 +76,7 @@ Does NOT cover:
 
 ## 3. When a Change Log Is Required
 
-A log must be created **immediately** when any of the following occur:
+A log shall be created **immediately** when any of the following occur:
 
 ### 3.1 Identity Changes  
 - New DTI assigned  
@@ -93,13 +96,13 @@ A log must be created **immediately** when any of the following occur:
 - Process deviations  
 
 ### 3.4 Discrepancy Resolution  
-Changes made during resolution of incidents covered under **F-22 — Mis-Serve Procedure** must be logged.
+Changes made during resolution of incidents covered under **F-22 — Mis-Serve Procedure** shall be logged.
 
 ---
 
 ## 4. Required Change Log Fields
 
-Each entry must include:
+Each entry shall include:
 
 | Field | Description |
 |-------|-------------|
@@ -182,7 +185,7 @@ Notify upstream or downstream partners if the change affects:
 
 ## 7. Storage & Retention Requirements
 
-Change logs must be:
+Change logs shall be:
 
 - Stored securely  
 - Accessible during audits  
@@ -213,7 +216,7 @@ Missing or incomplete logs constitute **non-compliance**.
 - **Failure to log a keg identity correction** → Always document corrections.  
 - **Replacing a Coupler Tag without record** → Must always be logged.  
 - **Changing tower positions without updating mapping** → Log and update immediately.  
-- **Staff forgetting approval signatures** → Managers must review daily.  
+- **Staff forgetting approval signatures** → Managers shall review daily.  
 
 ---
 

@@ -13,11 +13,14 @@ description: "Required logging, reconciliation, discrepancy handling, and audit 
 # Distributor Verification & Reconciliation Logs
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-The F-17 Standard defines the required **recordkeeping, reconciliation workflows, discrepancy protocols, and verification event logging** that distributors must maintain to protect the DraftVerify identity chain.
+> **Document control — DV v2.0 · Normative Distributor Records Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity; **should** a recommendation; **may** permission; **can** capability or possibility. External legal and manufacturer obligations take precedence. Public access does not grant certification status, mark rights, or a licence to commercially reproduce substantial protected DraftVerify expression.
+
+
+The F-17 Standard defines the required **recordkeeping, reconciliation workflows, discrepancy protocols, and verification event logging** that distributors shall maintain to protect the DraftVerify identity chain.
 
 These logs provide:
 
@@ -69,14 +72,14 @@ Covers the logging and reconciliation of:
 
 ## 3. Required Log Types
 
-Distributors must maintain four core logs:
+Distributors shall maintain four core logs:
 
 1. **Receiving Log**  
 2. **Storage Log**  
 3. **Transport Log**  
 4. **Discrepancy & Incident Log**
 
-Each log must be:
+Each log shall be:
 
 - Accurate  
 - Legible  
@@ -90,7 +93,7 @@ Digital, paper, or hybrid systems are permitted.
 
 ## 4. Receiving Log Requirements
 
-The Receiving Log must capture:
+The Receiving Log shall capture:
 
 - Date received  
 - Supplier brewery  
@@ -102,9 +105,9 @@ The Receiving Log must capture:
 - Initials of receiving staff  
 
 ### 4.1 Mandatory Verification Scan  
-Every NA keg must be scanned upon arrival.
+Every NA keg shall be scanned upon arrival.
 
-Scan must confirm:
+Scan shall confirm:
 
 - Correct brewery identity  
 - Correct product identity  
@@ -122,7 +125,7 @@ If issues are found:
 
 ## 5. Storage Log Requirements
 
-The Storage Log must document:
+The Storage Log shall document:
 
 - NA zone location  
 - Storage movements  
@@ -132,7 +135,7 @@ The Storage Log must document:
 - Staff initials  
 
 ### 5.1 NA Separation Confirmation  
-Log must include confirmation that NA products remain:
+Log shall include confirmation that NA products remain:
 
 - Segregated from alcoholic products  
 - Properly labeled  
@@ -145,13 +148,13 @@ Examples include:
 - Missing collars  
 - Kegs left in incorrect zones  
 
-These must be logged and corrected immediately.
+These shall be logged and corrected immediately.
 
 ---
 
 ## 6. Transport Log Requirements
 
-Transport Logs must record:
+Transport Logs shall record:
 
 - Vehicle ID or route number  
 - Driver identity  
@@ -162,9 +165,9 @@ Transport Logs must record:
 - Load integrity checks (stacking, stability, tag visibility)  
 
 ### 6.1 Mandatory Pre-Transport Scan  
-Each NA keg must be scanned before loading.
+Each NA keg shall be scanned before loading.
 
-Scan must confirm:
+Scan shall confirm:
 
 - Active tag  
 - Correct product  
@@ -172,7 +175,7 @@ Scan must confirm:
 - Tag not tampered with  
 
 ### 6.2 Load Placement Documentation  
-Distributors must document:
+Distributors shall document:
 
 - NA/alcoholic separation  
 - Use of physical barriers (if mixed vehicle loads)  
@@ -182,7 +185,7 @@ Distributors must document:
 
 ## 7. Delivery Reconciliation Log
 
-At each venue, distributors must complete a Delivery Reconciliation Log including:
+At each venue, distributors shall complete a Delivery Reconciliation Log including:
 
 - Venue name  
 - Date/time  
@@ -193,7 +196,7 @@ At each venue, distributors must complete a Delivery Reconciliation Log includin
 - Confirmed match to purchase order  
 
 ### 7.1 Required Joint Verification  
-Driver and venue staff must scan each keg **together**.
+Driver and venue staff shall scan each keg **together**.
 
 ### 7.2 Delivery Discrepancies  
 Examples:
@@ -231,7 +234,7 @@ Record:
 - Temperature excursion  
 
 ### 8.2 Escalation Path  
-Incidents must be escalated to:
+Incidents shall be escalated to:
 
 1. Distributor supervisor  
 2. Brewery partner  
@@ -241,7 +244,7 @@ Incidents must be escalated to:
 
 ## 9. Monthly Reconciliation Requirements
 
-Distributors must perform a monthly reconciliation that compares:
+Distributors shall perform a monthly reconciliation that compares:
 
 - Received kegs  
 - Stored inventory  
@@ -250,7 +253,7 @@ Distributors must perform a monthly reconciliation that compares:
 - Discrepancies and resolutions  
 
 ### 9.1 Variance Investigation  
-Any mismatch must be:
+Any mismatch shall be:
 
 - Investigated  
 - Documented  
@@ -264,7 +267,7 @@ A monthly summary may be submitted to DraftVerify for audit support.
 
 ## 10. Audit Readiness
 
-Logs must be:
+Logs shall be:
 
 - Complete  
 - Accessible  

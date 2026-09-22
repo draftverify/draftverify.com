@@ -13,9 +13,12 @@ description: "Official DraftVerify workflow for attaching, activating, and verif
 # Brewery Activation Workflow
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Activation Procedure.** **Shall** indicates a requirement for applicable DraftVerify conformity; **should** a recommendation; **may** permission; **can** capability or possibility. External legal and manufacturer obligations take precedence. Public access does not grant certification status, mark rights, or a licence to commercially reproduce substantial protected DraftVerify expression.
+
 
 This document defines the **official brewery workflow** for attaching serialized DraftVerify Coupler Tags and activating them in the DraftVerify Registry.  
 
@@ -42,7 +45,7 @@ Without proper activation, identity failures may occur downstream.
 ## 2. Responsibilities
 
 ### 2.1 Brewery Responsibilities
-Brewery packaging or cellar staff must:
+Brewery packaging or cellar staff shall:
 
 - Attach the correct serialized Coupler Tag to each NA keg  
 - Confirm the tag is securely zip-tied  
@@ -61,7 +64,7 @@ Brewery packaging or cellar staff must:
 
 ## 3. Required Materials
 
-Each activation station must have:
+Each activation station shall have:
 
 - DraftVerify serialized Coupler Tags (pre-programmed and product-specific)
 - 2.5–3.5 mm nylon zip ties (provided by DraftVerify)
@@ -83,7 +86,7 @@ Before tagging begins:
 
 ### 4.1 Sort Tags by Product
 DraftVerify supplies tags in product-specific bags (e.g., “NA IPA”, “NA Lager”).  
-These must **never be mixed**.
+These shall **never be mixed**.
 
 ### 4.2 Prepare the Kegs
 Check:
@@ -105,7 +108,7 @@ Kegs may **never** have two Coupler Tags installed.
 
 ## 5. Tag Installation (Zip-Tie Method — Mandatory)
 
-DraftVerify Coupler Tags must be **zip-tied**, not adhesive.
+DraftVerify Coupler Tags shall be **zip-tied**, not adhesive.
 
 ### 5.1 Installation Steps
 
@@ -118,7 +121,7 @@ DraftVerify Coupler Tags must be **zip-tied**, not adhesive.
    - Tag is secure  
    - Tag sits within 25 mm of the engagement point  
 
-Incorrectly installed tags must be reinstalled before activation.
+Incorrectly installed tags shall be reinstalled before activation.
 
 ---
 
@@ -201,7 +204,7 @@ If a tag is:
 - Not scanning  
 - Incorrectly encoded  
 
-…it must be **retired**.
+…it shall be **retired**.
 
 ### 8.2 Misassigned Tags
 If the wrong product was activated:
@@ -211,7 +214,7 @@ If the wrong product was activated:
 - Re-activate correctly
 
 ### 8.3 Missing Tags
-A keg must **never** leave without an active Coupler Tag.
+A keg shall **never** leave without an active Coupler Tag.
 
 ---
 

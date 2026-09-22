@@ -14,8 +14,11 @@ description: "Operational guide for breweries adopting the DraftVerify Standard,
 
 <p style="font-size:0.95rem;color:#6b7280;">
 Version: 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Brewery Implementation Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity; **should** a recommendation; **may** permission; **can** capability or possibility. External legal and manufacturer obligations take precedence. Public access does not grant certification status, mark rights, or a licence to commercially reproduce substantial protected DraftVerify expression.
+
 
 This guide provides breweries with the complete operational workflow required to adopt and maintain the DraftVerify Standard for non-alcoholic (NA) draft service.
 
@@ -116,7 +119,7 @@ The full brewery workflow consists of:
 7. **Preparing distributor-ready line tags**  
 8. **Final QA check**  
 
-Each step must be followed to ensure DraftVerify compliance.
+Each step shall be followed to ensure DraftVerify compliance.
 
 ---
 
@@ -133,14 +136,14 @@ Before beginning an NA packaging run:
 
 ### 5.2 Applying Keg Collars
 
-Keg collars must be:
+Keg collars shall be:
 
 - fully seated  
 - free of tears or folds  
 - placed after filling but before palletizing  
 - visible in both upright and stacked orientations  
 
-Collars must include the required NA text:
+Collars shall include the required NA text:
 
 **NON-ALCOHOLIC DRAFT**  
 or  
@@ -148,7 +151,7 @@ or
 
 ### 5.3 Applying Coupler Tags
 
-The coupler tag must be:
+The coupler tag shall be:
 
 - applied beside the spear flange  
 - within 25 mm of the coupler engagement point  
@@ -190,21 +193,21 @@ Future versions include:
 
 ## 7. Line Tag Preparation for Distributors
 
-Breweries must prepare line tags for the distributor or venue.  
-Each line tag must:
+Breweries shall prepare line tags for the distributor or venue.  
+Each line tag shall:
 
 - match the product name and style  
 - use the correct DraftVerify color system  
 - include the alphanumeric identity code  
 - be placed inside the keg shipment or attached externally  
 
-Line tags must be included with **every keg**, even if the distributor is NA-only.
+Line tags shall be included with **every keg**, even if the distributor is NA-only.
 
 ---
 
 ## 8. Quality Assurance Requirements
 
-Breweries must check:
+Breweries shall check:
 
 - collars are intact  
 - coupler tags are correctly applied  
@@ -213,7 +216,7 @@ Breweries must check:
 - packaging lines were flushed/washed correctly  
 - tag IDs match the intended product  
 
-Any keg failing QA must be:
+Any keg failing QA shall be:
 
 1. removed from service  
 2. corrected  
@@ -223,10 +226,10 @@ Any keg failing QA must be:
 
 ## 9. Distributor Expectations
 
-Breweries must ensure:
+Breweries shall ensure:
 
 - distributors understand line tag usage  
-- coupler tags must not be removed  
+- coupler tags shall not be removed  
 - kegs remain properly labeled  
 - NA products are not mixed with alcoholic deliveries (where applicable)  
 
@@ -236,7 +239,7 @@ DraftVerify provides distributor-specific training in the D-Series documents.
 
 ## 10. Venue Expectations
 
-Breweries must ensure that venues:
+Breweries shall ensure that venues:
 
 - receive correct faucet and line tags  
 - understand NA identification rules  

@@ -13,11 +13,14 @@ description: "Standardized venue preparation, installation rules, and verificati
 # Venue Setup & Verification Protocol
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-F-18 defines the **installation rules, physical setup requirements, verification workflows, and operational standards** that venues must follow to ensure safe, accurate, and consistent serving of non-alcoholic (NA) draft beverages.
+> **Document control — DV v2.0 · Normative Venue Implementation Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity; **should** a recommendation; **may** permission; **can** capability or possibility. External legal and manufacturer obligations take precedence. Public access does not grant certification status, mark rights, or a licence to commercially reproduce substantial protected DraftVerify expression.
+
+
+F-18 defines the **installation rules, physical setup requirements, verification workflows, and operational standards** that venues shall follow to ensure safe, accurate, and consistent serving of non-alcoholic (NA) draft beverages.
 
 Venue compliance is the final safeguard in the DraftVerify identity chain. This protocol ensures that NA draft is:
 
@@ -68,23 +71,23 @@ Covers:
 
 ## 3. Pre-Installation Requirements
 
-Before installation, venues must:
+Before installation, venues shall:
 
 ### 3.1 Confirm Dedicated NA Line  
-The venue must provide:
+The venue shall provide:
 
 - A dedicated line for NA draft, OR  
 - A designated line that will be cleaned and re-verified before NA activation  
 
 ### 3.2 Cooler Preparation  
-Venue must ensure:
+Venue shall ensure:
 
 - Cooler space exists for NA keg placement  
 - NA kegs will not be stored on mixed pallets  
 - NA identity will remain visible in stacked storage  
 
 ### 3.3 Equipment Inspection  
-Installer must confirm:
+Installer shall confirm:
 
 - Line is intact  
 - Coupler is compatible (D-type unless specified)  
@@ -95,7 +98,7 @@ Installer must confirm:
 
 ## 4. Required Identification Components
 
-Venues must apply the following:
+Venues shall apply the following:
 
 ### 4.1 Line Tag (Required)  
 Placed 30–45 cm (12–18 inches) above the coupler.
@@ -107,7 +110,7 @@ Must display:
 - Short code (optional)  
 
 ### 4.2 Coupler Tag (Required)  
-The Coupler Tag must:
+The Coupler Tag shall:
 
 - Be zip-tied securely  
 - Not rotate freely  
@@ -144,7 +147,7 @@ Confirm:
 - Tag identity matches intended product  
 
 ### Step 4 — Map Line to Product  
-Installer must document:
+Installer shall document:
 
 - Keg identity (DTI)  
 - Line number  
@@ -154,7 +157,7 @@ Installer must document:
 Documentation becomes part of the venue’s audit profile.
 
 ### Step 5 — Perform Full Verification Scan  
-Scan must confirm:
+Scan shall confirm:
 
 - Product identity  
 - NA category  
@@ -174,13 +177,13 @@ Stop service before switching.
 Do not cut the Coupler Tag zip tie.
 
 ### 6.3 Inspect Coupler Tag  
-Installer or staff must check:
+Installer or staff shall check:
 
 - Tag is still intact  
 - No tampering occurred  
 
 ### 6.4 Scan New Keg Before Connection  
-The new keg must be scanned:
+The new keg shall be scanned:
 
 - BEFORE attaching the coupler  
 - BEFORE chilling or staging  
@@ -195,7 +198,7 @@ Purge line as required by local cleaning standards.
 ## 7. Daily & Weekly Verification Requirements
 
 ### 7.1 Daily Requirements  
-Front-of-house or bar managers must:
+Front-of-house or bar managers shall:
 
 - Verify tower marker is visible  
 - Inspect line tag for readability  
@@ -203,7 +206,7 @@ Front-of-house or bar managers must:
 - Confirm correct product is being served  
 
 ### 7.2 Weekly Requirements  
-Managers must:
+Managers shall:
 
 - Perform verification scan on active keg  
 - Review keg placement for NA separation  
@@ -214,20 +217,20 @@ Managers must:
 
 ## 8. Cooler Organization Requirements
 
-NA kegs must:
+NA kegs shall:
 
 - Never be stacked under alcoholic kegs  
 - Never be placed on mixed pallets  
 - Remain visible (tag facing outward)  
 - Maintain sidewall band visibility if used  
 
-Venues must uphold NA separation.
+Venues shall uphold NA separation.
 
 ---
 
 ## 9. Documentation Requirements
 
-Venues must maintain:
+Venues shall maintain:
 
 - Setup records  
 - Verification logs  
@@ -235,7 +238,7 @@ Venues must maintain:
 - Weekly checklists  
 - Incident reports (if applicable)  
 
-Records must be available for DraftVerify auditors.
+Records shall be available for DraftVerify auditors.
 
 ---
 
@@ -249,7 +252,7 @@ If a venue identifies:
 - Inactive tag  
 - Wrong keg switched in error  
 
-The venue must:
+The venue shall:
 
 1. **Stop service immediately**  
 2. **Disconnect line**  

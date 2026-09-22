@@ -13,9 +13,12 @@ description: "Standard operating procedure for encoding, assigning, and managing
 # Brewery NFC Tag Serialization SOP
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Serialization Specification.** **Shall** indicates a requirement for applicable DraftVerify conformity; **should** a recommendation; **may** permission; **can** capability or possibility. External legal and manufacturer obligations take precedence. Public access does not grant certification status, mark rights, or a licence to commercially reproduce substantial protected DraftVerify expression.
+
 
 This document defines the **official encoding, assignment, and handling rules** for NFC-enabled DraftVerify tags used at the brewery level.
 
@@ -106,9 +109,9 @@ When scanned, the verification page displays:
 ---
 ## 5. Serialization Rules (Critical)
 
-Serialization must follow these rules:
+Serialization shall follow these rules:
 
-### 5.1 Tags must be pre-programmed by DraftVerify  
+### 5.1 Tags shall be pre-programmed by DraftVerify  
 For Version 1.0, breweries **do not encode their own tags**.
 
 ### 5.2 Tags cannot be cloned  
@@ -118,10 +121,10 @@ Copying NFC payloads is prohibited.
 Once a DTI belongs to a product, **it is permanent**.
 
 ### 5.4 Tags cannot be reused  
-Damaged, peeled, or incorrectly applied tags must be retired.
+Damaged, peeled, or incorrectly applied tags shall be retired.
 
-### 5.5 Tags must match Registry product identity  
-The product name, category, and batch in the Registry must match the physical keg.
+### 5.5 Tags shall match Registry product identity  
+The product name, category, and batch in the Registry shall match the physical keg.
 
 ---
 ## 6. Brewery Workflow
@@ -153,7 +156,7 @@ Brewer checks the accompanying manifest:
 - DTI → fill date  
 
 ### Step 5 — Complete packaging log
-The following must be recorded:
+The following shall be recorded:
 - date applied  
 - staff initials  
 - batch number  
@@ -179,28 +182,28 @@ Action:
 - Mark original as retired  
 
 ### 7.4 Registry mismatch  
-Brewery must contact DraftVerify support.
+Brewery shall contact DraftVerify support.
 
 ---
 ## 8. Security & Anti-Tamper Requirements
 
-- Tags must be stored securely  
+- Tags shall be stored securely  
 - Access limited to authorized production staff  
 - No duplication or reprinting of DraftVerify tags  
-- Unused tags must be locked after production runs  
-- Retired tags must be destroyed  
+- Unused tags shall be locked after production runs  
+- Retired tags shall be destroyed  
 
 ---
 ## 9. Documentation Requirements
 
-Breweries must maintain:
+Breweries shall maintain:
 - Tag applications logs  
 - Batch manifests  
 - Kegging logs  
 - Registry mapping confirmations  
 - Error/mismatch reports  
 
-Logs must be kept for **12 months minimum**.
+Logs shall be kept for **12 months minimum**.
 
 ---
 ## 10. Compliance Requirements
@@ -235,7 +238,7 @@ All encoding rules, tag structures, identity schemas, and serialization workflow
 
 Unauthorized use is strictly prohibited.
 
-© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 
 </div>
 </section>

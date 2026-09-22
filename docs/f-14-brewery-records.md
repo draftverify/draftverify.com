@@ -13,9 +13,12 @@ description: "Recordkeeping requirements for breweries participating in the Draf
 # Brewery Documentation & Records
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Brewery Records Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity; **should** a recommendation; **may** permission; **can** capability or possibility. External legal and manufacturer obligations take precedence. Public access does not grant certification status, mark rights, or a licence to commercially reproduce substantial protected DraftVerify expression.
+
 
 This document defines the **recordkeeping requirements** for breweries participating in the DraftVerify Standard.  
 Accurate documentation ensures traceability, accountability, and regulatory alignment across the entire NA draft ecosystem.
@@ -41,10 +44,10 @@ Good documentation ensures the NA ecosystem is **safe, consistent, and trusted**
 
 ## 2. Required Brewery Records
 
-Breweries must maintain the following DraftVerify-related records.
+Breweries shall maintain the following DraftVerify-related records.
 
 ### 2.1 Activation Logs
-Every activated NA keg must have:
+Every activated NA keg shall have:
 
 - DraftVerify Tag ID (DTI)  
 - Activation timestamp  
@@ -54,10 +57,10 @@ Every activated NA keg must have:
 - Packaging date  
 - Staff initials or login used during activation  
 
-Activation Logs are created automatically in the DraftVerify Registry but must also be retained internally.
+Activation Logs are created automatically in the DraftVerify Registry but shall also be retained internally.
 
 ### 2.2 Batch Records
-Each batch of NA product must include:
+Each batch of NA product shall include:
 
 - Full recipe/process reference  
 - Batch code or lot number  
@@ -70,7 +73,7 @@ Each batch of NA product must include:
 DraftVerify does not require ABV paperwork but strongly encourages retaining it.
 
 ### 2.3 Tag Inventory Logs
-Breweries must track:
+Breweries shall track:
 
 - How many Coupler Tags were issued  
 - Which products they were designated for  
@@ -81,7 +84,7 @@ Breweries must track:
 Tag inventory logs prevent mis-assignments.
 
 ### 2.4 Non-Conformance Records
-Any identity-related issue must be logged:
+Any identity-related issue shall be logged:
 
 - Wrong product tagged  
 - Incorrect batch information entered  
@@ -89,7 +92,7 @@ Any identity-related issue must be logged:
 - Activation errors  
 - Duplicate tagging attempts  
 
-These issues must be documented and corrected before kegs leave the brewery.
+These issues shall be documented and corrected before kegs leave the brewery.
 
 ---
 
@@ -150,12 +153,12 @@ Created when:
 
 ## 5. Documentation Retention Requirements
 
-Breweries must retain DraftVerify documentation for:
+Breweries shall retain DraftVerify documentation for:
 
 **Minimum: 12 months**  
 **Recommended: 24–36 months**
 
-Documents must be stored in:
+Documents shall be stored in:
 
 - Digital storage  
 - Cloud systems  
@@ -173,7 +176,7 @@ Retention helps with:
 
 ## 6. Audit Readiness
 
-Breweries must be able to produce:
+Breweries shall be able to produce:
 
 - Activation logs  
 - Batch/lot data  

@@ -13,9 +13,12 @@ description: "Cold-chain, segregation, handling, and transport requirements for 
 # Distributor Transport & Storage Requirements
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Distributor Transport Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity; **should** a recommendation; **may** permission; **can** capability or possibility. External legal and manufacturer obligations take precedence. Public access does not grant certification status, mark rights, or a licence to commercially reproduce substantial protected DraftVerify expression.
+
 
 This Standard defines the **mandatory storage, cold-chain, segregation, and transport rules** required for distributors handling non-alcoholic (NA) draft kegs under DraftVerify.
 
@@ -74,7 +77,7 @@ Covered responsibilities include:
 
 ### 3.1 NA-Only Storage Zones (Mandatory)
 
-Every distributor must maintain **dedicated NA storage zones**, either:
+Every distributor shall maintain **dedicated NA storage zones**, either:
 
 - A fully separate room, **or**  
 - A physically segregated area with dividers/pallets  
@@ -87,7 +90,7 @@ Requirements:
 
 ### 3.2 Stacking Requirements
 
-Kegs must be stacked so that:
+Kegs shall be stacked so that:
 
 - Coupler Tags are not crushed  
 - Zip ties cannot snag  
@@ -98,13 +101,13 @@ Tag safety overrides pallet efficiency.
 
 ### 3.3 Temperature Requirements
 
-Distributors must maintain:
+Distributors shall maintain:
 
 - Cold storage consistent with brewery specifications  
 - Stability during opening/closing cycles  
 - Logs showing temperature consistency (recommended)  
 
-Tags must withstand cold-chain conditions, but excessive freeze/thaw cycling may weaken adhesives or ties.
+Tags shall withstand cold-chain conditions, but excessive freeze/thaw cycling may weaken adhesives or ties.
 
 ---
 
@@ -112,7 +115,7 @@ Tags must withstand cold-chain conditions, but excessive freeze/thaw cycling may
 
 ### 4.1 Forklift & Pallet Jack Movement
 
-Operators must:
+Operators shall:
 
 - Avoid scooping pallets underneath tag areas  
 - Never drag kegs across floors  
@@ -120,14 +123,14 @@ Operators must:
 
 ### 4.2 Visibility During Handling
 
-Handlers must:
+Handlers shall:
 
 - Keep the Coupler Tag facing outward during new placement  
 - Avoid orienting tags downward where they cannot be inspected  
 
 ### 4.3 Tag Integrity Checks
 
-During movement, staff must check:
+During movement, staff shall check:
 
 - Zip tie intact and tight  
 - Tag unmoved and unrotated  
@@ -135,7 +138,7 @@ During movement, staff must check:
 
 If a tag is damaged:
 
-**Keg must be quarantined.**
+**Keg shall be quarantined.**
 
 ---
 
@@ -145,7 +148,7 @@ Before loading kegs:
 
 ### 5.1 Verification Scan (Mandatory)
 
-Every NA keg must be scanned to confirm:
+Every NA keg shall be scanned to confirm:
 
 - Correct product identity  
 - Activation status  
@@ -153,7 +156,7 @@ Every NA keg must be scanned to confirm:
 
 ### 5.2 Load Mapping
 
-Distributors must record:
+Distributors shall record:
 
 - Products and quantities  
 - Batch or fill dates (if provided)  
@@ -163,7 +166,7 @@ Distributors must record:
 
 ### 5.3 Vehicle Preparation
 
-Vehicles must:
+Vehicles shall:
 
 - Be free of alcoholic product near NA cargo  
 - Have clean loading surfaces  
@@ -178,7 +181,7 @@ Vehicles must:
 
 During transport:
 
-- NA kegs must be stored in their own zone  
+- NA kegs shall be stored in their own zone  
 - No alcoholic products may contact or stack above NA products  
 - If mixed loads are unavoidable → **hard physical barriers are required**  
 
@@ -191,14 +194,14 @@ Separation prevents:
 
 ### 6.2 Stability & Movement Control
 
-Kegs must be secured using:
+Kegs shall be secured using:
 
 - Load bars  
 - Straps  
 - Chocks  
 - Tight pallet shrink  
 
-They must not:
+They shall not:
 
 - Roll freely  
 - Tip over  
@@ -207,7 +210,7 @@ They must not:
 
 ### 6.3 Environmental Protection
 
-Drivers must:
+Drivers shall:
 
 - Avoid prolonged exposure to heat  
 - Keep doors closed between stops  
@@ -222,8 +225,8 @@ Drivers must:
 
 During unloading:
 
-- Tags must remain visible  
-- Drivers must avoid grabbing kegs by the coupler  
+- Tags shall remain visible  
+- Drivers shall avoid grabbing kegs by the coupler  
 - No keg may be rolled on its top surface  
 
 ### 7.2 Venue Delivery Conditions
@@ -234,7 +237,7 @@ If the venue’s storage conditions compromise:
 - NA separation  
 - Temperature  
 
-The driver must notify the venue and distributor supervisor.
+The driver shall notify the venue and distributor supervisor.
 
 ### 7.3 Mandatory Delivery Scan
 
@@ -273,15 +276,15 @@ For any incident:
 
 If the vehicle is involved in an accident:
 
-- All NA kegs must be quarantined  
-- Every tag must be rescanned  
-- Structural integrity must be verified  
+- All NA kegs shall be quarantined  
+- Every tag shall be rescanned  
+- Structural integrity shall be verified  
 
 ---
 
 ## 9. Distributor Documentation Requirements
 
-Distributors must maintain:
+Distributors shall maintain:
 
 ### 9.1 Storage Logs  
 - NA zone verification  
@@ -296,7 +299,7 @@ Distributors must maintain:
 - Pre-transport verification scans  
 
 ### 9.3 Incident Logs  
-Each incident must include:
+Each incident shall include:
 
 - Description  
 - Location  
@@ -305,7 +308,7 @@ Each incident must include:
 - Action taken  
 
 ### 9.4 Audit Readiness  
-Documentation must be:
+Documentation shall be:
 
 - Accurate  
 - Up to date  
@@ -315,7 +318,7 @@ Documentation must be:
 
 ## 10. Training Requirements
 
-Staff must be trained in:
+Staff shall be trained in:
 
 - NA separation rules  
 - Tag integrity identification  

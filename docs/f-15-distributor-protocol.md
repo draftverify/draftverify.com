@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "F-15 — Distributor Protocol (D-Series)"
+title: "F-15 — Distributor Handling Protocol"
 permalink: /docs/distributor-protocol/
 description: "Operational, handling, verification, and chain-of-custody requirements for distributors participating in the DraftVerify Standard."
 ---
@@ -13,11 +13,14 @@ description: "Operational, handling, verification, and chain-of-custody requirem
 # Distributor Protocol (D-Series)
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-The Distributor Protocol (D-Series) defines how distributors must handle, transport, verify, and document **non-alcoholic (NA)** draft kegs under the DraftVerify Standard.
+> **Document control — DV v2.0 · Normative Distributor Handling Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity; **should** a recommendation; **may** permission; **can** capability or possibility. External legal and manufacturer obligations take precedence. Public access does not grant certification status, mark rights, or a licence to commercially reproduce substantial protected DraftVerify expression.
+
+
+The Distributor Protocol (D-Series) defines how distributors shall handle, transport, verify, and document **non-alcoholic (NA)** draft kegs under the DraftVerify Standard.
 
 Distributors are a critical link between breweries and venues.  
 Proper handling ensures that identity, activation data, and safety remain intact throughout the supply chain.
@@ -63,7 +66,7 @@ The D-Series includes:
 ## 3. Roles & Responsibilities
 
 ### 3.1 Distributor Responsibilities  
-Distributors must:
+Distributors shall:
 
 - Verify that every NA keg has a DraftVerify Coupler Tag  
 - Inspect for tampering or missing tags  
@@ -73,7 +76,7 @@ Distributors must:
 - Train staff in the D-Series procedures  
 
 ### 3.2 Brewery Responsibilities  
-Breweries must:
+Breweries shall:
 
 - Supply only activated, tagged NA kegs  
 - Provide correct product documentation  
@@ -92,7 +95,7 @@ Venues are responsible for:
 When NA kegs are delivered to the distributor:
 
 ### 4.1 Visual Inspection  
-Staff must check:
+Staff shall check:
 
 - Coupler Tag present  
 - Zip tie intact (not cut, loose, or replaced)  
@@ -101,11 +104,11 @@ Staff must check:
 - No signs of tampering  
 
 ### 4.2 Initial Verification Scan  
-Each keg must be scanned using NFC:
+Each keg shall be scanned using NFC:
 
-- Confirmation page must show correct brewery & product  
-- Tag must display **Active** status  
-- NA must be clearly highlighted  
+- Confirmation page shall show correct brewery & product  
+- Tag shall display **Active** status  
+- NA shall be clearly highlighted  
 
 ### 4.3 Documentation  
 Record:
@@ -124,26 +127,26 @@ If any tag fails scan:
 ## 5. Warehouse Storage Requirements
 
 ### 5.1 NA Separation  
-NA kegs must be stored:
+NA kegs shall be stored:
 
 - In a dedicated NA zone **or**  
 - Physically separated from alcoholic kegs using pallets/racking  
 
-NA zones must have:
+NA zones shall have:
 
 - Clear signage  
 - No mixed stacking  
 - No mixed palletization  
 
 ### 5.2 Stacking  
-Kegs must be stacked so:
+Kegs shall be stacked so:
 
 - Coupler Tags remain visible  
 - Tags cannot be crushed or snagged  
 - Sidewall bands (if used) remain readable  
 
 ### 5.3 Temperature  
-Cold storage must not exceed conditions that compromise tag durability.
+Cold storage shall not exceed conditions that compromise tag durability.
 
 ---
 
@@ -152,14 +155,14 @@ Cold storage must not exceed conditions that compromise tag durability.
 Before loading:
 
 ### 6.1 Verification Scan (Mandatory)  
-Each NA keg must be scanned again to confirm:
+Each NA keg shall be scanned again to confirm:
 
 - Identity  
 - Activation status  
 - No mismatch or inactive tag  
 
 ### 6.2 Load Documentation  
-Distributor must log:
+Distributor shall log:
 
 - Which kegs are being delivered  
 - Delivery route  
@@ -184,7 +187,7 @@ At the venue:
 - Confirms no tampering occurred in transit  
 
 ### 7.2 Verification Scan With Venue Staff  
-Driver must scan each keg **with the venue** to confirm:
+Driver shall scan each keg **with the venue** to confirm:
 
 - Correct product  
 - Correct NA identity  
@@ -197,7 +200,7 @@ Venue acknowledges:
 - Receipt of correct NA products  
 - All tags intact and verified  
 
-Any mismatch must be escalated immediately.
+Any mismatch shall be escalated immediately.
 
 ---
 
@@ -228,7 +231,7 @@ Never deliver a keg with an identity problem.
 
 ## 9. Distributor Documentation Requirements
 
-Distributors must maintain:
+Distributors shall maintain:
 
 ### 9.1 Receiving Logs  
 - Supplier  
@@ -249,7 +252,7 @@ Distributors must maintain:
 - Venue sign-off  
 
 ### 9.4 Discrepancy Reports  
-For audit purposes, distributors must record:
+For audit purposes, distributors shall record:
 
 - Issue type  
 - Keg identity (if known)  
@@ -260,7 +263,7 @@ For audit purposes, distributors must record:
 
 ## 10. Staff Training Requirements
 
-Distributors must train all staff in:
+Distributors shall train all staff in:
 
 - Coupler Tag identification  
 - Zip-tie integrity checks  

@@ -13,9 +13,12 @@ description: "Standardized daily and weekly verification tasks for venues servin
 # Daily / Weekly Verification Checklist
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Venue Verification Procedure.** **Shall** indicates a requirement for applicable DraftVerify conformity; **should** a recommendation; **may** permission; **can** capability or possibility. External legal and manufacturer obligations take precedence. Public access does not grant certification status, mark rights, or a licence to commercially reproduce substantial protected DraftVerify expression.
+
 
 F-19 provides a **standardized, auditable checklist** for venues serving non-alcoholic (NA) draft.  
 This checklist is designed to:
@@ -133,7 +136,7 @@ If scan fails → **STOP SERVICE**, follow F-22 Incident Response.
 
 ## 5. Required Records
 
-Venues must maintain:
+Venues shall maintain:
 
 - Completed daily checklists  
 - Completed weekly checklists  
