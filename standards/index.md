@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "DraftVerify Standard v1.0 — Non-Alcoholic Draft Systems"
+title: "DraftVerify Standard v2.0 — Non-Alcoholic Draft Systems"
 permalink: /standards/
-description: "The official DraftVerify Standard v1.0 — a combined physical and digital framework for identifying, separating, and verifying non-alcoholic draft systems from keg to faucet."
+description: "The official DraftVerify Standard v2.0 — a combined physical and digital framework for identifying, separating, and verifying non-alcoholic draft systems from keg to faucet."
 ---
 
 <style>
@@ -193,10 +193,10 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
   <div class="container">
     <div class="std-hero">
       <div class="std-hero-eyebrow">
-        DraftVerify Standard v1.0 · NA Draft Systems · F-1–F-40 Library
+        DraftVerify Standard v2.0 · NA Draft Systems · F-1–F-40 Library
       </div>
 
-      <h1>DraftVerify Standard v1.0</h1>
+      <h1>DraftVerify Standard v2.0</h1>
 
       <p class="lead">
         An independent standard for <strong>non-alcoholic draft identification and verification</strong> — a combined
@@ -214,8 +214,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
       <a class="btn gold" href="#how-it-works">See How the Standard Works</a>
 
       <div class="std-hero-note">
-        Formal PDFs are available in English and German. Web pages below summarize and organize the v1.0 content. 
-        Where wording differs, the PDF text is canonical.
+        The controlled web publications below constitute the current v2.0 F-Series. Earlier v1.0 PDFs are superseded and are not the controlling v2.0 text.
       </div>
     </div>
 
@@ -236,14 +235,11 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     <div class="kicker">Formal Publication</div>
     <h2 class="h2">Download the Formal PDFs</h2>
     <p class="std-section-intro">
-      Use these for contracts, legal review, or internal policies. They contain the canonical wording of
-      DraftVerify Standard v1.0.
+      Version 2.0 is published as controlled web documents. Use the current F-Series pages for certification, contract, and implementation references.
     </p>
 
-    <p>
-      <a class="btn primary" href="{{ '/standard-en.pdf' | relative_url }}">English PDF</a>
-      <a class="btn ghost" href="{{ '/standard-de.pdf' | relative_url }}" style="margin-left:8px;">German PDF</a>
-    </p>
+    <p><a class="btn primary" href="{{ '/docs/standard-v1/' | relative_url }}">Open F-1 v2.0</a>
+   <a class="btn ghost" href="{{ '/certification/' | relative_url }}" style="margin-left:8px;">Certification Program</a></p>
   </div>
 </section>
 
@@ -253,8 +249,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     <div class="kicker">High-Level Overview</div>
     <h2 class="h2 center">What the Standard Covers</h2>
     <p class="std-section-intro">
-      DraftVerify takes a simple obligation — <strong>if a tap is sold as non-alcoholic, it must always be
-      non-alcoholic</strong> — and turns it into enforceable requirements for hardware, records, and checks
+      DraftVerify defines controlled requirements for identity, verification, records, and conformity for hardware, records, and checks
       across the draft system.
     </p>
 
@@ -301,7 +296,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
         <h3>What DraftVerify Is &amp; Why It Exists</h3>
         <p>Core standard, definitions, risk profile, and legal / compliance basis for NA draft separation.</p>
         <ul>
-          <li><a href="/docs/standard-v1/">F-1 DraftVerify Standard v1.0</a></li>
+          <li><a href="/docs/standard-v1/">F-1 DraftVerify Standard v2.0</a></li>
           <li><a href="/docs/definitions/">F-2 Definitions &amp; Scope</a></li>
           <li><a href="/docs/risk-profile/">F-4 NA Draft Risk Profile</a></li>
         </ul>
@@ -353,8 +348,8 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
 
       <div class="std-series-card">
         <div class="std-series-label">F-32–F-40 · Programs &amp; Governance</div>
-        <h3>Marks, Audits &amp; Long-Term Care</h3>
-        <p>Use of mark, audits, multi-venue programs, education, and governance.</p>
+        <h3>Certification, Audits &amp; Governance</h3>
+        <p>Certification, mark licensing, conformity assessment, multi-site programs, competence, and governance.</p>
         <ul>
           <li><a href="/docs/certification-policy/">F-32 Certification Policy</a></li>
           <li><a href="/docs/compliance-audit/">F-33 Compliance Audit</a></li>
@@ -381,7 +376,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
         <details>
           <summary>Expand to view all F-series documents (v1.0)</summary>
           <ol class="std-index-list">
-            <li><a href="/docs/standard-v1/">F-1 — DraftVerify Standard v1.0</a></li>
+            <li><a href="/docs/standard-v1/">F-1 — DraftVerify Standard v2.0</a></li>
             <li><a href="/docs/definitions/">F-2 — Definitions, Scope &amp; Terminology</a></li>
             <li><a href="/docs/identity-architecture/">F-3 — Identity Architecture Overview</a></li>
             <li><a href="/docs/risk-profile/">F-4 — NA Draft Risk Profile &amp; Rationale</a></li>
@@ -435,7 +430,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     <h2 class="h2 center">Governance of the DraftVerify Standard</h2>
 
     <p class="std-section-intro">
-      DraftVerify Standard v1.0 is maintained through a structured governance model to ensure that 
+      DraftVerify Standard v2.0 is maintained through a structured governance model to ensure that 
       requirements remain accurate, neutral, and aligned with the evolving needs of breweries, 
       distributors, draft technicians, and venues operating non-alcoholic draft systems.
     </p>
@@ -488,7 +483,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
         <div class="std-series-label">Public Input</div>
         <h3>Feedback &amp; Comment Process</h3>
         <p>
-          Stakeholders may submit comments on DraftVerify Standard v1.0 or propose revisions during 
+          Stakeholders may submit comments on DraftVerify Standard v2.0 or propose revisions during 
           open comment windows. Submitted feedback is reviewed by the Standards Council and, where 
           appropriate, incorporated into future versions.
         </p>
@@ -507,7 +502,7 @@ description: "The official DraftVerify Standard v1.0 — a combined physical and
     <div class="cta-band">
       <div>
         <div class="kicker">Put the Standard to Work</div>
-        <h3 style="margin:.3rem 0 0;">Implement DraftVerify Standard v1.0 across breweries, routes, and venues.</h3>
+        <h3 style="margin:.3rem 0 0;">Implement DraftVerify Standard v2.0 across breweries, routes, and venues.</h3>
       </div>
       <div>
         <a class="btn primary" href="{{ '/onboarding/' | relative_url }}">Start Onboarding</a>

@@ -2,6 +2,7 @@
 (function(){
   const routes = [
     { path: '/standards/', key: 'standards' },
+    { path: '/certification/', key: 'certification' },
     { path: '/docs/', key: 'standards' },
     { path: '/how-it-works/', key: 'how-it-works' },
     { path: '/technology/', key: 'technology' },
