@@ -238,7 +238,7 @@ description: "The official DraftVerify Standard v2.0 — a combined physical and
       Version 2.0 is published as controlled web documents. Use the current F-Series pages for certification, contract, and implementation references.
     </p>
 
-    <p><a class="btn primary" href="{{ '/docs/standard-v1/' | relative_url }}">Open F-1 v2.0</a>
+    <p><a class="btn primary" href="{{ '/docs/standard-v2/' | relative_url }}">Open F-1 v2.0</a>
    <a class="btn ghost" href="{{ '/certification/' | relative_url }}" style="margin-left:8px;">Certification Program</a></p>
   </div>
 </section>
@@ -296,7 +296,7 @@ description: "The official DraftVerify Standard v2.0 — a combined physical and
         <h3>What DraftVerify Is &amp; Why It Exists</h3>
         <p>Core standard, definitions, risk profile, and legal / compliance basis for NA draft separation.</p>
         <ul>
-          <li><a href="/docs/standard-v1/">F-1 DraftVerify Standard v2.0</a></li>
+          <li><a href="/docs/standard-v2/">F-1 DraftVerify Standard v2.0</a></li>
           <li><a href="/docs/definitions/">F-2 Definitions &amp; Scope</a></li>
           <li><a href="/docs/risk-profile/">F-4 NA Draft Risk Profile</a></li>
         </ul>
@@ -376,7 +376,7 @@ description: "The official DraftVerify Standard v2.0 — a combined physical and
         <details>
           <summary>Expand to view all F-series documents (v1.0)</summary>
           <ol class="std-index-list">
-            <li><a href="/docs/standard-v1/">F-1 — DraftVerify Standard v2.0</a></li>
+            <li><a href="/docs/standard-v2/">F-1 — DraftVerify Standard v2.0</a></li>
             <li><a href="/docs/definitions/">F-2 — Definitions, Scope &amp; Terminology</a></li>
             <li><a href="/docs/identity-architecture/">F-3 — Identity Architecture Overview</a></li>
             <li><a href="/docs/risk-profile/">F-4 — NA Draft Risk Profile &amp; Rationale</a></li>

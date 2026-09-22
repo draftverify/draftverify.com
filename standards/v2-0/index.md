@@ -47,7 +47,7 @@ description: "Controlled release record for DraftVerify Standard v2.0, effective
     <h2>Canonical source</h2>
     <p>
       The controlled F-Series web publications on draftverify.com constitute the current v2.0 publication.
-      <a href="{{ '/docs/standard-v1/' | relative_url }}">Open F-1 v2.0</a>.
+      <a href="{{ '/docs/standard-v2/' | relative_url }}">Open F-1 v2.0</a>.
     </p>
   </div>
 </section>

@@ -33,7 +33,7 @@ description: "DraftVerify is an independent standard, certification program, and
           <div><dt>Registry</dt><dd>Controlling status record</dd></div>
           <div><dt>Authority</dt><dd>DraftVerify Standards Initiative</dd></div>
         </dl>
-        <a class="text-link" href="{{ '/docs/standard-v1/' | relative_url }}">Open controlling F-1 publication →</a>
+        <a class="text-link" href="{{ '/docs/standard-v2/' | relative_url }}">Open controlling F-1 publication →</a>
       </aside>
     </div>
   </div>
