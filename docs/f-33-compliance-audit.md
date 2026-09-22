@@ -1,258 +1,154 @@
 ---
 layout: default
-title: "F-33 — Compliance Audit Framework"
+title: "F-33 — Conformity Assessment & Audit Rules"
 permalink: /docs/compliance-audit/
-description: "The standardized audit framework used to evaluate brewery, distributor, and venue compliance with the DraftVerify Standard."
+description: "DraftVerify v2.0 conformity assessment rules, critical gates, nonconformity classification, scoring, corrective action, and certification decision requirements."
 ---
 
 <section class="section">
 <div class="container" style="max-width:820px" markdown="1">
 
-<div class="kicker">DraftVerify Standards Library · F-33</div>
+<div class="kicker">DraftVerify Standards Library · F-33 · Normative Assessment Rules</div>
 
-# Compliance Audit Framework
+# Conformity Assessment & Audit Rules
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>Document ID: DV-F-33-v2.0  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-F-33 defines the **auditing framework** used to evaluate compliance with the DraftVerify Standard across breweries, distributors, and venues.  
-The goal is to ensure **identity integrity, safety, traceability, and operational accuracy** throughout the NA draft supply chain.
+## 1. Purpose
 
-This framework establishes:
+F-33 establishes a repeatable method for assessing conformity with applicable DraftVerify requirements.
 
-- Audit types  
-- Scoring structure  
-- Required documentation  
-- Field inspection procedures  
-- Non-compliance categories  
-- Corrective action timelines  
+Assessment shall be based on objective evidence rather than marketing claims, reputation, or commercial value to DraftVerify.
 
-F-33 works in conjunction with F-31 (Audit Log Framework) and F-37 (Field Audit Handbook).
+## 2. Assessment planning
 
----
+Before assessment, DraftVerify shall define:
 
-## 1. Purpose of the Audit Framework
+- applicant;
+- requested certification scope;
+- applicable F-Series requirements;
+- sites or systems sampled;
+- evidence required;
+- assessment method; and
+- assessor or audit personnel.
 
-F-33 provides:
+## 3. Evidence
 
-- A consistent evaluation method  
-- A measurable compliance score  
-- Clear requirements for certification (F-32)  
-- Evidence for incident investigation (F-22)  
-- Accountability across the entire identity chain  
+Evidence may include:
 
-Audits ensure that DraftVerify remains a **trusted, defensible, and enforceable** standard.
+- physical inspection;
+- registry records;
+- verification events;
+- controlled documents;
+- training or competence records;
+- system maps;
+- change records;
+- incident records;
+- interviews;
+- demonstrations; and
+- photographs or other records where appropriate.
 
----
+Evidence shall be sufficient to support the finding made.
 
-## 2. Audit Types
+## 4. Critical gates
 
-### 2.1 Brewery Audit
-Evaluates:
+A scoring result shall not override a critical failure.
 
-- Serialization accuracy (F-12)  
-- Activation workflow (F-13)  
-- Physical keg identification (F-6)  
-- Documentation completeness (F-14)  
-- Correct use of the Mark (F-32)  
+The following are critical unless an applicable certification profile defines a stricter rule:
 
-### 2.2 Distributor Audit
-Evaluates:
+- product identity cannot be reliably traced through the in-scope pathway;
+- a known or unresolved alcoholic/NA identity mismatch exists;
+- a material record used for certification has been falsified;
+- an unauthorized party has materially altered a controlled identifier or certificate record;
+- the organization continues to claim active certification after withdrawal or suspension; or
+- a condition designated critical by another applicable F-Series requirement remains open.
 
-- Receiving & verification (F-15, F-17)  
-- Transport separation (F-16)  
-- Warehouse organization  
-- Delivery verification with venues  
-- Discrepancy handling  
+An applicant with an open critical nonconformity shall not receive active certification for the affected scope.
 
-### 2.3 Venue Audit
-Evaluates:
+## 5. Nonconformity classes
 
-- Correct NA separation  
-- Line and faucet identification (F-8, F-9)  
-- Daily/weekly checklists (F-19)  
-- Tag scanning practices  
-- Compliance with product switching protocol (F-39)  
+### Critical
+Defeats a core control or creates unacceptable uncertainty. Certification shall not be active for the affected scope until closed.
 
-### 2.4 Special Audit
-Triggered by:
+### Major
+Material failure of a required control without an open critical condition. Corrective action and verification are required within the period set by DraftVerify.
 
-- Incidents or suspected mis-serves  
-- Compliance complaints  
-- Significant organizational changes  
-- New system installations  
+### Minor
+Limited failure that does not materially defeat the control objective. Corrective action may be accepted with follow-up.
 
----
+### Observation
+Not a nonconformity; identifies an improvement opportunity or emerging risk.
 
-## 3. Audit Scoring Structure
+## 6. Scoring
 
-Each audit is scored across **five weighted categories**:
+Where DraftVerify uses a numerical score, the scoring model shall:
 
-| Category | Weight | Description |
-|----------|--------|-------------|
-| **Identity Accuracy** | 30% | Tags, labels, and identity mappings must be correct and consistent. |
-| **Verification Discipline** | 25% | Required scans and checks must be performed consistently. |
-| **Separation Integrity** | 20% | NA must remain separated throughout all workflows. |
-| **Documentation & Logs** | 15% | Accurate and complete logs per F-31, F-14, F-17, F-19. |
-| **Training & Procedures** | 10% | Staff must know and follow DraftVerify requirements. |
+- be published or disclosed to the applicant;
+- identify category weights;
+- distinguish critical gates from score;
+- be applied consistently to materially similar scopes; and
+- not be the sole basis for certification when unresolved mandatory requirements exist.
 
-**Passing Score:** 85%  
-**Conditional Pass:** 70–84% (requires corrective actions)  
-**Fail:** Below 70%
+A program profile may establish a passing threshold, but all critical requirements remain independent gates.
 
----
+## 7. Findings
 
-## 4. Required Documentation for Audit
+Each nonconformity shall identify:
 
-Operators must supply:
+- requirement reference;
+- evidence;
+- finding;
+- classification;
+- responsible scope;
+- required corrective action or response; and
+- due date where applicable.
 
-- Activation logs (F-13)  
-- Serialization records (F-12)  
-- Distribution logs (F-17)  
-- Venue checklists (F-19)  
-- Incident reports (F-22)  
-- Audit logs (F-31)  
-- System diagrams (F-24)  
-- Training records (F-23)  
+## 8. Corrective action
 
-Missing documentation is an automatic deduction.
+For major or critical findings, the organization shall identify:
 
----
+- immediate containment where applicable;
+- cause or contributing condition;
+- corrective action;
+- implementation evidence; and
+- verification of effectiveness where required.
 
-## 5. Field Inspection Procedure
+## 9. Certification decision
 
-Auditors perform:
+The decision record shall identify:
 
-### 5.1 Physical Inspection  
-- Keg collars  
-- Coupler Tags  
-- Line Tags  
-- Faucet markers  
-- Cooler organization  
-- Transport racks (for distributors)  
+- evidence reviewed;
+- open findings;
+- closed findings;
+- scope;
+- Standard version;
+- decision;
+- decision maker; and
+- effective date.
 
-### 5.2 Live Verification Tests  
-Auditor may request:
+## 10. Audit frequency
 
-- Live NFC scans  
-- Product switching demonstration  
-- Identity reconciliation  
-- Review of active DTI(s)  
+Assessment frequency shall be risk-based and defined by the applicable certification program or contract.
 
-### 5.3 Staff Interviews  
-Auditor confirms:
+DraftVerify may require additional assessment following a material incident, scope change, suspected misuse, or evidence integrity concern.
 
-- Understanding of verification workflow  
-- NA separation rules  
-- Incident escalation steps  
+## 11. Confidentiality
 
-### 5.4 Documentation Review  
-Auditor checks:
+Non-public information obtained during assessment shall be handled according to applicable confidentiality, privacy, and contractual requirements.
 
-- Checklist consistency  
-- Missing or late entries  
-- Evidence of corrective actions  
+## 12. Impartiality
 
----
+Commercial pressure, customer size, payment amount, or business relationship shall not change the meaning of a requirement or permit an open critical nonconformity to be ignored.
 
-## 6. Non-Compliance Categories
+Known conflicts of interest shall be recorded and controlled.
 
-Non-compliance is categorized as:
+## 13. Records
 
-### **6.1 Critical Non-Compliance (Immediate Failure)**  
-Examples:
-
-- Wrong keg tapped → NA mis-serve  
-- Missing Coupler Tag  
-- Broken NA separation  
-- Tampering or falsified records  
-
-Requires immediate corrective action and possible suspension.
-
-### **6.2 Major Non-Compliance**  
-Examples:
-
-- Inconsistent verification scans  
-- Outdated or missing documentation  
-- Incorrect identity mapping  
-- Repeated minor issues  
-
-Requires corrective action within 14 days.
-
-### **6.3 Minor Non-Compliance**  
-Examples:
-
-- Label wear  
-- Temporary cooler organization issues  
-- Minor procedural lapses  
-
-Correctable within 30 days.
-
----
-
-## 7. Corrective Action Requirements
-
-Operators must submit:
-
-- A written corrective action plan  
-- Implementation timeline  
-- Supporting evidence  
-- Follow-up verification scans  
-
-Failure to implement corrective actions may lead to:
-
-- Loss of certification (F-32)  
-- Mandatory re-audit  
-- Public delisting from DraftVerify registry  
-
----
-
-## 8. Audit Frequency
-
-### Breweries  
-- Annual  
-- Additional audits after major system changes  
-
-### Distributors  
-- Annual + random spot audits  
-
-### Venues  
-- Annual  
-- Special audits after incidents or complaints  
-
-### Multi-Venue Groups (F-34)  
-- Central audit plus spot checks across sites  
-
----
-
-## 9. Integration With Other Standards
-
-F-33 is directly linked to:
-
-- **F-31 — Audit Log & Traceability Framework**  
-- **F-32 — Certification Policy**  
-- **F-37 — Field Audit Handbook**  
-- **F-18 — Venue Setup & Verification Protocol**  
-- **F-39 — Product Switching Protocol**  
-
-Audits rely on the logs, workflows, and identity structures defined elsewhere.
-
----
-
-## 10. Summary
-
-F-33 establishes the **official audit structure** used to verify DraftVerify compliance across the full supply chain.  
-It ensures:
-
-- Identity integrity  
-- NA separation  
-- Reliable verification practices  
-- Strong documentation and training  
-- Accountability at every step  
-
-This framework protects consumers, reinforces standardization, and maintains the credibility of DraftVerify Certification worldwide.
+DraftVerify shall maintain sufficient assessment and decision records to explain how the certification decision was reached.
 
 </div>
 </section>

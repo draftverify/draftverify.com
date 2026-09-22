@@ -13,9 +13,12 @@ description: "Mandatory reporting structure, documentation requirements, and inv
 # NA Draft Safety & Contamination Report
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Incident Reporting Procedure.** **Shall** indicates a requirement for applicable DraftVerify conformity. Certification status and use of DraftVerify certification claims are governed by F-32 and the Registry. Public access to this document is not a certification or mark licence.
+
 
 F-35 defines the **official reporting and investigation process** for any incident involving:
 
@@ -69,7 +72,7 @@ Reports may be filed by:
 
 ## 3. Required Report Fields
 
-Each report must include:
+Each report shall include:
 
 | Field | Description |
 |-------|-------------|
@@ -89,7 +92,7 @@ Each report must include:
 | **Responsible Parties Notified** | Venue, distributor, brewery |
 | **Follow-Up Required** | Yes/No + details |
 
-All fields must be completed or marked **N/A**.
+All fields shall be completed or marked **N/A**.
 
 ---
 
@@ -117,7 +120,7 @@ When a potential issue is identified:
 - Brewery  
 - DraftVerify Auditor (if critical)
 
-Response must begin **within 15 minutes** of identifying the incident.
+Response shall begin **within 15 minutes** of identifying the incident.
 
 ---
 
@@ -217,7 +220,7 @@ Timelines:
 
 ## 8. Record Retention
 
-All Safety & Contamination Reports must be retained for **10 years**, including:
+All Safety & Contamination Reports shall be retained for **10 years**, including:
 
 - Completed report  
 - Verification logs  

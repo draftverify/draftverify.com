@@ -1,263 +1,174 @@
 ---
 layout: default
-title: "F-32 — Use of Mark & Certification Policy"
+title: "F-32 — Certification & Mark Licensing Policy"
 permalink: /docs/certification-policy/
-description: "Official rules governing use of the DraftVerify Certification Mark, eligibility requirements, approved applications, and enforcement."
+description: "DraftVerify v2.0 rules governing certification eligibility, conformity decisions, certificate status, public claims, and licensed use of DraftVerify certification marks."
 ---
 
 <section class="section">
 <div class="container" style="max-width:820px" markdown="1">
 
-<div class="kicker">DraftVerify Standards Library · F-32</div>
+<div class="kicker">DraftVerify Standards Library · F-32 · Normative Certification Policy</div>
 
-# Use of Mark & Certification Policy
+# Certification & Mark Licensing Policy
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>Document ID: DV-F-32-v2.0  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-F-32 defines the **legal and operational rules** for using the DraftVerify Certification Mark (“the Mark”).  
-The Mark signals that an organization consistently complies with the DraftVerify Standard, including tagging, verification, separation, identity handling, and auditability requirements.
+> **Program status.** DraftVerify operates a private, voluntary conformity assessment and certification program. DraftVerify Certification is not government approval, regulatory approval, or accredited certification unless a specific accreditation is expressly identified for a specific scope.
 
-Only certified operators may display the Mark.
+## 1. Purpose
 
----
+F-32 controls:
 
-## 1. Purpose of This Policy
+- application for DraftVerify Certification;
+- certification scopes;
+- eligibility and conformity decisions;
+- certificate issuance and status;
+- surveillance, renewal, suspension, withdrawal, and expiry;
+- public certification claims; and
+- licensed use of DraftVerify certification marks.
 
-This document establishes:
+## 2. Certification scopes
 
-- Eligibility requirements for certification  
-- Approved usage of the Mark  
-- Prohibited uses  
-- Compliance monitoring  
-- Enforcement actions for misuse  
-- Legal protections and intellectual property rights  
+DraftVerify may issue certification within defined scopes, including:
 
-The goal is to protect the integrity of the DraftVerify Standard and ensure consumer trust in NA draft identity.
+### 2.1 Brewery
+For brewery-controlled NA draft identity, serialization, activation, records, and applicable release controls.
 
----
+### 2.2 Distributor
+For distributor-controlled receiving, handling, identity preservation, records, and delivery controls.
 
-## 2. Scope
+### 2.3 Venue
+For a defined site or draft program meeting applicable venue, identity, verification, records, and change-control requirements.
 
-This policy applies to:
+### 2.4 Multi-site organization
+For a defined group of sites operating under a controlled common program, subject to F-34.
 
-- Breweries  
-- Distributors  
-- Venues  
-- Multi-venue groups  
-- System integrators  
-- Equipment manufacturers (limited contexts)  
+### 2.5 Equipment or system compatibility
+Only where DraftVerify has published objective criteria for the defined compatibility claim. Compatibility certification shall not imply certification of an entire venue or operating program.
 
-It governs all usage of:
+## 3. Application
 
-- Logos  
-- Certification labels  
-- Digital badges  
-- Printed identifiers  
-- Website display of certification  
+An applicant shall:
 
----
+- identify its legal or operating entity;
+- define the requested scope;
+- identify relevant sites, systems, products, or services;
+- accept applicable program terms;
+- provide requested evidence; and
+- authorize assessment activities necessary for the requested scope.
 
-## 3. Eligibility for Certification
+Submission of an application does not create certification.
 
-To earn DraftVerify Certification, an operator must:
+## 4. Conformity decision
 
-### 3.1 Implement All Required Standards  
-Including but not limited to:
+Certification shall be issued only after:
 
-- F-6 — Keg Identification Standard  
-- F-7 — Coupler Tag Standard  
-- F-8 — Line Identification Standard  
-- F-18 — Venue Setup & Verification Protocol  
-- F-19 — Daily / Weekly Verification Checklist  
-- F-12 / F-13 — Tag Serialization & Activation  
-- F-31 — Audit Log Requirements  
+1. applicable requirements have been identified;
+2. required evidence has been assessed;
+3. critical nonconformities have been closed;
+4. required corrective actions have been accepted or closed under F-33; and
+5. an authorized certification decision has been recorded.
 
-### 3.2 Complete a Formal Audit  
-A DraftVerify-authorized audit (F-33 / F-37) must confirm:
+Where practical, the person making the final certification decision should not be the sole person responsible for paid implementation work on the same scope. Any actual conflict of interest shall be disclosed and controlled.
 
-- Correct adoption of physical ID components  
-- Documented verification practices  
-- System logs demonstrating identity handling  
-- Staff training completion (F-23)  
-- No outstanding discrepancies  
+## 5. Certificate
 
-### 3.3 Maintain Compliance  
-Certification is valid only while the operator:
+Each certificate shall identify:
 
-- Performs required scans  
-- Updates identity records  
-- Resolves discrepancies  
-- Avoids misuse of the Mark  
+- unique certificate ID;
+- certificate holder;
+- certified scope;
+- Standard version;
+- issue date;
+- expiry or review date, if applicable;
+- status; and
+- any material limitation or exclusion.
 
-Annual renewal is required.
+The Registry is the controlling DraftVerify record of certificate status.
 
----
+## 6. Certificate status
 
-## 4. Certification Levels
+### Active
+The holder may make authorized certification claims within scope.
 
-### **4.1 Brewery Certification**
-Given to breweries that fully implement DraftVerify tagging, serialization, activation, and documentation workflows.
+### Suspended
+The holder shall cease current promotional use of the certification mark and shall not represent the affected scope as actively certified, except to accurately disclose suspended status where necessary.
 
-### **4.2 Distributor Certification**
-Given to distributors meeting D-Series handling, scanning, transport, and separation requirements.
+### Withdrawn
+Certification has ended before normal expiry. Certification claims and mark use shall cease.
 
-### **4.3 Venue Certification**
-Awarded to venues that maintain NA separation, proper labeling, verification discipline, and complete documentation.
+### Expired
+The certification period has ended without renewal. Certification claims and mark use shall cease except for accurate historical reference that does not imply current certification.
 
-### **4.4 Multi-Venue Certification**
-For groups that implement DraftVerify consistently across multiple locations using F-34.
+## 7. Mark licence
 
-### **4.5 System Certification (Limited)**
-Equipment manufacturers may be certified only for:
+An active certificate does not grant unlimited trademark rights.
 
-- Compatible couplers  
-- Compatible ID holders  
-- Integrated NFC hardware  
+Authorized use of a DraftVerify certification mark is a limited, non-exclusive, non-transferable, revocable licence for the certified scope and term.
 
-Not for operational compliance.
+Unless separately authorized in writing, the holder shall not:
 
----
+- alter the mark;
+- sublicense the mark;
+- apply it to an uncertified site, product, service, or system;
+- use it after suspension, withdrawal, or expiry;
+- use it as part of a company name, domain, product name, or social handle; or
+- imply endorsement beyond the certificate scope.
 
-## 5. Approved Uses of the Mark
+## 8. Certification wording
 
-Certified operators may use the Mark on:
+A holder may use wording expressly authorized by DraftVerify, such as:
 
-### 5.1 Physical Materials
-- Tap handles (NA-specific)  
-- Menu inserts  
-- Training materials  
-- Staff handbooks  
-- Draft system schematics  
-- Brewery or distributor packaging inserts  
+**“DraftVerify Certified — [scope] — Certificate [ID]”**
 
-### 5.2 Digital Assets
-- Website footer or certification page  
-- Ordering portals  
-- Distributor or venue intranet  
-- Social media posts referencing compliance  
-- Verified business profile pages  
+A certification statement should identify a certificate ID or other validation method where reasonably practical.
 
-### 5.3 Signage
-- Venue posters or compliance signage  
-- Cooler labeling diagrams  
-- Delivery documents  
+## 9. Prohibited claims
 
-Every use must be:
+No party shall state or imply that DraftVerify has certified, approved, verified, endorsed, audited, accredited, or authorized that party unless the claimed status is actually current and within scope.
 
-- Accurate  
-- Non-misleading  
-- Unmodified  
-- Within the approved color and proportion rules  
+A party may accurately state that it has read, referenced, or internally mapped procedures to DraftVerify without certification, provided the statement does not imply a DraftVerify conformity decision.
 
----
+## 10. Surveillance and renewal
 
-## 6. Prohibited Uses
+DraftVerify may require surveillance evidence, spot assessment, incident review, or renewal assessment as a condition of continued certification.
 
-The Mark **may not** be used:
+Failure to provide required evidence can result in suspension or withdrawal.
 
-- On alcoholic products  
-- On consumer packaging  
-- In contexts implying DraftVerify endorses a brand  
-- In any political, controversial, or unrelated marketing  
-- By uncertified venues or distributors  
-- After certification expires or is revoked  
-- In stylized, recolored, or altered forms  
-- To imply product quality or taste endorsement  
+## 11. Suspension and withdrawal triggers
 
-Improper use presents legal risk and requires immediate corrective action.
+Triggers can include:
 
----
+- critical identity failure;
+- falsified or materially misleading evidence;
+- unauthorized use of a certification mark;
+- refusal to correct material nonconformity;
+- material undisclosed system change;
+- repeated failure to maintain required controls; or
+- non-payment where program terms make payment a condition of certification maintenance.
 
-## 7. Visual & Technical Requirements
+## 12. Appeals and complaints
 
-Operators must follow the DraftVerify **Visual Lexicon (F-10)** for:
+An applicant or holder may submit a documented appeal of a certification decision.
 
-- Color codes  
-- Line thickness  
-- Clearspace  
-- Minimum size  
-- Background contrast  
-- Scaling rules  
+DraftVerify shall record the appeal, basis, reviewer, disposition, and date.
 
-### 7.1 No Alteration  
-The Mark may not be:
+Complaints alleging misuse of a DraftVerify certification claim shall be investigated proportionate to risk.
 
-- Stretched  
-- Cropped  
-- Color-shifted  
-- Layered under effects  
-- Used inside unapproved shapes  
+## 13. No automatic legal status
 
-### 7.2 High-Contrast Backgrounds  
-Only white, black, or DV-approved backgrounds may be used.
+Certification does not, by itself, establish compliance with any law, code, insurance requirement, manufacturer requirement, or third-party contract.
 
----
+## 14. Mark registration status
 
-## 8. Certification Revocation
+DraftVerify may seek trademark or certification-mark registration in one or more jurisdictions.
 
-Certification may be revoked for:
-
-- Failure to perform verification scans  
-- Missing or compromised Coupler Tags  
-- Repeated mis-taps  
-- Broken NA separation  
-- Failure to maintain audit logs  
-- Using outdated or altered identity components  
-- Misuse of the Mark  
-- Refusal to resolve discrepancies  
-
-Revoked operators must:
-
-- Remove the Mark from public display within 5 business days  
-- Update digital assets immediately  
-- Stop distribution of mislabeled materials  
-
----
-
-## 9. Enforcement
-
-DraftVerify may:
-
-- Issue warnings  
-- Require corrective action  
-- Suspend certification pending audit  
-- Revoke certification  
-- Pursue legal action for trademark infringement  
-
-Operators must comply with any enforcement request within stated timelines.
-
----
-
-## 10. Intellectual Property Notice
-
-The DraftVerify Certification Mark is:
-
-- A protected trademark  
-- Owned exclusively by the DraftVerify Standards Initiative  
-- Licensed only to certified operators  
-
-No rights are granted outside this policy.
-
-© 2025 DraftVerify™ Standards Initiative. All rights reserved.
-
----
-
-## 11. Summary
-
-F-32 defines how certification is granted, used, restricted, monitored, and enforced.
-
-It ensures:
-
-- Protection of the DraftVerify identity system  
-- Trust for venues and consumers  
-- Consistency across operators  
-- Clear legal boundaries  
-- High standards of compliance  
-
-Certification is a privilege—not a right—and must be maintained through continuous adherence to all DraftVerify Standards.
+No party, including DraftVerify, shall use the symbol **®** for a mark in a jurisdiction or context where registration has not been granted.
 
 </div>
 </section>

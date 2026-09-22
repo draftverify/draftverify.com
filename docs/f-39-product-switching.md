@@ -1,276 +1,100 @@
 ---
 layout: default
-title: "F-39 — Product Switching & Line Reuse Protocol"
+title: "F-39 — Product Switching & Identity Reset Protocol"
 permalink: /docs/product-switching/
-description: "Standardized protocol for safely switching draft products and reusing lines while maintaining NA identity integrity, preventing contamination, and preserving the DraftVerify verification chain."
+description: "DraftVerify v2.0 requirements for controlling identity and records when a draft line changes products or category."
 ---
 
 <section class="section">
 <div class="container" style="max-width:820px" markdown="1">
 
-<div class="kicker">DraftVerify Standards Library · F-39</div>
+<div class="kicker">DraftVerify Standards Library · F-39 · Normative Change Procedure</div>
 
-# Product Switching & Line Reuse Protocol
+# Product Switching & Identity Reset Protocol
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>Document ID: DV-F-39-v2.0  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-F-39 defines the rules and procedures for **switching draft products** and **reusing existing draft lines** under the DraftVerify Standard.  
-Because NA draft requires strict identity and safety controls, switching products introduces risk:
+> **Boundary.** F-39 controls identity, verification, mapping, and documentation during product switching. Cleaning chemistry, sanitation validation, residue limits, equipment compatibility, and technical line-reuse suitability shall follow the beverage producer, equipment manufacturer, qualified draft professional, and applicable law or code.
 
-- mis-serve  
-- cross-contamination  
-- incorrect identity mapping  
-- digital misalignment  
-- faucet-side inconsistencies  
+## 1. Scope
 
-This protocol ensures safe transitions between products while preserving the DraftVerify identity chain.
+F-39 applies whenever an in-scope draft pathway changes:
 
----
+- product;
+- producer;
+- alcoholic/non-alcoholic category;
+- line assignment;
+- connection point; or
+- point-of-service identity.
 
-## 1. Purpose of This Protocol
+## 2. Pre-switch control
 
-This protocol exists to:
+Before change, the organization shall identify:
 
-- Ensure NA draft is **never** served through a line with alcoholic residue  
-- Maintain correct mapping between **keg → coupler → line → faucet**  
-- Prevent identity drift during product rotation  
-- Provide clear rules for NA vs alcoholic switching  
-- Support operational flexibility without compromising safety  
+- current product;
+- intended new product;
+- affected line and faucet;
+- applicable sanitation or technical procedure; and
+- person responsible for the change.
 
-NA draft can only be served through a line that meets all DraftVerify reuse criteria.
+## 3. Alcoholic-to-NA transition
 
----
+An alcoholic-to-NA transition shall not be placed into verified NA service until:
 
-## 2. Scope
+1. the applicable qualified cleaning/sanitation procedure has been completed;
+2. the line is technically suitable for the new product;
+3. old physical identity has been removed or invalidated;
+4. the new identity has been applied;
+5. registry mapping has been updated where applicable; and
+6. the new pathway has been verified.
 
-Applies to:
+DraftVerify does not define a universal cleaning chemical, cycle, concentration, time, or residue threshold.
 
-- Bars and restaurants  
-- Breweries and taprooms  
-- Stadium and venue draft systems  
-- Distributors assisting with line changes  
-- Any operator serving NA draft under DraftVerify  
+## 4. NA-to-NA transition
 
-Covers:
+An NA-to-NA transition shall follow the applicable product, cleaning, identity-reset, and mapping requirements for the products and equipment involved.
 
-- Product switching workflow  
-- Line reuse eligibility  
-- Cleaning and sanitation rules  
-- Verification and documentation  
-- Mapping updates for DraftVerify Registry  
+## 5. NA-to-alcoholic transition
 
----
+DraftVerify NA identifiers shall be removed, disabled, or otherwise changed so they do not falsely represent the pathway as NA.
 
-## 3. Switching Rules Overview
+Registry mapping shall be updated where applicable.
 
-### 3.1 NA ↔ NA Switching  
-Allowed if:
+## 6. Identity reset
 
-- Line is flushed  
-- Correct Line Tag is applied  
-- Verification checks pass  
+The operator shall ensure that:
 
-### 3.2 Alcoholic → NA Switching  
-**Not permitted** unless the operator completes:
+- previous product identifiers no longer represent the active path;
+- new physical identifiers match the intended product and path;
+- point-of-service identity is current; and
+- digital records match physical configuration.
 
-- Full chemical clean  
-- 100% confirmed flush  
-- Line audit  
-- Identity reset  
+## 7. Verification
 
-This protects NA consumers from accidental alcohol exposure.
+The switched pathway shall be verified before normal NA service.
 
-### 3.3 NA → Alcoholic Switching  
-Allowed, but:
+A mismatch shall be treated as an unresolved identity condition and the affected pathway shall not be represented as verified until corrected.
 
-- NA Line Tag must be removed  
-- Faucet identifier updated  
-- Registry mapping reset  
+## 8. Records
 
-### 3.4 Temporary Rotations  
-Short-term events (pop-ups, seasonals) must follow the same rules as permanent changes.
+The switch record shall identify, as applicable:
 
----
+- date and time;
+- previous product;
+- new product;
+- line or system identifier;
+- sanitation/service reference;
+- identity changes;
+- person performing or authorizing the switch; and
+- verification result.
 
-## 4. Product Switching Workflow
+## 9. Certification effect
 
-### Step 1 — Deactivate Current Product  
-Operator must:
-
-- Close keg  
-- Remove coupler  
-- Remove existing Line Tag  
-- Remove or update Faucet ID  
-
-### Step 2 — Cleaning & Flushing  
-Minimum requirements:
-
-- Warm rinse  
-- Chemical clean according to system guidelines  
-- Final cold rinse  
-
-For alcoholic → NA transitions:  
-**Full deep clean required.**
-
-### Step 3 — Identity Reset  
-Before connecting a new keg, operator must:
-
-- Update the line map  
-- Apply new Line Tag (F-8)  
-- Update faucet identifier (F-9)  
-- Remove any old digital references  
-
-### Step 4 — Connect New Keg  
-Standards:
-
-- Inspect Coupler Tag (F-7)  
-- Ensure zip-tie is intact  
-- Verify collar and sidewall band  
-
-### Step 5 — DraftVerify Verification  
-Scan Coupler Tag and confirm:
-
-- Product name  
-- Category  
-- Brewery  
-- Activation status  
-
-If mismatched:  
-**Do not connect. Quarantine immediately.**
-
-### Step 6 — Documentation  
-Operator must log:
-
-- Date & time  
-- Previous product  
-- New product  
-- Staff initials  
-- Cleaning confirmation  
-- Verification scan  
-
----
-
-## 5. Line Reuse Eligibility Rules
-
-To reuse a line for NA draft, it must meet all of the following:
-
-| Requirement | Description |
-|------------|-------------|
-| **Cleaning completed** | Rinse → chemical cycle → final rinse |
-| **No alcoholic residue** | Required for NA switching |
-| **New Line Tag applied** | Must reflect correct identity |
-| **Faucet ID updated** | Old identifiers must be removed |
-| **Registry mapping updated** | Digital identity must match physical |
-| **Verification successful** | NFC scan must confirm correct product |
-
-If any element fails → **line cannot be reused for NA draft**.
-
----
-
-## 6. Identity Mismatch Handling
-
-If identity does not match:
-
-- Do not allow the tap to open  
-- Remove keg from service  
-- Check for incorrect Line Tag  
-- Confirm faucet label accuracy  
-- Re-scan Coupler Tag  
-- Document mismatch in venue logs  
-- Notify distributor and DraftVerify (if required)
-
-Identity mismatches are treated as potential mis-serve events.
-
----
-
-## 7. Documentation Requirements
-
-Operators must maintain:
-
-### 7.1 Switching Logs  
-- Old product  
-- New product  
-- Cleaning confirmation  
-- Staff initials  
-- Notes on unusual conditions  
-
-### 7.2 Verification Logs  
-- NFC scan timestamp  
-- DTI  
-- Product identity  
-
-### 7.3 System Map Updates  
-Every switch must result in:
-
-- Updated line map  
-- Updated faucet list  
-- Updated cooler diagram  
-
----
-
-## 8. Distributor Responsibilities During Switching
-
-Distributors assisting with product switching must:
-
-- Verify identity before delivering replacement kegs  
-- Confirm Coupler Tag integrity  
-- Provide correct Line Tags and identifiers (if requested)  
-- Report any identity issues observed at the venue  
-
-Distributors must never reconnect kegs without verification.
-
----
-
-## 9. Safety Considerations
-
-- Never run alcoholic and NA products through the same line without deep cleaning  
-- Never mix Line Tags from different systems  
-- Never bypass verification scanning  
-- Never reuse a coupler tag  
-- Never rotate NA onto a faucet still labeled as alcoholic  
-
-Failure to follow these rules may cause:
-
-- Mis-serve  
-- Regulatory breaches  
-- Consumer safety risks  
-- Venue liability  
-
----
-
-## 10. Compliance Requirements
-
-A venue is **F-39 compliant** when:
-
-- All product switches follow the required workflow  
-- All NA transitions meet deep-clean rules  
-- All identity elements match (Line Tag, Faucet ID, Coupler Tag, Registry)  
-- Verification scans are logged  
-- Documentation is complete and accessible  
-
-Non-compliance may result in:
-
-- Audit failure  
-- Mandatory retraining  
-- Certification suspension  
-
----
-
-## 11. Summary
-
-The Product Switching & Line Reuse Protocol ensures:
-
-- Identity integrity during all product transitions  
-- Safe handling of NA draft  
-- Accurate line mapping  
-- Reliable verification  
-- Prevention of cross-contamination  
-- Consistency across all venues and distributors  
-
-F-39 is essential for preserving trust in NA draft service and ensuring accurate, safe pours every time.
+Failure to control an alcoholic-to-NA identity transition is a major nonconformity and can be critical where actual product identity is uncertain or an alcoholic product may be represented as NA.
 
 </div>
 </section>

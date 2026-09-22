@@ -1,263 +1,137 @@
 ---
 layout: default
-title: "F-40 — Revision & Governance Policy"
+title: "F-40 — Governance, Publication & Rights Policy"
 permalink: /docs/governance-policy/
-description: "Governance, version control, revision authority, publication rules, and amendment procedures for the DraftVerify Standards Library."
+description: "DraftVerify v2.0 governance, document control, interpretation, revision, publication, and rights-management policy."
 ---
 
 <section class="section">
 <div class="container" style="max-width:820px" markdown="1">
 
-<div class="kicker">DraftVerify Standards Library · F-40</div>
+<div class="kicker">DraftVerify Standards Library · F-40 · Governance</div>
 
-# Revision & Governance Policy
+# Governance, Publication & Rights Policy
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>Document ID: DV-F-40-v2.0  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
 
-F-40 defines the **governance structure, revision rules, and version control model** for the DraftVerify Standards Library (F-Series).  
-This document ensures that updates to the standard are controlled, transparent, auditable, and consistent across all stakeholders.
+## 1. Standards authority
 
-The DraftVerify Standard is a **living framework**, and this policy establishes how it evolves over time.
+DraftVerify Standards Initiative is the publisher and standards authority for the DraftVerify F-Series.
 
----
+It controls:
 
-## 1. Purpose of This Policy
+- publication of official DraftVerify editions;
+- document numbering;
+- version status;
+- official interpretations;
+- revision and withdrawal;
+- certification-program rules;
+- authorization of DraftVerify certification claims; and
+- licensing of DraftVerify-controlled marks and protected materials.
 
-This policy exists to:
+This authority is contractual and proprietary within the DraftVerify system; it is not governmental or regulatory authority.
 
-- Define who may propose, review, and approve revisions  
-- Protect the integrity of the DraftVerify Standard  
-- Ensure transparent, documented change history  
-- Maintain backward compatibility where possible  
-- Provide a unified publishing and versioning system  
-- Prevent unauthorized or conflicting modifications  
+## 2. Canonical publication
 
-The DraftVerify Standard may only be modified through the governance rules in this document.
+The canonical version of an F-Series document is the version identified by DraftVerify as current on its controlled publication system.
 
----
+Unofficial copies, archives, translations, summaries, screenshots, or third-party reproductions do not override the canonical version.
 
-## 2. Scope
+## 3. Version control
 
-This policy applies to:
+DraftVerify uses controlled edition identifiers.
 
-- All F-Series documents (F-1 through F-40)  
-- All appendices and technical notes  
-- All digital registry specifications  
-- Visual lexicons, identifiers, and physical standards  
-- DraftVerify program requirements for breweries, distributors, and venues  
+### Major version
+Material change to requirements, conformity architecture, or certification model.
 
-This policy does **not** govern:
+### Minor version
+Backward-compatible clarification or additional requirement that does not justify a major edition.
 
-- Internal company documentation  
-- Proprietary implementations outside the F-Series  
-- Training materials unless formally included  
+### Editorial revision
+Non-substantive correction that does not change conformity meaning.
 
----
+## 4. Change record
 
-## 3. Governance Structure
+A material revision shall record:
 
-### 3.1 Standards Committee  
-The DraftVerify Standards Committee (DVSC) is responsible for:
+- document;
+- previous version;
+- new version;
+- effective date;
+- summary of change; and
+- approval authority.
 
-- Reviewing proposed revisions  
-- Approving new versions  
-- Maintaining version integrity  
-- Publishing updated documents  
-- Conducting annual standard reviews  
+## 5. Technical review
 
-The DVSC may include:
+DraftVerify may appoint technical reviewers, subject-matter advisers, industry panels, or external counsel.
 
-- Technical leads  
-- Compliance specialists  
-- Brewery and distributor representatives  
-- Venue program advisors  
+Their participation does not transfer publication authority unless DraftVerify expressly delegates that authority in writing.
 
-### 3.2 Chairperson  
-The DVSC Chairperson:
+## 6. Interpretation
 
-- Oversees the revision process  
-- Breaks ties in approval votes  
-- Ensures adherence to governance rules  
+Where ambiguity affects a conformity decision, DraftVerify may issue a controlled interpretation.
 
-### 3.3 Public & Partner Feedback  
-Approved industry partners may submit:
+Interpretations shall not be used to secretly create a material new requirement. Material requirements shall be incorporated through document revision.
 
-- Change requests  
-- Clarification requests  
-- Error reports  
+## 7. Emergency action
 
-These submissions are evaluated but do not bypass formal review procedures.
+DraftVerify may issue an interim safety, security, identity-integrity, or certification directive where waiting for a normal revision could materially undermine the DraftVerify system.
 
----
+An interim directive shall identify:
 
-## 4. Document Versioning Rules
+- affected scope;
+- effective time;
+- reason;
+- temporary requirements; and
+- review or expiry condition.
 
-### 4.1 Semantic Versioning  
-Documents follow a structured version system:
+## 8. Certification-program control
 
-**MAJOR.MINOR.REVISION**
+DraftVerify controls its own certification decisions, certificate IDs, status records, and authorization to use DraftVerify certification marks.
 
-Examples:
+No third party may issue a certificate purporting to be a DraftVerify certificate without written authority from DraftVerify.
 
-- **1.0** – Original publication  
-- **1.1** – Minor clarifications, non-breaking updates  
-- **2.0** – Major structural or policy changes  
+## 9. Intellectual property
 
-### 4.2 Major Updates (X.0)  
-Trigger conditions:
+DraftVerify retains rights available under applicable copyright, trademark, certification-mark, contract, database, software, unfair-competition, passing-off, and other law.
 
-- Changes affecting compliance  
-- New hardware or identity standards  
-- New verification protocols  
-- System-wide re-architecture  
+DraftVerify does not claim copyright ownership over abstract ideas, facts, methods, or systems that copyright law does not protect.
 
-Requires:
+The objective is to protect:
 
-- Full committee review  
-- Majority vote + Chair approval  
-- Public re-publication notice  
+- original DraftVerify publications and expression;
+- source-identifying marks;
+- certification marks and status claims;
+- controlled certificate designs and identifiers;
+- proprietary software and registry implementation;
+- confidential assessment and security materials; and
+- contractual rights granted to authorized participants.
 
-### 4.3 Minor Updates (X.x)  
-Used for:
+## 10. Public access and licensing
 
-- Clarifying language  
-- Improving examples  
-- Updating graphics  
-- Enhancing guidance  
+Publication for public reading does not place DraftVerify materials in the public domain.
 
-Requires:
+Except as permitted by law, substantial commercial reproduction, adaptation, translation, redistribution, incorporation into paid training or competing publications, and use of controlled DraftVerify marks require written authorization.
 
-- Committee majority vote  
+## 11. Contributions
 
-### 4.4 Revision Updates (X.x.x)  
-Used for:
+Unless separate written terms apply, submission of feedback does not transfer ownership of pre-existing rights to DraftVerify.
 
-- Correcting typos or formatting  
-- Fixing broken references  
-- Minor non-substantive adjustments  
+DraftVerify should obtain appropriate rights or permissions before incorporating third-party protected material into an official publication.
 
-May be approved by:
+## 12. Superseded editions
 
-- Committee Chair or designated editor  
+Superseded documents may remain accessible for historical reference but shall be clearly identified as superseded.
 
----
+A certification decision shall identify the edition against which conformity was assessed.
 
-## 5. Change Proposal Process
+## 13. Enforcement
 
-### Step 1 — Submit a Change Request  
-Requests must include:
-
-- Document number (e.g., F-7)  
-- Current text  
-- Proposed new text  
-- Rationale  
-- Impact assessment  
-
-### Step 2 — Committee Review  
-DVSC conducts:
-
-- Technical review  
-- Compliance review  
-- Operational review  
-
-### Step 3 — Vote & Approval  
-Majority vote required for minor & revision changes.  
-Major changes require Chair approval.
-
-### Step 4 — Publication  
-Once approved:
-
-- Document is updated  
-- Version number is incremented  
-- Change Log (F-20) is updated  
-- Revision notes are added to header  
-
-### Step 5 — Notification  
-Stakeholders may receive:
-
-- Email summaries  
-- Update notes in documentation feeds  
-
----
-
-## 6. Emergency Revision Protocol
-
-Emergency revisions may be enacted when:
-
-- Safety risk exists  
-- Legal or regulatory conditions change  
-- Identity security concerns arise  
-- Critical operational errors are discovered  
-
-Procedure:
-
-1. Chair issues an emergency change directive  
-2. Revision is drafted and implemented immediately  
-3. Committee reviews and ratifies post-publication  
-4. Correction notice is issued  
-
-Emergency updates may bypass normal voting procedure.
-
----
-
-## 7. Publication Requirements
-
-For a revision to be considered official:
-
-- It must appear on the DraftVerify documentation site  
-- It must contain correct version metadata  
-- It must be approved per this policy  
-- It must follow Markdown, layout, and formatting standards  
-
-Unofficial copies or local modifications **do not represent the DraftVerify Standard**.
-
----
-
-## 8. Archiving & Document History
-
-The DVSC maintains:
-
-- Full version history  
-- Archived PDFs of prior versions  
-- Annotated change notes  
-- Publicly accessible revision index  
-
-Archives may not be altered or removed.
-
----
-
-## 9. Authority & Enforcement
-
-The DraftVerify Standards Committee is the **sole authority** for:
-
-- Creating new standards  
-- Amending existing standards  
-- Retiring obsolete documents  
-- Issuing compliance directives  
-
-Unauthorized modifications or attempts to represent altered documents as official may result in:
-
-- Loss of certification  
-- Enforcement actions  
-- Legal remedies (if applicable)  
-
----
-
-## 10. Summary
-
-F-40 provides the governance backbone for the entire DraftVerify Standards Library.  
-It ensures:
-
-- Controlled evolution of the standard  
-- Transparent revision history  
-- Regulatory alignment  
-- Consistency across all documents  
-- Safe and predictable updates for industry partners  
-
-This policy protects the integrity of the global identity and verification system that DraftVerify establishes.
+Where DraftVerify rights or certification claims are misused, DraftVerify may use remedies appropriate to the right involved, including correction demands, contractual remedies, certification withdrawal, trademark/certification-mark remedies, copyright remedies concerning protected expression, or other lawful action.
 
 </div>
 </section>

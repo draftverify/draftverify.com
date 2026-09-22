@@ -13,9 +13,12 @@ description: "A structured guide detailing common and critical failure modes in 
 # NA Draft System Failure Modes Guide
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Informative Failure-Mode Guide.** **Shall** indicates a requirement for applicable DraftVerify conformity. Certification status and use of DraftVerify certification claims are governed by F-32 and the Registry. Public access to this document is not a certification or mark licence.
+
 
 F-36 defines the **failure modes**, symptoms, root causes, and corrective actions associated with non-alcoholic (NA) draft systems.  
 Because NA draft requires strict separation and identity preservation, system failures can cause mis-serve, contamination, or integrity loss.
@@ -311,13 +314,13 @@ Identity failures directly threaten NA integrity.
 
 ## 10. Failure Mode Reporting Requirements
 
-All critical and major failures must be documented using:
+All critical and major failures shall be documented using:
 
 - **F-22** Incident Response Procedure  
 - **F-35** Contamination Report  
 - **F-31** Audit Log Framework  
 
-Records must be retained for **10 years**.
+Records shall be retained for **10 years**.
 
 ---
 

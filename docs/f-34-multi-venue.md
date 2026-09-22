@@ -13,9 +13,12 @@ description: "Standardized requirements for implementing DraftVerify across mult
 # Multi-Venue Program Requirements
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Multi-Site Program Requirement.** **Shall** indicates a requirement for applicable DraftVerify conformity. Certification status and use of DraftVerify certification claims are governed by F-32 and the Registry. Public access to this document is not a certification or mark licence.
+
 
 F-34 defines the required structure, workflows, and governance for organizations operating **multiple venues** under the DraftVerify Standard.  
 This includes restaurant groups, stadiums, breweries with multiple taprooms, and hospitality brands with centralized oversight.
@@ -35,7 +38,7 @@ This document establishes:
 - Rules for cross-location product movement  
 - Documentation and training expectations  
 
-Multi-venue organizations must meet **all single-venue requirements** (F-18, F-19, F-22) plus the enhanced controls defined here.
+Multi-venue organizations shall meet **all single-venue requirements** (F-18, F-19, F-22) plus the enhanced controls defined here.
 
 ---
 
@@ -64,7 +67,7 @@ It includes requirements for:
 
 ### 3.1 Central Compliance Owner (CCO)
 
-Each organization must appoint a **Central Compliance Owner** responsible for:
+Each organization shall appoint a **Central Compliance Owner** responsible for:
 
 - Oversight of all venue compliance  
 - Maintaining training standards  
@@ -79,7 +82,7 @@ The CCO is the **single point of accountability**.
 
 ### 3.2 Venue Compliance Leads
 
-Each venue must designate a **Venue Compliance Lead (VCL)**.
+Each venue shall designate a **Venue Compliance Lead (VCL)**.
 
 VCL responsibilities:
 
@@ -93,7 +96,7 @@ VCL responsibilities:
 
 ### 3.3 Standardized Identity Configuration
 
-All venues must maintain:
+All venues shall maintain:
 
 - Consistent Line Tag and Faucet ID layouts (F-8, F-9)  
 - Standardized cooler diagrams  
@@ -101,7 +104,7 @@ All venues must maintain:
 - Shared naming conventions  
 - Unified DTI tracking procedures  
 
-Identity components must always match the DraftVerify Visual Lexicon (F-10).
+Identity components shall always match the DraftVerify Visual Lexicon (F-10).
 
 ---
 
@@ -119,7 +122,7 @@ A keg may be transferred between venues **only if**:
 
 ### 4.2 Cross-Venue Documentation
 
-Transfers must include:
+Transfers shall include:
 
 - DTI  
 - Source venue  
@@ -142,7 +145,7 @@ A keg **may not** be moved if:
 
 ## 5. Training Requirements
 
-Multi-venue groups must:
+Multi-venue groups shall:
 
 - Conduct standardized onboarding training (F-23)  
 - Maintain centralized training records  
@@ -150,14 +153,14 @@ Multi-venue groups must:
 - Re-train after incidents or major procedural updates  
 - Certify all Venue Compliance Leads  
 
-Training content must be consistent across locations.
+Training content shall be consistent across locations.
 
 ---
 
 ## 6. Documentation Requirements
 
 ### 6.1 Centralized System
-Organizations must maintain a centralized repository for:
+Organizations shall maintain a centralized repository for:
 
 - Verification logs (F-19)  
 - Incident responses (F-22)  
@@ -166,14 +169,14 @@ Organizations must maintain a centralized repository for:
 - Audit logs (F-31)  
 
 ### 6.2 Version Control
-All documentation must follow:
+All documentation shall follow:
 
 - Unified versioning  
 - Change logs (F-20)  
 - Standard formatting  
 
 ### 6.3 Minimum Retention
-All records must be retained for at least **5 years**.
+All records shall be retained for at least **5 years**.
 
 ---
 
@@ -207,7 +210,7 @@ Multi-venue certification may be suspended if:
 
 ## 8. Technology & System Requirements
 
-Multi-venue operators must:
+Multi-venue operators shall:
 
 - Use a unified login and permissions system  
 - Ensure all venues have NFC-capable devices  
@@ -249,7 +252,7 @@ It ensures:
 - Clear accountability structures  
 - Safe and accurate NA draft service across all venues  
 
-Multi-venue groups must meet **every requirement of the single-venue standard** and the **additional centralized controls** defined here.
+Multi-venue groups shall meet **every requirement of the single-venue standard** and the **additional centralized controls** defined here.
 
 </div>
 </section>

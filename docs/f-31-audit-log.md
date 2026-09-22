@@ -13,9 +13,12 @@ description: "The complete audit logging, traceability, and lifecycle reconstruc
 # Audit Log & Traceability Framework
 
 <p style="font-size:0.95rem;color:#6b7280;">
-Version 1.0 · Publication Date: 2025-01-01 · Status: Active  
-<br>© 2025 DraftVerify™ Standards Initiative. All rights reserved.
+Version 2.0 · Publication Date: 2026-09-22 · Status: Published / Effective  
+<br>© 2026 DraftVerify™ Standards Initiative. All rights reserved.
 </p>
+
+> **Document control — DV v2.0 · Normative Evidence & Traceability Specification.** **Shall** indicates a requirement for applicable DraftVerify conformity. Certification status and use of DraftVerify certification claims are governed by F-32 and the Registry. Public access to this document is not a certification or mark licence.
+
 
 F-31 defines the **audit logging and traceability requirements** for all identity objects, verification events, and system interactions governed by the DraftVerify Standard.
 
@@ -68,7 +71,7 @@ The audit log includes:
 
 ## 3. Audit Log Structure
 
-Every entry must contain:
+Every entry shall contain:
 
 | Field | Description |
 |-------|-------------|
@@ -132,7 +135,7 @@ Logged by the DraftVerify registry:
 
 ## 5. Traceability Model
 
-Each DTI must support **full, chronological reconstruction** of its lifecycle:
+Each DTI shall support **full, chronological reconstruction** of its lifecycle:
 
 Activation → Brewery Scan → Transfer to Distributor → Distributor Scan →  
 Delivery → Venue Scan → Tapping → Audits → Finalization
@@ -170,7 +173,7 @@ Extended retention (10+ years) recommended for:
 
 ## 7. Corrective Actions & Audit Flags
 
-The system must automatically flag:
+The system shall automatically flag:
 
 - Repeated scan failures  
 - Mismatched DTI-product pairings  
@@ -212,7 +215,7 @@ F-31 provides the backbone of DraftVerify’s trust and accountability model:
 - Clear chain-of-custody documentation  
 - Documented responsibility at every step  
 
-This framework ensures DraftVerify remains a **reliable, defensible, and auditable** identity standard for NA draft service worldwide.
+This framework ensures DraftVerify remains a **reliable, defensible, and auditable** identity standard for NA draft service across participating implementations.
 
 </div>
 </section>
