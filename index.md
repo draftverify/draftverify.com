@@ -1,24 +1,24 @@
 ---
 layout: default
-title: "DraftVerify — NA Draft Standard, Certification & Registry"
-description: "DraftVerify is the identity standard, certification program, and registry for non-alcoholic draft systems."
+title: "DraftVerify — Clear, Verifiable Non-Alcoholic Draft"
+description: "DraftVerify helps venues, breweries, and distributors clearly identify non-alcoholic draft from keg to tap and keep a record that it was checked."
 ---
 
 <section class="home-hero visual-hero">
   <div class="container visual-hero-grid">
     <div class="visual-hero-copy">
-      <div class="eyebrow-pill">DraftVerify Standard v2.0</div>
-      <h1>Know what’s on the line.</h1>
+      <div class="eyebrow-pill">Non-alcoholic draft, clearly identified</div>
+      <h1>Make sure the right keg is connected to the right tap.</h1>
       <p class="hero-deck">
-        A physical + digital identity system for non-alcoholic draft.
-        <strong>Keg → coupler → line → faucet.</strong>
+        DraftVerify labels the NA draft setup, helps staff check it before service,
+        and keeps a record that the connection was verified.
       </p>
       <div class="hero-actions">
         <a class="btn primary" href="{{ '/how-it-works/' | relative_url }}">See how it works</a>
-        <a class="btn ghost" href="{{ '/standards/' | relative_url }}">Read the standard</a>
+        <a class="btn ghost" href="{{ '/certification/' | relative_url }}">How certification works</a>
       </div>
       <div class="hero-proof">
-        <span>40-part F-Series</span><span>Private certification</span><span>Registry-backed status</span>
+        <span>Clear physical labels</span><span>Quick connection checks</span><span>Digital records</span>
       </div>
     </div>
 
@@ -26,7 +26,7 @@ description: "DraftVerify is the identity standard, certification program, and r
       <img src="{{ '/assets/kegs1920.png' | relative_url }}" alt="Draft beverage kegs in a cold room">
       <div class="hero-media-card">
         <span class="signal-dot"></span>
-        <div><small>Identity path</small><strong>NA / verified pathway</strong></div>
+        <div><small>DraftVerify check</small><strong>Right keg. Right line. Right tap.</strong></div>
       </div>
     </div>
   </div>
@@ -36,27 +36,27 @@ description: "DraftVerify is the identity standard, certification program, and r
   <div class="container">
     <div class="visual-intro">
       <div>
-        <span class="section-number">01</span>
-        <h2>Draft systems were built to move liquid. Not identity.</h2>
+        <span class="section-number">Why it exists</span>
+        <h2>NA draft equipment can look exactly like alcoholic draft equipment.</h2>
       </div>
       <p>
-        DraftVerify adds a clear identity layer to the hardware already in the cooler and at the bar.
-        Staff can see it, scan it, and verify it before connection.
+        In a cooler full of kegs, lines and couplers, it can be hard to tell what connects to what.
+        DraftVerify makes the NA setup obvious so staff do not have to rely on memory or a handwritten label.
       </p>
     </div>
 
     <div class="photo-feature-grid">
       <figure class="photo-feature large">
         <img src="{{ '/assets/draftverify-verified-line.png' | relative_url }}" alt="DraftVerify identifier on a draft line">
-        <figcaption><span>Physical</span><strong>Identity where mistakes happen.</strong></figcaption>
+        <figcaption><span>Label it</span><strong>Make the NA line easy to identify.</strong></figcaption>
       </figure>
       <figure class="photo-feature">
         <img src="{{ '/assets/draftverify-dashboard.png' | relative_url }}" alt="DraftVerify digital registry dashboard">
-        <figcaption><span>Digital</span><strong>A record behind the label.</strong></figcaption>
+        <figcaption><span>Check it</span><strong>Confirm the setup matches the record.</strong></figcaption>
       </figure>
       <figure class="photo-feature">
         <img src="{{ '/assets/draftverify-training-portal.png' | relative_url }}" alt="DraftVerify staff training portal">
-        <figcaption><span>Operational</span><strong>A repeatable way to run it.</strong></figcaption>
+        <figcaption><span>Teach it</span><strong>Give staff one simple process to follow.</strong></figcaption>
       </figure>
     </div>
   </div>
@@ -66,16 +66,16 @@ description: "DraftVerify is the identity standard, certification program, and r
   <div class="container">
     <div class="visual-intro compact">
       <div>
-        <span class="section-number">02</span>
-        <h2>One standard. Four touchpoints.</h2>
+        <span class="section-number">What DraftVerify does</span>
+        <h2>Four points. One clear path.</h2>
       </div>
     </div>
 
     <div class="pathway-cards">
-      <div><span>01</span><strong>Keg</strong><small>Identify the product.</small></div>
-      <div><span>02</span><strong>Coupler</strong><small>Verify before connection.</small></div>
-      <div><span>03</span><strong>Line</strong><small>Trace the pathway.</small></div>
-      <div><span>04</span><strong>Faucet</strong><small>Identify the pour point.</small></div>
+      <div><span>01</span><strong>Keg</strong><small>Clearly identify the NA product.</small></div>
+      <div><span>02</span><strong>Coupler</strong><small>Check the connection before service.</small></div>
+      <div><span>03</span><strong>Line</strong><small>Know which line carries the NA product.</small></div>
+      <div><span>04</span><strong>Tap</strong><small>Make the NA pour point obvious to staff.</small></div>
     </div>
   </div>
 </section>
@@ -84,16 +84,17 @@ description: "DraftVerify is the identity standard, certification program, and r
   <div class="container two-panel">
     <a class="big-link-panel dark-panel" href="{{ '/certification/' | relative_url }}">
       <span class="panel-label">Certification</span>
-      <h2>More than a sticker.</h2>
-      <p>Defined scope. Objective assessment. Registry status. Licensed mark use.</p>
-      <strong class="panel-arrow">Explore certification →</strong>
+      <h2>We check that the system is set up and being used correctly.</h2>
+      <p>If it meets the DraftVerify standard, the venue, brewery, distributor or group can be certified.</p>
+      <strong class="panel-arrow">See certification →</strong>
     </a>
+
     <a class="big-link-panel image-panel" href="{{ '/technology/' | relative_url }}">
       <img src="{{ '/assets/draftverify-dashboard.png' | relative_url }}" alt="">
       <div class="image-panel-copy">
-        <span class="panel-label">Registry</span>
-        <h2>The status lives in the system.</h2>
-        <strong class="panel-arrow">See the technology →</strong>
+        <span class="panel-label">Digital record</span>
+        <h2>Every check can be tied back to the actual setup.</h2>
+        <strong class="panel-arrow">See the registry →</strong>
       </div>
     </a>
   </div>
@@ -102,11 +103,11 @@ description: "DraftVerify is the identity standard, certification program, and r
 <section class="visual-section">
   <div class="container statement-band">
     <div>
-      <span class="section-number">03</span>
-      <h2>Built for breweries, distributors, venues and groups.</h2>
+      <span class="section-number">Who it is for</span>
+      <h2>Venues. Breweries. Distributors. Multi-location groups.</h2>
     </div>
     <div class="statement-actions">
-      <a class="btn primary" href="{{ '/onboarding/' | relative_url }}">Start an application</a>
+      <a class="btn primary" href="{{ '/solutions/' | relative_url }}">See where DraftVerify fits</a>
       <a class="text-link" href="{{ '/pricing/' | relative_url }}">View pricing →</a>
     </div>
   </div>

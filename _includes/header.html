@@ -4,34 +4,36 @@
       <img src="{{ '/logotran.png' | relative_url }}" alt="" class="logo">
       <div class="brand-text">
         <span class="brand-name">DraftVerify</span>
-        <span class="brand-tagline">Standard · Certification · Registry</span>
+        <span class="brand-tagline">Clear NA draft from keg to tap</span>
       </div>
     </a>
+
     <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
       <svg class="hamb" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
         <line class="top" x1="4" y1="7" x2="20" y2="7" /><line class="mid" x1="4" y1="12" x2="20" y2="12" /><line class="bot" x1="4" y1="17" x2="20" y2="17" />
       </svg>
     </button>
+
     <nav class="nav-desktop" aria-label="Primary">
-      <a href="{{ '/standards/' | relative_url }}" data-nav="standards">Standard</a>
+      <a href="{{ '/how-it-works/' | relative_url }}" data-nav="how-it-works">How It Works</a>
+      <a href="{{ '/solutions/' | relative_url }}" data-nav="solutions">Who It’s For</a>
       <a href="{{ '/certification/' | relative_url }}" data-nav="certification">Certification</a>
-      <a href="{{ '/technology/' | relative_url }}" data-nav="technology">Registry</a>
-      <a href="{{ '/how-it-works/' | relative_url }}" data-nav="how-it-works">Implementation</a>
-      <a href="{{ '/learn/' | relative_url }}" data-nav="resources">Resources</a>
+      <a href="{{ '/standards/' | relative_url }}" data-nav="standards">Standard</a>
       <a href="{{ '/pricing/' | relative_url }}" data-nav="pricing">Pricing</a>
       <a class="nav-contact" href="{{ '/contact/' | relative_url }}" data-nav="contact">Contact</a>
     </nav>
   </div>
 </header>
+
 <div id="drawer" class="drawer" aria-hidden="true">
   <nav class="drawer-nav" aria-label="Mobile">
-    <a href="{{ '/standards/' | relative_url }}" data-nav="standards" class="drawer-link">Standard</a>
+    <a href="{{ '/how-it-works/' | relative_url }}" data-nav="how-it-works" class="drawer-link">How It Works</a>
+    <a href="{{ '/solutions/' | relative_url }}" data-nav="solutions" class="drawer-link">Who It’s For</a>
     <a href="{{ '/certification/' | relative_url }}" data-nav="certification" class="drawer-link">Certification</a>
-    <a href="{{ '/technology/' | relative_url }}" data-nav="technology" class="drawer-link">Registry</a>
-    <a href="{{ '/how-it-works/' | relative_url }}" data-nav="how-it-works" class="drawer-link">Implementation</a>
-    <a href="{{ '/learn/' | relative_url }}" data-nav="resources" class="drawer-link">Resources</a>
+    <a href="{{ '/standards/' | relative_url }}" data-nav="standards" class="drawer-link">Standard</a>
     <a href="{{ '/pricing/' | relative_url }}" data-nav="pricing" class="drawer-link">Pricing</a>
     <a href="{{ '/contact/' | relative_url }}" data-nav="contact" class="drawer-link">Contact</a>
   </nav>
 </div>
+
 <div id="backdrop" class="backdrop" hidden></div>

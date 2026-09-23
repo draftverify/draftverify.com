@@ -1,119 +1,43 @@
 ---
 title: Contact
-description: Get in touch with DraftVerify to discuss implementation, training, pricing, or the published standard.
+description: Talk to DraftVerify about a venue, brewery, distributor, or multi-location NA draft program.
 permalink: /contact/
 layout: default
 ---
 
-<section class="section">
+<section class="page-intro visual-page-intro">
   <div class="container">
-    <div class="kicker">Contact</div>
-    <h2 class="h2">Talk to DraftVerify</h2>
-    <p>Tell us about your venue, brewery, distributor network, or multi-site program. We’ll respond with the relevant implementation path and next steps.</p>
-
-    <!-- CONTACT FORM CARD -->
-    <div class="card" style="max-width:720px;margin:32px auto;padding:32px;">
-      <h3>Contact Form</h3>
-
-      <form action="https://formsubmit.co/info@draftverify.com"
-            method="POST"
-            class="dv-contact-form">
-
-        <!-- FormSubmit config -->
-        <input type="hidden" name="_captcha" value="false">
-
-        <!-- EXACT REDIRECT YOU REQUESTED -->
-        <input type="hidden" name="_next" value="https://www.draftverify.com/thank-you.html">
-
-        <input type="hidden" name="_subject" value="New DraftVerify Contact Message">
-        <input type="text" name="_honey" style="display:none">
-
-        <label>
-          Name<br>
-          <input type="text" name="name" required>
-        </label>
-
-        <label>
-          Email<br>
-          <input type="email" name="email" required>
-        </label>
-
-        <label>
-          Message<br>
-          <textarea name="message" rows="5" required></textarea>
-        </label>
-
-        <button type="submit" class="btn gold">Send Message</button>
-      </form>
-    </div>
-
-    <!-- DIRECT EMAIL SECTION -->
-    <div class="card" style="max-width:720px;margin:32px auto;padding:32px;text-align:center;">
-      <h3>Email Us Directly</h3>
-      <p>You can also reach us anytime at:</p>
-
-      <p>
-        <a href="mailto:info@draftverify.com" class="btn primary" style="margin-top:12px;">
-          info@draftverify.com
-        </a>
-      </p>
-
-      <p style="margin-top:12px;color:#0d3b66;font-weight:600;">
-        Include your venue name, city, and number of taps for fastest response.
-      </p>
-    </div>
-
+    <div class="eyebrow-pill">Contact DraftVerify</div>
+    <h1>Tell us what you are trying to set up.</h1>
+    <p class="hero-deck">
+      A single NA tap, a brewery program, a distribution network, or a group of locations—we can point you to the right starting place.
+    </p>
   </div>
 </section>
 
-<style>
-  .dv-contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
-  }
+<section class="visual-section">
+  <div class="container">
+    <div class="card" style="max-width:760px;margin:0 auto;padding:32px;">
+      <h3>Send us a message</h3>
+      <form action="https://formsubmit.co/info@draftverify.com" method="POST" class="dv-contact-form">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://www.draftverify.com/thank-you.html">
+        <input type="hidden" name="_subject" value="New DraftVerify Contact Message">
+        <input type="text" name="_honey" style="display:none">
 
-  .dv-contact-form label {
-    font-size: 16px;
-    font-weight: 600;
-    color: #0d3b66;
-  }
+        <label>Name<br><input type="text" name="name" required></label>
+        <label>Email<br><input type="email" name="email" required></label>
+        <label>
+          What are you working on?<br>
+          <textarea name="message" rows="5" placeholder="Example: one restaurant with two NA taps, a brewery launching NA draft, or a multi-location rollout." required></textarea>
+        </label>
 
-  .dv-contact-form input,
-  .dv-contact-form textarea {
-    font-size: 16px;
-    padding: 14px 16px;
-    border-radius: 12px;
-    border: 1px solid #ccc;
-    width: 100%;
-    box-sizing: border-box;
-  }
+        <button type="submit" class="btn primary">Send message</button>
+      </form>
+    </div>
 
-  .btn.gold {
-    background: #bfa14a;
-    color: #fff;
-    padding: 16px 22px;
-    border-radius: 12px;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 700;
-  }
-  .btn.gold:hover {
-    background: #a98f40;
-    transform: translateY(-1px);
-  }
-
-  .btn.primary {
-    background: #0d3b66;
-    color: #fff;
-    padding: 14px 20px;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration: none;
-  }
-  .btn.primary:hover {
-    background: #0a2c4b;
-  }
-</style>
+    <p style="text-align:center;margin-top:24px;color:var(--muted);">
+      Prefer email? <a class="text-link" href="mailto:info@draftverify.com">info@draftverify.com</a>
+    </p>
+  </div>
+</section>
